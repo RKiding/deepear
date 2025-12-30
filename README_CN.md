@@ -109,7 +109,18 @@ SignalFlux 专为金融分析师、量化研究员和个人投资者设计，旨
 uv run src/main_flow.py
 ```
 
-系统将启动智能体工作流：识别意图 -> 抓取热点 -> 分析信号 -> 生成报告。
+#### 命令行参数说明
+| 参数 | 说明 | 默认值 |
+| :--- | :--- | :--- |
+| `--query` | 用户查询意图 (如 "A股科技板块") | `None` |
+| `--sources` | 新闻来源: `all`, `financial`, `social`, `tech`, 或以逗号分隔的列表 | `all` |
+| `--wide` | 每个来源抓取的新闻条数 | `10` |
+| `--depth` | 报告深度: `auto` (由 LLM 判断) 或整数限制 | `auto` |
+| `--template` | ISQ 评分模板 ID | `default_isq_v1` |
+| `--resume` | 从最近的断点恢复运行 | `False` |
+| `--resume-from` | 恢复位置: `report` (仅重绘 MD), `analysis` (重新生成信号分析) | `report` |
+
+系统将启动智能体工作流：识别意图 -> 抓取热点 -> 分析信号 -> 时序预测建模 -> 生成报告。
 生成的产物将保存在 `reports/` 目录下。
 
 ---
@@ -124,7 +135,7 @@ graph TD
     Intent --> Trend[趋势猎手 Agent]
     
     subgraph "发现层 (Discovery)"
-        Trend --> |抓取与初筛| Source["数据源 (新闻/社交媒体)"]
+        Trend --> |抓取与初筛| Source["数据源"]
     end
     
     Trend --> |原始信号| Logic[逻辑过滤器]
@@ -133,9 +144,16 @@ graph TD
     subgraph "分析层 (Analysis)"
         Fin --> |行情数据| Stock[股票工具包]
         Fin --> |深度挖掘| Search[搜索工具包]
+        Fin --> |量化评分| ISQ[ISQ 模板]
     end
     
     Fin --> |结构化分析| Report[主编 Agent]
+    
+    subgraph "预测层 (Prediction)"
+        Report --> Forecast[预测 Agent]
+        Forecast --> |基础预测| Kronos[Kronos 模型]
+        Forecast --> |专家修正| LLM[LLM 修正]
+    end
     
     subgraph "输出层 (Output)"
         Report --> |Map-Reduce| Draft[分章节草稿]
@@ -145,11 +163,12 @@ graph TD
 ```
 
 ### 核心组件
-1.  **工作流层 (`main_flow.py`)**: 负责全局状态管理与执行路径编排。
+1.  **工作流层 (`main_flow.py`)**: 负责全局状态管理与执行路径编排，支持断点续传（Checkpoints）。
 2.  **智能体层 (`src/agents/`)**:
     *   `TrendAgent`: 扫描热点话题并进行初步的情感/热度分析。
-    *   `FinAgent`: 验证投资逻辑，查询股价数据，构建传导链条。
-    *   `ReportAgent`: 采用 Map-Reduce 模式规划、撰写并精修专业研报。
+    *   `FinAgent`: 验证投资逻辑，查询股价数据，通过 ISQ 模板构建传导链条。
+    *   `ForecastAgent`: 结合时序预测模型与 LLM 推理，对股价趋势进行预测。
+    *   `ReportAgent`: 采用 Map-Reduce 模式规划、撰写并精修包含交互式图表的专业研报。
 3.  **基础设施 (`src/tools/`, `src/utils/`)**:
     *   **Toolkits**: 新闻、股票、情感分析、搜索。
     *   **存储**: SQLite 用于持久化，向量数据库用于语义检索。
@@ -191,16 +210,16 @@ uv run pytest src/tests/
 基于内部规划整理：
 
 ### 第一阶段：增强可视化与信号质量
-- [ ] **语义可视化**: 关联拓扑图与敏感度热力图。
-- [ ] **信号漏斗**: 升级为四阶段漏斗 (召回 -> 聚类 -> 排序 -> 多样性)。
+- [x] **语义可视化**: 关联拓扑图 (Transmission Graph) 与 ISQ 雷达图。
+- [x] **信号漏斗**: 基于 ISQ 模板的量化评分筛选通道。
 - [ ] **Polymarket 集成**: 引入预测市场数据作为信号源。
 
 ### 第二阶段：高阶推理
-- [ ] **时序模型集成**: 接入 [Kronos](https://github.com/shiyu-coder/Kronos) 进行预测建模。
-- [ ] **AI 预测微调**: 基于历史预测与实际行情偏差微调 Agent。
+- [x] **时序模型集成**: 已接入 [Kronos](https://github.com/shiyu-coder/Kronos) 进行预测 K 线建模。
+- [x] **AI 预测修正**: 多智能体协同基于新闻背景修正时序预测及其归因。
 
 ### 第三阶段：基础设施升级
-- [ ] **RRF 融合检索**: 统一的混合检索工具。
+- [x] **混合检索升级**: 实现基于 RRF 的 BM25 与向量搜索融合检索。
 - [ ] **美股支持**: 增加 Alpha Vantage/Yahoo Finance 适配器。
 - [ ] **LangGraph 迁移**: 探索图结构状态管理以处理更复杂的循环逻辑。
 

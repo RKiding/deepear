@@ -108,7 +108,18 @@ Execute the main workflow:
 uv run src/main_flow.py
 ```
 
-The system will start the agent workflow: identifying intent -> fetching trends -> analyzing signals -> generating reports. 
+#### Command Line Arguments
+| Argument | Description | Default |
+| :--- | :--- | :--- |
+| `--query` | User query/intent (e.g., "A-share tech sector") | `None` |
+| `--sources` | News sources: `all`, `financial`, `social`, `tech`, or a comma-separated list | `all` |
+| `--wide` | Number of news items to fetch per source | `10` |
+| `--depth` | Report depth: `auto` (LLM decided) or an integer limit | `auto` |
+| `--template` | ISQ scoring template ID | `default_isq_v1` |
+| `--resume` | Resume from the latest checkpoint | `False` |
+| `--resume-from` | Checkpoint to resume from: `report` (reuse MD), `analysis` (rerender) | `report` |
+
+The system will start the agent workflow: identifying intent -> fetching trends -> analyzing signals -> predictive modeling -> generating reports. 
 Artifacts will be saved in the `reports/` directory.
 
 ---
@@ -123,7 +134,7 @@ graph TD
     Intent --> Trend[Trend Agent]
     
     subgraph "Discovery Layer"
-        Trend --> |Fetch & Filter| Source["Data Sources (News/Social)"]
+        Trend --> |Fetch & Filter| Source["Data Sources"]
     end
     
     Trend --> |Raw Signals| Logic[Logic Filter]
@@ -132,9 +143,16 @@ graph TD
     subgraph "Analysis Layer"
         Fin --> |Market Data| Stock[Stock Toolkit]
         Fin --> |Deep Dive| Search[Search Toolkit]
+        Fin --> |Scoring| ISQ[ISQ Template]
     end
     
     Fin --> |Structured Analysis| Report[Report Agent]
+    
+    subgraph "Prediction Layer"
+        Report --> Forecast[Forecast Agent]
+        Forecast --> |Base| Kronos[Kronos Model]
+        Forecast --> |Adjustment| LLM[LLM Refinement]
+    end
     
     subgraph "Output Layer"
         Report --> |Map-Reduce| Draft[Draft Sections]
@@ -144,11 +162,12 @@ graph TD
 ```
 
 ### Core Components
-1.  **Workflow Layer (`main_flow.py`)**: Orchestrates the global state and execution path.
+1.  **Workflow Layer (`main_flow.py`)**: Orchestrates the global state and execution path, supporting checkpoints and resume.
 2.  **Agent Layer (`src/agents/`)**:
     *   `TrendAgent`: Scans for hot topics and performs initial sentiment analysis.
-    *   `FinAgent`: Validates investment logic, checks stock data, and formulates transmission chains.
-    *   `ReportAgent`: Uses a Map-Reduce approach to plan, write, and refine professional reports.
+    *   `FinAgent`: Validates investment logic, checks stock data, and formulates transmission chains using ISQ templates.
+    *   `ForecastAgent`: Integrates time-series models with LLM reasoning for price trend predictions.
+    *   `ReportAgent`: Uses a Map-Reduce approach to plan, write, and refine professional reports with interactive charts.
 3.  **Infra & Tools (`src/tools/`, `src/utils/`)**:
     *   **Toolkits**: News, Stock, Sentiment, Search.
     *   **Storage**: SQLite for persistence, Vector DB for semantic search.
@@ -190,16 +209,16 @@ uv run pytest src/tests/
 Derived from our internal plans:
 
 ### Phase 1: Enhanced Visualization & Signals
-- [ ] **Semantic Visualization**: Relation topology graphs and sensitivity heatmaps.
-- [ ] **Signal Pipeline**: Upgrade to a 4-stage funnel (Recall -> Cluster -> Rank -> Diversity).
+- [x] **Semantic Visualization**: Relation topology graphs and ISQ Radar charts.
+- [x] **Signal Pipeline**: Quantitative scoring tunnel based on ISQ templates.
 - [ ] **Polymarket Integration**: Add prediction market data as a signal source.
 
 ### Phase 2: Advanced Inference
-- [ ] **Time-Series Integration**: Integrate with [Kronos](https://github.com/shiyu-coder/Kronos) for predictive modeling.
-- [ ] **AI Forecasting**: Fine-tune agents on historical prediction vs. actuals.
+- [x] **Time-Series Integration**: Integrated [Kronos](https://github.com/shiyu-coder/Kronos) for predictive K-line modeling.
+- [x] **AI Forecasting**: Multi-agent adjustment of historical predictions based on news context.
 
 ### Phase 3: Infrastructure & Expansion
-- [ ] **Reciprocal Rank Fusion**: Unified hybrid search utility.
+- [x] **Hybrid Search**: Reciprocal Rank Fusion of BM25 and Vector Search.
 - [ ] **US Market Support**: Add Alpha Vantage/Yahoo Finance adaptors.
 - [ ] **LangGraph Migration**: Explore graph-based state management for complex loops.
 
