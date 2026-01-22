@@ -1,4 +1,4 @@
-# SignalFlux ｜ 千里耳
+# AlphaEar ｜ 顺风耳
 
 <div align="center">
   <p>
@@ -8,7 +8,7 @@
 
 <div align="center">
   <!-- Logo -->
-  <img src="assets/logo.svg" alt="SignalFlux Logo" width="200">
+  <img src="assets/logo.svg" alt="AlphaEar Logo" width="200">
   
   <p>
     An extensible, open-source framework for extracting financial signals from news and social media.
@@ -44,7 +44,7 @@ Click the preview below to see some generated sample reports:
 
 ## 🎯 When to Use
 
-SignalFlux is designed for financial analysts, quantitative researchers, and individual investors who need to bridge the gap between unstructured information and actionable trading signals.
+AlphaEar is designed for financial analysts, quantitative researchers, and individual investors who need to bridge the gap between unstructured information and actionable trading signals.
 
 - **Investment Research**: Automate the collection and analysis of fragmented information from social media and news outlets to discover hidden investment opportunities.
 - **Market Monitoring**: Real-time tracking of "hot topics" (e.g., policy shifts, industry breakthroughs) and their potential impact on specific sectors or stocks.
@@ -74,8 +74,8 @@ SignalFlux is designed for financial analysts, quantitative researchers, and ind
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/SignalFlux.git
-   cd SignalFlux
+   git clone https://github.com/your-username/AlphaEar.git
+   cd AlphaEar
    ```
 
 2. **Install dependencies**
@@ -92,7 +92,7 @@ SignalFlux is designed for financial analysts, quantitative researchers, and ind
    ```
 
 2. **Edit `.env`**
-   Open `.env` and fill in your API keys. SignalFlux supports a wide range of providers:
+   Open `.env` and fill in your API keys. AlphaEar supports a wide range of providers:
    - `LLM_PROVIDER`: `openrouter`, `openai`, `ollama`, `deepseek`, etc.
    - `REASONING_MODEL_ID`: Model for complex analysis (e.g., `gpt-4o`).
    - `TOOL_MODEL_ID`: Model for tool usage (e.g., `qwen2.5`).
@@ -123,7 +123,7 @@ Artifacts will be saved in the `reports/` directory.
 
 ## 🏗 Architecture
 
-SignalFlux follows a layered architecture to decouple tools, agents, and workflow logic.
+AlphaEar follows a layered architecture to decouple tools, agents, and workflow logic.
 
 ```mermaid
 graph TD
@@ -173,7 +173,7 @@ graph TD
 ---
 
 ## 🧠 News-Aware Kronos Model
-One of the core innovations in SignalFlux is the integration of a **few-shot news-projection layer** into the Kronos foundation model. This allows the system to not just predict based on historical prices, but to understand the quantitative impact of news events.
+One of the core innovations in AlphaEar is the integration of a **few-shot news-projection layer** into the Kronos foundation model. This allows the system to not just predict based on historical prices, but to understand the quantitative impact of news events.
 
 <div align="center">
   <img src="assets/news_bias.png" alt="News Bias Injection Mechanism" width="600">
@@ -190,7 +190,7 @@ One of the core innovations in SignalFlux is the integration of a **few-shot new
 
 ### Project Structure (Key Directories)
 ```
-SignalFlux/
+AlphaEar/
 ├── config/             # Configuration profiles
 ├── docs/               # Documentation & Guides
 ├── reports/            # Generated reports
@@ -267,13 +267,13 @@ Special thanks to the following projects and communities for their inspiration a
 If you find this project useful in your research or applications, please consider citing it:
 
 ```bibtex
-@misc{signalflux2026,
+@misc{alpha_ear_2026,
   author = {Runke Ruan},
-  title = {SignalFlux: An Extensible Framework for Financial Signal Extraction and News-Aware Forecasting},
+  title = {AlphaEar: An Extensible Framework for Financial Signal Extraction and News-Aware Forecasting},
   year = {2026},
   publisher = {GitHub},
   journal = {GitHub Repository},
-  howpublished = {\url{https://github.com/rkiding/SignalFlux}}
+  howpublished = {\url{https://github.com/rkiding/AlphaEar}}
 }
 ```
 
