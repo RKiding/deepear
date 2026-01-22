@@ -1,24 +1,35 @@
+/* SignalCard - Fintech Design */
 .signal-card {
-    background: linear-gradient(135deg, #1e2530, #1a1d23);
-    border: 1px solid #2d3139;
+    background: var(--bg-card, #1E293B);
+    border: 1px solid var(--border-primary, #334155);
     border-radius: 12px;
-    padding: 16px;
+    padding: 20px;
     margin-bottom: 16px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.signal-card:hover {
+    transform: translateY(-2px);
+    border-color: rgba(139, 92, 246, 0.3);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
 }
 
 .signal-header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 12px;
+    gap: 12px;
+    margin-bottom: 14px;
 }
 
 .signal-title {
-    font-size: 16px;
+    font-family: var(--font-heading, 'Poppins', sans-serif);
+    font-size: 15px;
     font-weight: 600;
-    color: #e1e4e8;
+    color: var(--text-primary, #F8FAFC);
     margin: 0;
     flex: 1;
+    line-height: 1.4;
 }
 
 .signal-tags {
@@ -28,134 +39,202 @@
 }
 
 .tag {
-    padding: 2px 8px;
+    padding: 3px 10px;
     font-size: 11px;
-    background: #2d3139;
-    color: #8b949e;
-    border-radius: 10px;
+    font-weight: 500;
+    background: rgba(139, 92, 246, 0.15);
+    color: #A78BFA;
+    border-radius: 12px;
+    border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+/* Summary & Expand */
+.signal-summary-container {
+    position: relative;
+    margin-bottom: 18px;
 }
 
 .signal-summary {
-    font-size: 14px;
-    color: #8b949e;
-    line-height: 1.6;
-    margin: 0 0 16px 0;
+    font-size: 13px;
+    color: var(--text-secondary, #94A3B8);
+    line-height: 1.7;
+    margin: 0;
+    width: 100%;
+    /* 充分利用宽度 */
+    word-break: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    text-align: justify;
+    /* 两端对齐，提升阅读体验 */
 }
 
-.signal-metrics {
+.expand-btn {
     display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-    margin-bottom: 16px;
+    align-items: center;
+    gap: 4px;
+    background: transparent;
+    border: none;
+    color: var(--color-primary, #F59E0B);
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 6px;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.expand-btn:hover {
+    opacity: 1;
+}
+
+/* Metrics Grid */
+.signal-metrics {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+    gap: 10px;
+    margin-bottom: 18px;
 }
 
 .metric {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 8px 12px;
-    background: #21252b;
-    border-radius: 8px;
+    justify-content: center;
+    padding: 12px 10px;
+    background: var(--bg-primary, #0F172A);
+    border-radius: 10px;
+    border: 1px solid var(--border-primary, #334155);
     min-width: 60px;
 }
 
 .metric-label {
-    font-size: 11px;
-    color: #6b7280;
-    margin-bottom: 4px;
+    font-size: 10px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-muted, #64748B);
+    margin-bottom: 6px;
 }
 
 .metric-value {
-    font-size: 16px;
-    font-weight: 600;
-    color: #e1e4e8;
+    font-family: var(--font-heading, 'Poppins', sans-serif);
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--text-primary, #F8FAFC);
 }
 
 .metric-value.positive {
-    color: #81c784;
+    color: #10B981;
 }
 
 .metric-value.negative {
-    color: #e57373;
+    color: #EF4444;
 }
 
 .metric-value.neutral {
-    color: #8b949e;
+    color: #94A3B8;
 }
 
+/* Ticker Chips */
 .signal-tickers {
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
 }
 
 .ticker-chip {
     display: flex;
     align-items: center;
-    gap: 6px;
-    padding: 6px 12px;
-    background: linear-gradient(135deg, #1e3a5f, #1e2e4a);
-    border: 1px solid #4fc3f7;
+    gap: 8px;
+    padding: 8px 14px;
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.1), rgba(139, 92, 246, 0.1));
+    border: 1px solid rgba(245, 158, 11, 0.3);
     border-radius: 20px;
+    cursor: default;
+    transition: all 0.2s ease;
+}
+
+.ticker-chip.clickable {
+    cursor: pointer;
+}
+
+.ticker-chip:hover {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(139, 92, 246, 0.2));
+    border-color: rgba(245, 158, 11, 0.5);
+    transform: translateY(-1px);
 }
 
 .ticker-name {
     font-size: 13px;
     font-weight: 600;
-    color: #4fc3f7;
+    color: #F59E0B;
 }
 
 .ticker-code {
     font-size: 11px;
-    color: #8b949e;
+    font-family: var(--font-mono, monospace);
+    color: var(--text-muted, #64748B);
 }
 
+/* Transmission Chain */
 .transmission-chain {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    gap: 4px;
-    padding: 12px;
-    background: #21252b;
-    border-radius: 8px;
+    gap: 6px;
+    padding: 14px;
+    background: var(--bg-primary, #0F172A);
+    border-radius: 10px;
+    border: 1px solid var(--border-primary, #334155);
 }
 
 .chain-node {
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 6px;
 }
 
 .chain-arrow {
-    color: #6b7280;
+    color: var(--text-muted, #64748B);
     font-size: 14px;
 }
 
 .node-badge {
-    padding: 4px 10px;
+    padding: 6px 12px;
     font-size: 12px;
-    border-radius: 4px;
-    background: #2d3139;
-    color: #e1e4e8;
+    font-weight: 500;
+    border-radius: 6px;
+    background: var(--bg-tertiary, #334155);
+    color: var(--text-primary, #F8FAFC);
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.node-badge:hover {
+    transform: translateY(-1px);
 }
 
 .node-badge.利好 {
-    background: #1e3a2e;
-    color: #81c784;
+    background: rgba(16, 185, 129, 0.15);
+    color: #10B981;
+    border-color: rgba(16, 185, 129, 0.3);
 }
 
 .node-badge.利空 {
-    background: #3f1e1e;
-    color: #e57373;
+    background: rgba(239, 68, 68, 0.15);
+    color: #EF4444;
+    border-color: rgba(239, 68, 68, 0.3);
 }
 
 .node-badge.事件 {
-    background: #1e3a5f;
-    color: #4fc3f7;
+    background: rgba(139, 92, 246, 0.15);
+    color: #A78BFA;
+    border-color: rgba(139, 92, 246, 0.3);
 }
 
 .node-badge.中性 {
-    background: #2d3139;
-    color: #8b949e;
+    background: var(--bg-tertiary, #334155);
+    color: var(--text-secondary, #94A3B8);
 }

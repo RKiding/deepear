@@ -1,13 +1,20 @@
 import type { Signal } from '../store'
+import { useState } from 'react'
+import { ChevronDown, ChevronUp, BarChart2 } from 'lucide-react'
 import './SignalCard.css'
 
 interface Props {
     signal: Signal
+    onShowChart?: (ticker: string) => void
 }
 
-export function SignalCard({ signal }: Props) {
+export function SignalCard({ signal, onShowChart }: Props) {
+    const [expanded, setExpanded] = useState(false)
     const sentimentClass = signal.sentiment_score > 0.3 ? 'positive' :
         signal.sentiment_score < -0.3 ? 'negative' : 'neutral'
+
+    // Check if summary is long enough to need truncation
+    const isLongSummary = signal.summary.length > 80
 
     return (
         <div className="signal-card">
@@ -20,7 +27,22 @@ export function SignalCard({ signal }: Props) {
                 </div>
             </div>
 
-            <p className="signal-summary">{signal.summary}</p>
+            <div className={`signal-summary-container ${expanded ? 'expanded' : ''}`}>
+                <p className="signal-summary">
+                    {expanded || !isLongSummary ? signal.summary : `${signal.summary.slice(0, 80)}...`}
+                </p>
+                {isLongSummary && (
+                    <button
+                        className="expand-btn"
+                        onClick={(e) => {
+                            e.stopPropagation()
+                            setExpanded(!expanded)
+                        }}
+                    >
+                        {expanded ? <><ChevronUp size={12} /> 收起</> : <><ChevronDown size={12} /> 展开</>}
+                    </button>
+                )}
+            </div>
 
             <div className="signal-metrics">
                 <div className="metric">
@@ -53,7 +75,13 @@ export function SignalCard({ signal }: Props) {
 
             <div className="signal-tickers">
                 {signal.impact_tickers.map((ticker) => (
-                    <span key={ticker.ticker} className="ticker-chip">
+                    <span
+                        key={ticker.ticker}
+                        className={`ticker-chip ${onShowChart ? 'clickable' : ''}`}
+                        onClick={() => onShowChart?.(ticker.ticker)}
+                        title="点击查看图表"
+                    >
+                        {onShowChart && <BarChart2 size={12} style={{ marginRight: 4 }} />}
                         <span className="ticker-name">{ticker.name}</span>
                         <span className="ticker-code">{ticker.ticker}</span>
                     </span>
