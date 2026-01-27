@@ -74,6 +74,14 @@ class StockTools:
         }
         
         search_query = aliases.get(clean_query.upper(), clean_query)
+        
+        # Robustness: if regex-like ticker code is embedded in query (e.g. "300364 中文在线"), try to extract it
+        if not search_query.isdigit():
+             # Extract explicit 5-6 digit codes
+             match = re.search(r'\b(\d{5,6})\b', clean_query)
+             if match:
+                 search_query = match.group(1)
+
         return self.db.search_stock(search_query, limit)
 
     def get_stock_price(
