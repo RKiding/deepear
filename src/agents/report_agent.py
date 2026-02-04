@@ -56,7 +56,7 @@ class ReportAgent:
             model=self.tool_model,
             tools=[self.rag.search],
             instructions=[get_report_planner_base_instructions()],
-            markdown=True,
+            markdown=False,
             debug_mode=True,
             output_schema=ClusterContext if hasattr(self.tool_model, 'response_format') else None
         )
@@ -65,7 +65,7 @@ class ReportAgent:
         self.writer = Agent(
             model=model,
             instructions=[get_report_writer_base_instructions()],
-            markdown=True,
+            markdown=False,
             debug_mode=True
         )
         
@@ -74,7 +74,7 @@ class ReportAgent:
             model=self.tool_model,
             tools=[self.rag.search],
             instructions=[get_report_editor_base_instructions()],
-            markdown=True,
+            markdown=False,
             debug_mode=True
         )
         
@@ -83,7 +83,7 @@ class ReportAgent:
             model=self.tool_model,
             tools=[self.rag.search],
             instructions=[get_report_editor_base_instructions()],
-            markdown=True,
+            markdown=False,
             debug_mode=True
         )
         

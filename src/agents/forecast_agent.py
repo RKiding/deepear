@@ -26,7 +26,7 @@ class ForecastAgent:
         self.adjuster = Agent(
             model=self.model,
             instructions=["你是一个专业的 K 线趋势修正专家。"],
-            markdown=True,
+            markdown=False,
             debug_mode=True
         )
 

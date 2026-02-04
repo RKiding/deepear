@@ -63,7 +63,7 @@ class TrendAgent:
                 self.polymarket_toolkit,
             ],
             instructions=[get_trend_scanner_instructions()],
-            markdown=True,
+            markdown=False,
             output_schema=ScanContext if hasattr(self.tool_model, 'response_format') else None
         )
 
@@ -71,10 +71,10 @@ class TrendAgent:
         self.evaluator = Agent(
             model=self.model,
             instructions=[get_trend_evaluator_instructions()],
-            markdown=True
+            markdown=False
         )
 
-    def run(self, task_description: str = "分析当前全网热点，找出最有价值的三个金融信号"):
+    def run(self, task_description: str = "分析当前全网热点，找出最有价值的金融信号"):
         """
         执行趋势发现任务。
         """

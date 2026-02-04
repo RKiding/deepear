@@ -46,7 +46,7 @@ class FinAgent:
                 self.news_toolkit.fetch_news_content,
             ],
             instructions=[get_fin_researcher_instructions()],
-            markdown=True,
+            markdown=False,
             debug_mode=True,
             output_schema=ResearchContext if hasattr(self.tool_model, 'response_format') else None
         )
@@ -55,7 +55,7 @@ class FinAgent:
         self.analyst = Agent(
             model=self.model,
             instructions=[get_fin_analyst_instructions(template_id=self.isq_template_id)],
-            markdown=True,
+            markdown=False,
             debug_mode=True,
             output_schema=InvestmentSignal if hasattr(self.model, 'response_format') else None
         )

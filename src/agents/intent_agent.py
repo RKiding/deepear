@@ -12,7 +12,7 @@ class IntentAgent:
         self.agent = Agent(
             model=model,
             instructions=[get_intent_analysis_instructions()],
-            markdown=True,
+            markdown=False,
             output_schema=IntentAnalysis if hasattr(model, 'response_format') else None
         )
         logger.info("🧠 IntentAgent initialized")

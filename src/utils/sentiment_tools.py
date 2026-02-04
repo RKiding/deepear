@@ -125,9 +125,9 @@ class SentimentTools:
         if not self.llm_model:
             return {"score": 0.0, "label": "neutral", "error": "LLM not initialized"}
 
-        analyzer = Agent(model=self.llm_model, markdown=True)
+        analyzer = Agent(model=self.llm_model, markdown=False)
         prompt = f"""请分析以下金融/新闻文本的情绪极性。
-        返回严格的 JSON 格式:
+        返回严格的 JSON 格式:   
         {{"score": <float: -1.0到1.0>, "label": "<positive/negative/neutral>", "reason": "<简短理由>"}}
 
         文本: {text[:1000]}"""
