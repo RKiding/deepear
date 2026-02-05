@@ -19,6 +19,8 @@
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
   <img src="https://img.shields.io/badge/agent-Agno-orange.svg" alt="Agent Framework">
 
+  [![Agent Skill](https://img.shields.io/badge/Agent_Skill-Ready-blueviolet?style=for-the-badge&logo=openai)](#方式-3作为-ai-agent-skill-使用)
+
   <!-- 预留演示内容位置 -->
   <br/><br/>
   <!-- <img src="assets/demo.gif" alt="AlphaEar Demo" width="800"> -->

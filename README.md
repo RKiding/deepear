@@ -19,6 +19,8 @@
   <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
   <img src="https://img.shields.io/badge/agent-Agno-orange.svg" alt="Agent Framework">
 
+  [![Agent Skill](https://img.shields.io/badge/Agent_Skill-Ready-blueviolet?style=for-the-badge&logo=openai)](#option-3-use-as-an-ai-agent-skill)
+
   <!-- 预留演示内容位置 -->
   <br/><br/>
 Click the preview below to see some generated sample reports:
