@@ -138,6 +138,9 @@ def run_lite_analysis(
     db_path: str = "data/signal_flux.db",
 ) -> Dict[str, Any]:
     project_root = resolve_project_root()
+    default_kronos = project_root / "src" / "exports" / "models" / "kronos_news_v1_20260101_0015.pt"
+    if default_kronos.exists() and not os.getenv("KRONOS_NEWS_MODEL_PATH"):
+        os.environ["KRONOS_NEWS_MODEL_PATH"] = str(default_kronos)
     sys.path.insert(0, str(project_root))
     sys.path.insert(0, str(project_root / "src"))
 
