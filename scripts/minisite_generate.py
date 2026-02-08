@@ -81,17 +81,52 @@ def _resolve_sources(sources: List[str]) -> List[str]:
     sys.path.insert(0, str(project_root / "src"))
     from main_flow import SignalFluxWorkflow  # pylint: disable=import-error
 
-    workflow = SignalFluxWorkflow()
-
     if "all" in sources:
-        return workflow.ALL_SOURCES.copy()
+        return SignalFluxWorkflow.ALL_SOURCES.copy()
     if "financial" in sources:
-        return workflow.FINANCIAL_SOURCES.copy()
+        return SignalFluxWorkflow.FINANCIAL_SOURCES.copy()
     if "social" in sources:
-        return workflow.SOCIAL_SOURCES.copy()
+        return SignalFluxWorkflow.SOCIAL_SOURCES.copy()
     if "tech" in sources:
-        return workflow.TECH_SOURCES.copy()
+        return SignalFluxWorkflow.TECH_SOURCES.copy()
     return sources
+
+
+def _llm_filter_signals(news_list: List[Dict[str, Any]], depth: Union[int, str], query: Optional[str], reasoning_model) -> List[Dict[str, Any]]:
+    project_root = resolve_project_root()
+    sys.path.insert(0, str(project_root / "src"))
+    from agno.agent import Agent  # pylint: disable=import-error
+    from prompts.trend_agent import get_news_filter_instructions  # pylint: disable=import-error
+    from utils.json_utils import extract_json  # pylint: disable=import-error
+
+    if isinstance(depth, int) and len(news_list) <= depth and not query:
+        return news_list
+
+    news_text = "\n".join([
+        f"[ID: {n.get('id', i)}] {n.get('title', '')} (情绪: {n.get('sentiment_score', 'N/A')})"
+        for i, n in enumerate(news_list)
+    ])
+
+    filter_instruction = get_news_filter_instructions(len(news_list), depth, query)
+    filter_agent = Agent(model=reasoning_model, markdown=False, debug_mode=True)
+    filter_agent.instructions = [filter_instruction]
+
+    response = filter_agent.run(f"请筛选以下新闻:\n{news_text}")
+    content = response.content if hasattr(response, "content") else str(response)
+    result = extract_json(content)
+
+    if result and not result.get("has_valid_signals", True):
+        return []
+    if not result:
+        return news_list
+
+    selected_ids = result.get("selected_ids", [])
+    id_set = set(str(sid) for sid in selected_ids)
+    filtered = [n for n in news_list if str(n.get("id", "")) in id_set]
+
+    if query:
+        return filtered
+    return filtered or news_list
 
 
 def run_lite_analysis(
@@ -112,7 +147,6 @@ def run_lite_analysis(
     from utils.search_tools import SearchTools  # pylint: disable=import-error
     from utils.stock_tools import StockTools  # pylint: disable=import-error
     from dashboard.integration import WorkflowRunner  # pylint: disable=import-error
-    from main_flow import SignalFluxWorkflow  # pylint: disable=import-error
 
     db = DatabaseManager(db_path)
     try:
@@ -169,8 +203,7 @@ def run_lite_analysis(
             return {"signals": [], "charts": {}}
 
         if depth == "auto" or query:
-            workflow = SignalFluxWorkflow()
-            high_value_signals = workflow._llm_filter_signals(raw_news, depth, query)
+            high_value_signals = _llm_filter_signals(raw_news, depth, query, reasoning_model)
         else:
             if isinstance(depth, int) and depth > 0:
                 high_value_signals = sorted(
