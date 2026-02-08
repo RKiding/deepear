@@ -11,6 +11,7 @@ interface Props {
 
 export function SignalCard({ signal, onShowChart }: Props) {
     const [expanded, setExpanded] = useState(false)
+    const [searchExpanded, setSearchExpanded] = useState(false)
 
     // Check if summary is long enough to need truncation
     const isLongSummary = signal.summary.length > 80
@@ -109,7 +110,7 @@ export function SignalCard({ signal, onShowChart }: Props) {
                 <div className="signal-sources">
                     <div className="sources-label">相关搜索</div>
                     <div className="sources-list">
-                        {signal.search_results.map((src, i) => (
+                        {(searchExpanded ? signal.search_results : signal.search_results.slice(0, 1)).map((src, i) => (
                             <a
                                 key={i}
                                 href={src.url}
@@ -125,6 +126,17 @@ export function SignalCard({ signal, onShowChart }: Props) {
                             </a>
                         ))}
                     </div>
+                    {signal.search_results.length > 1 && (
+                        <button
+                            className="expand-btn search-expand-btn"
+                            onClick={(e) => {
+                                e.stopPropagation()
+                                setSearchExpanded(!searchExpanded)
+                            }}
+                        >
+                            {searchExpanded ? <><ChevronUp size={12} /> 收起搜索</> : <><ChevronDown size={12} /> 展开更多搜索 ({signal.search_results.length - 1})</>}
+                        </button>
+                    )}
                 </div>
             )}
         </div>

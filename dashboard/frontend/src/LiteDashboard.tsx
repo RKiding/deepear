@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useLocation } from 'react-router-dom'
 import type { Signal } from './store'
 import { SignalCard } from './components/SignalCard'
 import './LiteDashboard.css'
@@ -21,8 +21,24 @@ const formatTime = (value?: string) => {
 export const LiteDashboard = () => {
   const UPDATE_INTERVAL_HOURS = 1
   const navigate = useNavigate()
+  const location = useLocation()
   const [payload, setPayload] = useState<LitePayload | null>(null)
   const [error, setError] = useState<string | null>(null)
+
+  // Scroll Restoration
+  useEffect(() => {
+    const savedScrollPos = localStorage.getItem(`scroll_pos_${location.pathname}`)
+    if (savedScrollPos && payload) {
+      window.scrollTo(0, parseInt(savedScrollPos, 10))
+      // Clear it after restoration to avoid unexpected jumps if user reloads
+      // localStorage.removeItem(`scroll_pos_${location.pathname}`)
+    }
+  }, [payload, location.pathname])
+
+  const handleNavigateToChart = (ticker: string) => {
+    localStorage.setItem(`scroll_pos_${location.pathname}`, window.scrollY.toString())
+    navigate(`/lite/chart/${ticker}`)
+  }
 
   useEffect(() => {
     let mounted = true
@@ -49,9 +65,24 @@ export const LiteDashboard = () => {
   return (
     <div className="lite-page">
       <header className="lite-header">
-        <div>
-          <div className="lite-title">DeepEar Lite</div>
-          <div className="lite-subtitle">自动扫描 | 信号关联 | 新闻链接</div>
+        <div className="lite-header-left">
+          <a
+            href="https://github.com/HKUSTDial/DeepEar"
+            target="_blank"
+            rel="noreferrer"
+            className="lite-logo-link"
+            title="DeepEar Project"
+          >
+            <img
+              src="/deepear.svg"
+              alt="Logo"
+              className="lite-logo"
+            />
+          </a>
+          <div>
+            <div className="lite-title">DeepEar Lite</div>
+            <div className="lite-subtitle">自动扫描 | 信号关联 | 新闻链接</div>
+          </div>
         </div>
         <div className="lite-meta">
           <div>更新时间：{formatTime(payload?.generated_at)}</div>
@@ -71,7 +102,7 @@ export const LiteDashboard = () => {
           <div key={signal.signal_id || index} className="lite-signal-block">
             <SignalCard
               signal={signal}
-              onShowChart={(ticker) => navigate(`/lite/chart/${ticker}`)}
+              onShowChart={handleNavigateToChart}
             />
           </div>
         ))}
