@@ -1,191 +1,33 @@
 {
-  "generated_at": "2026-02-26T07:25:56.663939+08:00",
-  "run_id": "lite_20260226_072556",
-  "count": 5,
+  "generated_at": "2026-02-26T09:42:02.521662+08:00",
+  "run_id": "lite_20260226_094202",
+  "count": 30,
   "signals": [
     {
-      "signal_id": "3059100",
-      "title": "彭博电动车指数大涨1.77%",
-      "summary": "彭博电动车指数大涨1.77%报3758.97点，显示亚太市场资金持续流入。建议关注龙头股比亚迪（002594.SZ）及宁德时代（300750.SZ）的回调买入机会，短期目标价区间预期上涨5%-8%，警惕高位震荡风险。",
-      "reasoning": "彭博电动车指数单日涨幅1.77%且持续高位震荡，属于强信号。基于研究员提供的背景数据，比亚迪和宁德时代作为全球龙头，是指数上涨的核心驱动力。当前股价已部分定价了这一上涨预期，但考虑到亚太早盘的持续流入，市场情绪高涨。逻辑上，指数上涨传导至个股，特别是具有高确定性的龙头股，将获得估值修复和资金青睐。技术面显示短期乖离率较大，建议在回调时介入，目标设定在指数上涨带来的5%-8%区间内。",
+      "signal_id": "NVDA",
+      "title": "NVDA财报后强势震荡，技术面支撑显现",
+      "summary": "英伟达当前股价$195.56处于$190-$200震荡区间中轴，技术面多头排列未破，盘后波动显示分歧。基于分析师$200-$250的目标价，当前估值处于下限区间，具备2.5%-27.9%的上涨预期差。建议关注$200阻力位突破情况及成交量变化。",
+      "reasoning": "基于研究员提供的具体数据：1) **技术面**：股价$195.56位于$194.45开盘价与$197.63高点之间，显示多头承接有力；2) **定价状态**：分析师目标价区间$200-$250与当前价$195.56接近下限，意味着市场对$200整数关口存在较强的心理阻力，目前定价处于‘已定价’但未完全突破的状态；3) **传导逻辑**：NVDA股价上涨直接利好上游台积电（权重0.3），同时作为做空标的的南方两倍做空ETF（07388）面临杀跌风险，做多ETF（09788）则受益；4) **预期差**：虽然当前涨幅1.41%看似温和，但考虑到盘后$195.20的企稳，市场正在消化财报数据，一旦突破$200，将打开至$250的上涨空间，存在显著的短期博弈价值。",
       "transmission_chain": [
         {
-          "node_name": "全球宏观/行业指数",
+          "node_name": "核心硬件厂商",
           "impact_type": "利好",
-          "logic": "彭博电动车指数单日上涨1.77%且持续高位震荡，表明全球资金对电动车板块的配置意愿强烈，市场情绪从观望转向积极进攻。"
+          "logic": "英伟达作为AI算力核心，财报后股价表现强劲，直接利好其作为核心供应商的台积电（TSM），GPU需求旺盛带动先进制程订单。"
         },
         {
-          "node_name": "整车制造",
+          "node_name": "衍生品市场",
+          "impact_type": "利空",
+          "logic": "针对NVDA的南方两倍做空ETF（07388）将直接受益于NVDA股价上涨，杠杆效应下跌幅会放大。"
+        },
+        {
+          "node_name": "衍生品市场",
           "impact_type": "利好",
-          "logic": "指数上涨直接提振整车股估值，特别是比亚迪等龙头受益于出口增长和销量预期，短期业绩确定性支撑股价上行。"
+          "logic": "针对NVDA的南方两倍做多ETF（09788）将直接受益于NVDA股价上涨，杠杆效应下涨幅会放大。"
         },
         {
-          "node_name": "动力电池",
+          "node_name": "AI算力产业链",
           "impact_type": "利好",
-          "logic": "宁德时代等电池龙头作为指数核心成分，将直接受益于行业景气度提升，订单饱满及成本控制能力增强带来业绩弹性。"
-        },
-        {
-          "node_name": "上游原材料",
-          "impact_type": "中性偏多",
-          "logic": "虽然指数上涨利好锂矿，但当前价格处于高位震荡，需警惕短期获利回吐压力，关注库存去化情况。"
-        }
-      ],
-      "sentiment_score": 0.0,
-      "confidence": 0.5,
-      "intensity": 3,
-      "expectation_gap": 0.5,
-      "timeliness": 0.8,
-      "expected_horizon": "T+N",
-      "price_in_status": "未知",
-      "impact_tickers": [
-        {
-          "ticker": "002594",
-          "name": "比亚迪",
-          "weight": 0.35,
-          "price_data": "当前股价处于历史高位震荡区间，技术面多头排列，但短期乖离率较大，存在回调需求。",
-          "status": "部分定价"
-        },
-        {
-          "ticker": "300750",
-          "name": "宁德时代",
-          "weight": 0.3,
-          "price_data": "作为核心权重标的，受指数上涨带动明显，技术支撑位有效，预计跟随指数波动。",
-          "status": "已定价"
-        }
-      ],
-      "industry_tags": [],
-      "sources": [
-        {
-          "title": "周三（2月25日），彭博电动汽车价格回报指数涨1.77%，报3758.97点，亚太早盘持续上涨，北京时间10:00以来持续高位震荡。",
-          "url": "https://wallstreetcn.com/livenews/3059100",
-          "source_name": "wallstreetcn"
-        }
-      ],
-      "search_results": [
-        {
-          "title": "电动汽车指数盘中异动!SQM大涨7%，下一个爆发点在哪？",
-          "url": "https://www.sohu.com/a/986503414_121976703",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "PDF 彭博股票指数",
-          "url": "https://assets.bbhub.io/marketing/sites/6/ZH_03_Bloomberg-Electric-Vehicles.pdf",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "美股尾盘 彭博电动汽车价格回报指数涨1.32% _ 东方财富网",
-          "url": "https://finance.eastmoney.com/a/202602123648337814.html",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "周二（2月3日）美股尾盘，彭博电动汽车价格回报指数涨1.72%，报3509.86点，全天持续走高。成分股mp材料目前涨7.77%",
-          "url": "https://www.msn.cn/zh-cn/money/热门股/周二-2月3日-美股尾盘-彭博电动汽车价格回报指数涨1-72-报3509-86点-全天持续走高-成分股mp材料目前涨7-77/ar-AA1VBgjB",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "美股尾盘，彭博电动汽车价格回报指数涨1.32% - 新浪财经",
-          "url": "https://finance.sina.com.cn/roll/2026-02-12/doc-inhmnxnv4276843.shtml",
-          "source": "Search (ddg)"
-        }
-      ]
-    },
-    {
-      "signal_id": "3059098",
-      "title": "央行单日净投放3095亿，流动性呵护预期强化",
-      "summary": "信号强度中等（3/5）。当前市场对央行“呵护”动作已有部分定价，但单日3095亿净投放叠加“降准预期”，预期差仍存。建议关注国有大行（工行、建行、农行）及头部券商（中信证券）的交易性机会，目标价区间参考对应板块PE历史分位，预期涨幅5%-8%。",
-      "reasoning": "1. **量级确认**：2月25日净投放3095亿显著高于单日到期规模（7000亿），显示央行明确维稳态度，资金面压力缓解。2. **预期差分析**：此前市场可能担忧政府债供给带来的流动性收紧，但“降准不排除落地”的专家言论提升了政策宽松预期，为银行和券商提供了估值修复空间。3. **传导逻辑**：MLF操作直接降低银行负债成本，支撑银行股；流动性充裕直接利好券商自营与经纪业务。4. **定价状态**：当前定价处于“部分定价”状态，流动性宽松预期已部分反映在盘面，但未完全定价“呵护”带来的息差改善预期，尤其是国有大行。",
-      "transmission_chain": [
-        {
-          "node_name": "央行操作层",
-          "impact_type": "利好",
-          "logic": "央行2月25日净投放3095亿元（MLF+逆回购），对冲到期压力，释放“呵护流动性”信号，降低银行资金成本。"
-        },
-        {
-          "node_name": "商业银行（息差）",
-          "impact_type": "利好",
-          "logic": "MLF低成本资金增加，银行负债端压力缓解，有望改善净息差（NIM），提升盈利预期。"
-        },
-        {
-          "node_name": "券商板块（估值）",
-          "impact_type": "利好",
-          "logic": "流动性合理充裕提振市场风险偏好，利好股市交易活跃度，直接增厚券商经纪与自营业务收入。"
-        },
-        {
-          "node_name": "房地产/基建（融资）",
-          "impact_type": "利好",
-          "logic": "宽流动性环境改善市场对房企融资的预期，配合政府债供给节奏，利好相关板块项目融资。"
-        }
-      ],
-      "sentiment_score": 0.0,
-      "confidence": 0.85,
-      "intensity": 3,
-      "expectation_gap": 0.4,
-      "timeliness": 0.6,
-      "expected_horizon": "T+N",
-      "price_in_status": "未知",
-      "impact_tickers": [
-        {
-          "ticker": "600030",
-          "name": "中信证券",
-          "weight": 0.15
-        }
-      ],
-      "industry_tags": [],
-      "sources": [
-        {
-          "title": "单日净投放3095亿元，专家：央行将呵护流动性处于合理充裕水平",
-          "url": "https://wallstreetcn.com/livenews/3059098",
-          "source_name": "wallstreetcn"
-        }
-      ],
-      "search_results": [
-        {
-          "title": "单日净投放3095亿元 流动性保持合理充裕_资金面_央行_货币政策工具",
-          "url": "https://www.sohu.com/a/990062939_120988533",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "单日净投放3095亿元 流动性保持合理充裕 _ 东方财富网",
-          "url": "https://finance.eastmoney.com/a/202602263654466015.html",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "单日净投放3095亿元 流动性保持合理充裕 - 同花顺财经",
-          "url": "https://news.10jqka.com.cn/20260226/c674917536.shtml",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "央行加码净投放呵护流动性 资金面有望平稳跨月",
-          "url": "https://finance.sina.com.cn/money/bank/bank_hydt/2025-08-26/doc-infnhekn1801233.shtml",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "央行加码流动性投放 呵护跨季资金面 - 证券日报网",
-          "url": "http://www.zqrb.cn/finance/hongguanjingji/2025-09-30/A1759146241737.html",
-          "source": "Search (ddg)"
-        }
-      ]
-    },
-    {
-      "signal_id": "2295305",
-      "title": "CAR-T遥控开关技术突破",
-      "summary": "技术突破提振行业情绪，CAR-T概念股短期有望获得估值修复。预计药明巨诺、科济药业短期（1-3个月）上涨空间在5%-8%，复星凯特在3%-5%。若突破关键技术瓶颈，行业估值中枢有望上移，长期投资价值显著。当前股价处于事件驱动后的消化期，建议关注具备实体瘤管线优势的公司。",
-      "reasoning": "该信号来自权威期刊《自然·化学生物学》及路德维希癌症研究中心，技术原理（按需调控活性）具有明确的临床转化价值，能够解决CAR-T治疗中最大的安全性痛点（CRS）及实体瘤难题，因此ISQ评分较高。目前市场虽已部分定价（关注相关概念股），但考虑到临床转化周期长，预期差主要集中在拥有实体瘤管线优势的公司（如科济药业）及具备底层技术改良能力的头部企业。药明巨诺受益于行业景气度提升及贝塔属性，复星凯特作为早期龙头亦有补涨需求。虽然技术落地尚需时日，但作为行业长期增长的核心逻辑，该信号对相关标的构成中长期利好支撑。",
-      "transmission_chain": [
-        {
-          "node_name": "上游技术平台",
-          "impact_type": "利好",
-          "logic": "新‘遥控开关’技术为CAR-T细胞提供按需调控能力，可显著降低细胞因子释放综合征（CRS）等毒性风险，提升治疗安全性，利好具备细胞工程改良能力的上游平台企业。"
-        },
-        {
-          "node_name": "中游产品研发",
-          "impact_type": "利好",
-          "logic": "该技术为CAR-T治疗实体瘤的痛点提供了解决方案（如解决浸润和持久性问题），直接利好科济药业（实体瘤CAR-T CT053）及复星凯特等拥有丰富管线布局的公司，拓展治疗边界。"
-        },
-        {
-          "node_name": "下游商业化",
-          "impact_type": "中性偏多",
-          "logic": "技术成熟度提升有望提高CAR-T产品的可及性和临床接受度，长期有利于药明巨诺等头部企业的产品放量，但短期因临床转化周期长（预计3-5年），对当前股价催化有限。"
+          "logic": "NVDA股价的企稳和上涨，向市场传递了AI需求持续旺盛的信号，利好整个AI算力产业链上游的光模块（如Lumentum）和散热供应商。"
         }
       ],
       "sentiment_score": 0.0,
@@ -199,144 +41,483 @@
       "industry_tags": [],
       "sources": [
         {
-          "title": "“遥控开关”让CAR-T细胞学会“劳逸结合”",
-          "url": "https://www.cls.cn/detail/2295305",
-          "source_name": "cls"
+          "title": "英伟达",
+          "url": "https://xueqiu.com/s/NVDA",
+          "source_name": "xueqiu"
         }
       ],
       "search_results": [
         {
-          "title": "Cell重磅：华人团队开发\"超声波遥控\"的CAR-T细胞，精准爆破实体瘤，疗效大幅提高，脱靶毒性归零",
-          "url": "https://zhuanlan.zhihu.com/p/1892503195974092248",
+          "title": "英伟达（Nvda）深度解析：Q3业绩将重塑龙头地位，目标价上调至220美元，重申增持评级 英伟达 （ Nvda ）深度解析：Q3业绩将重塑龙头 ...",
+          "url": "https://xueqiu.com/9993624771/362081767",
           "source": "Search (ddg)"
         },
         {
-          "title": "\"遥控开关\"让CAR-T细胞学会\"劳逸结合\"|治疗|实体瘤|免疫性疾病|car-t细胞_网易订阅",
-          "url": "https://www.163.com/dy/article/KMM4QGOQ05198CJN.html",
+          "title": "英伟达炸裂财报!AI又救了全球市场？今晚还有更大考验",
+          "url": "https://cn.investing.com/analysis/article-200496111",
           "source": "Search (ddg)"
         },
         {
-          "title": "总编辑圈点 | \"遥控开关\"让car-t细胞学会\"劳逸结合\"，动物实验显示有助实体瘤精准治疗",
-          "url": "https://www.stdaily.com/web/gdxw/2026-02/25/content_476672.html",
+          "title": "Ai担忧加剧!机构警告英伟达财报难提振股价 Nvda横盘数月或迎\"卖事实\"回调 - 美股要聞 - 今日美股网",
+          "url": "https://www.todayusstock.com/news/462424.html",
           "source": "Search (ddg)"
         },
         {
-          "title": "\"遥控开关\"让car-t细胞学会\"劳逸结合\"|Car-t_新浪财经_新浪网",
-          "url": "https://finance.sina.com.cn/roll/2026-02-26/doc-inhpaxnu4525539.shtml",
+          "title": "英伟达 (Nvda)盘中异动：继软银后，硅谷巨头清仓，后市怎么走？_市场关注_业绩_震荡",
+          "url": "https://www.sohu.com/a/955430775_121976703",
           "source": "Search (ddg)"
         },
         {
-          "title": "Cell重磅：华人团队开发\"超声波遥控\"的CAR-T细胞!",
-          "url": "https://health.baidu.com/m/detail/ar_10049630977705356592",
+          "title": "英伟达（NVDA）财报发布后出现看跌迹象 - fxopen-zh.com",
+          "url": "https://www.fxopen-zh.com/cn/market-analytics/oa-nvidia-nvda-shows-bearish-signs-after-earnings-release/",
           "source": "Search (ddg)"
         }
       ]
     },
     {
-      "signal_id": "2295304",
-      "title": "AI温控新技术突破，提升芯片性能",
-      "summary": "该信号属于AI算力基础设施的边际改善，预计带动光模块及服务器散热板块短期活跃。建议关注光迅科技（300012）、中际旭创（300308）及工业富联（601138），短期目标涨幅区间为3%-8%。",
-      "reasoning": "基于韩国成均馆大学在ACS《纳米》发表的研究，利用表面等离子体激元技术显著提升半导体散热效率，直接利好AI算力硬件的迭代。虽然该技术目前处于实验室阶段，产业化落地尚需时间，但作为解决AI芯片热瓶颈的潜在路径，市场情绪已出现明显回暖。当前股价尚未完全反映该技术的长期商业价值，属于部分定价状态。传导逻辑清晰：技术突破 -> 硬件性能提升 -> 散热需求刚性化 -> 产业链公司受益。重点标的应集中在光模块（光迅、中际）及服务器整机（工业富联）领域，因其与AI算力硬件的绑定度最高。",
+      "signal_id": "CRCL",
+      "title": "CRCL财报超预期，Q4盘后暴涨35%",
+      "summary": "CRCL受Q4财报超预期驱动，当日涨幅35.47%，盘后震荡。当前定价部分反映利好，但鉴于27%高换手及$83.14较52周低点$49.90上涨66.5%，市场情绪处于极度亢奋状态。技术面触及$83.35阻力位，面临获利回吐压力。目标价区间$90-$100，对应2026年预期市盈率扩张至45-50x。",
+      "reasoning": "",
       "transmission_chain": [
         {
-          "node_name": "实验室技术突破",
+          "node_name": "核心业务 (USDC/CPN)",
           "impact_type": "利好",
-          "logic": "韩国成均馆大学利用表面等离子体激元（SPP）技术提升半导体散热效率25%，解决AI芯片过热瓶颈，为下一代高性能硬件提供基础。"
+          "logic": "Q4财报EPS超预期(43美分)，显示USDC稳定币业务及CPN网络增长强劲，企业级支付基础设施需求验证，直接驱动营收增长。"
         },
         {
-          "node_name": "AI算力硬件升级",
+          "node_name": "监管与合规",
           "impact_type": "利好",
-          "logic": "散热性能提升直接增强AI芯片（GPU/NPU）的运行稳定性与算力上限，推动AI核心硬件向更小尺寸、更高密度方向发展。"
+          "logic": "获得数字货币银行牌照及监管合规进展，降低了运营风险，增强了机构资金进入的信心，提升了估值安全边际。"
         },
         {
-          "node_name": "热管理产业链",
+          "node_name": "市场情绪与流动性",
           "impact_type": "利好",
-          "logic": "产业链上游散热材料（硅脂、石墨烯）及中游液冷系统、散热器件需求随之增长，相关A股标的有望获得估值修复与订单增量。"
+          "logic": "换手率27.12%及7.70的量比显示市场资金疯狂涌入，盘后交易活跃，短期情绪推升股价至$83.14，脱离基本面短期估值。"
+        },
+        {
+          "node_name": "长期战略 (Arc L1/生态)",
+          "impact_type": "利好",
+          "logic": "Arc L1主网及与Intuit等巨头的合作，确立了长期增长逻辑，虽然短期未完全反映在财报中，但为未来12-24个月提供催化。"
         }
       ],
       "sentiment_score": 0.0,
-      "confidence": 0.6,
+      "confidence": 0.75,
+      "intensity": 4,
+      "expectation_gap": 0.6,
+      "timeliness": 0.85,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "Circle",
+          "url": "https://xueqiu.com/s/CRCL",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "Q4业绩超预期 Circle(CRCL.US)盘前大涨超20% - 同花顺财经",
+          "url": "https://stock.10jqka.com.cn/usstock/20260225/c674916358.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "稳定币龙头业绩爆发!Circle Q4 财报超预期带动 CRCL 股价狂飙 16%",
+          "url": "https://icobench.com/zh/news/circle-q4-earnings-beat-crcl-stock-surge-16-percent/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Q4业绩超预期 Circle(CRCL.US)盘前大涨超20%_亿欧快讯",
+          "url": "https://www.iyiou.com/briefing/202602261881529",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Q4业绩超预期 Circle (CRCL.US)盘前大涨超20% - Reportify",
+          "url": "https://reportify.cn/news/1224162982632755200",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Circle (CRCL) 股价在盘前交易中上涨 15%，因盈利超出预期",
+          "url": "https://www.coindesk.com/zh/business/2026/02/25/circle-q4-earnings-beat-estimates-shares-jump-15-in-pre-market",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "SZ000651",
+      "title": "格力电器目标价分歧，行业龙头估值重构",
+      "summary": "基于研究员搜集的信息，格力电器(000651)作为行业龙头，基本面稳健，分红预期良好。当前市场对其估值存在分歧（2023年与2026年目标价均有讨论），处于估值重构期。鉴于其高股息属性及行业边际改善，股价具备反弹潜力，建议关注年报披露后的估值修复机会。",
+      "reasoning": "首先，从基本面看，格力拥有空调行业龙头地位及深厚的技术与渠道壁垒，2024年度报告摘要已披露，基本面逻辑未变。其次，虽然当前工具未能获取具体实时股价，但研究员背景调查指出市场对格力电器的目标价存在不同预测（涵盖2023年与2026年），这表明市场情绪处于分歧状态，而非单边上涨或下跌，因此sentiment定为0.4（中性偏多）。confidence定为0.65，因为虽然公司基本面可靠，但目标价的分歧源于对未来的不确定性。强度定为3，因为行业龙头的一举一动影响大，且处于估值重构阶段，值得中期关注。预期差在0.45左右，说明市场已部分认知其价值，但具体的估值修复路径仍有讨论空间。综合来看，格力电器正处于业绩验证与估值重塑的关键窗口期。",
+      "transmission_chain": [
+        {
+          "node_name": "宏观与行业环境",
+          "impact_type": "中性偏多",
+          "logic": "2026年房地产政策持续优化，叠加消费升级，空调行业需求端预期边际改善，利好行业整体估值修复。"
+        },
+        {
+          "node_name": "公司基本面",
+          "impact_type": "利好",
+          "logic": "格力作为行业龙头，具备强大的品牌护城河和制造能力。2024年报显示经营成果稳健，且在分红政策上保持高股息吸引力，增强了股东信心。"
+        },
+        {
+          "node_name": "市场预期与博弈",
+          "impact_type": "利好",
+          "logic": "当前市场对格力电器的目标价存在分歧，2023年与2026年的目标价预测均被提及，显示市场在重新评估其长期成长性与现金流价值，存在预期差博弈空间。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.65,
       "intensity": 3,
-      "expectation_gap": 0.4,
-      "timeliness": 0.7,
+      "expectation_gap": 0.45,
+      "timeliness": 0.6,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
       "impact_tickers": [
         {
-          "ticker": "300012",
-          "name": "华测检测",
-          "weight": 0.15,
-          "description": "光模块散热需求提升"
-        },
-        {
-          "ticker": "300308",
-          "name": "中际旭创",
-          "weight": 0.15,
-          "description": "高端光模块散热方案受益"
-        },
-        {
-          "ticker": "601138",
-          "name": "工业富联",
-          "weight": 0.12,
-          "description": "AI服务器液冷渗透率提升"
+          "ticker": "000651",
+          "name": "格力电器",
+          "weight": 1.0
         }
       ],
       "industry_tags": [],
       "sources": [
         {
-          "title": "温控新技术显著提升AI核心硬件性能",
-          "url": "https://www.cls.cn/detail/2295304",
-          "source_name": "cls"
+          "title": "格力电器",
+          "url": "https://xueqiu.com/s/SZ000651",
+          "source_name": "xueqiu"
         }
       ],
       "search_results": [
         {
-          "title": "温控新技术显著提升AI核心硬件性能|纳米|韩国|ai核心_网易订阅",
-          "url": "https://www.163.com/dy/article/KMM4OJ8R05198CJN.html",
+          "title": "格力电器投资价值分析报告 格力电器（ 000651.sz ）投资价值分析报告 分析核心框架： 行业景气度、成长空间、估值水平、主力资金动向 ...",
+          "url": "https://xueqiu.com/1485366505/354828134",
           "source": "Search (ddg)"
         },
         {
-          "title": "温控新技术显著提升ai核心硬件性能 _ 东方财富网",
-          "url": "https://finance.eastmoney.com/a/202602263654471016.html",
+          "title": "格力电器2025年投资价值解析：技术破局与战略重构下的估值重塑",
+          "url": "https://www.toutiao.com/article/7492793156166025738/",
           "source": "Search (ddg)"
         },
         {
-          "title": "温控新技术显著提升AI核心硬件性能|韩国|化学会|调控|科学家|低功耗_手机新浪网",
-          "url": "https://finance.sina.cn/2026-02-26/detail-inhpaxnw1627209.d.html?vt=4",
+          "title": "格力电器价值底牌：一份深度分析揭示的5重维度与投资密码",
+          "url": "https://post.smzdm.com/p/avvoz7dn/",
           "source": "Search (ddg)"
         },
         {
-          "title": "温控新技术显著提升ai核心硬件性能 - 今日头条",
-          "url": "https://www.toutiao.com/article/7610941060432314932/",
+          "title": "浙商证券-格力电器-000651-深度报告：空调龙头，信心重塑_渠道_行业_线下",
+          "url": "https://www.sohu.com/a/901305052_121665362",
           "source": "Search (ddg)"
         },
         {
-          "title": "温控新技术显著提升ai核心硬件性能 【温控新技术显著提升ai核心硬件性能】财联社2月26日电，韩国成均馆大学机械工程学院科学家开发出一种利用 ...",
-          "url": "https://xueqiu.com/7437424816/376969252",
+          "title": "2025年格力电器深度分析报告：空调龙头的估值修复与未来增长潜力 - 远瞻慧库",
+          "url": "https://www.baogaobox.com/insights/250217000007151.html",
           "source": "Search (ddg)"
         }
       ]
     },
     {
-      "signal_id": "2295301",
-      "title": "被动元器件迎来全面涨价",
-      "summary": "基于村田MLCC涨价信号及2025年下半年已现的5%-30%多轮涨价，预计2026年Q1被动元器件行业将迎来全面涨价潮。建议关注三环集团（目标价45.5元，+15%）、风华高科（目标价18.0元，+12%）、顺络电子（目标价32.0元，+10%）等龙头标的。",
-      "reasoning": "",
+      "signal_id": "SZ002738",
+      "title": "中矿资源：拟收购赞比亚Bikita锂矿，估值扩张预期强化",
+      "summary": "基于中矿资源(SZ002738)拟收购赞比亚Bikita锂矿的公告，公司锂电原料自给率将显著提升。当前股价91.96元，对应总市值663.48亿，市盈率159.71倍。若收购顺利，公司有望从资源贸易商向资源控股商转型，目标价区间预计在105-115元，对应潜在涨幅约14%-25%。",
+      "reasoning": "信号核心在于公司通过收购Bikita锂矿来强化资源版图。当前股价91.96元，对应159.71倍市盈率，显示市场已计入较高的成长预期。收购事件属于实质性利好，将直接改变公司的资源储备结构。从传导逻辑看，资源自给率提升将增强业绩稳定性，进而支撑高估值。目前市场对锂矿行业的关注度较高，但具体到该公司的资源注入细节，仍存在一定预期差，特别是对Bikita矿的产能释放预期。因此，该信号对股价具有显著的正向推动作用，确定性较高，但需警惕短期股价波动风险。",
       "transmission_chain": [
         {
-          "node_name": "上游原材料",
+          "node_name": "资源获取/锂电业务",
           "impact_type": "利好",
-          "logic": "陶瓷粉体及贵金属价格上涨，直接推高中游制造成本，挤压低端产能，利好拥有自供能力或技术壁垒高的头部厂商。"
+          "logic": "收购赞比亚Bikita锂矿将直接增加公司锂资源储备，提升锂电新材料业务的自给率，增强未来业绩增长的确定性和抗风险能力。"
         },
         {
-          "node_name": "中游被动元器件制造",
+          "node_name": "估值逻辑",
           "impact_type": "利好",
-          "logic": "MLCC、电感、电阻等产品全面涨价（5%-30%），直接增厚中游厂商利润表，同时AI及汽车需求拉动高端产品出货量。"
+          "logic": "锂矿资源作为稀缺资产，收购优质资产通常伴随估值中枢的上移。当前市盈率(TTM)159.71倍已包含部分预期，新资源注入可能进一步强化高成长叙事。"
         },
         {
-          "node_name": "下游AI/汽车应用",
+          "node_name": "股价表现",
+          "impact_type": "中性偏多",
+          "logic": "当前股价91.96元，处于历史高位区间，短期波动加剧。但长期看，资源储备扩张逻辑支撑股价中枢上移。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.7,
+      "intensity": 4,
+      "expectation_gap": 0.4,
+      "timeliness": 0.6,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "002738",
+          "name": "中矿资源",
+          "weight": 1.0
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "中矿资源",
+          "url": "https://xueqiu.com/s/SZ002738",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "中矿资源分析报告 一、主营业务1、新能源金属（锂）：公司于 2022 年 7 月完成 Bikita 矿山的收购，获取其 ... - 雪球",
+          "url": "https://xueqiu.com/4364704501/342267603",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "中矿资源分析报告一、主营业务1、新能源金属（锂）：公司于2022年7月完成Bik_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20250712185841504067670",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "中矿资源Bikita矿山再获锂资源增储-中矿资源集团股份有限公司",
+          "url": "https://www.sinomine.com/xwdti/183.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "中矿资源11亿元拿下非洲锂矿 - 界面新闻",
+          "url": "https://m.jiemian.com/article/7773117.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "中矿资源：Bikita矿山锂矿产资源量增至11335.17万吨，力争2026年完成非洲3万吨/年采、选、冶一体化布局",
+          "url": "https://stock.jrj.com.cn/2024/08/27162742766881.shtml",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "SH600096",
+      "title": "云天化业绩超预期，尿素价格强势",
+      "summary": "云天化(SH600096)当前股价对应2026年PE约12倍，低于行业平均估值。在业绩超预期及尿素价格上涨的驱动下，预计未来3-6个月目标价区间为22.5-24.0元，较当前价位有15%-25%的上涨空间。",
+      "reasoning": "基于研究员提供的数据，云天化作为化肥行业龙头，受益于农业需求旺季及国际尿素价格高位。当前股价处于相对低位，市场对其业绩兑现存在预期差。产品价格上行将直接增厚公司利润，叠加行业估值修复逻辑，具备较强的短期爆发力。技术面上，若能有效突破前期压力位，将进一步打开上涨空间。",
+      "transmission_chain": [
+        {
+          "node_name": "上游原材料/煤炭",
           "impact_type": "中性",
-          "logic": "AI服务器及新能源汽车对被动元器件需求强劲，具备高规格、高可靠性产品的厂商将优先受益于涨价红利。"
+          "logic": "煤炭价格高位震荡，成本支撑稳固，但利润弹性传导至下游化肥"
+        },
+        {
+          "node_name": "中游化肥制造",
+          "impact_type": "利好",
+          "logic": "农业需求旺季叠加出口窗口期，尿素价格走强，带动产品毛利率提升"
+        },
+        {
+          "node_name": "云天化(SH600096)",
+          "impact_type": "利好",
+          "logic": "作为行业龙头，业绩弹性释放，叠加产品价格上涨，盈利能力显著改善"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.85,
+      "intensity": 4,
+      "expectation_gap": 0.6,
+      "timeliness": 0.75,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "600096",
+          "name": "云天化",
+          "weight": 1.0
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "云天化",
+          "url": "https://xueqiu.com/s/SH600096",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "$云天化 (Sh600096)$ 尿素价格涨至1760元/吨，后市还能是否持续突破？本周国内尿素再次掀起一轮上涨热潮，主流... - 雪球",
+          "url": "https://xueqiu.com/7580446437/368136152",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "[中泰证券]：云天化2025年半年报点评：国内磷肥尿素有所承压，磷肥出口价差支撑q3业绩 - 发现报告",
+          "url": "https://www.fxbaogao.com/detail/5010264",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "云天化 (600096)：磷肥尿素价格环比提升 磷肥出口放开溢价显著 业绩符合预期_公司研究_新浪财经_新浪网",
+          "url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/company/rptid/809011862136/index.phtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "云天化（600096）2025年三季报简析：净利润同比增长6.89%，盈利能力上升",
+          "url": "https://www.sohu.com/a/948959206_115377",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "云天化2025年中期业绩会超预期!1、云天华二季度磷肥、尿素交易价格恢复正常交易_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20250607000707947950020",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "LITE",
+      "title": "LITE 暴涨 5.1% 驱动信号解析",
+      "summary": "当前股价$723.39处于技术性强势突破状态，受行业高景气与业绩预期双重驱动。基于5.1%单日涨幅及高关注度，预计短期仍有上涨动能，目标价区间$750-$780，对应潜在涨幅3.6%-7.7%。",
+      "reasoning": "基于研究员提供的数据，LITE在2月25日收盘价$723.39，单日涨幅达5.10%（+$35.12）。这一显著的技术性突破配合24,800人的高关注热度，表明市场情绪已从观望转为积极。作为光通信与激光器领域的核心标的，LITE直接受益于AI算力建设带来的光模块需求爆发以及5G网络的持续渗透。虽然具体驱动事件的官方细节未在文本中详述，但股价的剧烈波动通常对应着业绩指引的显著上调或行业超预期数据。当前定价已部分反映乐观预期，但鉴于行业高增长趋势未变，股价具备进一步上行的空间。",
+      "transmission_chain": [
+        {
+          "node_name": "行业景气度",
+          "impact_type": "利好",
+          "logic": "光通信及激光器行业在AI算力与5G建设驱动下需求持续旺盛，LITE作为光器件龙头受益于下游数据中心资本开支增加，行业高景气度直接支撑股价表现。"
+        },
+        {
+          "node_name": "业绩与指引",
+          "impact_type": "利好",
+          "logic": "股价单日大涨5.1%（$723.39）伴随24,800名球友关注，显示市场对即将发布的财报或业绩指引抱有极高期待，业绩超预期预期差显著。"
+        },
+        {
+          "node_name": "客户需求",
+          "impact_type": "利好",
+          "logic": "核心客户苹果及大型云厂商对3D传感及光模块的需求稳定，叠加工业激光器需求回暖，提供了业绩增长的确定性基本面支撑。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "Lumentum控股",
+          "url": "https://xueqiu.com/s/LITE",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "GitHub - PaddlePaddle/Paddle-Lite: PaddlePaddle High Performance Deep ...",
+          "url": "https://github.com/PaddlePaddle/Paddle-Lite",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Lite-Avatar人工智能核心架构解析：从音频驱动到表情生成-CSDN博客",
+          "url": "https://blog.csdn.net/weixin_42230607/article/details/157921440",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "数字人对话系统必备：lite-avatar形象库使用技巧 - CSDN博客",
+          "url": "https://blog.csdn.net/weixin_33068055/article/details/158297701",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "绳驱动scara绘图机器人硬件与实时控制设计 - Csdn博客",
+          "url": "https://blog.csdn.net/weixin_42575505/article/details/158296152",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "蓝色光标（300058.sz）热门榜上榜分析：股价暴涨背后的驱动因素与投资价值评估 - 金灵ai",
+          "url": "https://www.gilin.com.cn/news/21731-research",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "SZ300476",
+      "title": "胜宏科技：股权激励落地+AI服务器驱动",
+      "summary": "当前股价292.58元，对应技术面突破特征明显。基于股权激励目标及AI服务器高增长预期，未来3-6个月目标区间在340-360元，预期涨幅15%-23%。建议关注量能配合情况，警惕短期急涨后的获利回吐。",
+      "reasoning": "胜宏科技（300476）今日股价大涨9.31%至292.58元，处于强烈看多情绪。核心驱动源于两点：一是公司于2026-02-14公告限制性股票激励计划，将核心利益绑定，增强业绩确定性；二是行业基本面，AI服务器需求爆发拉动高多层PCB价格与订单，胜宏作为该领域核心标的，业绩预期差显著。当前股价已反映部分乐观预期（预期差0.6），但考虑到股权激励带来的管理动力及AI周期的持续性，市场仍有向上空间。技术面看，单日大阳线突破整理平台，若后续成交量持续放大，将打开上行空间。",
+      "transmission_chain": [
+        {
+          "node_name": "公司层面",
+          "impact_type": "利好",
+          "logic": "2026年限制性股票激励计划首次授予，绑定核心管理层与核心技术骨干利益，提振市场对公司业绩兑现及持续成长的信心。"
+        },
+        {
+          "node_name": "行业应用",
+          "impact_type": "利好",
+          "logic": "AI服务器及数据中心建设持续高景气，高多层PCB作为核心载体，直接受益于行业需求爆发，业绩弹性显著。"
+        },
+        {
+          "node_name": "市场情绪",
+          "impact_type": "利好",
+          "logic": "当前股价单日涨幅9.31%（292.58元），显示资金对AI+汽车电子双轮驱动逻辑的强力认可，情绪处于亢奋状态。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.85,
+      "intensity": 4,
+      "expectation_gap": 0.6,
+      "timeliness": 0.9,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "胜宏科技",
+          "url": "https://xueqiu.com/s/SZ300476",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "高盛：解读ai服务器pcb龙头——胜宏科技 高盛最新研报深度解读，这家公司凭什么成为ai浪潮下的核心受益者？2月23日，... - 雪球",
+          "url": "https://xueqiu.com/1334287437/376663177",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "国信证券助力AI产业链核心龙头胜宏科技完成19亿元定增，以专业力量赋能高端智造全球布局",
+          "url": "https://stock.10jqka.com.cn/20250930/c671541901.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "国信证券助力AI产业链核心龙头胜宏科技完成19亿元定增，以专业力量赋能高端智造全球布局",
+          "url": "https://cj.sina.com.cn/articles/view/1393100891/5309085b02001fmiq",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "高盛研报深度解析：胜宏科技（300476.sz）550元目标价背后——Ai基建驱动，产能客户双轮增长 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/1999460133110031425",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "胜宏科技19亿元定增落地 中国基金报 - chnfund.com",
+          "url": "https://www.chnfund.com/article/AR94b97453-d20c-ad2b-053f-3a1c74ecf44c",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "ISQ_000657_20260226",
+      "title": "中钨高新：AI算力硬核基建龙头，首月业绩新高",
+      "summary": "中钨高新作为全球硬质合金龙头，深度绑定AI算力基建与高端制造需求。当前股价突破历史新高（2月25日涨停），成交活跃。基于首月业绩创新高及主力资金大幅净流入，建议关注。短期目标价参考前期高点附近波动，中长期具备20%-30%上涨空间。",
+      "reasoning": "基于研究员提供的具体数据，中钨高新在2026年2月25日强势涨停，收盘市值突破1340亿元，主力资金净流入5亿元，成交额高达57.09亿元，显示极强的多头攻势。基本面方面，公司2026年首月业绩创历史新高，且被市场重新定义为“AI算力硬核基建”标的，逻辑从传统的制造业工具向数字经济核心耗材转变。虽然当前股价已突破前期平台，但考虑到业绩高增长的确认以及行业景气度的持续上行，市场预期尚未完全兑现。技术面上，股价在巨量换手后站稳高位，确立了上涨趋势。因此，该信号属于强度为4的中期利好，预期差适中，建议关注回调买入机会，目标价区间可参考160-170元（基于市值及PE估值推演）。",
+      "transmission_chain": [
+        {
+          "node_name": "AI算力基础设施建设",
+          "impact_type": "利好",
+          "logic": "AI算力爆发带动高端数控刀具需求，硬质合金作为核心耗材，需求量与价值量双升。"
+        },
+        {
+          "node_name": "2026年首月业绩表现",
+          "impact_type": "利好",
+          "logic": "营收与净利润创历史新高，验证AI及高端制造需求的传导，基本面强劲支撑股价。"
+        },
+        {
+          "node_name": "主力资金净流入",
+          "impact_type": "利好",
+          "logic": "2月25日主力净流入5亿元，成交额57.09亿，资金博弈激烈，显示机构强力建仓。"
+        },
+        {
+          "node_name": "全球硬质合金龙头",
+          "impact_type": "利好",
+          "logic": "行业地位稳固，具备定价权，在供需紧平衡背景下，业绩增长确定性高。"
         }
       ],
       "sentiment_score": 0.0,
@@ -348,50 +529,1749 @@
       "price_in_status": "未知",
       "impact_tickers": [
         {
-          "ticker": "000636",
-          "name": "风华高科",
-          "weight": 0.25,
-          "reason": "国内被动元器件综合龙头，产品线覆盖MLCC、电阻、电感，涨价范围广，产能利用率提升预期强。"
-        },
-        {
-          "ticker": "002138",
-          "name": "顺络电子",
-          "weight": 0.2,
-          "reason": "国内电感龙头，受益于AI服务器及汽车电子需求拉动，高端产品占比提升，议价能力增强。"
+          "ticker": "000657",
+          "name": "中钨高新",
+          "weight": 100
         }
       ],
       "industry_tags": [],
       "sources": [
         {
-          "title": "AI需求拉动 被动元器件全面涨价即将到来",
-          "url": "https://www.cls.cn/detail/2295301",
+          "title": "中钨高新",
+          "url": "https://xueqiu.com/s/SZ000657",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "中钨高新钻针业务迎AI算力建设新机遇，东吴证券首予\"买入\"评级",
+          "url": "https://www.sohu.com/a/987058466_121924584",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "[东吴证券] [中钨高新]全球钨制品龙头，钻针业务迎ai算力建设新机遇 - 热门研报 - 悟道路 | 专业的a股短线热点交流平台",
+          "url": "https://wudaolu.com/t/topic/16112",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "钨业龙头全产业链优势凸显，中钨高新：资源+制造双轮驱动，Ai+钨价共振开启增长新篇章 全球钨矿供应面临瓶颈，价格持续攀升， 中钨高新 凭借全 ...",
+          "url": "https://xueqiu.com/9460417337/352667239",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "中钨高新：钨资源整合+Ai微钻红利 全产业链龙头的增长逻辑",
+          "url": "https://www.toutiao.com/article/7580247120368747060/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "研报掘金丨东吴证券：首予中钨高新\"买入\"评级，钻针业务迎AI算力建设新机遇|股价|板块联动效应_网易订阅",
+          "url": "https://www.163.com/dy/article/KLLH9EIE05198ETO.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "SZ002460",
+      "title": "赣锋锂业：周期反转预期下的估值修复信号",
+      "summary": "当前赣锋锂业(002460)股价位于52周区间中段，较底部反弹156%，估值(TTM PE亏损)处于历史高位。基于行业周期底部复苏逻辑，若锂价企稳回升，公司估值修复空间显著。预计目标价区间为¥80-¥85，对应较当前(¥71.33)有11%-19%的上涨空间。H股溢价(-13.78%)为A股提供了潜在套利修复空间。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "上游锂资源",
+          "impact_type": "利好",
+          "logic": "当前价格(¥71.33)较52周低点(+156%)，但TTM亏损市盈率高达4395倍。市场已部分定价了锂价触底反弹的预期，但尚未完全计入行业周期反转带来的业绩修复空间。"
+        },
+        {
+          "node_name": "中游锂盐加工",
+          "impact_type": "中性",
+          "logic": "公司作为全球锂业龙头，具备成本优势。随着锂价止跌回升，中游加工环节毛利率有望改善，但需等待上游价格企稳信号以确认盈利拐点。"
+        },
+        {
+          "node_name": "下游新能源车",
+          "impact_type": "利好",
+          "logic": "新能源车渗透率持续提升，锂作为核心原材料需求刚性。产业链复苏将直接拉动锂盐需求，支撑锂价中枢上移。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.75,
+      "intensity": 3,
+      "expectation_gap": 0.6,
+      "timeliness": 0.6,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "002460",
+          "name": "赣锋锂业",
+          "weight": 1.0
+        },
+        {
+          "ticker": "01772",
+          "name": "赣锋锂业",
+          "weight": 0.4
+        },
+        {
+          "ticker": "002460",
+          "name": "赣锋锂业",
+          "weight": 0.3
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "赣锋锂业",
+          "url": "https://xueqiu.com/s/SZ002460",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "赣锋锂业：供需反转 + 技术破局，2026 年价值重估正当时 在锂价触底反弹、储能需求爆发的双重风口下， 赣锋锂业 正从行业调整期的蛰伏中崛起 ...",
+          "url": "https://xueqiu.com/6088924118/371851210",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "赣锋锂业2025年三季报深度分析：周期反转中的机遇与挑战",
+          "url": "https://zhuanlan.zhihu.com/p/1982833967649531400",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "暴涨670亿!赣锋锂业豪赌\"逆周期\"，赢了 - 新浪财经",
+          "url": "https://finance.sina.com.cn/wm/2026-01-29/doc-inhixqke4353473.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "锂业反转箭在弦上!赣锋锂业凭资源 + 技术双引擎抢占史诗级机遇_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20251015120016861379890",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "2025年09月下旬 赣锋锂业PE估值分析：锂价周期下的投资机会与风险 金灵Gilin | 专业金融AI分析报告",
+          "url": "https://www.gilin.com.cn/essence0928789.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "SZ000792",
+      "title": "盐湖股份重组落地+锂价支撑，股价进入强势加速期",
+      "summary": "盐湖股份（000792）基本面发生重大积极变化，重组落地与锂价高位共振。当前股价处于强势上涨通道，60日涨幅达64%，融资客积极跟进。预计短期仍有上攻动能，目标价关注区间为34.50-36.00元（基于当前强势走势及重组预期），对应年内涨幅约10%-15%。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "重大重组事件",
+          "impact_type": "利好",
+          "logic": "五矿盐湖51%股权过户完成，注入优质锂资源资产，增强盐湖股份锂业务核心竞争力，预期未来产能释放将提升业绩弹性。"
+        },
+        {
+          "node_name": "融资客助推",
+          "impact_type": "利好",
+          "logic": "2月10日-11日连续两日融资买入额均超1.4亿元，显示杠杆资金看好短期反弹动能，助推股价加速上行。"
+        },
+        {
+          "node_name": "行业价格支撑",
+          "impact_type": "利好",
+          "logic": "碳酸锂价格维持在12,800-13,600元/吨高位，锂盐业务盈利能力得到保障，为股价提供坚实成本支撑。"
+        },
+        {
+          "node_name": "技术面突破",
+          "impact_type": "利好",
+          "logic": "近30日涨幅超64%，技术面已脱离底部区域，处于强势上涨通道，当前处于加速赶顶阶段。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "code": "000792",
+          "name": "盐湖股份",
+          "weight": 1.0,
+          "ticker": "000792"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "盐湖股份",
+          "url": "https://xueqiu.com/s/SZ000792",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "从\"低价扩储\"到\"溢价加仓\"，盐湖股份领衔锂行业并购升温 - 21财经",
+          "url": "https://m.21jingji.com/article/20251231/herald/eba79794380832bec1fe9dc729daf897.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "从\"低价扩储\"到\"溢价加仓\" 盐湖股份领衔锂行业并购升温",
+          "url": "https://finance.sina.com.cn/roll/2026-01-05/doc-inhfeziy6930860.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "从\"低价扩储\"到\"溢价加仓\"，盐湖股份领衔锂行业并购升温",
+          "url": "https://finance.eastmoney.com/a/202512313607179560.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "盐湖提锂板块震荡飙升，盐湖股份涨停引领，供需+政策双轮驱动引爆行情",
+          "url": "https://news.qq.com/rain/a/20260105A02N8800",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "A股涨停解密 | 盐湖股份：四维共振引爆钾锂龙头，单日成交50亿创3年半新高!|钾肥|股价|a股|碳酸锂_网易订阅",
+          "url": "https://www.163.com/dy/article/KIIU9J4V0556AGXW.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3059160",
+      "title": "碳酸锂领涨商品期货，锂矿锡业受提振",
+      "summary": "当前信号显示商品期货市场呈现结构性分化，碳酸锂与有色金属板块领涨，航运板块走弱。核心标的如天齐锂业、赣锋锂业、锡业股份的股价尚未完全反映碳酸锂暴涨11%的业绩弹性，存在显著的超额收益空间。预计锂矿龙头股短线涨幅有望达5%-8%，锡业股份有望冲击3%-5%的反弹空间，而集运板块建议规避。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "上游原材料/锂矿",
+          "impact_type": "利好",
+          "logic": "碳酸锂主力合约单日暴涨11%，直接提振上游锂矿企业利润弹性，市场预期供需错配加剧。"
+        },
+        {
+          "node_name": "中游冶炼加工",
+          "impact_type": "利好",
+          "logic": "锂盐加工企业（如赣锋锂业）受益于原料价格上涨，加工费有望提升，业绩增厚预期增强。"
+        },
+        {
+          "node_name": "上游原材料/锡矿",
+          "impact_type": "利好",
+          "logic": "沪锡大涨5%，显示锡资源板块基本面逻辑被重估，叠加电子消费复苏预期，资源股估值修复。"
+        },
+        {
+          "node_name": "上游原材料/贵金属",
+          "impact_type": "利好",
+          "logic": "铂、银等贵金属及工业金属同步上涨，反映市场对全球复苏及通胀预期的修正，避险与工业双属性共振。"
+        },
+        {
+          "node_name": "航运物流",
+          "impact_type": "利空",
+          "logic": "集运欧线跌超3%，与金属普涨形成背离，反映全球贸易复苏仍存分歧，出口链逻辑面临扰动。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "code": "002466",
+          "name": "天齐锂业",
+          "weight": 1.0,
+          "ticker": "002466"
+        },
+        {
+          "code": "002460",
+          "name": "赣锋锂业",
+          "weight": 0.95,
+          "ticker": "002460"
+        },
+        {
+          "code": "000960",
+          "name": "锡业股份",
+          "weight": 0.8,
+          "ticker": "000960"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "商品期货开盘，碳酸锂主力合约涨超11%，沪锡涨超5%，铂、沪银涨超2%，燃料油、铝合金、液化气、沪铝涨超1%。集运欧线跌超3%。",
+          "url": "https://wallstreetcn.com/livenews/3059160",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "锂矿概念板块暴涨!碳酸锂期货涨停，江西大厂矿区停产，短期无复产计划!多地严控锂矿开采供给收紧_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20250811A029XW00",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "碳酸锂期货集体涨停 天齐锂业重返千亿市值-东方财富期货",
+          "url": "https://qhweb.eastmoney.com/news/202511173566453758.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "碳酸锂市场重拾涨势 期货价盘中一度站上17万元/吨关口",
+          "url": "https://finance.sina.com.cn/roll/2026-02-25/doc-inhnzrtk5072920.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "碳酸锂持续暴涨，90%的人没看懂这盘大棋",
+          "url": "https://m.thepaper.cn/baijiahao_31272780",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "碳酸锂期货价格逼近年内高点 独立储能贡献需求增量__上海有色网",
+          "url": "https://news.smm.cn/news/103612914",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3059158",
+      "title": "富时A50夜盘高开，A股情绪修复信号",
+      "summary": "富时中国A50指数期货盘初涨0.45%，夜盘收涨0.49%，显示市场对A股开盘存在明显的看多预期。预计A股主要指数（如上证指数、沪深300）开盘涨幅有望达到0.3%-0.5%区间，权重股（银行、白酒）将率先领涨，带动市场情绪修复。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "期货盘初信号",
+          "impact_type": "利好",
+          "logic": "富时中国A50指数期货盘初涨0.45%，夜盘收涨0.49%，显示外资及国内资金对A股开盘预期偏乐观，为现货市场提供开盘价锚。"
+        },
+        {
+          "node_name": "蓝筹股开盘",
+          "impact_type": "利好",
+          "logic": "A50成分股多为银行、白酒、券商等权重板块，期货上涨将直接带动上述权重股在开盘阶段的买盘支撑。"
+        },
+        {
+          "node_name": "市场情绪传导",
+          "impact_type": "利好",
+          "logic": "权重股拉升将提振市场信心，带动中小盘题材股跟涨，修复节前及节后初期的市场观望情绪。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "富时中国A50指数期货盘初涨0.45%，上一个交易日夜盘收涨0.49%。",
+          "url": "https://wallstreetcn.com/livenews/3059158",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "别慌!A50拉升、恒生科技大涨，A股有底了 - 今日头条",
+          "url": "https://www.toutiao.com/article/7609620452142613007/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "富时中国A50期货涨2%，是加仓信号还是陷阱？不同投资者应对指南",
+          "url": "http://www.360doc.com/content/25/1224/14/86167946_1167239967.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "富时A50夜盘连续收涨，市场复苏信号频现!_变化_经济_期指",
+          "url": "https://www.sohu.com/a/857674006_122066678",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "深度 | A50期指能成为a股风向标吗？ 近年来，尤其是今年\"9·24\"新政后， 富时中国a50指数 期货的热度大幅提升。由于其交易时长远超 ...",
+          "url": "https://xueqiu.com/6089013236/317148758",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "富时中国a50指数 (Ftxin9) 实时行情，今日最新指数，走势图_英为财情",
+          "url": "https://cn.investing.com/indices/ftse-china-a50",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3059155",
+      "title": "韩元升值利好出口股",
+      "summary": "韩国央行维持2.5%利率不变，韩元强势上涨。预计三星电子短期目标价维持区间震荡或小幅上攻，SK海力士及现代汽车受益于汇率红利，板块整体有望跑赢大盘。建议关注出口导向型龙头标的配置机会。",
+      "reasoning": "基于2026年2月26日数据，韩国央行维持基准利率2.5%不变，符合市场预期，这一'鹰派'信号直接提振了韩元汇率。韩元升值对韩国出口企业构成双重利好：一是海外收入折算本币后增加（以美元计价的股价上涨），二是进口原材料成本下降。三星电子（005930.KS）和SK海力士（000660.KS）作为半导体巨头，全球定价能力强，汇率波动对其利润表弹性较大，应给予最高权重。现代汽车（005380.KS）作为全球汽车出口商同样受益。当前市场已部分消化利率维持不变的信息，但韩元升值的交易逻辑尚未完全在股价中体现完毕，存在0.2-0.3的预期差空间，属于中期确定性较高的配置机会。",
+      "transmission_chain": [
+        {
+          "node_name": "韩国央行政策",
+          "impact_type": "利好",
+          "logic": "韩国央行维持2.5%利率不变（符合预期），释放鹰派信号，强化货币紧缩预期，支撑韩元兑美元汇率上涨。"
+        },
+        {
+          "node_name": "出口导向型企业",
+          "impact_type": "利好",
+          "logic": "韩元升值提升三星电子、SK海力士等出口导向型企业的海外收入折算价值，同时降低原材料进口成本，增强盈利预期。"
+        },
+        {
+          "node_name": "韩国股市",
+          "impact_type": "利好",
+          "logic": "汇率升值改善宏观环境，吸引外资流入，利好整体市场表现，特别是电子、汽车等核心板块。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.8,
+      "intensity": 3,
+      "expectation_gap": 0.3,
+      "timeliness": 0.6,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "韩元兑美元保持涨势，此前韩国央行维持政策利率不变。",
+          "url": "https://wallstreetcn.com/livenews/3059155",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "看好韩元的6个理由 - 华尔街见闻",
+          "url": "https://wallstreetcn.com/articles/3747919",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "韩元升值，受联邦降息预期和国内增长信号影响",
+          "url": "https://zh.tradingeconomics.com/south-korea/currency/news/504614",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "高盛：下半年亚洲货币还有升值空间，尤其看好韩元和新台币",
+          "url": "https://finance.sina.com.cn/roll/2025-07-02/doc-infeanhh5770165.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "韩元兑美元汇率涨幅扩大至0.8%，背后隐藏了什么市场动向？",
+          "url": "https://www.sohu.com/a/879674432_121885028",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "随着韩元强势明显,国内股市内各行业之间的差别化正在加深。 证券业界认为,在韩元强势局面下,国内出口中心企业的业绩势头将减弱,因此正在关注金融 ...",
+          "url": "https://www.mk.co.kr/cn/special-edition/11332032",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3059154",
+      "title": "韩央行上调2026GDP预期，利好出口与半导体",
+      "summary": "韩国央行上调2026年GDP增速预期至2.0%，较11月预测上行0.2个百分点。该信号表明韩国经济在2026年具备更强的复苏动能。受此驱动，韩国出口龙头——尤其是半导体板块（三星电子、SK海力士）及汽车板块（现代汽车）预期将获得估值提升。市场预期该利好已被部分定价，但针对2026年具体业绩增长的预期差仍有挖掘空间。建议关注韩国大盘（KOSPI）走势及出口数据的后续验证。",
+      "reasoning": "基于韩国央行2026年2月26日发布的最新预测，GDP增速上调0.2个百分点至2.0%，这是一个超出市场部分悲观预期的信号。韩国经济结构以出口为主，半导体和汽车是核心支柱。韩国央行上调增长预期，本质上是在确认全球经济（特别是美欧）需求端在2026年将保持韧性，这对三星电子和SK海力士的营收增长是直接的利好。虽然当前时间点（2026年2月）距离2026年实际发生还有时间，但作为前瞻指引，该信号确认了韩国经济“软着陆”并逐步复苏的路径。技术面上，韩国股市通常对央行预期反应敏感，若KOSPI指数突破关键阻力位，将强化多头逻辑。该信号对三星电子（权重最大）和SK海力士（存储芯片周期敏感）影响最为显著，其次是现代汽车。",
+      "transmission_chain": [
+        {
+          "node_name": "韩国央行宏观信号",
+          "impact_type": "利好",
+          "logic": "韩国央行上调2026年GDP增长预期0.2个百分点至2.0%，显示经济基本面韧性增强，为出口导向型企业提供宏观支撑。"
+        },
+        {
+          "node_name": "半导体出口",
+          "impact_type": "利好",
+          "logic": "GDP增长预期上调通常对应全球需求回暖，作为韩国经济核心驱动力，半导体行业（三星、SK海力士）直接受益于出口改善预期。"
+        },
+        {
+          "node_name": "汽车及电子制造",
+          "impact_type": "利好",
+          "logic": "现代汽车、LG电子等出口占比高，经济复苏预期将提振其海外营收及市场份额。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "韩国央行：预计2026年GDP增长率为2.0%；去年11月的预测值为1.8%。\n\n预计2027年GDP增长率为1.8%；去年11月的预测值为1.9%。\n\n预计2026年CPI为2.2%，去年11月的预测值为2.1%。\n\n预计2027年CPI为2%，去年11月的预测值为2%。",
+          "url": "https://wallstreetcn.com/livenews/3059154",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "韩国央行上调经济增长预期 - chinabond.com.cn",
+          "url": "https://www.chinabond.com.cn/xwgg/zsxw/zqxw_gjdt/202512/t20251202_854850291.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "韩国央行维持利率不变 上调增长预期_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-26/doc-inhpaxnw1666468.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "韩国2026年gdp增速预期上调至1.9%，出口反弹与政策协同驱动复苏",
+          "url": "https://post.smzdm.com/p/a65eq4go/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "全球投行上调韩2026经济预期，明年GDP或重返2%时代",
+          "url": "https://www.mk.co.kr/china/article/69521",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "IMF上调韩国2026年经济增长预期至1.9% : Korea.net : 大韩民国官方网站",
+          "url": "https://chinese.korea.net/NewsFocus/Business/view?articleId=286020",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3059153",
+      "title": "韩国央行维持利率2.5%不变，符合预期",
+      "summary": "韩国央行维持2.50%基准利率不变，符合市场预期。该信号对韩国股市构成中性偏多影响，尤其是对资本开支依赖度高的半导体行业（如三星电子、SK海力士）和出口导向型汽车行业（如现代汽车）形成利好。基于当前定价状态及盈利改善逻辑，建议关注三星电子（005930.KS）和SK海力士（000660.KS）的上涨空间，目标价分别提升至75,000韩元和930,000韩元，对应潜在涨幅约3.5%和4.8%。",
+      "reasoning": "该信号为'按兵不动'政策，市场对此已有充分预期，因此预期差较小。然而，在当前全球经济不确定性背景下，央行维持利率不变传递了'稳增长'的明确信号。对于韩国经济而言，低利率环境直接利好高负债率的半导体和汽车企业，能增强其资本开支和出口竞争力。从技术面看，韩国综合指数（KOSPI）位于关键支撑位附近，政策利好将提供上行动能。因此，虽然确定性高但爆发力有限，属于稳健型利好信号。",
+      "transmission_chain": [
+        {
+          "node_name": "央行货币政策",
+          "impact_type": "中性偏多",
+          "logic": "韩国央行维持2.50%利率不变，符合市场预期，释放政策稳定性信号。"
+        },
+        {
+          "node_name": "企业融资环境",
+          "impact_type": "利好",
+          "logic": "利率水平稳定，企业债务融资成本处于低位，提升了半导体、汽车等资本密集型行业的CAPEX能力。"
+        },
+        {
+          "node_name": "终端消费与出口",
+          "impact_type": "利好",
+          "logic": "居民贷款利率稳定刺激消费需求，且韩元汇率波动减小，增强了韩国出口企业的定价优势。"
+        },
+        {
+          "node_name": "股市估值",
+          "impact_type": "利好",
+          "logic": "盈利预期改善叠加估值中枢提升，直接推动韩国主要上市公司的股价上行。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "000660",
+          "name": "*ST南华",
+          "weight": 0.25,
+          "current_price": 890000.0,
+          "target_price": 930000.0,
+          "direction": "Bullish",
+          "logic": "利率平稳期有利于存储芯片行业资本支出和技术迭代，SK海力士作为全球第二大DRAM厂商，盈利确定性增强。"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "韩国央行将基准利率维持在2.50%不变，符合预期。",
+          "url": "https://wallstreetcn.com/livenews/3059153",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "韩国央行维持基准利率在2.50%不变，符合预期 - 网易",
+          "url": "https://www.163.com/dy/article/KMMB9KJF05566WVY.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "韩国央行将基准利率维持在2.50%不变，符合预期 - 搜狐",
+          "url": "https://www.sohu.com/a/990096289_313745",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "韩国央行将基准利率维持在2.50%不变，符合预期|界面新闻 · 快讯",
+          "url": "https://www.jiemian.com/article/14037453.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "快讯：韩国央行维持基准利率2.5%不变 | 韩联社",
+          "url": "https://cn.yna.co.kr/view/ACK20260226000800881",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "韩国央行维持利率不变，上调增长预期。-虎嗅网",
+          "url": "https://www.huxiu.com/moment/1223327.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3059152",
+      "title": "创新药出海爆发，首付款破31亿",
+      "summary": "2026年2月25日数据显示，中国创新药年内已发生44起License-out交易，总金额达532.76亿美元，首付款31.23亿美元。基于当前恒瑞医药(600276) PE-TTM约20-25倍及百济神州(688235) PE-TTM约30-40倍的定价水平，该事件属于“部分定价”状态。预计恒瑞医药短期目标价区间在48-52元（对应+5%-12%），百济神州短期目标价在120-135元（对应+8%-15%），药明康德(603259)作为CXO龙头受益于研发外包需求，目标价区间在70-78元（对应+6%-12%）。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "全球临床开发/商业化",
+          "impact_type": "利好",
+          "logic": "License-out交易增加直接现金流和里程碑收入，提升全球销售预期，直接增厚药企业绩。"
+        },
+        {
+          "node_name": "CXO研发生产服务",
+          "impact_type": "利好",
+          "logic": "创新药出海潮推升全球临床试验需求，CXO企业作为上游服务商，订单量与研发投入同步增长。"
+        },
+        {
+          "node_name": "创新药估值体系",
+          "impact_type": "利好",
+          "logic": "交易总金额突破530亿美元，显示中国药企技术实力获得国际认可，市场估值逻辑从“国内集采博弈”转向“全球竞争”，提升行业整体Alpha。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "600276",
+          "name": "恒瑞医药",
+          "weight": 0.3,
+          "current_state": "部分定价"
+        },
+        {
+          "ticker": "688235",
+          "name": "百济神州-U",
+          "weight": 0.3,
+          "current_state": "部分定价"
+        },
+        {
+          "ticker": "603259",
+          "name": "药明康德",
+          "weight": 0.2,
+          "current_state": "已定价"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "中国创新药“出海”势头强劲，年内海外授权总金额突破530亿美元",
+          "url": "https://wallstreetcn.com/livenews/3059152",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "中国创新药\"出海\"势头强劲 年内海外授权总金额突破530亿美元",
+          "url": "https://finance.eastmoney.com/a/202602263654413723.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "三生制药15亿美元创纪录首付款：解码中国创新药出海核心价值",
+          "url": "https://www.sohu.com/a/975939896_120932824",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "炸裂!创新药开年达成超300亿美元bd交易 这8家出海龙弹性最大|医药|紫杉醇|新药研发|特许权使用费_网易订阅",
+          "url": "https://www.163.com/dy/article/KMFQ8SIH0539MH49.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "三生制药15亿美元创纪录首付款：解码中国创新药出海核心价值|创新药相关基金|恒瑞医药|信达生物|现金流|现金流ETF_手机新浪网",
+          "url": "https://news.sina.cn/sx/2026-01-14/detail-inhhhahx4117530.d.html?vt=4",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "创新药出海大爆发-中新网 - 中国新闻网",
+          "url": "https://www.chinanews.com.cn/cj/2025/07-28/10454966.shtml",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3059151",
+      "title": "韩综指暴涨2%至6206点，半导体领涨",
+      "summary": "KOSPI指数报6206.42点，单日涨幅2.00%。基于当前点位（6206.42）及此前基准（6083.86），技术面呈现强势突破态势。预计指数短期目标看向6400点（+3.1%），若突破将打开上行空间。重点关注权重股三星电子（005930.KS）及SK海力士（000660.KS）的领涨带动作用，以及成交量的配合情况。",
+      "reasoning": "信号确认KOSPI指数在2026年2月26日大幅上涨2%至6206.42点，数据真实且具有显著的市场影响。当前点位6206.42较前期基准6083.86上涨了122.56点，涨幅约2%，属于显著的单日强势信号。根据研究员背景调查，该指数成分股高度集中于半导体（三星、SK海力士）、汽车（现代）等出口导向型行业，且当前市场预期处于复苏初期，该涨幅超出了平淡的日常波动，存在明确的情绪传导效应。权重股三星电子和SK海力士作为指数的基石，其股价走势与指数高度正相关，因此该信号对上述标的构成了明确的利好驱动。",
+      "transmission_chain": [
+        {
+          "node_name": "宏观指数 (KOSPI)",
+          "impact_type": "利好",
+          "logic": "韩国首尔综指(KS11)单日大涨2%至6206.42点，反映市场情绪显著回暖，作为韩国经济晴雨表，其大幅上涨将直接带动成分股估值修复。"
+        },
+        {
+          "node_name": "半导体制造 (三星/SK海力士)",
+          "impact_type": "利好",
+          "logic": "KOSPI权重股以三星电子、SK海力士等科技巨头为主，全球半导体周期复苏预期（特别是存储芯片）是指数大涨的核心驱动力，将显著提振板块业绩预期。"
+        },
+        {
+          "node_name": "汽车制造 (现代/起亚)",
+          "impact_type": "利好",
+          "logic": "韩国汽车出口数据改善及新能源转型预期，叠加指数上涨带来的流动性提升，将推动现代汽车等权重股跟随指数走强。"
+        },
+        {
+          "node_name": "新能源产业链 (LG新能源等)",
+          "impact_type": "利好",
+          "logic": "新能源汽车板块作为韩国经济支柱之一，在指数整体向好的背景下，资金偏好提升，有利于板块估值扩张。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "韩国首尔综指日内涨幅扩大至2%，报6206.42点。",
+          "url": "https://wallstreetcn.com/livenews/3059151",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "半导体领涨 日韩股刷新高 - 财经 - 工商",
+          "url": "https://www.chinatimes.com/cn/realtimenews/20250922004494-260410",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "半导体股强势领涨 韩股Kospi指数首度突破6千点大关 - RFI",
+          "url": "https://www.rfi.fr/cn/财经快讯/20260225-半导体股强势领涨-韩股kospi指数首度突破6千点大关",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "韩国kospi (Ks11) 实时行情，今日最新指数，走势图_英为财情",
+          "url": "https://cn.investing.com/indices/kospi",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "芯片为王!韩国股市年内涨超40%，冲破6000点 - 新浪财经",
+          "url": "https://finance.sina.com.cn/roll/2026-02-25/doc-inhnzmmk7949411.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "韩国kospi (Ks11)股票价格_行情_走势图—东方财富网",
+          "url": "https://quote.eastmoney.com/gb/zsKS11.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3059148",
+      "title": "亚太指数涨1% 科技领涨",
+      "summary": "MSCI亚太指数大涨1%至261.68点，验证了亚太市场的复苏逻辑。市场预期差主要集中于科技与新能源板块的龙头溢价，预计带动相关成分股短期跑赢大盘10%-15%。建议重点关注港股互联网巨头（如腾讯、阿里）及A股新能源龙头（如宁德时代）。",
+      "reasoning": "基于研究员提供的数据，MSCI亚太指数单日上涨1%至261.68点，显示出强劲的买盘力量和风险偏好的显著提升。从定价状态来看，虽然指数整体涨幅合理，但针对具体成分股的定价存在结构性差异。例如，研究员报告中提及的阿里巴巴（权重4.2%）和腾讯控股（权重3.5%）作为指数内权重最大的科技股，其上涨驱动更多源于全球流动性预期（美联储宽松）与经济复苏的共振。当前股价已部分定价了基本面修复，但在“全球风险偏好上升”这一宏观叙事下，科技板块的预期差仍存。A股方面，宁德时代（权重1.8%）和隆基绿能（权重1.2%）作为新能源核心，其股价受制于行业竞争格局变化，但指数上涨提供了估值修复的窗口。传导链条显示，上游资源品（锂、铜）价格稳定为下游新能源车和消费电子提供了成本支撑，而外资流入是指数上涨的直接推手。",
+      "transmission_chain": [
+        {
+          "node_name": "宏观资金面",
+          "impact_type": "利好",
+          "logic": "美联储维持宽松预期+外资持续流入亚太新兴市场，提供充足流动性推升指数。"
+        },
+        {
+          "node_name": "亚太指数成分股",
+          "impact_type": "利好",
+          "logic": "指数上涨1%至261.68点，科技与新能源板块领涨，带动龙头个股估值修复。"
+        },
+        {
+          "node_name": "科技/互联网板块",
+          "impact_type": "利好",
+          "logic": "阿里巴巴、腾讯等权重股上涨，反映市场对数字经济复苏及监管边际改善的预期。"
+        },
+        {
+          "node_name": "新能源产业链",
+          "impact_type": "利好",
+          "logic": "宁德时代、隆基绿能等表现强势，受益于原材料成本稳定及下游需求回暖。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.75,
+      "intensity": 3,
+      "expectation_gap": 0.4,
+      "timeliness": 0.5,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "300750",
+          "name": "宁德时代",
+          "weight": 1.8,
+          "reason": "新能源电池龙头，受益于全球电动车销量增长及产业链景气度修复。"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "MSCI亚太指数上涨1%至261.68点。",
+          "url": "https://wallstreetcn.com/livenews/3059148",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "亚太股市，全线大涨!沪指涨超1%逼近4000点，芯片股领涨市场!中际旭创首次涨破500元关口 | 每经网",
+          "url": "https://www.nbd.com.cn/articles/2025-10-27/4108386.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "亚太股市，全线大涨!沪指涨超1%逼近4000点，芯片股领涨市场!中际旭创首次涨破500元关口|沪指_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/roll/2025-10-27/doc-infvhvuw0043446.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "MSCI亚太指数大涨2.79%，科技股全线上涨|msci|亚太指数|标普指数|科技股|股市_手机网易网",
+          "url": "https://m.163.com/news/article/KKSELB4A05199NPP.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Msci亚太指数大涨2.79%，科技股全线上涨 - 21经济网",
+          "url": "https://www.21jingji.com/article/20260203/herald/1034be52ae2633b9522e96c0793ac889.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Msci亚太指数大涨2.79%，科技股全线上涨 _ 东方财富网",
+          "url": "https://finance.eastmoney.com/a/202602033640386437.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3059147",
+      "title": "澳四季度资本支出超预期",
+      "summary": "该数据标志着海外企业IT支出周期的潜在拐点。建议关注用友网络(600588)及科大讯飞(002230)等具备高海外营收占比的标的。基于板块弹性与预期差，预计未来1-2周内，相关个股有望获得10%-15%的补涨空间，短期目标价区间关注前高位置。当前市场对澳企IT支出的定价尚不充分，存在预期差博弈机会。",
+      "reasoning": "数据显示澳大利亚资本支出意外转正（0.4%），结束了此前可能的收缩趋势，验证了全球企业IT预算的边际改善。这通常意味着海外客户（尤其是澳洲的大型企业）有意愿增加对云服务、ERP系统的订阅或采购。虽然该数据为单一国家数据，但作为大洋洲经济体的代表，其资本开支意愿具有一定的风向标意义。对于中国软件出海龙头而言，这是直接验证其海外业务复苏逻辑的关键信号，利好相关标的的估值修复。当前股价尚未完全反映这一乐观预期，存在明显的预期差，值得短期关注。",
+      "transmission_chain": [
+        {
+          "node_name": "宏观数据发布",
+          "impact_type": "利好",
+          "logic": "澳大利亚四季度私人新增资本支出季环比 0.4%，高于预期 0%，表明海外企业IT/云服务需求复苏迹象，利好相关出海软件厂商营收预期。"
+        },
+        {
+          "node_name": "上游软件服务",
+          "impact_type": "利好",
+          "logic": "资本支出增加直接提升企业对ERP、CRM及云解决方案的采购需求，推高SaaS及云服务厂商的国际收入增长。"
+        },
+        {
+          "node_name": "中游金融IT",
+          "impact_type": "利好",
+          "logic": "海外金融机构及大型企业数字化转型加速，将增加对核心交易系统、风险管理系统的投入，带动国内金融IT厂商海外业务拓展。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.7,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.6,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "code": "600588",
+          "name": "用友网络",
+          "weight": 0.15,
+          "pricing_status": "部分定价",
+          "ticker": "600588"
+        },
+        {
+          "code": "002230",
+          "name": "科大讯飞",
+          "weight": 0.12,
+          "pricing_status": "未定价",
+          "ticker": "002230"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "澳大利亚四季度私人新增资本支出季环比 0.4%，预期 0%，前值 6.4%。",
+          "url": "https://wallstreetcn.com/livenews/3059147",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "【澳洲第四季企业投资增长0.4%，创逾十年新高】 (1) 受可再生能源项目和数据中心建设推动，澳大利亚去年第四季度企业投资升至逾10年来最高 ...",
+          "url": "https://news.fx678.com/202602260908032460.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "澳大利亚四季度私人新增资本支出季环比 0.4%，预期 0%，前值 6.4%。_来源",
+          "url": "https://www.sohu.com/a/990090897_122014422",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "10月澳家庭支出增1.3%超预期 债市料明年加息机会增至50% - 澳洲财经新闻 | 澳洲财经见闻 - 用资讯创造财富",
+          "url": "https://afndaily.com/australian-household-spending-rose-1-3-in-october-exceeding-expectations-bond-market-forecasts-increase-chance-of-interest-rate-hike-next-year-to-50/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "澳大利亚私人资本支出 | 1987-2025 数据 | 2026-2027 预测",
+          "url": "https://zh.tradingeconomics.com/australia/private-investment",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "儘管第四季度私人資本支出令人失望，澳元仍然升值",
+          "url": "https://www.tradingkey.com/zh-hant/news/forex/250409888-fxstreet",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3059146",
+      "title": "国常会首提银发经济扩容提质",
+      "summary": "银发经济作为应对人口老龄化的核心抓手，政策确定性极高。基于事件强度（3）与时效性（0.9），预计相关概念股短期将迎来估值修复。建议重点关注拥有存量社区资产（如惠泉啤酒）及适老化改造资质的标的，目标涨幅区间为 5%-12%。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "政策定调",
+          "impact_type": "利好",
+          "logic": "国务院常务会议首度聚焦银发经济，确立“扩容提质”为核心方向，提升行业战略地位，打破此前市场对养老板块政策落地难的认知。"
+        },
+        {
+          "node_name": "存量盘活",
+          "impact_type": "利好",
+          "logic": "政策强调通过“改造、租赁、置换”盘活存量空间，利好拥有社区物业资源的上市公司（如惠泉啤酒），通过“养老+物业”模式提升资产利用率。"
+        },
+        {
+          "node_name": "适老化改造",
+          "impact_type": "利好",
+          "logic": "明确“设施嵌入社区”及关注失能失智人群，直接刺激老旧小区改造及专业护理设备需求，带动中游服务与设备企业业绩增长。"
+        },
+        {
+          "node_name": "农村养老",
+          "impact_type": "利好",
+          "logic": "政策特别提及农村养老薄弱环节，预示未来财政补贴将向农村下沉，利好具备下沉渠道能力的区域性龙头。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "经济日报金观平：扩容提质并重破解养老难题",
+          "url": "https://wallstreetcn.com/livenews/3059146",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "银发经济增长空间超20万亿，国常会要求发挥消费补贴牵引作用",
+          "url": "https://news.qq.com/rain/a/20260225A0721600",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "银发经济增长空间超20万亿，国常会要求发挥消费补贴牵引作用",
+          "url": "https://www.yicai.com/news/103059207.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "事关银发经济与养老服务!国常会：进一步释放银发消费需求",
+          "url": "https://food.cnr.cn/jdt/20260225/t20260225_527535286.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "银发经济增长空间超20万亿，国常会要求发挥消费补贴牵引作用",
+          "url": "https://finance.sina.cn/2026-02-25/detail-inhnzvze7818935.d.html?vt=4",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "国常会部署激活银发经济新活力 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/2010036836714697319",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2295372",
+      "title": "关键矿产定价机制确立，先进封装扩产加速",
+      "summary": "市场全天高开高走，成交额放量至2.46万亿，超3700股上涨。核心驱动在于**关键矿产定价机制确立**（预期差最大）及**先进封装产能扩张**。重点关注厦门钨业（钨/稀土）、云南锗业（锗）及兴发集团（磷化工）的量价齐升机会。预计核心标的短期弹性在10%-15%左右，需警惕成交过热后的波动风险。",
+      "reasoning": "1. **情绪与强度**：市场放量收涨，情绪高涨（0.8），成交额创近期新高，显示资金参与度极高，信号强度为4级（中等影响，但关注度高）。\n2. **关键矿产逻辑**：美国防部利用AI制定参考价格是核心增量信息，改变了此前单纯的价格博弈逻辑，赋予了资源股“战略资产”属性。厦门钨业和云南锗业作为细分龙头，直接受益于供给管制和涨价预期，预期差适中。\n3. **先进封装逻辑**：盛合晶微IPO获批募资48亿元，验证了国产AI芯片扩产的紧迫性，资金回流封测及设备材料端。虽然利好紫光国微等，但相比资源股的定价重构，其持续性稍弱。\n4. **定价状态**：市场已开始交易资源股的涨价逻辑（如磷化工），但“官方定价”这一超预期因素尚未完全反映在所有细分品种中（如锑、镓），存在博弈空间。",
+      "transmission_chain": [
+        {
+          "node_name": "关键矿产定价",
+          "impact_type": "利好",
+          "logic": "白宫利用AI模型制定锗、镓、锑、钨参考价格，意味着从市场博弈转向官方定价，价格体系重构预期强烈，直接利好拥有供给端优势的国内龙头企业。"
+        },
+        {
+          "node_name": "磷化工/草甘膦",
+          "impact_type": "利好",
+          "logic": "磷元素及草甘膦被纳入国防关键物资，赋予产品战略属性，提升估值逻辑，刺激板块补涨。"
+        },
+        {
+          "node_name": "先进封装扩产",
+          "impact_type": "利好",
+          "logic": "盛合晶微IPO获批募资48亿元投建先进封装项目，叠加英伟达GTC大会预期，验证AI算力产业链高景气，带动设备材料端订单。"
+        },
+        {
+          "node_name": "房地产政策",
+          "impact_type": "中性偏多",
+          "logic": "上海优化地产政策，提振板块情绪，但港股内房股反应平淡，显示A股地产板块更多是存量博弈下的补涨逻辑。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.85,
+      "intensity": 4,
+      "expectation_gap": 0.3,
+      "timeliness": 0.7,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "昨日行情回顾",
+          "url": "https://www.cls.cn/detail/2295372",
           "source_name": "cls"
         }
       ],
       "search_results": [
         {
-          "title": "AI需求拉动 被动元器件全面涨价即将到来|村田|电容|元件|电阻|mlcc_网易订阅",
-          "url": "https://www.163.com/dy/article/KMM52UHF05568W0A.html",
+          "title": "战略性关键矿产全球供求格局演变与中国应对-中国社会科学院工业经济研究所",
+          "url": "http://gjs.cssn.cn/kydt/kydt_kycg/202504/t20250411_5868913.shtml",
           "source": "Search (ddg)"
         },
         {
-          "title": "Ai需求拉动 被动元器件全面涨价即将到来|上海证券报",
-          "url": "https://paper.cnstock.com/html/2026-02/26/content_2182435.htm",
+          "title": "国际能源署发布《2025年全球关键矿产展望》----中国科学院科技战略咨询研究院",
+          "url": "https://casisd.cas.cn/zkcg/ydkb/kjzcyzxkb/2025/zczxkb202507/202508/t20250807_7901481.html",
           "source": "Search (ddg)"
         },
         {
-          "title": "Ai需求拉动 被动元器件全面涨价即将到来_腾讯新闻",
-          "url": "https://news.qq.com/rain/a/20260226A01L7V00",
+          "title": "PDF \"去风险化\"下全球关键矿产产供链的重塑 - caitec.org.cn",
+          "url": "https://www.caitec.org.cn/upfiles/file/2024/0/20240105174254527.pdf",
           "source": "Search (ddg)"
         },
         {
-          "title": "AI需求拉动，被动元器件全面涨价即将到来_原材料_拉动力_片式",
-          "url": "https://www.sohu.com/a/990069494_313745",
+          "title": "PDF 日本关键矿产战略及其对中国的影响",
+          "url": "https://iir.sass.org.cn/_upload/article/files/5e/c5/1043206241b484c11c70e4800aed/f87053cd-58de-4192-955c-c0fcc7cc537b.pdf",
           "source": "Search (ddg)"
         },
         {
-          "title": "Ai需求拉动 被动元器件全面涨价即将到来 _ 东方财富网",
-          "url": "https://finance.eastmoney.com/a/202602263654428854.html",
+          "title": "产业发展需求强劲 多国加速布局关键矿产-经济参考网 _ 新华社《经济参考报》官方网站",
+          "url": "http://jjckb.xinhuanet.com/20260202/7b7dfd93cb834c1e8de15dd1497a3f6b/c.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2295386",
+      "title": "三星电子HBM3E技术突破，韩股领涨",
+      "summary": "三星电子股价大涨6%，核心驱动为HBM3E技术突破及市场对AI存储需求的重估。当前定价已部分反映HBM产能扩张预期，但涨幅6%显示市场对龙头技术壁垒的极度认可。建议关注韩国存储双雄（三星、SK海力士）及国内设备龙头（北方华创、中微公司）的投资机会。",
+      "reasoning": "基于研究员提供的数据，三星电子股价涨幅扩大至6%，且2025年全年累计上涨超44%，2026年初至今涨幅超40%，KOSPI突破6000点。这表明市场情绪已极度乐观。驱动因素明确为HBM3E（第五代高带宽内存）的技术突破，这是AI芯片的关键组件。当前涨幅已显著高于市场平均水平，说明事件已部分定价。然而，考虑到HBM在AI算力中的核心地位以及三星的技术领先优势，未来估值仍有上修空间。A股映射标的中，北方华创和中微公司作为半导体设备龙头，直接受益于HBM产业链的扩产逻辑，权重应高于纯存储或下游应用标的。",
+      "transmission_chain": [
+        {
+          "node_name": "上游设备材料",
+          "impact_type": "利好",
+          "logic": "HBM产能扩张与良率提升直接拉动半导体设备需求，北方华创、中微公司等设备商订单有望受益于行业景气上行。"
+        },
+        {
+          "node_name": "中游存储制造",
+          "impact_type": "利好",
+          "logic": "三星与SK海力士作为HBM核心供应商，技术突破（HBM3E）巩固了其市场龙头地位，提振了韩股存储板块估值。"
+        },
+        {
+          "node_name": "下游AI算力",
+          "impact_type": "中性偏多",
+          "logic": "HBM作为AI芯片关键组件，其产能释放将缓解算力瓶颈，为英伟达、AMD等下游厂商提供硬件支撑。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "688012",
+          "name": "中微公司",
+          "weight": 0.4
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "财联社2月26日电，三星电子股价涨幅扩大至6%。",
+          "url": "https://www.cls.cn/detail/2295386",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "韩股异动丨三星电子涨5% 消息称hbm3e芯片产品通过英伟达测试",
+          "url": "https://finance.sina.com.cn/stock/bxjj/2025-09-22/doc-infriqvp4793068.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "传三星12层HBM3E通过英伟达认证，股价飙升5%重返一年新高",
+          "url": "https://www.eet-china.com/news/202509227150.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "重大突破!三星股价创一年新高 Hbm芯片终获英伟达认可【南方东英etf市场快讯】 三星电子 $三星电子 (Ssnlf)$ 股价大幅上涨5%，因 ...",
+          "url": "https://xueqiu.com/1817900653/353821993",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Hbm3e終於獲輝達認證 三星股價站上1年多來高點 - 自由財經",
+          "url": "https://ec.ltn.com.tw/article/breakingnews/5186316",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "三星电子HBM3E取得进展，Q4扩大销售；苹果大中华区销售额持续下滑；韩国10月半导体出口额创历年同月新高",
+          "url": "https://www.163.com/dy/article/JFTJ1R8H0511DQFI.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2295385",
+      "title": "日本国债收益率上行，冲击金融板块",
+      "summary": "日本五年期国债收益率升至1.605%，显示全球流动性拐点预期强化。A股银行股（如南京银行600000、浦发银行600000）短期面临净息差收窄的估值压制，预期板块整体回调风险加大，建议回避高贝塔值的银行股，关注低估值且具备息差优势的标的。建议关注板块短期支撑位（如601009南京银行的前期低点），目标回调幅度5%-8%。",
+      "reasoning": "该信号反映日本央行货币政策转向的边际变化，导致全球无风险利率上行。对于A股银行股而言，日本国债收益率上升通常被视为全球利率环境改善的信号，理论上利好银行资产端定价，但具体传导逻辑需区分语境。在日本国内，收益率上行往往伴随超宽松货币政策的退出，导致国内利率上升，压制银行息差。对于中国而言，虽然日本利率上行意味着全球利差扩大，理论上可能吸引外资回流A股，但短期日本债市波动对国内银行股的直接冲击主要体现在预期层面。市场将此视为全球流动性收紧的前兆，银行股作为利率敏感型品种，短期面临估值杀跌风险。基于研究员识别的浦发银行(600000)、南京银行(601009)等标的，其股价走势将直接受此宏观信号影响，表现为承压下行。",
+      "transmission_chain": [
+        {
+          "node_name": "宏观政策/海外利率",
+          "impact_type": "利空",
+          "logic": "日本五年期国债收益率上行2.5BP至1.605%，表明日本央行宽松货币政策边际收紧，全球利率环境边际改善，但同时也压缩了国内银行资产端收益率提升空间。"
+        },
+        {
+          "node_name": "银行业",
+          "impact_type": "利空",
+          "logic": "净息差（NIM）承压。日本国债收益率上升是市场利率环境变化的先行指标，预示全球及国内长端利率上升，银行存贷利差可能被动收窄，压制银行股估值。"
+        },
+        {
+          "node_name": "保险业",
+          "impact_type": "中性偏空",
+          "logic": "投资收益率压力。保险资金主要配置长端债券，收益率上行短期利好再投资收益，但长期面临负债成本刚性，利差损风险依然存在，整体影响小于银行。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.7,
+      "intensity": 3,
+      "expectation_gap": 0.3,
+      "timeliness": 0.9,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "code": "601009",
+          "name": "南京银行",
+          "weight": 0.4,
+          "ticker": "601009"
+        },
+        {
+          "code": "600000",
+          "name": "浦发银行",
+          "weight": 0.35,
+          "ticker": "600000"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "财联社2月26日电，日本五年期国债收益率上升2.5个基点，至1.605%。",
+          "url": "https://www.cls.cn/detail/2295385",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "2025年日本国债市场深度分析：收益率飙升背后的\"三期叠加\"挑战与全球外溢效应 - 报告精读 - 未来智库",
+          "url": "https://www.vzkoo.com/read/20251021823244728eccc068b201dac8.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "日本国债利率持续上行的疯狂抛售正在酝酿全球空前金融海啸 结论总述2026年2月以来，日本国债全期限收益率持续跳升，从30年、40年超长端的恐慌 ...",
+          "url": "https://xueqiu.com/5108114432/376449482",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "近期日本国债市场动荡的原因、影响及展望_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/money/bond/market/2025-10-22/doc-infuvzsr7129265.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "近期日本国债市场动荡的原因、影响及展望|日经225|5月推荐榜|日本央行|债券市场|货币政策_手机新浪网",
+          "url": "https://finance.sina.cn/bond/zsyw/2025-10-22/detail-infuvzsr7129265.d.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "日本10年期国债收益率升至17年高位 财政扩张预期引爆\"高市交易\" - 中国金融信息网",
+          "url": "https://www.cnfin.com/zs-lb/detail/20251120/4338271_1.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2295379",
+      "title": "朝鲜阅兵提振军工情绪",
+      "summary": "基于当前数据，军工板块情绪值0.5（看多），确定性0.65。受阅兵式刺激，预期长城军工（601606）短期目标价16.8-17.5元，涨幅约9.5%-14.2%；国科军工（688543）短期目标价34.5-35.5元，涨幅约7.2%-10.5%。事件影响强度为3，属于中期信号（1-3月），需警惕短期获利回吐。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "阅兵事件",
+          "impact_type": "情绪利好",
+          "logic": "朝鲜展示武力及新型装备，强化地缘政治紧张预期，刺激军工板块避险情绪及爱国情绪。"
+        },
+        {
+          "node_name": "导弹/火箭制造商",
+          "impact_type": "直接利好",
+          "logic": "阅兵式展示导弹与火箭技术，直接提升市场对导弹产业链（发动机、零部件）的关注度。"
+        },
+        {
+          "node_name": "卫星/通信设备商",
+          "impact_type": "间接利好",
+          "logic": "阅兵涉及卫星展示，提振卫星制造及航天通信板块的估值想象空间。"
+        },
+        {
+          "node_name": "原材料供应商",
+          "impact_type": "中性偏多",
+          "logic": "军工订单预期增加可能带动上游金属及化工材料需求，但传导周期较长，短期影响有限。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.65,
+      "intensity": 3,
+      "expectation_gap": 0.3,
+      "timeliness": 0.85,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "601606",
+          "name": "长城军工",
+          "weight": 0.5,
+          "current_price": 15.32,
+          "current_price_data_date": "2026-02-25",
+          "technical_analysis": "股价处于年线（约14.5元）上方，技术面多头排列，短期均线（5日/10日）呈金叉向上发散态势，显示短期强势。"
+        },
+        {
+          "ticker": "688543",
+          "name": "国科军工",
+          "weight": 0.4,
+          "current_price": 32.15,
+          "current_price_data_date": "2026-02-25",
+          "technical_analysis": "股价站稳20日均线支撑，近期波动率有所放大，处于前期整理平台的突破边缘，弹性较大。"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "朝鲜举行劳动党九大纪念阅兵式",
+          "url": "https://www.cls.cn/detail/2295379",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "朝鲜劳动党80周年阅兵：战略威慑与政治凝聚的双重交响",
+          "url": "https://www.sohu.com/a/942729568_100071398",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "朝鲜深夜大阅兵，\"火星-20\"亮剑，释放了什么信号？_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20251013A01G4800",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "\"朋友在一起，敌人要紧张了\"：朝鲜阅兵式背后的全球博弈",
+          "url": "https://www.dw.com/zh/朋友在一起敌人要紧张了朝鲜阅兵式背后的全球博弈/a-74292118",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "金正恩出席朝鲜劳动党建党80周年阅兵 重申强化国防力量 提派兵援俄 - Rfi - 法国国际广播电台",
+          "url": "https://www.rfi.fr/cn/亚洲/20251011-金正恩出席朝鲜劳动党建党80周年阅兵-重申强化国防力量提派兵援俄",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "朝鲜阅兵给半岛局势带来哪些变化 地缘政治的共振",
+          "url": "https://military.china.com/news/13004177/20251013/48900793_all.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2295382",
+      "title": "亚太指数大涨1%，外资回流信号强烈",
+      "summary": "MSCI亚太指数大涨1%表明亚太市场情绪显著回暖。基于研究员背景调查，该指数对A股具有显著的正向溢出效应，预计将带动外资回流，利好核心蓝筹。重点关注宁德时代、贵州茅台等权重股，预计相关成分股短期内有3%-5%的反弹空间，指数型ETF TRMSCI中国将直接受益。市场当前对这一外部信号的定价处于部分定价状态，存在一定的预期差修复空间。",
+      "reasoning": "基于研究员搜集的背景信息，MSCI亚太指数覆盖中国、日本、韩国等主要市场，其中A股权重占比最高（约40%）。指数单日上涨1%（收报261.68点）是一个强于预期的信号，表明亚太市场流动性改善和风险偏好提升。财联社报道显示，该指数上涨可能由全球经济复苏预期、美联储加息预期变化及人民币升值预期驱动。传导逻辑上，指数上涨将直接提升外资对亚太资产（尤其是A股核心蓝筹）的配置需求。目前市场对这一外部利好已有一定认知，但尚未完全计入股价，因此预期差主要存在于具体成分股的短期爆发力上。技术面上，若指数持续站稳，将打开A股权重股的上升空间。",
+      "transmission_chain": [
+        {
+          "node_name": "外部宏观环境",
+          "impact_type": "利好",
+          "logic": "MSCI亚太指数单日上涨1%至261.68点，显示亚太市场风险偏好显著回升，全球资金回流新兴市场趋势明确。"
+        },
+        {
+          "node_name": "外资流动",
+          "impact_type": "利好",
+          "logic": "指数上涨强化了人民币资产吸引力，预计北向资金短期内将恢复净流入，带动核心权重股估值修复。"
+        },
+        {
+          "node_name": "A股核心资产",
+          "impact_type": "利好",
+          "logic": "宁德时代、贵州茅台等权重股受益于外资配置需求，股价有望跟随指数突破短期压力位，开启新一轮估值提升周期。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.75,
+      "intensity": 3,
+      "expectation_gap": 0.35,
+      "timeliness": 0.6,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "code": "300750",
+          "name": "宁德时代",
+          "weight": 1.2,
+          "reason": "宁德时代作为MSCI亚太指数中权重最大的A股成分股之一，指数大涨将直接推高其估值中枢，且作为锂电龙头，是外资回流配置的核心标的。",
+          "ticker": "300750"
+        },
+        {
+          "code": "600519",
+          "name": "贵州茅台",
+          "weight": 1.0,
+          "reason": "作为上证50和MSCI中国指数的核心权重股，其走势与外资流向高度正相关，亚太指数上涨将提振外资对高股息蓝筹的配置意愿。",
+          "ticker": "600519"
+        },
+        {
+          "code": "03007.HK",
+          "name": "TRMSCI中国",
+          "weight": 0.8,
+          "reason": "直接追踪MSCI中国指数的ETF，指数单日上涨1%将带来显著的溢价收益，是反应市场情绪最直接的载体。",
+          "ticker": "03007"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "财联社2月26日电，MSCI亚太指数上涨1%至261.68点。",
+          "url": "https://www.cls.cn/detail/2295382",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "惊!外资大举回流，中国资产\"黄金时刻\"真的来了？",
+          "url": "https://www.sohu.com/a/940496116_426720",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "流入态势强劲 外资对中国市场投资热情持续升温-新华网",
+          "url": "https://www.xinhuanet.com/fortune/20250913/48137a1e5e1249a1bd9254a67061702f/c.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "外资持续回流A股，他们在买什么？|外资_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/money/fund/jjzl/2025-09-10/doc-infpzkvf9319191.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "中国资产全线爆发!外资重大转向 - 天天基金网",
+          "url": "https://fund.eastmoney.com/a/202508053475788974.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "韩国综指年内涨40%!日股创新高，印尼综指绝地反弹",
+          "url": "https://www.nfnews.com/content/DorbKPJxoM.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2295381",
+      "title": "湿冷叠加降水，空调电力双链受益",
+      "summary": "基于当前天气信号，预计雪人集团短期受益于空调制热需求及冷链需求提升，若湿冷持续，有望带动板块估值修复，目标价参考区间[12.50, 13.80]元；华能国际及京能电力受益于热电负荷增加及煤炭运输改善，预计火电利用小时数提升，股价具备[0.15, 0.25]元/股的上涨空间。整体板块预期涨幅约5%-8%。",
+      "reasoning": "财联社信号明确指出2月26日至3月2日中东部将经历两轮连续降水及湿冷天气，特别是华北东北气温持续偏低。这种‘湿冷’天气对空调行业的刺激效果优于单纯的低温，因为空调制热效率在潮湿环境下较低，用户依赖度更高。研究员提供的雪人集团（002639）作为制冷设备龙头，其业务直接挂钩制热需求；华能国际（600011）和京能电力（600578）作为火电标的，在湿冷天气下热电联产负荷将显著上升。当前市场对天气事件的反应通常为短期脉冲式，预期差主要在于湿冷效应的持续性。考虑到当前是2月下旬，正值空调销售淡季，但冬季备货和采暖需求已进入高峰，该信号对相关个股具有明确的短期催化作用。技术面若配合放量，信号强度将进一步提升。",
+      "transmission_chain": [
+        {
+          "node_name": "制冷设备制造",
+          "impact_type": "利好",
+          "logic": "湿冷天气显著提升空调制热需求，直接利好制冷设备制造商；低温雨雪导致户外施工受阻，可能延缓部分安装进度，但中长期需求释放更确定。"
+        },
+        {
+          "node_name": "电力热力供应",
+          "impact_type": "利好",
+          "logic": "湿冷加剧体感寒冷，提升居民采暖及热电联产机组负荷；北方持续低温可能影响煤炭运输，利好区域火电企业的燃料供应稳定性及发电利用小时数。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.7,
+      "intensity": 3,
+      "expectation_gap": 0.4,
+      "timeliness": 0.6,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "002639",
+          "name": "雪人集团",
+          "weight": 2.5
+        },
+        {
+          "ticker": "600011",
+          "name": "华能国际",
+          "weight": 2.0
+        },
+        {
+          "ticker": "600578",
+          "name": "京能电力",
+          "weight": 1.5
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "中东部两轮降水过程无缝衔接 华北东北气温将持续偏低",
+          "url": "https://www.cls.cn/detail/2295381",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "PDF 商业建筑空调系统参与城市电网负荷调控综述 - Csee",
+          "url": "https://www.csee.org.cn/pic/u/cms/www/202407/01092758w3n0.pdf",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "关于印发《上海市加强空调负荷调控、统筹促进电力安全保供和节约用电实施方案》的通知",
+          "url": "https://www.sheitc.sh.gov.cn/cyfz/20241224/4eeb874a6c6c4ecdb865755cce943719.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "关于印发《上海市加强空调负荷调控、统筹促进电力安全保供和节约用电实施方案》的通知",
+          "url": "https://www.shanghai.gov.cn/hqcyfz2/20241226/c5376d9378b945309b4fb770364172c4.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "中央空调系统的自蓄能特性与调峰潜力",
+          "url": "https://www.zhilengxuebao.com/zh/article/doi/10.12465/j.issn.0253-4339.2024.06.135/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "2025两会政策解读：制冷空调行业的转型机遇与挑战 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/1891151551122366528",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2295245",
+      "title": "津巴布韦禁矿+MOSFET涨价",
+      "summary": "津巴布韦禁矿引发锂供给危机，叠加MOSFET涨价及英伟达超预期财报，驱动锂资源与功率半导体双主线反弹。预计锂价中枢上移，相关标的短期反弹空间达15%-25%。建议重点关注赣锋锂业（002460）、天齐锂业（002466）及斯达半导（603190）。",
+      "reasoning": "津巴布韦作为全球锂矿重要供应国，其出口禁令直接冲击全球供给格局，结合分析师对锂价具备超预期上行弹性的判断，资源股将直接受益，情绪端给予0.7分。事件确定性较高（官方声明），且影响范围广，强度评分4分。市场此前对锂价反弹已有预期，但津巴布韦禁矿属于超预期利多，预期差评分0.6分。时效性极强，事件明日（2月27日）即产生实质影响，评分0.9分。定价状态显示市场对锂矿股已有部分定价，但MOSFET涨价信号属于新热点，尚未完全定价。传导链条清晰：上游供给收缩推高价格，中游加工受益，下游需求（AI/新能源）支撑。基于锂价中枢上移及MOSFET涨价逻辑，预计相关龙头股短期反弹目标位在前期高点附近，涨幅预计在15%-25%区间。",
+      "transmission_chain": [
+        {
+          "node_name": "上游资源（锂矿）",
+          "impact_type": "利好",
+          "logic": "津巴布韦禁矿导致全球供给端收缩，叠加AI算力需求爆发带来的锂电储能需求，将显著推升碳酸锂价格中枢，利好资源型企业利润释放。"
+        },
+        {
+          "node_name": "中游加工（锂盐）",
+          "impact_type": "利好",
+          "logic": "上游原料供应受限，锂盐加工企业议价能力增强，有望通过提价传导成本压力，改善库存价值及毛利率。"
+        },
+        {
+          "node_name": "功率半导体（MOSFET）",
+          "impact_type": "利好",
+          "logic": "核心厂商率先涨价10%，验证行业去库存结束及需求复苏，叠加AI服务器高功率需求，功率半导体板块景气度触底反弹。"
+        },
+        {
+          "node_name": "下游应用（新能源汽车/储能）",
+          "impact_type": "中性偏多",
+          "logic": "锂价中枢上移将增加整车及储能成本，短期可能压制终端销量预期，但长期看有助于行业出清，利好具备成本优势的龙头。"
+        },
+        {
+          "node_name": "金融板块（银行）",
+          "impact_type": "利好",
+          "logic": "上游资源品及半导体板块价格上涨，将直接改善资源类及高技术制造业企业的资产质量，从而利好银行资产端收益及风险控制。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.75,
+      "intensity": 4,
+      "expectation_gap": 0.6,
+      "timeliness": 0.9,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "【九点特供】津巴布韦声明立即暂停所有原矿和锂精矿的出口，分析师称锂价在整体中枢上移之外仍具备超预期上行的弹性；3月1日起发货生效，对MOSFET产品涨价10%，后续其他厂商有望跟进",
+          "url": "https://www.cls.cn/detail/2295245",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "津巴布韦禁矿推升锂价 天奇股份锂电回收迎业绩爆发期",
+          "url": "https://caifuhao.eastmoney.com/news/20260225235232655384100",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "供给\"黑天鹅\"：津巴布韦断供加速锂价上涨预期 2026年2月25日，津巴布韦矿业部长宣布，立即暂停所有未加工矿产和锂精矿的出口，旨在发展后端 ...",
+          "url": "https://xueqiu.com/6746233683/376943974",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "津巴布韦突发禁矿出口 预计碳酸锂价格会有较明显上涨",
+          "url": "https://finance.eastmoney.com/a/202602263654690455.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "锂电、存储等迎催化：津巴布韦锂矿出口受限，存储芯片巨头计划扩产｜盘前情报 - 21经济网",
+          "url": "https://www.21jingji.com/article/20260226/herald/4ee8b4c4a39f182a8be02179d9a7f8c6.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "【津巴布韦突发禁矿出口，预计碳酸锂价格会有较明显上涨】金十期货2月26日讯，混沌天成期货2月26日研报显示，1. 昨日盘后津巴布韦矿业部正式 ...",
+          "url": "https://flash.jin10.com/detail/20260226083735548800",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2295377",
+      "title": "新洁能MOSFET涨价10%起，国产芯片涨价潮延续",
+      "summary": "新洁能宣布MOSFET产品涨价10%起，标志着2025年底以来的国产芯片涨价潮延续。当前股价48.52元，技术面处于上升通道，预期差主要在于市场尚未完全计入涨价对Q2及下半年业绩的强劲拉动。建议关注具备IDM模式及高端车规级产品布局的标的。",
+      "reasoning": "1. 事件确认：财联社电报确认新洁能于2月25日发布涨价函，幅度10%起，时效性强（2月26日09:03）。2. 逻辑推演：涨价直接增厚毛利率，且作为MOSFET核心厂商，具备定价权。考虑到3月1日生效，Q2毛利率有望显著提升，业绩预测上调。3. 市场状态：股价48.52元，技术上多头排列，但距离前高有一定空间。相比行业平均估值，新洁能具备高弹性。4. 拓展性：涨价潮从单一公司扩散至行业，利好整个功率半导体板块，但需警惕下游传导不畅的风险。",
+      "transmission_chain": [
+        {
+          "node_name": "新洁能 (直接发布方)",
+          "impact_type": "利好",
+          "logic": "新洁能宣布MOSFET产品涨价10%起，自2026年3月1日生效。作为核心标的，直接增厚Q2及后续季度毛利率，业绩弹性显著。"
+        },
+        {
+          "node_name": "功率半导体中游设计",
+          "impact_type": "利好",
+          "logic": "涨价潮扩散至中微半导、必易微等同行，验证行业成本压力，提升板块整体估值溢价，缓解客户压价预期。"
+        },
+        {
+          "node_name": "晶圆代工/封测",
+          "impact_type": "中性偏多",
+          "logic": "上游成本上涨推高代工及封测费用，作为B端客户，有望在下游涨价潮中分得一杯羹，但受制于下游需求。"
+        },
+        {
+          "node_name": "下游终端厂商",
+          "impact_type": "利空",
+          "logic": "芯片涨价直接增加消费电子、汽车电子等终端厂商的BOM成本，可能挤压下游利润，若需求疲软将面临涨价阻力。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "605111",
+          "name": "新洁能",
+          "weight": 0.9
+        },
+        {
+          "ticker": "688380",
+          "name": "中微半导",
+          "weight": 0.6
+        },
+        {
+          "ticker": "688045",
+          "name": "必易微",
+          "weight": 0.5
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "上调10%起 又有国产芯片公司宣布涨价",
+          "url": "https://www.cls.cn/detail/2295377",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "国产芯片公司集体涨价10%起，11只半导体股净利预增超100%",
+          "url": "https://news.qq.com/rain/a/20260226A0248I00",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "上调10%起 又有国产芯片公司宣布涨价 - 网易",
+          "url": "https://www.163.com/dy/article/KMMAFM760550B1DU.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "新洁能、捷捷微接连发布涨价函_成本_导体_功率 - 搜狐",
+          "url": "https://www.sohu.com/a/990088935_121124376",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "新洁能宣布涨价：涨幅10%起! - 芯智讯",
+          "url": "https://www.icsmart.cn/102069/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "新洁能发布涨价函，上调10%起-全球半导体观察",
+          "url": "https://www.dramx.com/News/igbt/20260226-39985.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2295376",
+      "title": "江西暴雨预警：防汛基建与水电",
+      "summary": "江西暴雨黄色预警（2026-02-26）主要利好**水务运营**（洪城水业）和**应急设备**（华铁应急）板块，**水电发电**（赣能股份）存在业绩弹性。基于当前股价分析，洪城水业（8.65元）趋势最强，华铁应急（2.35元）安全边际高，赣能股份（7.12元）具备突破动能。建议重点关注洪城水业作为核心进攻标的，华铁应急作为弹性博弈标的。短期目标价区间：洪城水业 9.52元，华铁应急 2.59元，赣能股份 7.88元。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "气象预警发布",
+          "impact_type": "利好",
+          "logic": "江西省气象台发布暴雨黄色预警，预计赣州、抚州、吉安南部24小时降雨超50mm，直接触发防汛应急响应机制。"
+        },
+        {
+          "node_name": "水务运营",
+          "impact_type": "利好",
+          "logic": "降雨增加城市自来水用水需求（峰值供水）；内涝导致污水量激增，洪城水业作为省内垄断龙头直接受益。"
+        },
+        {
+          "node_name": "应急设备租赁",
+          "impact_type": "利好",
+          "logic": "防汛抢险需求释放，拉动抽水泵、排水车等应急设备的租赁与工程服务需求，华铁应急作为行业龙头订单弹性最大。"
+        },
+        {
+          "node_name": "电力生产",
+          "impact_type": "利好",
+          "logic": "降雨增加赣能股份水电站发电量（水电占比约15-20%），弥补降雨导致的工业用电需求回落对火电的冲击。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.7,
+      "intensity": 3,
+      "expectation_gap": 0.4,
+      "timeliness": 0.6,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "code": "000899.SZ",
+          "name": "赣能股份",
+          "weight": 0.3,
+          "current_price": 7.12,
+          "target_price": 7.88,
+          "trend": "震荡上行",
+          "analysis": "作为江西省内电力龙头，水电业务占比约15-20%。暴雨带来的水电增发有望增厚业绩，火电虽有对冲但整体受益。当前7.12元位于前期箱体上沿，具备向上突破动能。",
+          "ticker": "000899"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "江西发布暴雨黄色预警信号",
+          "url": "https://www.cls.cn/detail/2295376",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "暴雨来袭 江西水电以\"汛\"为令筑牢防汛\"安全堤\"",
+          "url": "https://www.powerchina.cn/col/col7456/art/2025/art_483640824.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "江西省水文监测中心",
+          "url": "http://www.jxssw.gov.cn/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "江西省积极部署主汛期防汛工作-新华网",
+          "url": "http://www.jx.xinhua.org/20250608/85121b742c90413194fefdf5b1485c91/c.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "江西峡江水电站未雨绸缪筑牢防汛备汛\"安全堤\"_电力网",
+          "url": "http://www.chinapower.com.cn/fd/aqsc/20250228/278768.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "江西抗洪救灾：如何在罕见暴雨中实现'四不'目标的大胜利_防洪_洪水_建设",
+          "url": "https://www.sohu.com/a/874409996_121956424",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2295373",
+      "title": "新城发展发美元债，缓解流动性",
+      "summary": "基于当前股价0.29港元（港股）及3.8-4.2元（A股），信号处于'部分定价'状态。港股股价已处于历史低位区间，市场对流动性担忧充分。预计港股短期支撑位0.27港元，阻力位0.31港元，波动幅度有限；A股受制于行业情绪，预计维持3.5-4.2元区间震荡，单日预期涨跌幅约±1.5%。",
+      "reasoning": "新城发展子公司发行美元票据是典型的债务续作行为，旨在利用美元融资成本优势置换或缓解人民币流动性压力。虽然技术上属于'利好'（获得资金），但考虑到公司当前股价处于0.29港元的历史低位，且行业仍处深度调整期，市场更关注的是债务规模是否继续扩大。由于是'担保票据'，说明母公司信用背书，降低了违约概率，这可能是股价短期企稳的逻辑。然而，预期差较小，因为市场早已知晓房企缺钱的事实，因此信心指数（0.2）和强度（3）均不高。对于A股新城控股，由于流动性割裂，港股动作对A股的传导效应较弱（权重0.2），主要反映在行业情绪面。",
+      "transmission_chain": [
+        {
+          "node_name": "新城发展 (01030.HK)",
+          "impact_type": "中性偏利好",
+          "logic": "子公司发行美元担保优先票据，直接回笼资金，缓解短期偿债压力。但鉴于当前股价仅0.29港元且市值仅50-60亿港元，市场已将流动性风险计入定价，新增融资更多是修复而非反转。"
+        },
+        {
+          "node_name": "新城控股 (601155.SH)",
+          "impact_type": "中性",
+          "logic": "作为A股关联标的，港股发债消息对A股影响有限，更多是行业信心的微弱提振。当前股价3.8-4.2元震荡下行，需关注能否跟随港股企稳。"
+        },
+        {
+          "node_name": "上游材料供应商",
+          "impact_type": "利空",
+          "logic": "房企发债通常伴随项目去化或资金回笼，对上游建材的采购需求可能保持平稳或略有下降，回款压力依然存在。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.7,
+      "intensity": 3,
+      "expectation_gap": 0.3,
+      "timeliness": 0.6,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "财联社2月26日电，新城发展在港交所公告，子公司拟发行以美元计价的担保优先票据。",
+          "url": "https://www.cls.cn/detail/2295373",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "民营房企境外融资重启：新城发展成功发行3亿美元债券，票据利率11.88%",
+          "url": "https://www.sohu.com/a/905031649_313745",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "首家重启境外融资 新城发展成功发行3亿美元债券 - 中国金融信息网",
+          "url": "https://www.cnfin.com/zs-lb/detail/20250613/4250085_1.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "新城高息美元债试探水温 民营房企境外融资能否破冰？-36氪",
+          "url": "https://www.36kr.com/p/3334259553708550",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "境外融资重启 新城发展成功发行美元债_央广网",
+          "url": "https://house.cnr.cn/kcb/20250613/t20250613_527208189.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "新城控股 | 13%高息美元债，55%散户接盘|债券|融资|投行_网易订阅",
+          "url": "https://www.163.com/dy/article/K26MELFP0556589C.html",
           "source": "Search (ddg)"
         }
       ]
