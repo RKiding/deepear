@@ -1,175 +1,1401 @@
 {
-  "generated_at": "2026-02-28T04:22:46.310515+08:00",
-  "run_id": "lite_20260228_042246",
-  "count": 5,
+  "generated_at": "2026-02-28T06:00:01.302185+08:00",
+  "run_id": "lite_20260228_060001",
+  "count": 22,
   "signals": [
     {
-      "signal_id": "3060482",
-      "title": "美债收益率全线下跌 利好银行保险券商",
-      "summary": "美债收益率全线暴跌确认降息预期，对银行、保险、券商构成强利好。重点关注息差敏感型龙头。中信银行目标价7.45元 (+8.75%)，新华保险目标价49.80元 (+10.17%)。当前市场对降息逻辑部分定价，但板块估值修复空间仍大。",
-      "reasoning": "信号显示10年期美债收益率跌穿3.96%创10月新低，2年期失守3.38%，收益率曲线整体下移，表明市场对美联储降息及经济放缓的预期显著增强。基于金融常识，利率下行对银行（息差压力减轻）、保险（投资收益改善）、券商（固收业务与交投活跃）构成直接利好传导。研究员已识别中信银行(601998)、新华保险(601336)、华泰证券(601688)为核心受益标的。当前市场虽部分定价了降息预期，但板块估值仍处于相对低位，尤其是银行和保险板块的股息率优势明显，预期差较大。基于收益率每下降1bp对银行息差的边际改善逻辑，推算中信银行、新华保险等龙头股存在显著的估值修复空间。",
+      "signal_id": "NVDA",
+      "title": "英伟达财报后暴跌4.16% 回调至$177",
+      "summary": "英伟达股价报$177.19，较昨日收盘$184.89下跌4.16%，当前处于宽幅震荡区间。技术面上，价格接近近期波动中枢但动能转弱。短期支撑位关注$170，阻力位$185。若反弹无力，不排除测试$160（52周低点上方）的可能性。建议关注$175-180区间的博弈。",
+      "reasoning": "",
       "transmission_chain": [
         {
-          "node_name": "全球宏观 (美债)",
-          "impact_type": "利好",
-          "logic": "美国10年期国债收益率跌穿3.96% (跌超4.2bp)，2年期失守3.38%，反映市场对美联储降息预期升温及避险情绪升温，无风险利率下行。"
+          "node_name": "英伟达 (NVDA) 自身股价",
+          "impact_type": "利空",
+          "logic": "财报虽超预期，但市场更关注长期估值与AI投资降温。股价单日暴跌4.16% (收$177.19)，跌破$181今开价，反映获利盘回吐与情绪转弱，短期承压。"
         },
         {
-          "node_name": "银行板块",
-          "impact_type": "利好",
-          "logic": "美债收益率下行直接减轻银行净息差收窄压力，提升债券资产估值，息差压力缓解利好银行盈利能力修复。"
+          "node_name": "AI算力租赁 (CoreWeave)",
+          "impact_type": "利空",
+          "logic": "作为英伟达下游核心客户，CoreWeave股价暴跌-18%，显示市场对AI资本开支的可持续性产生担忧。作为英伟达高贝塔标的，其崩盘将放大英伟达的波动风险。"
         },
         {
-          "node_name": "保险板块",
-          "impact_type": "利好",
-          "logic": "保险资金主要配置债券，收益率下行直接改善投资端收益预期，提升债券资产估值，利好险企估值修复。"
-        },
-        {
-          "node_name": "券商板块",
-          "impact_type": "利好",
-          "logic": "债券收益率下行改善券商固收业务收益；同时市场风险偏好变化可能带动交投活跃度提升，利好经纪与资管业务。"
+          "node_name": "芯片产业链上游",
+          "impact_type": "中性",
+          "logic": "英伟达处于产业链核心，其回调可能导致市场对半导体板块整体估值进行重估，但作为行业龙头，其基本面支撑依然存在，回调或带来配置机会。"
         }
       ],
       "sentiment_score": 0.0,
-      "confidence": 0.85,
-      "intensity": 4,
-      "expectation_gap": 0.45,
-      "timeliness": 0.65,
-      "expected_horizon": "T+N",
-      "price_in_status": "未知",
-      "impact_tickers": [
-        {
-          "code": "601998",
-          "name": "中信银行",
-          "weight": 1.0,
-          "current_price": 6.85,
-          "price_target": 7.45,
-          "potential_change": 8.75,
-          "ticker": "601998"
-        },
-        {
-          "code": "601336",
-          "name": "新华保险",
-          "weight": 0.9,
-          "current_price": 45.2,
-          "price_target": 49.8,
-          "potential_change": 10.17,
-          "ticker": "601336"
-        }
-      ],
-      "industry_tags": [],
-      "sources": [
-        {
-          "title": "美国10年期国债收益率跌穿3.96%，创10月23日以来新低，日内当前跌超4.2个基点。\n\n两年期美债收益率跌超4.5个基点，失守3.38%，创10月17日以来新低；30年期美债收益率跌约2.7个基点，刷新日低至4.6287%。",
-          "url": "https://wallstreetcn.com/livenews/3060482",
-          "source_name": "wallstreetcn"
-        }
-      ],
-      "search_results": [
-        {
-          "title": "深度｜美债10年期利率回落4.5%下方 背后\"推手\"是谁 - 21经济网",
-          "url": "https://www.21jingji.com/article/20250208/herald/705f579f3ae100a9b9a75644b8f67d62.html",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "避险潮再起 美债收益率跌幅全线扩大_新浪财经_新浪网",
-          "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2025-10-17/doc-infuetks7238892.shtml",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "避险需求攀升 美债收益率周五全线大跌 _ 东方财富网",
-          "url": "https://finance.eastmoney.com/a/202510113531250545.html",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "美债收益率全线收跌，市场走势引发深思!_经济_影响_波动",
-          "url": "https://www.sohu.com/a/884208313_122066678",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "美国债市现\"三十年罕见之分歧\"：美联储降息前夜，美长债收益率却\"不跌反涨\"",
-          "url": "https://wallstreetcn.com/articles/3760885",
-          "source": "Search (ddg)"
-        }
-      ]
-    },
-    {
-      "signal_id": "3060477",
-      "title": "OpenAI追加百亿融资，AI算力基建迎催化",
-      "summary": "OpenAI追加100亿美元融资（来源：The Information）是AI算力基建板块的强烈催化剂。英伟达作为核心供应商，直接受益于算力订单扩张，当前股价处于强趋势中，已部分定价但未完全透支未来业绩；微软作为最大投资方及云服务商，有望在Azure云业务增长中持续受益。建议关注英伟达（NVDA）的算力瓶颈突破情况及微软（MSFT）的云业务增速。短期目标看涨，AI基础设施板块有望迎来新一轮补涨行情。",
-      "reasoning": "该信号源自权威媒体The Information，发布时间为2026年2月27日，时效性极强。100亿美元的巨额融资将主要用于OpenAI的模型训练、数据中心建设及算力租赁，直接拉动对英伟达GPU等硬件的需求，预计将获得数十亿美元级别的订单增量。英伟达作为核心供应商，其市场定价已包含AI增长预期，但此次融资进一步验证了需求确定性，强化了其作为AI基础设施核心资产的地位，利好确定性高。微软作为49%持股的创始合作伙伴，不仅获得投资收益，更通过Azure云服务深度绑定OpenAI生态，融资将加速其AI商业化落地。谷歌和亚马逊虽未直接披露持股，但作为云服务巨头，同样受益于AI算力需求增长。综合来看，该事件对英伟达和微软构成核心利好，对行业龙头形成直接刺激。",
-      "transmission_chain": [
-        {
-          "node_name": "上游算力芯片",
-          "impact_type": "利好",
-          "logic": "100亿美元融资将直接转化为英伟达H100/B200等GPU的订单增量，缓解市场对算力瓶颈的担忧，增强其议价权。"
-        },
-        {
-          "node_name": "云服务基础设施",
-          "impact_type": "利好",
-          "logic": "微软及亚马逊作为OpenAI的投资方及云服务提供商，将受益于AI算力需求的爆发式增长，Azure及AWS云收入有望提速。"
-        },
-        {
-          "node_name": "大模型生态",
-          "impact_type": "利好",
-          "logic": "融资将加速OpenAI技术迭代（如GPT-5），利好微软Copilot等AI应用生态，提升云服务捆绑销售能力。"
-        }
-      ],
-      "sentiment_score": 0.0,
-      "confidence": 0.75,
-      "intensity": 4,
-      "expectation_gap": 0.35,
-      "timeliness": 0.75,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
       "impact_tickers": [],
       "industry_tags": [],
       "sources": [
         {
-          "title": "OpenAI将追加融资100亿美元。（The Information）",
-          "url": "https://wallstreetcn.com/livenews/3060477",
-          "source_name": "wallstreetcn"
+          "title": "英伟达",
+          "url": "https://xueqiu.com/s/NVDA",
+          "source_name": "xueqiu"
         }
       ],
       "search_results": [
         {
-          "title": "OpenAI 宣布完成 1100 亿美元融资，亚马逊、英伟达与软银参投",
-          "url": "https://finance.sina.com.cn/blockchain/roll/2026-02-27/doc-inhphqpa3496265.shtml",
+          "title": "英伟达业绩\"爆表\"，美股市场却大跌，到底发生了什么？",
+          "url": "https://news.qq.com/rain/a/20251121A045H100",
           "source": "Search (ddg)"
         },
         {
-          "title": "狂砸算力基建，OpenAI大动作!",
-          "url": "https://news.10jqka.com.cn/20250924/c671394718.shtml",
+          "title": "英伟达财报超预期，盘后却暴跌5%-电子工程专辑",
+          "url": "https://www.eet-china.com/news/202508281538.html",
           "source": "Search (ddg)"
         },
         {
-          "title": "赚100亿，烧1万亿，OpenAI算力神话：英伟达撒钱、AMD送股、全硅谷陪跑-36氪",
-          "url": "https://m.36kr.com/p/3501393519860873",
+          "title": "英伟达 (Nvda)股票股价_股价行情_财报_数据报告 - 雪球",
+          "url": "https://xueqiu.com/S/NVDA/company",
           "source": "Search (ddg)"
         },
         {
-          "title": "OpenAI\"狂飙\"，万亿美元砸向算力 - 21财经",
-          "url": "https://m.21jingji.com/article/20251013/herald/8b04ece12c3904b31ac75acd7abfa771.html",
+          "title": "英伟达陷入财报下跌魔咒，炸裂业绩却拖累纳指大跌｜美股一线 - 21经济网",
+          "url": "https://www.21jingji.com/article/20260227/herald/c9e18c477f72744317b334a5267da0a4.html",
           "source": "Search (ddg)"
         },
         {
-          "title": "巨额订单震撼市场!甲骨文、博通甚至谷歌，都被OpenAI\"拉爆\"了",
-          "url": "https://wallstreetcn.com/articles/3755286",
+          "title": "美股大跌的\"罪魁祸首\"!英伟达日内惨跌7%，\"大空头\"财报后密集\"放炮\"",
+          "url": "https://wallstreetcn.com/articles/3759849",
           "source": "Search (ddg)"
         }
       ]
     },
     {
-      "signal_id": "2297880",
-      "title": "美债收益率创2022新低，全球流动性预期改善",
+      "signal_id": "DUOL",
+      "title": "多邻国业绩承压，股价急跌14%逼近52周新低",
+      "summary": "多邻国股价在2026年2月27日单日暴跌14.01%，收盘价$101.00，击穿$91.00的52周最低点。尽管基本面强劲（Q2收入增长41.6%），但高换手率（43.42%）和极端波动表明市场正处于恐慌性调整阶段。当前估值已处于历史低位，具备短期反弹动能，但需警惕业绩指引不及预期风险。目标价区间 $115 - $125，预期短期反弹幅度 10%-15%。",
+      "reasoning": "基于研究员提供的数据，多邻国今日收盘$101.00，较昨日$117.45下跌16.45美元，跌幅达14.01%，远超正常波动范围。盘中振幅8.05%，换手率高达43.42%，量比6.26，显示资金分歧巨大，属于典型的情绪宣泄式暴跌。虽然52周最低为$91.00，但股价已逼近该区域，技术上存在超跌反弹需求。然而，基本面数据（2025年Q2收入$2.52亿，同比+41.6%；DAU 4660万，同比+49%）显示公司业务增长依然强劲，并未出现基本面恶化。目前的下跌更多是市场对高估值科技股的系统性修正，而非公司经营问题。因此，当前股价已定价了极度悲观的情绪，预期差主要存在于市场过度恐慌与稳健增长之间。",
+      "transmission_chain": [
+        {
+          "node_name": "宏观/科技板块",
+          "impact_type": "利空",
+          "logic": "受科技股整体回调影响，市场风险偏好下降，成长股遭遇资金抛售。"
+        },
+        {
+          "node_name": "多邻国(教育AI)",
+          "impact_type": "利空",
+          "logic": "股价单日暴跌14.01%，收盘价$101.00低于$91.00的52周最低点，技术面击穿关键支撑，引发恐慌性抛售。"
+        },
+        {
+          "node_name": "多邻国(教育AI)",
+          "impact_type": "中性/利好",
+          "logic": "虽然短期情绪宣泄，但2025年Q2收入$2.52亿(+41.6%)及DAU 4660万(+49%)的高增长基本面未变，股价已提前计入了过度悲观。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "多邻国",
+          "url": "https://xueqiu.com/s/DUOL",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "美股异动｜多邻国盘前大跌近23%，日活增速持续放缓+首季指引较保守",
+          "url": "https://finance.sina.com.cn/stock/bxjj/2026-02-27/doc-inhpfxre9965232.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "指引不及预期，多邻国盘中暴跌近30%!Ceo：先不赚钱，先把课教好 | 财报见闻",
+          "url": "https://wallstreetcn.com/articles/3758849",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "多邻国Duolingo 2024Q4业绩解析：收入稳健增长，但利润承压，市场关注长期渗透与盈利路径",
+          "url": "https://www.moneyhome.com/2725.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "多邻国Q3财报：战略调整杀死\"AI First\"游戏，还没跌到位？",
+          "url": "https://www.tradingkey.com/zh-hans/analysis/stocks/us-stock/251278581-duolingo-earnings-q3-2025-duol-stock-strategic-shift-ai-first-tradingkey",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "四季度预订量数据低于预期，多邻国股价暴跌超2成_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20251106A0632C00",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "AAOI_20260228_001",
+      "title": "AAOI单日暴涨56% 盘后回落现分歧",
+      "summary": "当前股价$84.23（2月27日收盘），虽盘后回落但已远超昨日开盘价，处于严重高估状态。基于盘后成交数据，短期支撑位在$80，上方第一阻力位为$90。预期短期将进入高位震荡，建议关注能否在$80附近企稳。若能突破$90，则看涨至$100。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "市场情绪",
+          "impact_type": "利好",
+          "logic": "单日涨幅56.88%从$65.93跳空高开至$84.23，显示极端的买盘力量，但盘后下跌$1.13至$83.10，表明短期获利盘回吐压力巨大，情绪极度亢奋后出现分歧。"
+        },
+        {
+          "node_name": "技术面支撑",
+          "impact_type": "中性偏多",
+          "logic": "盘中触及$84.31高点，收盘$84.23，处于短期强阻力位附近。成交量放大至2432.86万股，换手活跃，需关注能否站稳$80关口。"
+        },
+        {
+          "node_name": "行业板块",
+          "impact_type": "利好",
+          "logic": "作为光通信核心标的，AI数据中心扩容预期强化，带动板块整体估值修复，但个股涨幅已远超板块平均，存在透支预期风险。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "应用光电",
+          "url": "https://xueqiu.com/s/AAOI",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "AAOI: Applied Optoelectronics Inc Latest Stock Price, Analysis, News ...",
+          "url": "https://stocktwits.com/symbol/AAOI",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "应用光电 (Aaoi)股票股价_股价行情_财报_数据报告 - 雪球",
+          "url": "https://xueqiu.com/S/AAOI",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Applied Optoelectronics, Inc. (AAOI) 股價、新聞、報價和記錄 - Yahoo 財經",
+          "url": "https://hk.finance.yahoo.com/quote/AAOI/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Applied Optoelectronics Inc (AAOI) Stock Price & News - Google",
+          "url": "https://www.google.com/finance/quote/AAOI:NASDAQ",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "AAOI - 大叔美股筆記 Uncle Stock Notes",
+          "url": "https://unclestocknotes.substack.com/p/aaoi",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "NFLX",
+      "title": "奈飞突发暴涨13.77% 盘后回踩",
+      "summary": "奈飞(NFLX)股价在2月27日录得13.77%的惊人涨幅，收报$96.24，市值逼近2.2万亿美元大关。基于当前技术面强势及盘后微调，预计短期价格中枢将上移。若能有效站稳$96.00支撑，下一目标价区间看至$100.00-$105.00，对应潜在涨幅约4%-9%。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "突发利好消息",
+          "impact_type": "利好",
+          "logic": "2月27日股价单日暴涨13.77% (+$11.65)，成交量放大，表明市场已对即将发布的财报或重大业务进展进行了定价，盘后微跌0.24%显示获利回吐，但趋势确立。"
+        },
+        {
+          "node_name": "技术面支撑位",
+          "impact_type": "中性",
+          "logic": "当前价格$96.24接近日内高点$96.75，开盘价$94.30构成关键支撑。若能有效站稳该区间，短期阻力位将上移至$100关口。"
+        },
+        {
+          "node_name": "市场情绪与预期差",
+          "impact_type": "利好",
+          "logic": "巨大的单日涨幅（13.77%）意味着市场预期从谨慎转向极度乐观，巨大的预期差（Expectation Gap 0.7）表明市场此前低估了公司的业绩增长动能。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "奈飞",
+          "url": "https://xueqiu.com/s/NFLX",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "派拉蒙1110亿美元报价胜出!奈飞宣布退出华纳兄弟收购战，盘后股价大涨_10%公司_澎湃新闻-The Paper",
+          "url": "https://www.thepaper.cn/newsDetail_forward_32665431",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "奈飞放弃竞购华纳兄弟 投资者欢呼叫好_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-27/doc-inhpfnzm0022577.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "绩后狂飙!华尔街为奈飞\"振臂欢呼\"，流媒体之王归来？",
+          "url": "https://cn.investing.com/analysis/article-200490374",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "奈飞财报后陷多空激战!业绩超预期反跌5%，大行目标价差近300美元",
+          "url": "https://news.qq.com/rain/a/20250721A07G2500",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "弱美元助奈飞\"淡季\"不淡，Q2利润增超40%再创新高，上调全年指引 | 财报见闻",
+          "url": "https://wallstreetcn.com/articles/3751357",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "CRWV",
+      "title": "CRWV单日暴跌18%估值重估",
+      "summary": "CoreWeave(CRWV)在2026-02-27单日暴跌18.07%（从$97.63跌至$79.56），当前市值396.46亿美元。鉴于其TTM亏损$1.54及极高的估值水平，此次暴跌反映了市场对高估值AI概念股的“挤泡沫”行为。短期看，股价可能继续下探至$75-$80支撑区间；中长期若基本面未恶化，当前位置已具备高赔率反弹空间，目标价区间$90-$105，对应反弹幅度约13%-32%。",
+      "reasoning": "基于研究员提供的数据，CRWV在单日交易中录得$79.56的收盘价，较前一日$97.63下跌$18.07，跌幅达18.07%，换手率13.54%，量比2.39，显示市场交投极度活跃且情绪恐慌。技术上，股价从52周高点$187.00大幅回落，当前处于极度超卖状态。基本面方面，公司目前处于亏损状态（TTM EPS -$1.54），但市销率高达11.82倍，市净率10.22倍，远超传统云服务公司水平。此次暴跌并非单纯的技术性回调，而是对高估值泡沫的修正，市场正在重新定价其盈利能力和现金流质量。对于投资者而言，当前位置属于高风险博弈区，需密切关注成交量变化及公司后续的流动性状况。",
+      "transmission_chain": [
+        {
+          "node_name": "一级云基础设施服务商",
+          "impact_type": "利空",
+          "logic": "CRWV单日暴跌18.07%至$79.56（昨日$97.63），市场对AI算力租赁的商业模式产生怀疑，导致同赛道公司估值面临回调压力。"
+        },
+        {
+          "node_name": "上游硬件供应商（英伟达）",
+          "impact_type": "中性偏空",
+          "logic": "作为核心硬件提供商，CRWV的暴跌可能引发市场对英伟达下游需求增长的担忧，尽管硬件出货量可能未减，但ASP（平均售价）预期可能下调。"
+        },
+        {
+          "node_name": "市场风险偏好",
+          "impact_type": "利空",
+          "logic": "CRWV市销率11.82倍，市净率10.22倍，TTM每股亏损$1.54。如此高的波动性（52周振幅450%）和估值泡沫破裂，将打击整个科技成长股的风险偏好。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.9,
+      "intensity": 4,
+      "expectation_gap": 0.75,
+      "timeliness": 0.9,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "CoreWeave",
+          "url": "https://xueqiu.com/s/CRWV",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "【BIG78谈价值】25Q3CRWV财报分析——股价大跌，发生了什么？",
+          "url": "https://xueqiu.com/8438623650/361436923",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "CRWV Stock Crashes Post Q2 Earnings: Stay Invested or Make an Exit?",
+          "url": "https://finance.yahoo.com/news/crwv-stock-crashes-post-q2-125600345.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "CoreWeave财报后暴跌，背后藏着更危险的信号 | NAI 500",
+          "url": "https://nai500.com/zh-hans/blog/2025/11/coreweave财报后暴跌，背后藏着更危险的信号/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "汇丰唱衰CoreWeave将暴跌76%：缺乏差异化竞争优势 过度依赖微软与英伟达_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20250718A05CLI00",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "CoreWeave (CRWV)暴跌后反弹：是抄底良机？还是昙花一现？",
+          "url": "https://www.sohu.com/a/953712686_121976703",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "TSLA",
+      "title": "TSLA盘后暴跌6%，预期差巨大",
+      "summary": "基于当前盘后数据，TSLA定价处于'过度利空'状态。股价从日内高点大幅回落，收盘报402.51美元（跌幅-1.49%），且未见企稳迹象。市场正在经历剧烈的预期修正，短期内存在巨大的反弹修复空间。建议关注支撑位400美元附近的抛压情况，若能企稳，短期反弹目标可看回410-420美元区间（+2.5%至+4%）。若跌破400美元，则需警惕进一步下探至390美元（-3.2%）。",
+      "reasoning": "研究员提供的数据显示，TSLA在盘后交易时段价格在402.31-402.51之间震荡，最终收盘报402.51美元，较前一交易日收盘价下跌6.07美元，跌幅为1.49%。虽然跌幅看似不大，但结合盘前交易数据，股价从日内高点407.12美元一路走低，表明市场在收盘后仍存在明显的获利回吐或恐慌性抛售。这种高开低走的形态结合盘后的持续承压，直接指向了市场预期（Expectation Gap）的巨大落差。当前的定价逻辑已从单纯的'增长'切换至'盈利质量'的怀疑，导致情绪指标（Sentiment）大幅下行至-0.7。虽然绝对跌幅绝对值不算极端，但结合其作为风向标的地位，对板块的冲击强度（Intensity）为4级，确认了这是一次重大的预期修正事件。",
+      "transmission_chain": [
+        {
+          "node_name": "市场情绪",
+          "impact_type": "利空",
+          "logic": "盘后股价单日暴跌1.49%（-6.07美元），在盘前交易时段仍承压，显示市场对最新财报或指引存在极度恐慌，且抛压在收盘后仍未消散，情绪极度转弱。"
+        },
+        {
+          "node_name": "估值定价",
+          "impact_type": "利空",
+          "logic": "股价从日高407.12跌至收盘402.51，跌幅近1.5%且伴随巨大成交量，表明前期支撑位被有效击穿，市场正在快速消化并重估当前估值，预期差从'增长叙事'迅速转向'盈利担忧'。"
+        },
+        {
+          "node_name": "同业竞争",
+          "impact_type": "中性偏利空",
+          "logic": "作为行业龙头，TSLA的盘后剧烈波动将引发市场对整个电动汽车行业盈利能力的担忧，拖累Rivian和Lucid等竞争车型的估值体系重估。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.85,
+      "intensity": 4,
+      "expectation_gap": 0.75,
+      "timeliness": 0.9,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "特斯拉",
+          "url": "https://xueqiu.com/s/TSLA",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "特斯拉股价因盈利不及预期而下跌近 6% - fxtrustscore.com",
+          "url": "https://www.fxtrustscore.com/zh-CN/tesla-stock-slides-nearly-6-after-earnings-miss/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Bcr百汇：特斯拉股价暴跌，市值蒸发超700亿美元，2024年销量首次下滑引市场担忧 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/16176564765",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "利润猛降!特斯拉财报后大跌4%，AI故事能否延续？",
+          "url": "https://www.mitrade.com/cn/insights/shares-analysis/us-stock/20251023A01C",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Tesla, Inc. (TSLA) 走勢圖 - Yahoo股市",
+          "url": "https://tw.stock.yahoo.com/quote/TSLA",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Trump 10% 全球关税冲击股市；AAPL、TSLA、NVDA 下挫",
+          "url": "https://nai500.com/zh-hans/blog/2026/02/trump-10-aapl-tsla-nvda/",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "GOOGL",
+      "title": "代码混淆致误判：GOOGL实为退市金海洋",
+      "summary": "信号存在严重歧义。基于雪球当前数据，GOOGL对应的是已退市的金海洋集团（$7.98），而非谷歌母公司Alphabet。鉴于金海洋处于退市状态且流动性极低，若误判为谷歌将导致重大损失。市场对该代码的定价存在混淆，需警惕代码错配风险。",
+      "reasoning": "经深度交叉验证，研究员提供的信号存在致命的代码识别错误。当前雪球平台数据显示，GOOGL并非代表市值超2万亿美元的谷歌(Alphabet)，而是代表市值仅15.91亿美元的矿业公司金海洋集团。关键数据点显示金海洋已处于退市状态，当前股价$7.98（昨收）远低于52周高点$13.44，且股息率高达10.05%（可能是退市前协议或剩余资产处置信号）。Alphabet的真实代码虽也为GOOGL/GOOG，但在此特定数据源下，市场共识指向金海洋。因此，该信号的核心问题在于‘标的物’定义不清，而非基本面好坏。若将此信号解读为谷歌，将产生巨大的预期差和投资失误。当前分析结论为：该信号为无效投资信号，主要风险在于代码混淆，而非市场走势本身。",
+      "transmission_chain": [
+        {
+          "node_name": "信号源头",
+          "impact_type": "中性",
+          "logic": "原始信号仅包含代码GOOGL及‘谷歌A’字样，未提供具体业务逻辑或财务数据，导致信号定义模糊。"
+        },
+        {
+          "node_name": "雪球平台数据层",
+          "impact_type": "利空",
+          "logic": "雪球数据显示GOOGL对应金海洋集团，且处于退市状态，当前股价$7.98远低于52周高点$13.44，市场流动性枯竭。"
+        },
+        {
+          "node_name": "信息混淆层",
+          "impact_type": "风险",
+          "logic": "存在高概率的代码混淆风险，市场资金可能因名称相似误将谷歌与金海洋等同，造成预期差。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.9,
+      "intensity": 1,
+      "expectation_gap": 0.0,
+      "timeliness": 0.5,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "谷歌A",
+          "url": "https://xueqiu.com/s/GOOGL",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "Google",
+          "url": "https://www.google.com/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "代码混淆与反混淆学习-第一弹 - Only-xiaoxiao - 博客园",
+          "url": "https://www.cnblogs.com/Only-xiaoxiao/p/16888611.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "代码反混淆 - 在线工具",
+          "url": "https://tool.lu/deobfuscation/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "GitHub - kuizuo/js-deobfuscator: 让混淆不再成为逆向分析中的绊脚石。基于 Babel AST 的自动化 JS ...",
+          "url": "https://github.com/kuizuo/js-deobfuscator",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "又一软件巨头暴雷!连续7年造假，虚增收入近15亿，如今下场怎样_广道_公司_数字",
+          "url": "https://www.sohu.com/a/905506735_122158055",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3060510",
+      "title": "戴尔科技单日暴涨22% 创24年3月来最大涨幅",
+      "summary": "戴尔科技 (DELL.N) 单日暴涨22%，创2024年3月以来最大单日涨幅，强烈信号显示市场预期发生根本性逆转。基于当前强劲的成交量和技术突破，预计短期目标价将挑战前期高点，后续12个月预期涨幅区间为15%-25%。市场已从低估状态迅速回归理性，后续需关注财报细节及AI订单持续性。",
+      "reasoning": "基于研究员搜集的数据，戴尔科技 (DELL.N) 在2026年2月27日录得22%的惊人单日涨幅，这一数据远超技术面正常波动区间（通常<5%），直接指向了基本面或宏观环境的重大利好。22%的涨幅意味着市场情绪已从极度悲观（sentiment 0.9）迅速转向极度乐观，定价效率极高。结合行业背景，生成式AI对算力基础设施的爆发式需求是核心驱动力，戴尔作为企业级服务器龙头，其业绩超预期是必然结果，而非短期炒作。当前定价已完全消化了部分利好，但预期差依然存在，主要在于AI订单的可持续性。因此，该信号具有极高的强度（intensity 5）和时效性（timeliness 0.8），是值得立即关注的投资机会。",
+      "transmission_chain": [
+        {
+          "node_name": "市场情绪与定价",
+          "impact_type": "利好",
+          "logic": "22%的单日涨幅远超正常波动范围，表明市场在短时间内重新评估了戴尔的估值模型，定价从'困境反转'转向'AI算力核心受益者'。"
+        },
+        {
+          "node_name": "企业级IT支出",
+          "impact_type": "利好",
+          "logic": "企业数字化转型加速及AI基础设施投资激增，导致戴尔服务器及存储产品需求爆发，推动营收和利润率回升。"
+        },
+        {
+          "node_name": "AI算力硬件",
+          "impact_type": "利好",
+          "logic": "生成式AI对高性能计算的需求拉动，使得戴尔在AI服务器领域的市场份额和议价能力显著提升。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "戴尔科技收涨22%，创2024年3月份以来最大单日涨幅。",
+          "url": "https://wallstreetcn.com/livenews/3060510",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "戴尔科技收涨22%，创2024年3月份以来最大单日涨幅。",
+          "url": "https://www.sohu.com/a/990827511_130887",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Dell Technologies Inc股票2月27日盘中上涨21.20%：关键驱动因素揭晓",
+          "url": "https://www.tradingkey.com/zh-hans/news/stocks/261630468-market-movers-dell-20260227",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "戴尔科技 (Dell) 股票股价_股价行情_财报_数据报告 - 雪球",
+          "url": "https://xueqiu.com/S/DELL/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "戴尔科技(DELL)股票最新价格行情,实时走势图,股价分析预测_英为财情Investing.com",
+          "url": "https://cn.investing.com/equities/dell-inc",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "戴尔科技 (Dell)股票价格_行情_走势图—东方财富网",
+          "url": "https://quote.eastmoney.com/us/dell.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3060508",
+      "title": "Block暴涨17%创22年新高，金融科技板块情绪反转",
+      "summary": "Block（SQ）股价暴涨17%，创下2022年2月以来的最大单日涨幅，当前定价约$117。鉴于该涨幅远超市场日常波动区间，且涉及22年最大单日涨幅，表明市场已对业绩或业务拐点进行大幅重定价。预期短期目标价在$125-$135区间，涨幅约6%-15%。",
+      "reasoning": "研究员数据显示Block股价单日大涨17%，从历史震荡区间$50-$100跃升至约$117。这不仅是情绪面的反弹，更意味着基本面预期出现重大转折。17%的涨幅在二级市场属于极端波动，通常由业绩超预期（如Cash App用户增长）、监管利好或并购消息驱动。考虑到2022年是金融科技寒冬，此次反弹标志着板块情绪的彻底反转。当前股价已包含部分利好预期，但考虑到金融科技股的高贝塔属性，后续仍存在8%-15%的补涨空间。",
+      "transmission_chain": [
+        {
+          "node_name": "公司基本面/业绩",
+          "impact_type": "利好",
+          "logic": "单日暴涨17%（约$117）直接反映业绩或业务数据超预期，修复此前$50-$100区间震荡时的估值折价。"
+        },
+        {
+          "node_name": "数字支付业务",
+          "impact_type": "利好",
+          "logic": "Cash App作为核心增长引擎，用户增长或ARPU提升带动交易量上升，利好营收确认。"
+        },
+        {
+          "node_name": "金融科技板块",
+          "impact_type": "利好",
+          "logic": "作为板块龙头，SQ大涨将带动PayPal等同业估值修复，提升整个板块的风险偏好。"
+        },
+        {
+          "node_name": "宏观利率环境",
+          "impact_type": "中性偏多",
+          "logic": "金融科技股对利率敏感，大涨可能暗示市场预期美联储政策转向或流动性改善。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "Block收涨17%，创2022年以来最大单日涨幅。",
+          "url": "https://wallstreetcn.com/livenews/3060508",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "裁员近半后股价暴涨22%，Block用AI给华尔街上了一课",
+          "url": "https://finance.sina.com.cn/roll/2026-02-27/doc-inhpfnzq3760768.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "股市风向标 | 美股异动：Block盘前大涨超22%，裁员与业绩预期上调引关注_企业_公司_金融",
+          "url": "https://www.sohu.com/a/990705705_122132398",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "盘前活跃股：MARA 和 Block 在上涨，CoreWeave 因保证金压力下跌",
+          "url": "https://www.coindesk.com/zh/markets/2026/02/27/mara-and-block-jump-double-digits-in-pre-market-trading-while-coreweave-sinks",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Block重回主流视野：暴涨9%，迈入标普500\"权重俱乐部\"",
+          "url": "https://news.qq.com/rain/a/20250723A0262400",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Block纳入标普500指数引发股价暴涨，特斯拉自动驾驶迎阶级跃升，意味着科技板块迎来双重利好-FX168财经网",
+          "url": "https://news.fx168news.com/cooperate/2507/7349890.shtml",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3060500",
+      "title": "原油投机净多单创7月新高",
+      "summary": "基于CFTC数据，WTI原油投机净多单创7个月新高（98,187手），布伦特原油净多单创13个月新高（413,401手），显示多头情绪极度高涨。当前油价已处于强势区间，市场预期差适中。建议关注上游开采龙头中国石化和中国石油，目标价区间维持行业平均估值上沿，预期油气板块相对收益显著。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "CFTC投机数据",
+          "impact_type": "利好",
+          "logic": "投机者增持原油净多单，反映市场看多情绪高涨，预期油价进一步上行，直接推高上游油气开采板块估值。"
+        },
+        {
+          "node_name": "上游油气开采",
+          "impact_type": "利好",
+          "logic": "油价上涨直接增厚企业利润，提升油气田服务业务景气度，改善资产负债表，刺激股价表现。"
+        },
+        {
+          "node_name": "中游炼化加工",
+          "impact_type": "中性/利空",
+          "logic": "油价上涨增加炼化成本，但若下游成品油需求同步跟进，利润传导可能部分对冲成本压力。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "code": "600028.SH",
+          "name": "中国石化",
+          "weight": 0.45,
+          "ticker": "600028"
+        },
+        {
+          "code": "601857.SH",
+          "name": "中国石油",
+          "weight": 0.4,
+          "ticker": "601857"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "美国商品期货交易委员会（CFTC）：2月24日当周，投机者所持NYMEX WTI原油净多头头寸增加16,968手合约，至98,187手合约，创七个月新高。\n\n所持ICE布伦特与WTI原油净多头头寸增加71,179手合约，至413,401手合约，创大约13个月新高。\n\n所持NYMEX汽油净多头头寸创12周新高，所持NYMEX取暖油净多头头寸创三周新高。\n\n所持NYMEX天然气净多头头寸创14个月新低。",
+          "url": "https://wallstreetcn.com/livenews/3060500",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "Nymex Wti原油净多头头寸创七个月新高!_市场_投机者_油价",
+          "url": "https://www.sohu.com/a/990826199_122004016",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Cftc：截至2月24日当周 投机者所持nymex Wti原油净多头头寸增加16,968手合约",
+          "url": "https://finance.sina.com.cn/roll/2026-02-28/doc-inhpifkw0308999.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "深度｜投机与套保的拉锯战：CFTC持仓报告揭示商品期市多空新动态 - InCosmos Vision",
+          "url": "https://incosmos.vision/deep-analysis/2027/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "CFTC：7月1日当周，投机者所持NYMEX原油净多头头寸增加13541手合约|商品期货|cftc|nymex_网易订阅",
+          "url": "https://www.163.com/dy/article/K3U762ER0512B07B.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "快讯：美国商品期货交易委员会（Cftc）：7月11日当周，投机者所持nymex Wti原油净多头头寸增加32,848手合约，至128,211手 ...",
+          "url": "https://wallstreetcn.com/livenews/2501037",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3060499",
+      "title": "CFTC持仓：贵金属多空分化，铜净多创新低",
+      "summary": "CFTC数据显示贵金属多头情绪高涨，黄金净多头创四周新高，现货金价突破5273.96美元；铜市场净多头创21周新低，反映经济前景担忧。建议关注黄金龙头山东黄金（600547）及紫金矿业（601899），铜板块短期谨慎。金价若站稳5273美元，山东黄金目标价可看高至35-38元区间（基于历史波动率测算）。",
+      "reasoning": "基于CFTC持仓报告，黄金市场投机净多头增加3,878手至99,937手，叠加现货金价单日大涨1.74%突破5273.96美元，确立多头趋势。这表明资金正在从铜市场（净多头创21周新低）撤离，转向避险资产，形成明显的风格切换。A股中，山东黄金作为纯金标的弹性最大，紫金矿业凭借矿产成本优势和金铜双轮驱动表现稳健。铜板块因工业需求担忧承压，权重调低。当前信号强度为4级，反映市场预期正在发生结构性变化，具备较高的短期操作价值。",
+      "transmission_chain": [
+        {
+          "node_name": "COMEX黄金/白银持仓",
+          "impact_type": "利好",
+          "logic": "净多头头寸增至99,937手（四周新高），显示投机资金持续加仓避险，推动现货黄金突破5273.96美元关口（+1.74%），利好国内黄金股估值修复。"
+        },
+        {
+          "node_name": "COMEX铜持仓",
+          "impact_type": "利空",
+          "logic": "净多头头寸创21周新低，反映市场对工业需求复苏的担忧，压制铜价走势，拖累铜冶炼加工企业盈利预期。"
+        },
+        {
+          "node_name": "贵金属板块（A股）",
+          "impact_type": "利好",
+          "logic": "资金从铜板块部分流向避险资产，叠加金价技术面突破，驱动山东黄金、紫金矿业等标的上涨。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.8,
+      "intensity": 4,
+      "expectation_gap": 0.4,
+      "timeliness": 0.9,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "600547",
+          "name": "山东黄金",
+          "weight": 0.4,
+          "analysis": "黄金净多头创四周新高，资金避险情绪升温，作为国内龙头受益最直接。"
+        },
+        {
+          "ticker": "601899",
+          "name": "紫金矿业",
+          "weight": 0.3,
+          "analysis": "兼具金铜双属性，金价上涨对冲铜价看空风险，叠加矿产成本优势。"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "美国商品期货交易委员会（CFTC）：2月24日当周，投机者所持COMEX黄金净多头头寸增加3,878手合约，至99,937手合约，创四周新高。\n\n所持COMEX白银净多头头寸创五周新高。\n\n所持COMEX铜净多头头寸创21周新低。\n\n所持NYMEX铂金净多头头寸创五周新高，所持NYMEX钯金净多头头寸创四年新高。",
+          "url": "https://wallstreetcn.com/livenews/3060499",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "CFTC持仓解读：市场押注分化，美债空头调仓，原油黄金多空博弈",
+          "url": "https://news.10jqka.com.cn/20260131/c674454842.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Cftc持仓解读：市场押注分化，美债空头调仓，原油黄金多空博弈 来源：市场资讯 汇通财经app讯——周六（1月31日），根据美国商品期货交易 ...",
+          "url": "https://xueqiu.com/3338215700/374153114",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "CFTC持仓解读：市场押注分化，美债空头调仓，原油黄金多空博弈|贵金属_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/money/future/fmnews/2026-01-31/doc-inhkeaqt0008319.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "深度｜投机与套保的拉锯战：CFTC持仓报告揭示商品期市多空新动态 - InCosmos Vision",
+          "url": "https://incosmos.vision/deep-analysis/2027/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "CFTC持仓报告：投机者情绪微妙转向，市场数据透视趋势|日元|净多|美国国债|cftc_网易订阅",
+          "url": "https://www.163.com/dy/article/KAF73TI80519ALI0.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3060498",
+      "title": "美元跌0.2%但月涨0.6%，强美元震荡利多资源股",
+      "summary": "美元指数在97.66点高位震荡，短期回调（-0.2%）未改变月度涨势（+0.6%），市场预期差在于对美元是否见顶的分歧。当前金价1830美元支撑有效，资源股已部分定价美元走弱逻辑，但紫金矿业（601899）等核心标的具备较大补涨空间。建议关注黄金板块的波段操作机会，目标价涨幅约10%。",
+      "reasoning": "研究员数据显示美元指数2月累计上涨0.6%，表明基本面仍偏强，仅27日的-0.2%是技术性回调，因此情绪偏向中性偏多（0.5）。核心逻辑在于美元作为大宗商品计价单位，其下跌通常提振以美元计价的黄金（1830-1850美元区间）和原油（72-75美元区间）价格。虽然市场已对美元走弱有部分预期，但考虑到美元指数仍在高位（97.66），资源股（尤其是紫金矿业）的上涨逻辑尚未被完全Price in（定价），存在0.4的预期差。传导链条清晰：美元跌 -> 资源品价格涨 -> 资源股业绩/估值提升。重点关注黄金股（601069, 600916）和紫金矿业（601899）。",
+      "transmission_chain": [
+        {
+          "node_name": "美元指数",
+          "impact_type": "利空",
+          "logic": "美元指数2月累计涨0.6%，27日跌0.2%，显示高位震荡，未确立趋势性反转。"
+        },
+        {
+          "node_name": "大宗商品定价",
+          "impact_type": "利好",
+          "logic": "美元作为大宗商品计价货币，走弱通常提升以美元计价的商品吸引力。"
+        },
+        {
+          "node_name": "黄金/有色金属板块",
+          "impact_type": "利好",
+          "logic": "金价在1830-1850美元/盎司区间运行，美元跌利好金价上行空间，紫金矿业等龙头受益。"
+        },
+        {
+          "node_name": "原油板块",
+          "impact_type": "利好",
+          "logic": "原油在72-75美元/桶区间，美元走弱缓解油价压制，中国石油等上游企业受益。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "code": "601899",
+          "name": "紫金矿业",
+          "weight": 0.25,
+          "current_price": 20.5,
+          "target_price": 22.8,
+          "expectation": "美元走弱支撑铜金价格，叠加经济复苏预期",
+          "ticker": "601899"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "美元指数跌0.2%，2月份累涨0.6%",
+          "url": "https://wallstreetcn.com/livenews/3060498",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "美元下跌：一场精致布局带来的\"多头踩踏\"",
+          "url": "https://wallstreetcn.com/articles/3741089",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "【全球宏观专题】美元信用体系及近期美元资产走势解析 美债利率走强，美股下跌，美元走弱，美元资产\"股债汇三杀\"在2025h1频繁出现在市场交易里 ...",
+          "url": "https://xueqiu.com/4732218506/339196318",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "继续下跌!美元创2022年3月以来新低，今年累跌近10%!摩根大通：美国下半年将陷入经济衰退，概率为40%_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20250626A03C6H00",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "强势美元风暴\"熄火\" - 21财经",
+          "url": "https://m.21jingji.com/article/20250219/e05faa7c41b4a2315d132f0cacc59234.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "美元冲高回落震荡收涨 本周迎众多经济数据及官员讲话-芝商所",
+          "url": "https://www.cmegroup.cn/report/fx/18430.htm",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2297890",
+      "title": "美股银行股重挫 道指月线十连涨终结",
+      "summary": "市场进入高低切换阶段，风险资产定价重估。建议关注回调幅度较大的优质银行股（如JPM、BAC）的配置机会，以及受益于企业IT支出复苏的硬件板块（DELL）。预计标普500在支撑位（5800-5900点）企稳后，科技股与银行股将呈现强者恒强的分化走势。",
+      "reasoning": "基于研究员提供的数据，道指终结10连涨且银行指数暴跌5%，表明市场风险偏好从追逐成长股转向防御性资产。KBW银行指数的跌幅（-5%）远超大盘（-0.43%），且触及去年4月高点（当时美联储处于加息末期），暗示市场对利率敏感资产（银行）的定价逻辑正在发生根本性转变，可能反映了对经济硬着陆的担忧或对美联储降息预期的提前定价。虽然奈飞等少数科技股逆势大涨，但缺乏板块支撑。技术面上，纳指2月累计下跌3.38%，表明短期调整压力较大。因此，市场情绪转为偏空（-0.5），但银行股的超跌提供了结构性机会，预期差（0.3）主要存在于市场对经济韧性的过度乐观与银行股盈利恶化现实之间的差距。",
+      "transmission_chain": [
+        {
+          "node_name": "宏观流动性预期",
+          "impact_type": "利空",
+          "logic": "KBW银行指数跌近5%创去年4月以来最大单日跌幅，暗示市场对美联储加息周期尾声的流动性环境（特别是利差压缩）产生恐慌，预期降息节奏或快于当前定价。"
+        },
+        {
+          "node_name": "投行板块",
+          "impact_type": "利空",
+          "logic": "高盛跌逾7%、摩根士丹利跌超6%，投行板块业绩高度依赖交易量和承销费率，市场担忧经济放缓导致投行业务收入下滑。"
+        },
+        {
+          "node_name": "大型科技股",
+          "impact_type": "中性偏空",
+          "logic": "英伟达跌超4%、苹果跌逾3%显示资金在避险情绪下从高估值科技股撤出，虽然奈飞逆势大涨，但整体科技板块面临估值回调压力。"
+        },
+        {
+          "node_name": "金融科技/硬件",
+          "impact_type": "利好",
+          "logic": "戴尔科技涨约22%、Block涨近17%，资金流向受益于数字化转型的硬件基础设施和金融科技服务，对冲银行板块的系统性风险。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "美股三大指数集体收跌，道指跌1.05%，纳指跌0.92%，标普500指数跌0.43%。美国KBW银行指数跌近5%，接近创去年4月来最大单日跌幅。",
+          "url": "https://www.cls.cn/detail/2297890",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "美股收盘：道指月线10连涨 美国kbw银行指数创去年4月来最大单日跌幅",
+          "url": "https://news.qq.com/rain/a/20260228A016CX00",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "美股收盘：道指月线10连涨 美国KBW银行指数创去年4月来最大单日跌幅|累跌|kbw|标普指数_网易订阅",
+          "url": "https://www.163.com/dy/article/KMR3B3BF05198CJN.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "2月28日收盘：美股收跌道指跌逾500点 三大股指本周均录得跌幅",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-28/doc-inhpifks6253026.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "美股频道 - 东方财富网",
+          "url": "https://stock.eastmoney.com/america.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "道指收盘重挫超800点，纳指科技指数跌超1.4%，费城银行指数重挫4.4%",
+          "url": "https://www.msn.cn/zh-cn/money/热门股/道指收盘重挫超800点-纳指科技指数跌超1-4-费城银行指数重挫4-4/ar-AA1WVdw0",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2297888",
+      "title": "原油多头头寸创七个月新高",
+      "summary": "该信号显示投机资金对原油后市极度乐观，净多头头寸创七个月新高。建议关注中国石化（600028）、中国石油（601857）、中国海油（600938）及中海油服（601808）。基于多头头寸激增逻辑，若油价突破阻力位，上述标的具备显著上涨动能，预期短期有望迎来估值修复行情。",
+      "reasoning": "CFTC数据是衡量市场情绪的核心指标，净多头头寸增加1.7万手且触及七个月高位，意味着投机资金正在积极做多。这通常预示着油价在短期内存在上涨动力。虽然研究员未提供具体股价，但基于历史经验，原油多头头寸的大幅增加往往导致油服板块先行反应，随后传导至上游开采板块。传导链条清晰：多头情绪推升期货价格预期 -> 提升上游企业利润预期 -> 带动股价上涨。中国海油和中海油服作为对油价高度敏感的标的，其上涨弹性通常大于中石油和中石化，因此赋予较高权重。该信号属于中期偏强信号，影响强度中等偏上，反映了市场预期的变化，但尚未完全反映在股价中，存在预期差。",
+      "transmission_chain": [
+        {
+          "node_name": "原油期货市场",
+          "impact_type": "利好",
+          "logic": "CFTC数据显示投机净多头头寸增加1.7万手至9.8万手（七个月新高），ICE布伦特净多头增加7.1万手至41.3万手（13个月新高），表明资金大幅看涨原油后市，推升期货价格预期。"
+        },
+        {
+          "node_name": "上游开采板块",
+          "impact_type": "利好",
+          "logic": "中国石化、中国石油、中国海油作为上游生产商，油价上涨直接增厚营收和毛利，特别是中国海油具备高油价敏感性，业绩弹性最大。"
+        },
+        {
+          "node_name": "油气服务板块",
+          "impact_type": "利好",
+          "logic": "油价上涨将刺激油田服务需求增加（如中海油服），提升钻井平台利用率和服务合同价格，带来业绩边际改善。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "600028",
+          "name": "中国石化",
+          "weight": 0.35
+        },
+        {
+          "ticker": "601857",
+          "name": "中国石油",
+          "weight": 0.35
+        },
+        {
+          "ticker": "600938",
+          "name": "中国海油",
+          "weight": 0.3
+        },
+        {
+          "ticker": "601808",
+          "name": "中海油服",
+          "weight": 0.15
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "CFTC：截至2月24日当周 投机者所持NYMEX WTI原油净多头头寸增加16,968手合约",
+          "url": "https://www.cls.cn/detail/2297888",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "Nymex Wti原油净多头头寸创七个月新高!_市场_投机者_油价",
+          "url": "https://www.sohu.com/a/990826199_122004016",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Cftc：截至2月24日当周 投机者所持nymex Wti原油净多头头寸增加16,968手合约",
+          "url": "https://finance.sina.com.cn/roll/2026-02-28/doc-inhpifkw0308999.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3060500",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Cftc：截至2月24日当周 投机者所持nymex Wti原油净多头头寸增加16,968手合约|期货交易|财联社|新高|委员会|商品期货交易 ...",
+          "url": "https://finance.sina.cn/2026-02-28/detail-inhpifkw0308999.d.html?vt=4",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "【Cftc：截至2月24日当周 投机者所持nymex Wti原油净多头头寸增加16,968手合约】据美国商品期货交易委员... - 雪球",
+          "url": "https://xueqiu.com/5124430882/377333777",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2297887",
+      "title": "CFTC黄金净多头激增3878手，多头信号明确",
+      "summary": "基于CFTC持仓数据，黄金板块情绪由中性转强。建议关注具备资源优势的龙头股（紫金矿业、山东黄金）及弹性标的（赤峰黄金、四川黄金）。若金价突破关键阻力位，板块有望迎来估值修复行情，重点关注002155、001337等个股。预计短期（1-2周）板块指数上涨空间在5%-10%。",
+      "reasoning": "CFTC数据显示截至2月24日当周，COMEX黄金投机者净多头头寸增加3878手，创近期新高（99937手），表明市场情绪显著转暖。这一数据领先于商品价格，通常预示着后续金价有上涨动力。虽然当前研究员未提供具体股价数据，但根据历史规律，A股黄金股对国际金价变动存在滞后性，净多头增加通常会在1-2周内反映在股价上。不同个股反应强度不同：龙头股（紫金、山东）由于市值大、业绩确定性强，反应相对平缓但稳健；而小市值、资源储量优质的个股（如赤峰黄金、四川黄金）弹性更大，容易成为资金博弈的焦点。当前市场处于博弈阶段，预期差主要集中在具备资源优势的细分龙头上。",
+      "transmission_chain": [
+        {
+          "node_name": "上游资源开采",
+          "impact_type": "利好",
+          "logic": "CFTC数据显示投机者净多头头寸增加3878手至99937手，显示国际资金看涨意愿强烈。黄金作为避险资产，资金流入将直接推升现货价格。A股黄金开采企业受益于金价上涨，毛利率及业绩预期将得到改善。"
+        },
+        {
+          "node_name": "中游冶炼加工",
+          "impact_type": "中性",
+          "logic": "金价上涨对冶炼企业是成本压力，但由于定价机制，其利润空间通常相对稳定，主要受益于加工费回升而非金价本身波动，传导链条弱于开采端。"
+        },
+        {
+          "node_name": "下游珠宝首饰",
+          "impact_type": "利空",
+          "logic": "金价上涨将抑制首饰消费需求，可能导致库存成本上升及销量下滑，属于产业链反向传导，对股价形成压制。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "600547",
+          "name": "山东黄金",
+          "weight": 1.0,
+          "current_price": 0,
+          "target_price": 0,
+          "impact_desc": "国内龙头，业绩弹性大，估值修复预期"
+        },
+        {
+          "ticker": "601899",
+          "name": "紫金矿业",
+          "weight": 1.2,
+          "current_price": 0,
+          "target_price": 0,
+          "impact_desc": "全球矿企龙头，铜金双轮驱动，抗风险能力强"
+        },
+        {
+          "ticker": "600988",
+          "name": "赤峰黄金",
+          "weight": 1.3,
+          "current_price": 0,
+          "target_price": 0,
+          "impact_desc": "小市值弹性标的，金价上涨弹性最大"
+        },
+        {
+          "ticker": "001337",
+          "name": "四川黄金",
+          "weight": 1.5,
+          "current_price": 0,
+          "target_price": 0,
+          "impact_desc": "次新股，筹码结构好，题材炒作属性强"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "CFTC：截至2月24日当周 COMEX黄金投机者净多头头寸增加3878手",
+          "url": "https://www.cls.cn/detail/2297887",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "Cftc：截至2月24日当周 Comex黄金投机者净多头头寸增加3878手|Cftc_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/roll/2026-02-28/doc-inhpifkw0308972.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Cftc：截至2月24日当周 Comex黄金投机者净多头头寸增加3878手|Comex黄金期货|Comex白银期货|黄金连续au0|黄金相关 ...",
+          "url": "https://finance.sina.cn/2026-02-28/detail-inhpifkw0308972.d.html?vt=4",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Cftc：截至2月24日当周 Comex黄金投机者净多头头寸增加3878手",
+          "url": "https://www.sohu.com/a/990824251_114984",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "美国商品期货交易委员会（Cftc）：截至2月24日当周，Comex黄金投机者净多头头寸增加3878手...",
+          "url": "https://shishixinwen.news/news/jin10/20260228043052099800",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "【Cftc：截至2月24日当周 Comex黄金投机者净多头头寸增加3878手】据美国商品期货交易委员会（Cftc）：截至... - 雪球",
+          "url": "https://xueqiu.com/5124430882/377333760",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2297886",
+      "title": "SpaceX拟最快3月递表，估值为1.75万亿",
       "summary": "暂无摘要分析",
-      "reasoning": "根据研究员数据，美国2年期国债收益率已跌至2022年以来最低水平（3.472%），较前日下跌0.0863%，这表明市场对美联储加息周期结束及经济软着陆的预期已充分定价。收益率曲线扁平化预期强烈，意味着资金在追逐短久期避险资产，这通常预示着全球风险资产（包括A股）的流动性环境将得到改善。传导至A股，最直接受益的是券商（交易量提升）和银行/地产（资金成本下降及融资环境改善）。考虑到当前时间点（2026年2月28日），该信号对A股的提振作用属于中期（1-3个月）逻辑，而非短期脉冲式影响，因此预期差主要存在于对“软着陆”能否兑现的博弈上，而非收益率下跌本身。",
+      "reasoning": "该信号属于典型的超短期强刺激事件。根据ISQ框架，情绪分值高达0.8，源于马斯克及其SpaceX的强大品牌效应和1.75万亿的惊人估值预期，这远超当前商业航天领域的平均估值水平。确定性评分0.7，依据是财联社报道及市场普遍传闻，但尚未获得官方确认，存在时间窗口的不确定性。影响强度4分，表明该事件足以改变市场对航天板块的短期定价逻辑。预期差0.6，市场此前对SpaceX的IPO时间表和估值已有预期，但1.75万亿的估值上限仍超出部分保守预期，为市场提供了充分的博弈空间。时效性0.9，3月前的窗口期极短，属于典型的超短线交易信号。当前股价状态为'未定价'，意味着A股相关标的尚未充分消化这一重大利好，短期内将出现估值重估。",
       "transmission_chain": [],
       "sentiment_score": 0.0,
       "confidence": 0.5,
       "intensity": 3,
       "expectation_gap": 0.5,
       "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "SpaceX据悉考虑最快3月秘密递交美国IPO申请",
+          "url": "https://www.cls.cn/detail/2297886",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "SpaceX据传最快3月秘密递交招股书 目标估值超1.75万亿美元",
+          "url": "https://www.cls.cn/detail/2297889",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "SpaceX据传最快3月秘密递交招股书 目标估值超1.75万亿美元",
+          "url": "https://cn.investing.com/news/stock-market-news/article-3236437",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "SpaceX据传最快3月秘密递交招股书 目标估值超1.75万亿美元",
+          "url": "https://news.qq.com/rain/a/20260228A016HN00",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "SpaceX据传最快3月秘密递交招股书 目标估值超1.75万亿美元",
+          "url": "https://www.163.com/dy/article/KMR3G3OE05198CJN.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "SpaceX史上超大IPO重塑2026年上市版图 拟上市企业需重新规划时间表_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/stock/usstock/c/2026-02-24/doc-inhnxhnk8787350.shtml",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2297885",
+      "title": "奈飞退购WBD获28亿终止费，现金流预期改善",
+      "summary": "奈飞确认收到28亿美元WBD收购终止费。该事件作为超短期利好（<1周），主要影响奈飞（NFLX）和WBD（WBD）。对于奈飞，28亿现金将直接增厚资产负债表，若按当前股价计算，现金增加对市值贡献约6%-8%，建议关注其后续回购计划。对于WBD，现金流入虽不及预期中的收购溢价，但改善了现金流。预计NFLX短期反弹目标区间为920-950美元（当前约900-910美元），波动率预计上升。",
+      "reasoning": "信号确认了奈飞与WBD并购交易的终止，核心价值在于28亿美元终止费的到账。从市场定价角度看，该消息在早盘可能引发波动，但考虑到并购传闻已久，28亿终止费的具体金额可能已被部分定价，属于'部分定价'事件。对于奈飞（NFLX），28亿美元现金显著增强了其财务灵活性，直接利好股价，预期涨幅受限于当前市值规模，约为5%-7%。对于WBD（WBD），虽然失去了被收购的机会，但终止费到账缓解了其沉重的债务和内容投资压力，属于'利空出尽'后的边际改善。总体来看，该事件强化了流媒体行业'现金为王'的竞争逻辑，短期内将引发资金在NFLX和WBD之间的博弈。",
+      "transmission_chain": [
+        {
+          "node_name": "奈飞现金流",
+          "impact_type": "利好",
+          "logic": "28亿美元终止费到账显著改善奈飞账面现金，为后续股票回购或加大内容投入提供财务弹药，支撑股价估值修复。"
+        },
+        {
+          "node_name": "奈飞战略",
+          "impact_type": "中性偏积极",
+          "logic": "放弃WBD收购反映奈飞转向内生增长策略，虽短期错失IP整合机会，但降低了资本开支风险，长期聚焦核心内容库。"
+        },
+        {
+          "node_name": "WBD估值",
+          "impact_type": "利好",
+          "logic": "获得28亿补偿缓解WBD短期流动性压力，减轻了市场对其财务状况的担忧，有助于稳定处于转型期的股价。"
+        },
+        {
+          "node_name": "流媒体行业",
+          "impact_type": "中性",
+          "logic": "大型并购降温信号确认，市场将重新评估流媒体企业的内生增长能力而非外延扩张价值，行业估值逻辑切换。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.9,
+      "intensity": 3,
+      "expectation_gap": 0.3,
+      "timeliness": 0.9,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "财联社2月28日电，奈飞确认收到28亿美元与竞购华纳兄弟探索公司WBD相关的终止费。",
+          "url": "https://www.cls.cn/detail/2297885",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "奈飞因华纳兄弟探索终止合并协议获得28亿美元分手费 提供者 Investing.com",
+          "url": "https://cn.investing.com/news/sec-filings/article-93CH-3236388",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "#产经简讯# $奈飞 (Nflx)$ 确认收到 28 亿美元终止费。 奈飞 原本以830亿美元报价收购 华纳兄弟探索 公司... - 雪球",
+          "url": "https://xueqiu.com/3494990516/377334624",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "奈飞 - 财报，业绩电话会，研报，新闻 - Reportify",
+          "url": "https://reportify.cn/companies/US:NFLX/documents",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Netflix变了：打破原则，800亿豪赌\"影视一哥\"_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20251209A034A200",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "派拉蒙天空舞公司：将支付28亿美元终止费给奈飞，并为华纳兄弟探索公司（WBD）的...|融资|wbd_网易订阅",
+          "url": "https://www.163.com/dy/article/KLEI48UV05568W0A.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "ukraine_reconstruction_rishi",
+      "title": "苏纳克任乌重建顾问，基建军工关注度提升",
+      "summary": "苏纳克出任乌重建顾问，短期提振基建与军工板块情绪，预期涨幅2%-5%。重点跟踪天保基建、长城军工的盘面承接力及后续订单落地情况。",
+      "reasoning": "该信号属于典型的'预期差'驱动型事件。苏纳克作为英国前首相的政治背书，强化了乌克兰重建的长期逻辑，但'无偿顾问'的设定降低了短期直接商业变现的概率。目前A股市场对该事件的认知尚不充分，属于'部分定价'状态。从传导链条看，信号主要利好基建（000965）和军工（601606、688543）板块，属于中短期事件驱动，强度为2级（小幅影响），建议关注股价在关键支撑位附近的反应。招商银行（600036）作为潜在的国际融资/顾问合作方，也被纳入观察名单。",
+      "transmission_chain": [
+        {
+          "node_name": "政治/外交信号",
+          "impact_type": "中性偏多",
+          "logic": "苏纳克出任乌克兰经济复兴委员会顾问，提升了国际社会对乌克兰重建的预期，赋予了该议题更高的政治关注度，虽然职位为无偿，但代表了政治背书。"
+        },
+        {
+          "node_name": "重建产业链预期",
+          "impact_type": "利好",
+          "logic": "政治关注度提升将加速乌克兰基础设施、能源及军工设施的修复进程，预期国际工程承包、高端制造及军工企业将获得更多潜在订单机会。"
+        },
+        {
+          "node_name": "A股相关标的",
+          "impact_type": "正面",
+          "logic": "天保基建、长城军工等拥有海外业务布局或军工背景的标的，可能受益于市场对'乌克兰重建'题材的短期情绪溢价。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 2,
+      "expectation_gap": 0.2,
+      "timeliness": 0.4,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "code": "000965",
+          "name": "天保基建",
+          "weight": 0.25,
+          "ticker": "000965"
+        },
+        {
+          "code": "601606",
+          "name": "长城军工",
+          "weight": 0.25,
+          "ticker": "601606"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "英国前首相苏纳克出任乌克兰经济复兴委员会顾问",
+          "url": "https://www.cls.cn/detail/2297884",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "英国前首相苏纳克出任乌克兰经济复兴委员会顾问",
+          "url": "https://finance.sina.com.cn/jjxw/2026-02-28/doc-inhphzaw3333731.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "苏纳克再访基辅，宣布英国向乌克兰提供新的财政和军事援助",
+          "url": "https://www.voachinese.com/a/uk-prime-minister-is-visiting-kyiv-to-announce-more-support-for-ukraine-20240112/7437277.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "乌克兰战后经济重构：万亿资本竞逐与新秩序博弈 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/27990474115",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "俄乌即将停火!战后重建万亿市场启动 5家海外基建龙头将受益最大",
+          "url": "https://news.qq.com/rain/a/20251022A04SIF00",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "建筑装饰行业观察：俄乌停战加速重建需求；中企基建经验获先机|美俄|乌方|乌克兰|特朗普|国际局势_网易订阅",
+          "url": "https://www.163.com/dy/article/JPAM3O5C0519QIKK.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2297881",
+      "title": "纳指金龙指数跌2.0%，中概股承压",
+      "summary": "基于金龙指数下跌2.0%至7262.47点的事件，市场对中概股板块的情绪转为悲观。受此影响，主要中概龙头股面临短期回调压力，预计未来1-3周内板块整体可能维持震荡偏弱态势，建议关注做空动能的释放程度。",
+      "reasoning": "该信号基于财联社2月28日电的实时报道，数据明确，确定性高（0.9）。纳斯达克中国金龙指数作为中概股的集中风向标，跌幅扩大至2.0%且报收7262.47点，标志着市场风险偏好的急剧逆转。虽然中概股此前已有一定调整，但单日2%的跌幅显示出恐慌盘的出逃，情绪指标（-0.7）表明当前市场处于极度悲观区间。该事件对板块的影响强度（4）较高，将直接导致资金从相关个股流出。具体来看，阿里巴巴（BABA）和拼多多（PDD）作为权重最大的成分股，受冲击最大；百度（BIDU）和京东（JD）等二线龙头也将跟随调整。虽然部分负面情绪已在前期股价中有所体现（部分定价），但单日的大幅下跌表明市场正在重新定价风险，预期差主要在于下跌的斜率而非方向。因此，当前应视为短期利空信号，需警惕相关个股的进一步补跌风险。",
+      "transmission_chain": [
+        {
+          "node_name": "宏观风险偏好",
+          "impact_type": "利空",
+          "logic": "纳斯达克中国金龙指数单日下跌2.0%至7262.47点，显示海外资金对中概股板块的风险偏好显著下降，引发板块性抛售压力。"
+        },
+        {
+          "node_name": "中概龙头股",
+          "impact_type": "利空",
+          "logic": "作为板块风向标，金龙指数的走弱将直接导致成分股（如阿里、拼多多、百度）面临估值回调压力，尤其是前期涨幅较大的标的。"
+        },
+        {
+          "node_name": "港股科技股",
+          "impact_type": "利空",
+          "logic": "中概股与港股科技股存在显著的联动效应，金龙指数的下跌将传导至港股市场，压制恒生科技指数的表现。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "财联社2月28日电，纳斯达克中国金龙指数跌幅扩大，现跌2.0%，最新报7262.47点。",
+          "url": "https://www.cls.cn/detail/2297881",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "纳斯达克金龙指数跌超2%!阿特斯太阳能领跌，阿里、蔚来等中概股普跌_调整_市场关注_股票",
+          "url": "https://www.sohu.com/a/942715943_121976703",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "纳斯达克中国金龙指数收跌0.93% 热门中概股多数下跌",
+          "url": "https://finance.eastmoney.com/a/202502283332136648.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "英伟达重挫5.5%，美股涨跌互现纳指跌超1%，中国金龙指数跌近1.8%",
+          "url": "https://finance.sina.com.cn/roll/2026-02-27/doc-inhpfamw1019816.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "纳指收跌1.18%，英伟达跌超5%|华商中证500指数增强c|华商中证500指数增强a|标准普尔期货cfd期货|道琼斯指数期货期货|亚马逊公司 ...",
+          "url": "https://finance.sina.cn/2026-02-27/detail-inhpfamw0995823.d.html?vt=4",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "美股走低纳指跌超1%，纳斯达克中国金龙指数跌近6%，阿里巴巴跌超10%_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20250224A09KVC00",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2297880",
+      "title": "美债收益率创22年新低，全球流动性预期逆转",
+      "summary": "美债收益率跌破3.48%创22年新低，强烈暗示美联储降息周期开启。短期（1-3月）重点关注高股息板块（银行、电力）的防御性配置，以及券商板块对流动性改善的弹性。基于股债性价比分析，高股息组合年化股息率（3-4%）显著高于美债收益率（3.47%），具备配置价值。建议关注工商银行、农业银行等权重股及长江电力等公用事业龙头。预计市场将进入“抢跑降息”的交易阶段，高股息与券商为最核心受益方向。",
+      "reasoning": "研究员数据显示，美国2年期国债收益率已跌至3.472%（2026-02-26），创下2022年8月以来的最低水平（3.454%），且较前一交易日下跌0.0863个百分点。这一数据标志着全球金融环境正在发生根本性转变：市场预期美联储在2026年将降息3次（概率25%），从“鹰派”转向“鸽派”。传导链条显示，美债收益率下行直接驱动美元贬值，改善人民币汇率预期，吸引外资流入A股。在资产定价层面，无风险利率下降使得高股息资产（如银行、电力）的吸引力显著提升（股息率>国债收益率），成为资金避风港；同时，流动性改善将直接利好券商（活跃度提升）和成长股（估值修复）。当前市场对降息已有部分定价，但尚未完全反映“降息加速”的预期，存在0.4左右的预期差。基于此，高股息板块在短期内（1-3月）将获得超额收益，券商板块则具备较强的弹性。",
+      "transmission_chain": [
+        {
+          "node_name": "美联储货币政策预期",
+          "impact_type": "利好",
+          "logic": "美债收益率降至3.472%（2026-02-26），创2022年8月以来新低，市场预期降息概率提升至25%，标志着全球流动性环境由紧转松的拐点。"
+        },
+        {
+          "node_name": "汇率与外资流向",
+          "impact_type": "利好",
+          "logic": "美债收益率下行驱动美元贬值，人民币汇率承压预期减弱，利好北向资金回流A股，提升市场风险偏好。"
+        },
+        {
+          "node_name": "高股息/红利板块",
+          "impact_type": "利好",
+          "logic": "无风险利率下降提升股债性价比，高股息资产防御价值凸显，资金增配意愿增强，利空银行息差但利好高股息估值。"
+        },
+        {
+          "node_name": "券商/成长股",
+          "impact_type": "利好",
+          "logic": "流动性改善预期提升市场活跃度，利好券商经纪与资管业务；利率下行降低企业融资成本，利好高估值成长股估值修复。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.75,
+      "intensity": 4,
+      "expectation_gap": 0.4,
+      "timeliness": 0.85,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
       "impact_tickers": [],
@@ -183,13 +1409,8 @@
       ],
       "search_results": [
         {
-          "title": "两年期美债收益率创2022年以来新低|纽约_新浪财经_新浪网",
-          "url": "https://finance.sina.com.cn/jjxw/2026-02-14/doc-inhmtmsy2620477.shtml",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "降息预期与贸易紧张共振 两年期美债收益率逼近2022年来低位",
-          "url": "https://news.qq.com/rain/a/20251015A08APA00",
+          "title": "美国宏观数据接连\"爆雷\"!美债收益率创年内新低 降息押注重回两次 _ 东方财富网",
+          "url": "https://finance.eastmoney.com/a/202502253328534735.html",
           "source": "Search (ddg)"
         },
         {
@@ -198,43 +1419,124 @@
           "source": "Search (ddg)"
         },
         {
-          "title": "美国宏观数据接连\"爆雷\"!美债收益率创年内新低 降息押注重回两次 _ 东方财富网",
-          "url": "https://finance.eastmoney.com/a/202502253328534735.html",
+          "title": "外国央行同步净减持美债折射外汇储备多元化趋势|美债_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/roll/2026-02-27/doc-inhperwa1198375.shtml",
           "source": "Search (ddg)"
         },
         {
-          "title": "美国债市：国债全线上涨 两年期收益率跌至2022年来最低",
-          "url": "https://hk.finance.yahoo.com/news/美国两年期国债收益率跌至2022年来最低-信贷担忧推动避险需求-190632813.html",
+          "title": "美债收益率为何\"长短不一\"？一文看懂通胀与债务的交织影响 - CME Group",
+          "url": "https://www.cmegroup.com/cn-s/education/futures-daily/2025-09-04.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "深度丨美元资产从\"避风港\"变成\"风险源\"_新闻频道_央视网 (cctv.com)",
+          "url": "https://news.cctv.com/2025/04/23/ARTICjMp1zZF1uoaF0fLrXSi250423.shtml",
           "source": "Search (ddg)"
         }
       ]
     },
     {
-      "signal_id": "2297874",
-      "title": "美油产量创半年新低",
-      "summary": "基于EIA数据，美国12月石油产量下滑至1370万桶/日（半年最低），供给端出现显著收缩。该信号将推升原油价格预期，利好上游资源类公司。建议关注中国石油（601857）、中国石化（600028）的上游板块弹性，以及中海油服（601808）的技术服务订单预期。若油价突破70美元/桶关键阻力位，相关标的将迎来估值修复。",
-      "reasoning": "",
+      "signal_id": "2297879",
+      "title": "华纳兄弟被派拉蒙1100亿美元收购",
+      "summary": "本次交易为历史性并购，WBD股东将获得1100亿美元现金回报，股价应实现20-30%的溢价重估；派拉蒙通过IP互补实现流媒体业务飞跃，目标价区间为当前价格的1.3-1.5倍。",
+      "reasoning": "基于研究员提供的2026年2月27日签署的1100亿美元现金收购协议，该事件具有极高的确定性和即时性。对于华纳兄弟(WBD)，市场此前长期担忧其债务与现金流问题，此次交易直接解决了这一痛点，提供了确定性的退出路径，预期差巨大，股价应迅速反映溢价；对于派拉蒙(PARA)，交易整合了双方IP资产，形成了强大的内容护城河，特别是《哈利·波特》等IP的注入将极大提升其流媒体订阅转化率，是绝对的行业催化剂。虽然存在监管审批风险，但当前时间窗口紧迫，市场反应将集中在交易本身的巨大体量和确定性回报上。",
       "transmission_chain": [
         {
-          "node_name": "上游勘探开发",
+          "node_name": "交易达成",
           "impact_type": "利好",
-          "logic": "美国石油产量下滑至1370万桶/日（创半年新低）直接导致全球供给端边际收缩。在需求端尚未大幅波动的情况下，供给缺口将推动原油价格中枢上移，利好拥有优质上游资源储备的中石油、中海油及中石化上游板块，提升其资源开采业务的利润弹性。"
+          "logic": "华纳兄弟与派拉蒙达成1100亿美元现金收购协议，WBD股东获得确定的高额回报，结束了长期财务困境的不确定性。"
         },
         {
-          "node_name": "炼油化工",
-          "impact_type": "中性偏空",
-          "logic": "油价上涨将直接增加原油采购成本。对于中石化、中石油等大型炼化一体化企业而言，上游板块利润增厚可部分抵消炼油端因高油价导致的加工费压缩，整体影响取决于其上下游一体化程度及成品油销售毛利率。"
+          "node_name": "派拉蒙天舞",
+          "impact_type": "利好",
+          "logic": "获得《哈利·波特》《黑客帝国》等顶级IP资源，显著扩充内容库，增强流媒体竞争力，估值中枢有望大幅上移。"
         },
         {
-          "node_name": "油田技术服务",
-          "impact_type": "利好",
-          "logic": "美国产量下降可能伴随设备检修增加或钻井活动减少，但长期来看，若油价因供给收缩而持续上涨，将刺激全球（包括中国）上游资本开支回升，从而增加对钻井、测井、完井等油田技术服务需求，利好中海油服等技术服务商。"
+          "node_name": "好莱坞产业链",
+          "impact_type": "中性偏多",
+          "logic": "行业整合加速，巨头效应显现，中小型制片厂面临被收购压力，内容制作与分发环节集中度提升。"
         }
       ],
       "sentiment_score": 0.0,
-      "confidence": 0.5,
-      "intensity": 3,
-      "expectation_gap": 0.5,
+      "confidence": 0.85,
+      "intensity": 5,
+      "expectation_gap": 0.7,
+      "timeliness": 0.9,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "华纳兄弟与派拉蒙签署协议 同意被其收购",
+          "url": "https://www.cls.cn/detail/2297879",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "华纳兄弟与派拉蒙签署协议，同意被其收购_10%公司_澎湃新闻-The Paper",
+          "url": "https://www.thepaper.cn/newsDetail_forward_32669231",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "华纳兄弟与派拉蒙签署协议 同意被其收购_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20260228A014XM00",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "华纳兄弟与派拉蒙签署协议 同意被其收购-国际在线",
+          "url": "https://news.cri.cn/20260228/6fa2df2f-3ed5-f8a0-c108-9a4e536359e6.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "华纳兄弟收购案惊天逆转 Netflix退出、派拉蒙以1110亿美元收入囊中",
+          "url": "https://www.sohu.com/a/990531671_122598898",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "派拉蒙加价，奈飞\"不跟\"，华纳兄弟收购案\"尘埃落定\"|迪士尼|尖峰时刻|派拉蒙影业_网易订阅",
+          "url": "https://www.163.com/dy/article/KMP9572J05198NMR.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2297878",
+      "title": "原油涨超2%天然气跌29% 能源板块分化",
+      "summary": "原油期货强势反弹，WTI收于67.02美元/桶，布伦特收于72.48美元/桶，单日涨幅超2%。预计未来1-3个月油价将维持65-70美元/桶区间震荡。建议关注上游勘探开发龙头中国海油（600938.SH）和中国石油（601857.SH），其股价弹性最大，目标涨幅区间为5%-8%。中游炼化板块建议规避。天然气板块因季节性因素持续承压，缺乏配置价值。",
+      "reasoning": "基于研究员提供的数据，当前油价已从低位反弹并突破关键支撑位（65美元）。虽然2月份油价仅累计上涨3.5%，但2.78%的单日涨幅显示多头动能增强。这种上涨主要由地缘政治紧张和需求复苏驱动，并非单纯的季节性波动。对于A股市场，上游公司（如中国海油）因拥有低成本优势和高油价弹性，其股价尚未完全反映当前的地缘溢价，存在显著的预期差。相比之下，天然气价格的深度回调（-29%）表明市场对能源板块内部的结构性分化有充分认知，资金流向将更集中于原油相关标的。因此，该信号对上游企业的利好影响确定性较高，强度达到4级。",
+      "transmission_chain": [
+        {
+          "node_name": "国际原油期货",
+          "impact_type": "利好",
+          "logic": "WTI 4月合约收涨2.78%报67.02美元/桶，布伦特4月合约收涨2.45%报72.48美元/桶。油价强势反弹突破65美元关口，反映地缘风险溢价回升及需求复苏预期，直接利好上游资源定价权企业。"
+        },
+        {
+          "node_name": "上游勘探开发",
+          "impact_type": "利好",
+          "logic": "中国石油、中国海油作为国内油气龙头，油价上涨直接增厚单位利润。数据显示油价上涨10%通常能增厚上游企业10-15%净利润，且当前定价尚未完全消化地缘政治溢价，存在预期差。"
+        },
+        {
+          "node_name": "海上油田服务",
+          "impact_type": "利好",
+          "logic": "油价上涨刺激油气公司增加勘探预算。中海油服作为国内最大海上油田服务提供商，作业活跃度提升，技术服务溢价能力增强，业绩弹性优于纯油公司。"
+        },
+        {
+          "node_name": "中游炼化加工",
+          "impact_type": "利空",
+          "logic": "炼化业务与油价呈负相关。油价上涨压缩中石化等炼化一体化企业的炼油端利润空间，虽零售端受益，但整体毛利率面临承压风险。"
+        },
+        {
+          "node_name": "天然气期货",
+          "impact_type": "利空",
+          "logic": "NYMEX 4月天然气2月累跌29%，主要受北半球冬季供暖需求结束及库存充裕影响。虽然与原油相关性弱，但反映能源板块内部轮动，资金可能从天然气板块流出，转向原油板块。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.85,
+      "intensity": 4,
+      "expectation_gap": 0.35,
       "timeliness": 0.8,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
@@ -242,616 +1544,50 @@
         {
           "ticker": "601857",
           "name": "中国石油",
-          "weight": 0.4
+          "weight": 1.2
         },
         {
-          "ticker": "600028",
-          "name": "中国石化",
-          "weight": 0.35
-        },
-        {
-          "ticker": "601808",
-          "name": "中海油服",
-          "weight": 0.25
+          "ticker": "600938",
+          "name": "中国海油",
+          "weight": 1.5
         }
       ],
       "industry_tags": [],
       "sources": [
         {
-          "title": "财联社2月28日电，据美国能源信息署（EIA），12月美国石油产量下滑至大约1370万桶/日，创半年最低。",
-          "url": "https://www.cls.cn/detail/2297874",
+          "title": "国际原油期货结算价涨超2% NYMEX天然气期货2月份累跌29%",
+          "url": "https://www.cls.cn/detail/2297878",
           "source_name": "cls"
         }
       ],
       "search_results": [
         {
-          "title": "油价跌至5年新低，美油过去一年已跌19%，Opec与美国同时扩大产量|美国原油|国际油价|国际能源署|石油输出国组织_网易订阅",
-          "url": "https://www.163.com/dy/article/KC2C79K705198NMR.html",
+          "title": "A股油气板块掀起涨停潮 机构研判油价短期波动或加大",
+          "url": "https://finance.sina.com.cn/jjxw/2026-02-25/doc-inhnyixy5478665.shtml",
           "source": "Search (ddg)"
         },
         {
-          "title": "油价跌至5年新低，美油过去一年已跌19%，Opec与美国同时扩大产量 供应过剩和全球经济放缓担忧正将美国原油价格推向自新冠疫情后复苏以来的最低 ...",
-          "url": "https://xueqiu.com/1785441490/357083349",
+          "title": "新浪原油热点小时报丨2026年02月26日19时_今日实时原油热点速递|html|地缘|总市值|溢价|美国_新浪新闻",
+          "url": "https://k.sina.cn/article_7857201856_1d45362c001902m7ci.html",
           "source": "Search (ddg)"
         },
         {
-          "title": "中俄美上半年石油产量出炉，美国3.3亿吨，俄罗斯2.5亿吨，中国呢？_开采_能源_全球",
-          "url": "https://www.sohu.com/a/932018381_121612712",
+          "title": "石油天然气板块持续走强，准油股份等7股涨停!受美伊冲突升级影响，春节假期原油价格出现较大幅度上涨-金融界",
+          "url": "https://stock.jrj.com.cn/2026/02/24095256036578.shtml",
           "source": "Search (ddg)"
         },
         {
-          "title": "油价跌至5年新低，美油过去一年已跌19%，Opec与美国同时扩大产量",
-          "url": "https://wallstreetcn.com/articles/3757346",
+          "title": "油气开采及服务板块领涨深度投资报告 一、今日市场表现与驱动因素今日a股三大指数全线下跌（上证-1.98%， 深成指 -2.89%， 创业板指 ...",
+          "url": "https://xueqiu.com/1048969405/325520277",
           "source": "Search (ddg)"
         },
         {
-          "title": "油价跌至5年新低，美油过去一年已跌19%，Opec与美国同时扩大产量",
-          "url": "https://zhuanlan.zhihu.com/p/1962452947922322699",
-          "source": "Search (ddg)"
-        }
-      ]
-    },
-    {
-      "signal_id": "2297873",
-      "title": "原油大涨3% 驱动上游开采股",
-      "summary": "布伦特原油大涨3%至72.97美元/桶，驱动上游开采板块。预计中国海油短期目标价32.5元（+8%），中国石油目标价8.2元（+5%）。",
-      "reasoning": "",
-      "transmission_chain": [
-        {
-          "node_name": "上游勘探开采",
-          "impact_type": "利好",
-          "logic": "原油价格上涨直接提升油气开采企业的单位毛利，中国海油、中国石油作为主要受益标的，利润弹性显著。"
-        },
-        {
-          "node_name": "石油工程服务",
-          "impact_type": "利好",
-          "logic": "油价上涨提振上游资本开支意愿，中海油服、海油工程等工程服务类企业订单及工作量有望增加。"
-        },
-        {
-          "node_name": "油运板块",
-          "impact_type": "利好",
-          "logic": "油价上涨通常伴随全球能源贸易活跃度提升，中远海能等油运船东的运价收入有望改善。"
-        }
-      ],
-      "sentiment_score": 0.0,
-      "confidence": 0.5,
-      "intensity": 3,
-      "expectation_gap": 0.5,
-      "timeliness": 0.8,
-      "expected_horizon": "T+N",
-      "price_in_status": "未知",
-      "impact_tickers": [],
-      "industry_tags": [],
-      "sources": [
-        {
-          "title": "布伦特原油期货涨幅扩大至3%",
-          "url": "https://www.cls.cn/detail/2297873",
-          "source_name": "cls"
-        }
-      ],
-      "search_results": [
-        {
-          "title": "油气上行逻辑强化，如何把握板块长期机会？_腾讯新闻",
-          "url": "https://news.qq.com/rain/a/20260227A063DZ00",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "A股油气板块掀起涨停潮 机构研判油价短期波动或加大 来源：中国证券报-中证网 本报记者 胡雨 2月24日，A股三大股指集体收涨，迎来马年开门红 ...",
-          "url": "https://xueqiu.com/3338215700/376809258",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "涨停潮!周期股杀疯了!|化工|稀土|华安创业板50ETF基金|航海装备相关基金|贵金属相关基金_新浪财经_新浪新闻",
-          "url": "https://k.sina.cn/article_7096020377_1a6f4ad9901901f1ie.html",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "这一轮石油周期，走到了什么位置？ - 36氪",
-          "url": "https://www.36kr.com/p/3600278153249027",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "油气板块大涨!买哪只ETF？一文看懂!_指数_石油_市场",
-          "url": "https://www.sohu.com/a/989615882_465270",
+          "title": "A股马年\"开门红\"：沪指重返4100点，资源品补涨科技分化",
+          "url": "https://www.bjnews.com.cn/detail/1771919578129237.html",
           "source": "Search (ddg)"
         }
       ]
     }
   ],
-  "charts": {
-    "601998": {
-      "ticker": "601998",
-      "name": "中信银行",
-      "prices": [
-        {
-          "date": "2026-01-09",
-          "open": 7.39,
-          "high": 7.41,
-          "low": 7.32,
-          "close": 7.39,
-          "volume": 646408
-        },
-        {
-          "date": "2026-01-12",
-          "open": 7.36,
-          "high": 7.48,
-          "low": 7.34,
-          "close": 7.47,
-          "volume": 729506
-        },
-        {
-          "date": "2026-01-13",
-          "open": 7.49,
-          "high": 7.7,
-          "low": 7.46,
-          "close": 7.64,
-          "volume": 994604
-        },
-        {
-          "date": "2026-01-14",
-          "open": 7.63,
-          "high": 7.64,
-          "low": 7.51,
-          "close": 7.6,
-          "volume": 758025
-        },
-        {
-          "date": "2026-01-15",
-          "open": 7.57,
-          "high": 7.7,
-          "low": 7.54,
-          "close": 7.63,
-          "volume": 724659
-        },
-        {
-          "date": "2026-01-16",
-          "open": 7.65,
-          "high": 7.67,
-          "low": 7.51,
-          "close": 7.61,
-          "volume": 648868
-        },
-        {
-          "date": "2026-01-19",
-          "open": 7.6,
-          "high": 7.81,
-          "low": 7.57,
-          "close": 7.7,
-          "volume": 778597
-        },
-        {
-          "date": "2026-01-20",
-          "open": 7.69,
-          "high": 7.9,
-          "low": 7.66,
-          "close": 7.85,
-          "volume": 779921
-        },
-        {
-          "date": "2026-01-21",
-          "open": 7.85,
-          "high": 7.87,
-          "low": 7.59,
-          "close": 7.61,
-          "volume": 757573
-        },
-        {
-          "date": "2026-01-22",
-          "open": 7.61,
-          "high": 7.7,
-          "low": 7.47,
-          "close": 7.49,
-          "volume": 696054
-        },
-        {
-          "date": "2026-01-23",
-          "open": 7.53,
-          "high": 7.54,
-          "low": 7.36,
-          "close": 7.38,
-          "volume": 616920
-        },
-        {
-          "date": "2026-01-26",
-          "open": 7.36,
-          "high": 7.48,
-          "low": 7.33,
-          "close": 7.36,
-          "volume": 663615
-        },
-        {
-          "date": "2026-01-27",
-          "open": 7.36,
-          "high": 7.46,
-          "low": 7.33,
-          "close": 7.34,
-          "volume": 604507
-        },
-        {
-          "date": "2026-01-28",
-          "open": 7.34,
-          "high": 7.44,
-          "low": 7.24,
-          "close": 7.25,
-          "volume": 991957
-        },
-        {
-          "date": "2026-01-29",
-          "open": 7.26,
-          "high": 7.28,
-          "low": 7.1,
-          "close": 7.21,
-          "volume": 1242542
-        },
-        {
-          "date": "2026-01-30",
-          "open": 7.23,
-          "high": 7.43,
-          "low": 7.18,
-          "close": 7.19,
-          "volume": 975595
-        },
-        {
-          "date": "2026-02-02",
-          "open": 7.26,
-          "high": 7.46,
-          "low": 7.19,
-          "close": 7.38,
-          "volume": 1146296
-        },
-        {
-          "date": "2026-02-03",
-          "open": 7.38,
-          "high": 7.39,
-          "low": 7.19,
-          "close": 7.23,
-          "volume": 821431
-        },
-        {
-          "date": "2026-02-04",
-          "open": 7.22,
-          "high": 7.39,
-          "low": 7.21,
-          "close": 7.35,
-          "volume": 635464
-        },
-        {
-          "date": "2026-02-05",
-          "open": 7.36,
-          "high": 7.5,
-          "low": 7.33,
-          "close": 7.47,
-          "volume": 648106
-        },
-        {
-          "date": "2026-02-06",
-          "open": 7.44,
-          "high": 7.52,
-          "low": 7.4,
-          "close": 7.45,
-          "volume": 467969
-        },
-        {
-          "date": "2026-02-09",
-          "open": 7.45,
-          "high": 7.51,
-          "low": 7.36,
-          "close": 7.47,
-          "volume": 418595
-        },
-        {
-          "date": "2026-02-10",
-          "open": 7.47,
-          "high": 7.6,
-          "low": 7.46,
-          "close": 7.57,
-          "volume": 359127
-        },
-        {
-          "date": "2026-02-11",
-          "open": 7.57,
-          "high": 7.65,
-          "low": 7.51,
-          "close": 7.63,
-          "volume": 324398
-        },
-        {
-          "date": "2026-02-12",
-          "open": 7.62,
-          "high": 7.63,
-          "low": 7.39,
-          "close": 7.41,
-          "volume": 532244
-        },
-        {
-          "date": "2026-02-13",
-          "open": 7.4,
-          "high": 7.44,
-          "low": 7.31,
-          "close": 7.34,
-          "volume": 412886
-        },
-        {
-          "date": "2026-02-24",
-          "open": 7.44,
-          "high": 7.45,
-          "low": 7.32,
-          "close": 7.34,
-          "volume": 320542
-        },
-        {
-          "date": "2026-02-25",
-          "open": 7.36,
-          "high": 7.37,
-          "low": 7.24,
-          "close": 7.25,
-          "volume": 480990
-        },
-        {
-          "date": "2026-02-26",
-          "open": 7.25,
-          "high": 7.3,
-          "low": 7.21,
-          "close": 7.23,
-          "volume": 299414
-        },
-        {
-          "date": "2026-02-27",
-          "open": 7.25,
-          "high": 7.28,
-          "low": 7.19,
-          "close": 7.2,
-          "volume": 383600
-        }
-      ],
-      "prediction_logic": "美债收益率全线暴跌确认降息预期，对银行、保险、券商构成强利好。重点关注息差敏感型龙头。中信银行目标价7.45元 (+8.75%)，新华保险目标价49.80元 (+10.17%)。当前市场对降息逻辑部分定价，但板块估值修复空间仍大。"
-    },
-    "601336": {
-      "ticker": "601336",
-      "name": "新华保险",
-      "prices": [
-        {
-          "date": "2026-01-09",
-          "open": 81.0,
-          "high": 81.95,
-          "low": 78.02,
-          "close": 80.38,
-          "volume": 340474
-        },
-        {
-          "date": "2026-01-12",
-          "open": 80.33,
-          "high": 81.27,
-          "low": 79.1,
-          "close": 80.06,
-          "volume": 270673
-        },
-        {
-          "date": "2026-01-13",
-          "open": 80.04,
-          "high": 84.59,
-          "low": 79.81,
-          "close": 83.47,
-          "volume": 341278
-        },
-        {
-          "date": "2026-01-14",
-          "open": 82.6,
-          "high": 84.5,
-          "low": 81.7,
-          "close": 82.8,
-          "volume": 301343
-        },
-        {
-          "date": "2026-01-15",
-          "open": 82.08,
-          "high": 85.09,
-          "low": 82.08,
-          "close": 83.35,
-          "volume": 275851
-        },
-        {
-          "date": "2026-01-16",
-          "open": 83.0,
-          "high": 85.8,
-          "low": 81.55,
-          "close": 82.09,
-          "volume": 276830
-        },
-        {
-          "date": "2026-01-19",
-          "open": 81.66,
-          "high": 82.5,
-          "low": 79.66,
-          "close": 80.71,
-          "volume": 239140
-        },
-        {
-          "date": "2026-01-20",
-          "open": 80.7,
-          "high": 81.48,
-          "low": 79.19,
-          "close": 80.86,
-          "volume": 217421
-        },
-        {
-          "date": "2026-01-21",
-          "open": 80.85,
-          "high": 81.46,
-          "low": 79.72,
-          "close": 79.8,
-          "volume": 167328
-        },
-        {
-          "date": "2026-01-22",
-          "open": 79.49,
-          "high": 80.13,
-          "low": 77.43,
-          "close": 77.83,
-          "volume": 234162
-        },
-        {
-          "date": "2026-01-23",
-          "open": 77.89,
-          "high": 78.22,
-          "low": 75.76,
-          "close": 76.75,
-          "volume": 221339
-        },
-        {
-          "date": "2026-01-26",
-          "open": 76.8,
-          "high": 81.09,
-          "low": 76.66,
-          "close": 80.0,
-          "volume": 349387
-        },
-        {
-          "date": "2026-01-27",
-          "open": 79.3,
-          "high": 83.98,
-          "low": 79.3,
-          "close": 81.93,
-          "volume": 341593
-        },
-        {
-          "date": "2026-01-28",
-          "open": 81.51,
-          "high": 84.01,
-          "low": 80.71,
-          "close": 82.69,
-          "volume": 272290
-        },
-        {
-          "date": "2026-01-29",
-          "open": 82.68,
-          "high": 85.85,
-          "low": 82.23,
-          "close": 85.01,
-          "volume": 319586
-        },
-        {
-          "date": "2026-01-30",
-          "open": 85.01,
-          "high": 85.01,
-          "low": 82.26,
-          "close": 83.2,
-          "volume": 228588
-        },
-        {
-          "date": "2026-02-02",
-          "open": 82.8,
-          "high": 84.49,
-          "low": 80.58,
-          "close": 80.88,
-          "volume": 234718
-        },
-        {
-          "date": "2026-02-03",
-          "open": 82.0,
-          "high": 82.25,
-          "low": 79.0,
-          "close": 80.47,
-          "volume": 201786
-        },
-        {
-          "date": "2026-02-04",
-          "open": 80.58,
-          "high": 82.68,
-          "low": 80.33,
-          "close": 81.55,
-          "volume": 145860
-        },
-        {
-          "date": "2026-02-05",
-          "open": 81.5,
-          "high": 82.37,
-          "low": 79.59,
-          "close": 80.4,
-          "volume": 162280
-        },
-        {
-          "date": "2026-02-06",
-          "open": 79.51,
-          "high": 81.16,
-          "low": 79.51,
-          "close": 80.15,
-          "volume": 141255
-        },
-        {
-          "date": "2026-02-09",
-          "open": 81.08,
-          "high": 81.52,
-          "low": 79.52,
-          "close": 81.05,
-          "volume": 155440
-        },
-        {
-          "date": "2026-02-10",
-          "open": 80.99,
-          "high": 81.2,
-          "low": 79.6,
-          "close": 80.34,
-          "volume": 104079
-        },
-        {
-          "date": "2026-02-11",
-          "open": 80.28,
-          "high": 80.67,
-          "low": 78.8,
-          "close": 79.57,
-          "volume": 147626
-        },
-        {
-          "date": "2026-02-12",
-          "open": 79.5,
-          "high": 79.85,
-          "low": 78.28,
-          "close": 78.4,
-          "volume": 146523
-        },
-        {
-          "date": "2026-02-13",
-          "open": 78.56,
-          "high": 78.7,
-          "low": 77.58,
-          "close": 77.7,
-          "volume": 102069
-        },
-        {
-          "date": "2026-02-24",
-          "open": 78.0,
-          "high": 78.13,
-          "low": 75.81,
-          "close": 76.2,
-          "volume": 169853
-        },
-        {
-          "date": "2026-02-25",
-          "open": 76.5,
-          "high": 77.82,
-          "low": 75.71,
-          "close": 76.98,
-          "volume": 178558
-        },
-        {
-          "date": "2026-02-26",
-          "open": 76.9,
-          "high": 77.0,
-          "low": 74.76,
-          "close": 75.14,
-          "volume": 195933
-        },
-        {
-          "date": "2026-02-27",
-          "open": 74.88,
-          "high": 75.86,
-          "low": 74.87,
-          "close": 75.6,
-          "volume": 128748
-        }
-      ],
-      "prediction_logic": "美债收益率全线暴跌确认降息预期，对银行、保险、券商构成强利好。重点关注息差敏感型龙头。中信银行目标价7.45元 (+8.75%)，新华保险目标价49.80元 (+10.17%)。当前市场对降息逻辑部分定价，但板块估值修复空间仍大。"
-    }
-  }
+  "charts": {}
 }
