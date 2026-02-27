@@ -1,409 +1,768 @@
 {
-  "generated_at": "2026-02-28T02:36:14.990683+08:00",
-  "run_id": "lite_20260228_023614",
+  "generated_at": "2026-02-28T03:31:24.275050+08:00",
+  "run_id": "lite_20260228_033124",
   "count": 5,
   "signals": [
     {
-      "signal_id": "3060462",
-      "title": "美周钻井数微降407口，油服板块短期提振",
-      "summary": "基于钻井数407口（前值409）的微降信号，市场预期供应端收缩，短期利好油服板块。建议关注中石化油服（601880）及中海油服（601808），其股价当前处于技术反弹阶段，目标涨幅约3%-5%。",
-      "reasoning": "数据显示美国石油钻井数环比减少2口至407口，降幅微小（0.5%），虽反映油企投资意愿谨慎，但并未改变当前低位运行的现状。根据研究员背景信息，钻井数是油服公司的核心订单来源，该数据通常作为“预期差”交易点。当前WTI原油价格在66.91美元，钻井数处于低位对油价有支撑作用，但鉴于降幅有限，难以引发剧烈波动。对于A股市场，该信号主要催化油服板块（中石化油服、中海油服），这些标的当前股价表现相对抗跌（涨幅0.3%-0.5%），处于超跌反弹的技术面位置。相比之下，上游油气公司（如中国海油）对油价更敏感，但受制于全球能源转型大背景，短期弹性不如油服板块。因此，该信号强度（2/5）适中，更多是针对油服细分领域的短期情绪修复，而非行业反转。",
+      "signal_id": "3060477",
+      "title": "OpenAI拟再融百亿，算力基建迎催化",
+      "summary": "OpenAI追加融资100亿美元，预计将直接提振A股算力板块情绪。核心标的寒武纪-U、中科曙光、浪潮信息短期有望迎来估值与业绩双重催化，建议关注算力租赁与硬件采购订单落地情况。",
+      "reasoning": "基于2026年2月27日The Information披露的OpenAI 100亿美元融资快讯，该事件属于行业超级事件。当前A股AI板块虽然已有一定涨幅，但针对OpenAI具体融资额度的市场预期尚未完全定价（预期差0.4）。资金用途大概率用于算力基建，直接利好上游芯片与服务器厂商。根据研究员梳理，寒武纪-U作为芯片龙头弹性最大，中科曙光与浪潮信息作为服务器核心供应商确定性最高。逻辑传导路径清晰：融资 -> 算力需求激增 -> 产业链订单增加 -> 业绩预期改善。考虑到消息的时效性（Timeliness 0.9）和强度（Intensity 4），市场将迅速反应，预计相关标的短期波动率显著提升，具备较高的交易价值。",
       "transmission_chain": [
         {
-          "node_name": "上游勘探",
-          "impact_type": "中性偏多",
-          "logic": "钻井数407（前值409）环比微降，反映油企投资谨慎，对短期产量影响有限。作为油价先行指标，小幅下降可能被市场解读为供应端收缩信号，对油价形成温和支撑（当前WTI 66.91）。"
+          "node_name": "OpenAI大模型训练",
+          "impact_type": "利好",
+          "logic": "100亿美元追加融资用于算力扩张，直接引爆AI算力基础设施建设需求。"
         },
         {
-          "node_name": "油田服务",
+          "node_name": "AI算力基础设施",
           "impact_type": "利好",
-          "logic": "钻井数是油服公司订单的先行指标。407口的钻井数处于相对低位，且环比微降，显示市场预期未来油田服务需求将保持稳定或小幅改善，直接利好油服公司订单预期。"
+          "logic": "需求激增将直接带动服务器、AI芯片及光模块的采购量，相关厂商订单预期大幅提升。"
         },
         {
-          "node_name": "A股石油石化",
+          "node_name": "A股算力产业链",
           "impact_type": "利好",
-          "logic": "受油服板块提振及原油价格企稳影响，板块情绪修复。但钻井数降幅仅0.5%，属于边际改善，难以驱动板块大幅上涨，更多表现为短期超跌反弹或情绪修复。"
+          "logic": "资金面与技术面共振，带动寒武纪、中科曙光、浪潮信息等核心标的估值修复与情绪释放。"
         }
       ],
       "sentiment_score": 0.0,
-      "confidence": 0.65,
-      "intensity": 2,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "688256",
+          "name": "寒武纪-U",
+          "weight": 0.4,
+          "reasoning": "作为国产AI算力芯片龙头，直接受益于OpenAI大模型训练带来的算力需求激增，且市场对其技术突破有高预期，弹性最大。"
+        },
+        {
+          "ticker": "603019",
+          "name": "中科曙光",
+          "weight": 0.3,
+          "reasoning": "依托算力基础设施和液冷技术优势，是OpenAI等巨头服务器采购的核心标的，受益于硬件需求的确定性提升。"
+        },
+        {
+          "ticker": "000977",
+          "name": "浪潮信息",
+          "weight": 0.3,
+          "reasoning": "全球服务器龙头，算力租赁与硬件供应的核心受益方，资金落地将直接转化为订单增量。"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "OpenAI将追加融资100亿美元。（The Information）",
+          "url": "https://wallstreetcn.com/livenews/3060477",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "OpenAI\"狂飙\"，万亿美元砸向算力_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20251013A045W800",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "OpenAI筹划万亿级AI基建，机构称AI基建资本开支处于爆发拐点，这些环节将深度受益|人工智能|openai_网易订阅",
+          "url": "https://www.163.com/dy/article/K73ICQCM05198CJN.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "OpenAI算力总投资近万亿美元 市场争议AI基建真实需求与泡沫",
+          "url": "https://www.caixin.com/2025-10-09/102369959.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "赚100亿，烧1万亿，OpenAI算力神话：英伟达撒钱、AMD送股、全硅谷陪跑-36氪",
+          "url": "https://m.36kr.com/p/3501393519860873",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "OpenAI下调算力支出目标至6000亿美元，推进新一轮巨额融资",
+          "url": "https://finance.sina.com.cn/roll/2026-02-21/doc-inhnppvv9390615.shtml",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3060470",
+      "title": "能源贵金属夜盘大涨，风险偏好修复",
+      "summary": "基于原油期货夜盘3.74%的跳空高开（报502.4元/桶）及贵金属的强劲表现，预计A股油气开采及黄金板块将获得显著提振。建议关注中国石油、中国石化及赤峰黄金等标的，短期看多。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "国际大宗商品市场",
+          "impact_type": "利好",
+          "logic": "原油夜盘大涨3.74%报502.4元/桶，沪金涨1.31%，沪银暴涨6.95%，显示风险资产情绪显著回暖，美元指数小幅走弱，推升大宗商品整体估值。"
+        },
+        {
+          "node_name": "中游油气开采",
+          "impact_type": "利好",
+          "logic": "原油价格上涨直接提升油气开采企业的营收预期和毛利率，特别是中国石油、中国石化等上游资源股将直接受益于产品价格上涨。"
+        },
+        {
+          "node_name": "上游贵金属采选",
+          "impact_type": "利好",
+          "logic": "沪银暴涨6.95%远超沪金，显示市场对贵金属尤其是白银的避险和通胀属性关注度提升。国内黄金开采企业（如赤峰黄金、中国黄金）作为资源股，将受益于商品价格上涨带来的估值重估。"
+        },
+        {
+          "node_name": "下游化工/纺织",
+          "impact_type": "中性偏空",
+          "logic": "原油价格上涨将推高下游化工原料（如塑料、化纤）和纺织原料成本，可能挤压下游企业的利润空间，但对相关上游原材料股是利好。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.7,
+      "intensity": 4,
+      "expectation_gap": 0.4,
+      "timeliness": 0.85,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "code": "600028",
+          "name": "中国石化",
+          "weight": 0.3,
+          "ticker": "600028"
+        },
+        {
+          "code": "601857",
+          "name": "中国石油",
+          "weight": 0.25,
+          "ticker": "601857"
+        },
+        {
+          "code": "600988",
+          "name": "赤峰黄金",
+          "weight": 0.2,
+          "ticker": "600988"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "上期所原油期货2604合约夜盘收涨3.74%，报502.4元人民币/桶。\n\n沪金夜盘收涨1.31%，沪银收涨6.95%。",
+          "url": "https://wallstreetcn.com/livenews/3060470",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "行情-东方财富期货 - eastmoney.com",
+          "url": "https://qhweb.eastmoney.com/quote",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "有色金属逻辑解析：七大品种涨价动因与标的梳理 2025年以来， 有色金属 板块持续走强，黄金、钨、锑等核心品种价格年内涨幅均超50%，部分小 ...",
+          "url": "https://xueqiu.com/7500235104/355756686",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "市场风险偏好回升 贵金属延续跌势_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2025-10-29/doc-infvpiyw8956209.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "风险偏好持续修复，白银价格大幅反弹",
+          "url": "http://goodsfu.10jqka.com.cn/20251127/c672774074.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "沪金夜盘上涨0.42%背后的经济信号解读_市场_波动_全球",
+          "url": "https://www.sohu.com/a/878515887_122066678",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2297871",
+      "title": "ICE柴油净多头激增，炼化物流迎利好",
+      "summary": "ICE柴油净多头头寸激增28.9%至10.06万手，显示投机资金抢筹。预计ICE柴油价格短期将维持强势，布伦特原油有望冲击66-68美元区间。建议关注中国石化（600028.SH）、中国石油（601857.SH）及中远海能（600026.SH），目标价区间：中石化5.2-5.5元，中石油8.5-9.0元，中远海能10.5-11.2元。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "ICE柴油期货市场",
+          "impact_type": "利好",
+          "logic": "ICE柴油期货净多头头寸增加28,210手（+28.9%），至100,595手，表明投机资金对柴油后市乐观预期强烈，资金面强力支撑价格。"
+        },
+        {
+          "node_name": "原油/成品油价格",
+          "impact_type": "利好",
+          "logic": "期货多头增加将直接推升ICE柴油价格，作为原油产业链重要组成部分，柴油走强将提振布伦特原油及国内成品油价格预期。"
+        },
+        {
+          "node_name": "炼化企业（中石化/中石油）",
+          "impact_type": "利好",
+          "logic": "炼油板块受益于成品油价格上涨，利润空间有望打开。中国石化、中国石油作为炼化一体化龙头，直接受益于上游资源溢价。"
+        },
+        {
+          "node_name": "航运物流（中远海能）",
+          "impact_type": "利好",
+          "logic": "航运公司是柴油主要燃料消耗方，柴油价格上涨将增加运营成本；但若价格受宏观预期驱动上涨，反映经济复苏，通常利好运价及运力利用率。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "600028",
+          "name": "中国石化",
+          "weight": 0.4
+        },
+        {
+          "ticker": "601857",
+          "name": "中国石油",
+          "weight": 0.3
+        },
+        {
+          "ticker": "600026",
+          "name": "中远海能",
+          "weight": 0.2
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "财联社2月28日电，据洲际交易所，截至2月24日当周，柴油期货投机者将净多头头寸增加28,210手，至100,595手。",
+          "url": "https://www.cls.cn/detail/2297871",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "截至12月23日当周 ICE汽油和柴油投机者将净多头头寸削减19,306份合约|原油|交易所|ice|现货黄金_网易订阅",
+          "url": "https://www.163.com/dy/article/KHVLFS2V05566WVY.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "截至9月30日当周，洲际交易所（ICE）柴油期货投机者净多头头寸增加3093份合约，至117,600份合约。",
+          "url": "https://www.gilin.com.cn/news/12418362",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "PDF ICE指数和期货摘要",
+          "url": "https://www.ice.com/publicdocs/ICE_Index_and_Futures_Summary_Chinese.pdf",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Ice 低硫柴油cfd (Gls)期货行情,新闻,报价_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/futures/quotes/GLS.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "PDF <4d6963726f736f667420576f7264202d2036a1a232303234c4eab3c9c6b7d3cdbcdbb8 ...",
+          "url": "https://ceep.bit.edu.cn/docs/2024-01/b7cd0b0ff1fb41bc8bd54ce8d3a40d71.pdf",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2297865",
+      "title": "美钻井数微降407口，上游服务及油企获支撑",
+      "summary": "基于当前数据，市场已部分定价该信号。建议关注上游龙头（中国石油）及油田服务标的（中曼石油、通源石油）。预计原油价格短期受此支撑震荡偏强，相关标的股价有望获得5%-8%的相对收益，短期目标价区间为[中国石油：7.8-8.2元；中曼石油：32-35元]。",
+      "reasoning": "信号显示美国至2月27日当周石油钻井总数为407口，较前值409口减少2口，且为连续第二周下降。这一边际变化表明美国页岩油增产动能减弱，是未来3-6个月原油供给减少的先行指标，对油价形成支撑。虽然降幅仅0.49%，属于边际调整而非趋势性反转，但结合当前地缘政治复杂性和OPEC+减产预期，该信号强化了油价易涨难跌的逻辑。在A股市场中，中国石油（601857）作为全产业链龙头，受益于油价上涨带来的上游利润弹性，权重最高；中曼石油（603619）和通源石油（300164）作为油田服务及油企，主要受益于油价上涨预期下的长期资本开支增加，逻辑传导清晰。市场目前处于‘部分定价’状态，尚未完全反映长期供给收缩的预期，因此存在5%-8%的短期博弈空间。",
+      "transmission_chain": [
+        {
+          "node_name": "上游勘探开发",
+          "impact_type": "利好",
+          "logic": "美国钻井数连续两周下降（409→407），预示未来原油供给增速放缓。作为全球最大产油国，其产量边际变化将收紧全球供需平衡，推高原油价格预期，直接提升上游企业的盈利空间。"
+        },
+        {
+          "node_name": "油田服务/工程",
+          "impact_type": "利好",
+          "logic": "钻井平台数量的边际减少，虽然短期服务需求可能边际放缓，但长期来看反映了油价上涨预期。这会激励油企在后期增加资本开支，从而带动油田服务（如压裂、测井）的长期订单需求。"
+        },
+        {
+          "node_name": "中游炼化",
+          "impact_type": "中性偏多",
+          "logic": "原油价格上涨将增加炼化企业的原料成本，压缩利润空间；但若油价涨幅可控，且炼化产能利用率维持高位，则成本端压力可通过产品价格转嫁，影响相对有限。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.85,
+      "intensity": 3,
+      "expectation_gap": 0.3,
+      "timeliness": 0.4,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "601857",
+          "name": "中国石油",
+          "weight": 0.35
+        },
+        {
+          "ticker": "603619",
+          "name": "中曼石油",
+          "weight": 0.25
+        },
+        {
+          "ticker": "300164",
+          "name": "通源石油",
+          "weight": 0.25
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "财联社2月28日电，美国至2月27日当周石油钻井总数为407口，前值409口。",
+          "url": "https://www.cls.cn/detail/2297865",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "中国石化报",
+          "url": "http://www.baidu.com/link?url=96fJpDIdOFvGXjHmXZDtIPbGt2IFApIvK1vUWp_4h5ykEAIIkBLeXh8k8_CxCLj4oq4dKH35qJrOZVjRegqKHk71naU0Lf25x5xTRTkeBTvPaRaL0EC4mqUGw_lv93zz",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "美国钻井数下降:油市动态与外汇市场解读_财富号_东方财富网",
+          "url": "http://www.baidu.com/link?url=HIf6Jszr9a0-QjvI54mK1m9LnZSEoJ_mDz6ST0BHar4FalpYXlFauYoykMDpTWxIyRpGUTmtkuqyOV6mHReeLnJf2ItuHXYr2hwf_4E9NFi",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "钻井小幅下降,黄金能否趁势反弹?_财富号_东方财富网",
+          "url": "http://www.baidu.com/link?url=HIf6Jszr9a0-QjvI54mK1m9LnZSEoJ_mDz6ST0BHar4FalpYXlFauYoykMDpTWxIw7Np1O2CEvAEMbzee83RRtQ0tKT86m0gt6gxBQ2koUS",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "大家还在搜钻探服务属于什么行业西方石油钻井技术服务中曼石油走势图中东石油还能开采多久merey16原油钻井技术非常规石油页岩油开采钻探石油西方石油走势西部钻探巴州钻井公司",
+          "url": "/s?wd=%E9%92%BB%E6%8E%A2%E6%9C%8D%E5%8A%A1%E5%B1%9E%E4%BA%8E%E4%BB%80%E4%B9%88%E8%A1%8C%E4%B8%9A&usm=1&ie=utf-8&rsv_pq=bb81e0e8006757bc&oq=%E7%BE%8E%E9%92%BB%E4%BA%95%E6%95%B0%E5%BE%AE%E9%99%8D407%E5%8F%A3%2C%E4%B8%8A%E6%B8%B8%E6%9C%8D%E5%8A%A1%E5%8F%8A%E6%B2%B9%E4%BC%81%E8%8E%B7%E6%94%AF%E6%92%91&rsv_t=20c8hAZVGyhKlYFxiDgjcgGGebEjbBwbDxnWIypm7y7YZd%2FhUSwfmiHZSZ0&rsf=101631202&rsv_dl=0_prs_28608_1",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "美国至11月28日当周石油钻井总数意外大跌12口,推动油价凌晨走出...",
+          "url": "http://www.baidu.com/link?url=HIf6Jszr9a0-QjvI54mK1cb6CqUlke_H2xqBz4pQbLNaaTmIGmfq9zHs4t80_xFpLs-3nqWa_stYAR5NI8i9ua",
+          "source": "Search (baidu)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2297863",
+      "title": "美降息预期提速，地产链估值修复",
+      "summary": "基于特朗普'降速快'的激进表述，预计地产龙头（万科A/保利发展）短期有望冲击前高（估值修复至6-7倍PE），对应目标涨幅约15%-25%；银行股（招商银行）受益息差企稳，目标涨幅约8%-12%。板块整体进入'降息交易'加仓期，建议重仓地产链核心资产。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "美联储/宏观政策",
+          "impact_type": "利好",
+          "logic": "特朗普表态美国抵押贷款利率下降速度快，强化了市场对2026年美联储降息周期的预期，流动性环境改善。"
+        },
+        {
+          "node_name": "房企（中游）",
+          "impact_type": "利好",
+          "logic": "融资成本降低（发债/贷款利率下行）改善房企现金流，叠加购房成本下降刺激需求端，直接利好万科、保利等销售回暖。"
+        },
+        {
+          "node_name": "银行（下游）",
+          "impact_type": "利好",
+          "logic": "净息差（NIM）收窄压力减轻，按揭贷款重定价周期缩短，资产质量预期改善，利好招行等息差敏感型银行。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.75,
+      "intensity": 3,
       "expectation_gap": 0.4,
       "timeliness": 0.7,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
       "impact_tickers": [
         {
-          "ticker": "601880",
-          "name": "辽港股份",
-          "weight": 0.8,
-          "price_data": {
-            "current_price": 5.24,
-            "change_percent": 0.45
-          },
-          "valuation_status": "部分定价"
+          "ticker": "600048",
+          "name": "保利发展",
+          "weight": 0.35,
+          "reason": "国企背景，融资优势明显，在宽松周期中受益于信贷成本下降及销售回暖。"
         },
         {
-          "ticker": "601808",
-          "name": "中海油服",
-          "weight": 0.75,
-          "price_data": {
-            "current_price": 19.58,
-            "change_percent": 0.32
-          },
-          "valuation_status": "部分定价"
+          "ticker": "600036",
+          "name": "招商银行",
+          "weight": 0.25,
+          "reason": "核心受益于净息差收窄压力缓解及个人按揭贷款规模增长，息差修复逻辑清晰。"
         }
       ],
       "industry_tags": [],
       "sources": [
         {
-          "title": "美国2月27日当周石油钻井数 407，前值 409。",
-          "url": "https://wallstreetcn.com/livenews/3060462",
-          "source_name": "wallstreetcn"
-        }
-      ],
-      "search_results": [
-        {
-          "title": "美国至11月28日当周石油钻井总数意外大跌12口，推动油价凌晨走出反弹行情_新浪财经_新浪网",
-          "url": "https://finance.sina.com.cn/money/future/fmnews/2025-11-27/doc-infyuwaq9589241.shtml",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "美国石油钻井数微降1口：原油市场影响有限，黄金或迎短期震荡 一、石油钻井数据解读与市场反应7月12日公布的美国至7月11日当周石油钻井总数为 ...",
-          "url": "https://xueqiu.com/1548480400/342413227",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "美国油气活跃钻机数四周来首次下降 - 商品动态 - 生意社",
-          "url": "https://www.100ppi.com/news/detail-20251127-5008126.html",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "原油周报：美国原油产量下滑，钻机&压裂车队数量下降-研究报告正文 _ 数据中心 _ 东方财富网",
-          "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202507271716535830",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "钻井市场 | 贝克休斯发布每周钻机数量报告 美国钻井商五周内第四次削减油气钻井平台数量_行业资讯_第一工程机械网",
-          "url": "https://news.d1cm.com/20250825181669.shtml",
-          "source": "Search (ddg)"
-        }
-      ]
-    },
-    {
-      "signal_id": "3060459",
-      "title": "德债收益率回落利好金融板块",
-      "summary": "德债收益率显著回落，利好金融板块估值修复。重点关注券商（中信证券、华泰证券）和保险（中国平安）的补涨机会。目标区间：中信证券目标价30-32元，涨跌幅约5-10%；中国平安目标价55-58元，涨跌幅约3-6%。银行股需关注板块轮动节奏。",
-      "reasoning": "基于研究员提供的德债收益率具体数据（10年期报2.643%，周跌9.4基点），这证实了全球避险情绪升温及债券牛市延续的宏观信号。市场当前对金融板块的定价仍处于相对保守状态，尚未完全反映收益率下行带来的资产重估效应，存在约0.4的预期差。传导链条清晰：全球流动性改善→券商/保险固收业务收益提升→板块估值修复。鉴于当前金融板块估值处于历史相对低位，该信号对中信证券（600030）、华泰证券（601688）及中国平安（601318）具有中等强度的正面影响（强度3），预期将在1-3个月内驱动板块出现结构性机会。",
-      "transmission_chain": [
-        {
-          "node_name": "全球宏观环境",
-          "impact_type": "利好",
-          "logic": "10年期德债收益率本周累跌9.4个基点，报2.643%，显示全球避险情绪升温及通胀预期降温，美债收益率同步走低概率增加。"
-        },
-        {
-          "node_name": "券商/保险板块",
-          "impact_type": "利好",
-          "logic": "全球流动性环境改善，债券牛市延续。券商自营及投行业务受益于债券交易活跃，保险板块固收资产估值回升，利差损风险缓解。"
-        },
-        {
-          "node_name": "银行板块",
-          "impact_type": "中性偏利好",
-          "logic": "债券收益率下降有助于缓解银行债券投资浮亏压力，且流动性宽松有助于稳定息差预期。"
-        }
-      ],
-      "sentiment_score": 0.0,
-      "confidence": 0.7,
-      "intensity": 3,
-      "expectation_gap": 0.4,
-      "timeliness": 0.5,
-      "expected_horizon": "T+N",
-      "price_in_status": "未知",
-      "impact_tickers": [
-        {
-          "ticker": "600030",
-          "name": "中信证券",
-          "weight": 0.25
-        },
-        {
-          "ticker": "601688",
-          "name": "华泰证券",
-          "weight": 0.2
-        },
-        {
-          "ticker": "601318",
-          "name": "中国平安",
-          "weight": 0.15
-        }
-      ],
-      "industry_tags": [],
-      "sources": [
-        {
-          "title": "10年期德债收益率周五跌约5个基点，本周累跌超9个基点",
-          "url": "https://wallstreetcn.com/livenews/3060459",
-          "source_name": "wallstreetcn"
-        }
-      ],
-      "search_results": [
-        {
-          "title": "外汇商品 | \"债务过剩\"时代重塑利率趋势——从便利收益率预测德债走势|利率_新浪财经_新浪网",
-          "url": "https://finance.sina.com.cn/stock/stockzmt/2025-12-03/doc-infznqyk1457366.shtml",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "德债收益率剧烈波动：市场何以\"V形反转\"？_经济_全球_德国",
-          "url": "https://www.sohu.com/a/882433249_122066678",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "欧洲债市：德债收益率曲线趋平 长债领涨 来源：环球市场播报 德国30 年期国债领涨，受此前25年期和30年期国债发行后利好的供应前景支撑。市场 ...",
-          "url": "https://xueqiu.com/3338215700/353167735",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "德债价格冲高回落，30年期德债收益率最终仍然涨约2个基点 _ 东方财富网",
-          "url": "https://bond.eastmoney.com/a/202510023528080010.html",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "当德债遇上美联储降息预期：欧元交易者的\"黄金副本\"来了？",
-          "url": "https://cn.investing.com/news/forex-news/article-2780883",
-          "source": "Search (ddg)"
-        }
-      ]
-    },
-    {
-      "signal_id": "3060455",
-      "title": "LME锡镍暴涨，有色板块情绪共振",
-      "summary": "基于LME期锡暴涨6.06%的强劲信号，建议关注锡业龙头**云南锡业(000960)**，预计短期股价弹性最大（+8-12%）；**紫金矿业(601899)**受益于铜镍双轮驱动，可中长线配置；**江西铜业(600362)**作为铜业龙头跟随上涨。整体板块情绪回暖，短期关注锡产业链爆发力。",
-      "reasoning": "2026年2月27日LME市场出现显著分化，其中期锡表现最为亮眼，单日大涨3294美元（+6.06%），报57728美元/吨；期镍上涨150美元（+0.85%），报17844美元/吨；期铜微涨39美元（+0.29%）。这一信号表明以锡、镍、铜为代表的有色金属正处于供需改善的拐点，尤其是锡价的大幅跳涨通常意味着下游电子和光伏需求超预期。根据研究员背景数据，A股相关标的如云南锡业（000960）、紫金矿业（601899）等拥有大量海外矿山权益，其业绩与LME价格高度绑定。当前市场情绪偏向乐观（ISQ sentiment 0.8），确定性较高（ISQ confidence 0.85），强度为4（ISQ intensity 4），表明这是值得立即关注的短期催化剂。虽然部分资金可能已提前定价部分涨幅，但锡价6%的单日涨幅远超市场预期，存在明显的预期差（ISQ expectation_gap 0.6），特别是对于具有高品位矿山资源的公司，其估值修复空间巨大。",
-      "transmission_chain": [
-        {
-          "node_name": "LME期货市场",
-          "impact_type": "利好",
-          "logic": "LME期锡单日暴涨6.06%领涨，期镍涨0.85%，期铜微涨，显示工业金属尤其是新能源产业链需求强劲，美元指数走弱增强以美元计价金属的吸引力。"
-        },
-        {
-          "node_name": "上游原材料供应",
-          "impact_type": "利好",
-          "logic": "现货价格跟随期货上涨，上游矿山及冶炼企业毛利率弹性放大，尤其是拥有高品位锡矿资源的公司受益最直接。"
-        },
-        {
-          "node_name": "中游冶炼加工",
-          "impact_type": "利好",
-          "logic": "铜、镍、锡等加工费（TC/RC）预期企稳回升，冶炼企业营收规模扩大，成本端虽有压力但传导机制顺畅。"
-        },
-        {
-          "node_name": "下游应用领域",
-          "impact_type": "利好",
-          "logic": "锡在光伏焊带、电子制造领域需求刚性；镍、铜支撑新能源汽车及电网建设，需求端改善支撑价格中枢上移。"
-        },
-        {
-          "node_name": "A股相关上市公司",
-          "impact_type": "利好",
-          "logic": "A股上市公司作为全球资源巨头，拥有低成本矿山，LME价格上涨将直接增厚公司净利润，且当前估值处于历史低位，具备安全边际。"
-        }
-      ],
-      "sentiment_score": 0.0,
-      "confidence": 0.5,
-      "intensity": 3,
-      "expectation_gap": 0.5,
-      "timeliness": 0.8,
-      "expected_horizon": "T+N",
-      "price_in_status": "未知",
-      "impact_tickers": [
-        {
-          "code": "000960",
-          "name": "锡业股份",
-          "weight": 0.4,
-          "ticker": "000960"
-        },
-        {
-          "code": "601899",
-          "name": "紫金矿业",
-          "weight": 0.3,
-          "ticker": "601899"
-        },
-        {
-          "code": "600362",
-          "name": "江西铜业",
-          "weight": 0.2,
-          "ticker": "600362"
-        }
-      ],
-      "industry_tags": [],
-      "sources": [
-        {
-          "title": "LME期铜收涨39美元，报13344美元/吨。\n\nLME期铝收跌18美元，报3140美元/吨。\n\nLME期锌收跌62美元，报3317美元/吨。\n\nLME期铅收跌22美元，报1962美元/吨。\n\nLME期镍收涨150美元，报17844美元/吨。\n\nLME期锡收涨3294美元，报57728美元/吨。\n\nLME期钴收平，报56290美元/吨。",
-          "url": "https://wallstreetcn.com/livenews/3060455",
-          "source_name": "wallstreetcn"
-        }
-      ],
-      "search_results": [
-        {
-          "title": "供需重构与周期共振：2025有色金属大涨逻辑及2026展望 2025年，全球 有色金属 市场迎来波澜壮阔的上涨行情：国际金价年内涨幅超70% ...",
-          "url": "https://xueqiu.com/1434146087/367933928",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "中信期货有限公司 - 今日有色要闻 | 市场避险情绪升温，沪锡高位回落；Lme计划明年7月起实施持仓限额新规",
-          "url": "https://www.citicsf.com/e-futures/content/000508/819774",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "乐观预期与市场情绪共振 锡价维持强势_孙匡_有色金属_政策",
-          "url": "https://www.sohu.com/a/980011474_121925623",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "铜铝锌镍锡铅集体狂飙，\"金属风暴\"席卷全球商品市场",
-          "url": "https://www.yicai.com/news/102992153.html",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "有色金属周报：宏观因子共振，商品价格上涨动力强-研究报告正文 _ 数据中心 _ 东方财富网",
-          "url": "https://data.eastmoney.com/report/zw_industry.jshtml?infocode=AP202508101724944933",
-          "source": "Search (ddg)"
-        }
-      ]
-    },
-    {
-      "signal_id": "3060454",
-      "title": "戴尔: 100亿回购+股息激增20%",
-      "summary": "基于股息激增20%及100亿美元回购计划，预计戴尔科技股价短期目标价区间为 **112.5 - 118.5美元**，对应后续1-2周潜在涨幅 **15% - 25%**。市场对AI服务器增长预期已部分兑现，但此次股东回报大幅提升显著超预期，将驱动估值中枢上移。",
-      "reasoning": "戴尔科技盘后涨幅扩大至20%，核心驱动因素是管理层对股东回报的激进调整。股息提升20%表明现金流极其充裕，而100亿美元回购计划（此前为0）表明管理层认为股价被严重低估，具有极强的买入信号。当前股价尚未完全消化这一利好，属于典型的超预期事件驱动。结合AI服务器业务强劲增长的基本面，这一“业绩+股东回报”双重共振的信号强度极高，确定性也很强。",
-      "transmission_chain": [
-        {
-          "node_name": "公司层面",
-          "impact_type": "利好",
-          "logic": "戴尔宣布增加20%股息及100亿美元股票回购（此前为0），表明管理层认为股价被低估且现金流充沛，直接提振股东回报预期。"
-        },
-        {
-          "node_name": "AI服务器产业链",
-          "impact_type": "利好",
-          "logic": "AI服务器业务强劲增长成为核心增长引擎，叠加供应链成本压力缓解，业绩增长预期得到验证，支撑高估值。"
-        },
-        {
-          "node_name": "半导体上游",
-          "impact_type": "利好",
-          "logic": "AI服务器需求拉动对内存芯片、CPU、GPU等半导体元件的需求，利好上游供应商。"
-        },
-        {
-          "node_name": "同业竞争",
-          "impact_type": "中性",
-          "logic": "作为服务器巨头，戴尔的激进回报可能引发同业（如HPE、联想）跟进调整股息或回购政策，间接影响竞争格局。"
-        }
-      ],
-      "sentiment_score": 0.0,
-      "confidence": 0.9,
-      "intensity": 4,
-      "expectation_gap": 0.75,
-      "timeliness": 0.9,
-      "expected_horizon": "T+N",
-      "price_in_status": "未知",
-      "impact_tickers": [],
-      "industry_tags": [],
-      "sources": [
-        {
-          "title": "戴尔科技涨幅扩大至20%。",
-          "url": "https://wallstreetcn.com/livenews/3060454",
-          "source_name": "wallstreetcn"
-        }
-      ],
-      "search_results": [
-        {
-          "title": "戴尔科技将年度股票分红提高20% 将股票回购规模扩大100亿美元",
-          "url": "https://news.qq.com/rain/a/20260227A01H5V00",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "戴尔科技2026财年营收1135亿美元创历史新高，AI订单积压飙至430亿美元，股息上调20%加码百亿回购",
-          "url": "https://www.163.com/dy/article/KMON3O7A0519QIKK.html",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "戴尔科技单季营收利润创历史新高 宣布现金股息上调20% 来源：环球市场播报 戴尔科技 今日公布截至2026年1月30日的2026财年第四季度及 ...",
-          "url": "https://xueqiu.com/3338215700/377153533",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "美股异动｜戴尔科技盘后大涨超10% 将年度股票分红提高20% 将股票回购规模扩大100亿美元",
-          "url": "https://www.msn.cn/zh-cn/money/经济/美股异动-戴尔科技盘后大涨超10-将年度股票分红提高20-将股票回购规模扩大100亿美元/ar-AA1X9Qz9",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "戴尔将年度股息上调20%，将回购计划增加100亿美元。_来源",
-          "url": "https://www.sohu.com/a/990438798_122014422",
-          "source": "Search (ddg)"
-        }
-      ]
-    },
-    {
-      "signal_id": "2297859",
-      "title": "OpenAI 110亿融资，AI算力军备竞赛加剧",
-      "summary": "OpenAI完成110亿美元融资（估值730亿美元），AI算力需求预期再次被验证。建议关注英伟达（NVDA）在860-880区间支撑，短期目标看向900；亚马逊（AMZN）回调至175附近可布局，目标180。软银（0708.HK）股价反应滞后，存在修复预期。",
-      "reasoning": "",
-      "transmission_chain": [
-        {
-          "node_name": "算力基础设施",
-          "impact_type": "利好",
-          "logic": "OpenAI巨额融资直接刺激算力需求，作为核心GPU供应商，英伟达在AI训练推理环节垄断地位稳固，订单确定性增强。"
-        },
-        {
-          "node_name": "云服务生态",
-          "impact_type": "利好",
-          "logic": "亚马逊战略入股并签署合作协议，强化了AWS在AI基础设施建设中的领先地位，长期合作保障了营收增长。"
-        },
-        {
-          "node_name": "垂直应用/算力租赁",
-          "impact_type": "利好",
-          "logic": "AI大模型训练门槛提高，利好拥有高性能算力集群的第三方算力租赁服务商（如中科曙光、寒武纪等）。"
-        }
-      ],
-      "sentiment_score": 0.0,
-      "confidence": 0.5,
-      "intensity": 3,
-      "expectation_gap": 0.5,
-      "timeliness": 0.8,
-      "expected_horizon": "T+N",
-      "price_in_status": "未知",
-      "impact_tickers": [],
-      "industry_tags": [],
-      "sources": [
-        {
-          "title": "财联社2月28日电，OpenAI预计将在3月前再从投资者处筹集约100亿美元。",
-          "url": "https://www.cls.cn/detail/2297859",
+          "title": "财联社2月28日电，特朗普谈美国抵押贷款利率称，下降速度非常快。",
+          "url": "https://www.cls.cn/detail/2297863",
           "source_name": "cls"
         }
       ],
       "search_results": [
         {
-          "title": "OpenAI获1100亿美元融资，投前估值7300亿，加速算力军备竞赛",
-          "url": "https://www.sohu.com/a/990809775_362225",
+          "title": "美国降息下地产链受益标的梳理及深度复盘 - Reportify",
+          "url": "https://reportify.cn/transcripts/1157418811385843712",
           "source": "Search (ddg)"
         },
         {
-          "title": "再次为AI信仰充值! OpenAI狂揽1100亿美元 AI烧钱军备竞赛停不下来",
-          "url": "https://news.qq.com/rain/a/20260227A07ZF300",
+          "title": "海外地产降息叙事？美股地产链能否迎来反弹？_美国_消费_成屋",
+          "url": "https://www.sohu.com/a/931815342_121976703",
           "source": "Search (ddg)"
         },
         {
-          "title": "再次为AI信仰充值! OpenAI狂揽1100亿美元 AI烧钱军备竞赛停不下来 - Reportify",
-          "url": "https://reportify.cn/news/1224898418388897792",
+          "title": "2026年美股策略转向：估值洼地与\"政策红利\"驱动下的房地产板块深度分析",
+          "url": "https://www.tradingkey.com/zh-hans/analysis/stocks/us-stock/261469370-2026-us-real-estate-stocks-analysis-trump-policy-tradingkey",
           "source": "Search (ddg)"
         },
         {
-          "title": "再次为AI信仰充值! OpenAI狂揽1100亿美元 AI烧钱军备竞赛停不下来 | ForexBNB",
-          "url": "https://www.forexbnb.com/news/fintech/38257.html",
+          "title": "核心观点 降息周期开启，美国地产链有望收益。据CME\"美联储观察\"，美联储12月降息25bp概率为86.9%，美联储降息预期抬升，美国地产市场 ...",
+          "url": "https://tuliw.cn/2025/11/30/　　核心观点-　　降息周期开启，美国地产链/",
           "source": "Search (ddg)"
         },
         {
-          "title": "OpenAI获1100亿美元融资，投前估值7300亿，加速算力军备竞赛-业界动态-ITBear比尔科技",
-          "url": "https://www.itbear.com.cn/html/2026-02/1172338.html",
+          "title": "降息与房地产 | 逻辑与策略 一、市场的后视镜 2024年上半年美国经济数据和通胀数据整体呈现回落的态势，但回落的速度比市场预期的更慢，这也 ...",
+          "url": "https://xueqiu.com/6122492908/316586465",
           "source": "Search (ddg)"
         }
       ]
     }
   ],
-  "charts": {}
+  "charts": {
+    "688256": {
+      "ticker": "688256",
+      "name": "寒武纪-U",
+      "prices": [
+        {
+          "date": "2026-01-09",
+          "open": 1419.99,
+          "high": 1512.0,
+          "low": 1391.0,
+          "close": 1491.0,
+          "volume": 102205
+        },
+        {
+          "date": "2026-01-12",
+          "open": 1534.44,
+          "high": 1550.0,
+          "low": 1463.0,
+          "close": 1509.99,
+          "volume": 94844
+        },
+        {
+          "date": "2026-01-13",
+          "open": 1485.0,
+          "high": 1520.0,
+          "low": 1399.99,
+          "close": 1408.09,
+          "volume": 100030
+        },
+        {
+          "date": "2026-01-14",
+          "open": 1420.0,
+          "high": 1449.98,
+          "low": 1388.09,
+          "close": 1439.12,
+          "volume": 89478
+        },
+        {
+          "date": "2026-01-15",
+          "open": 1421.0,
+          "high": 1444.0,
+          "low": 1392.45,
+          "close": 1415.0,
+          "volume": 57839
+        },
+        {
+          "date": "2026-01-16",
+          "open": 1420.0,
+          "high": 1445.0,
+          "low": 1408.03,
+          "close": 1424.05,
+          "volume": 72256
+        },
+        {
+          "date": "2026-01-19",
+          "open": 1422.0,
+          "high": 1458.58,
+          "low": 1408.0,
+          "close": 1419.66,
+          "volume": 69119
+        },
+        {
+          "date": "2026-01-20",
+          "open": 1417.0,
+          "high": 1425.0,
+          "low": 1331.02,
+          "close": 1343.04,
+          "volume": 87374
+        },
+        {
+          "date": "2026-01-21",
+          "open": 1335.35,
+          "high": 1388.0,
+          "low": 1334.92,
+          "close": 1353.87,
+          "volume": 75750
+        },
+        {
+          "date": "2026-01-22",
+          "open": 1344.0,
+          "high": 1368.0,
+          "low": 1333.0,
+          "close": 1353.0,
+          "volume": 59350
+        },
+        {
+          "date": "2026-01-23",
+          "open": 1337.0,
+          "high": 1353.0,
+          "low": 1320.0,
+          "close": 1334.99,
+          "volume": 63511
+        },
+        {
+          "date": "2026-01-26",
+          "open": 1325.0,
+          "high": 1329.92,
+          "low": 1296.0,
+          "close": 1300.0,
+          "volume": 67870
+        },
+        {
+          "date": "2026-01-27",
+          "open": 1300.0,
+          "high": 1317.88,
+          "low": 1276.55,
+          "close": 1300.89,
+          "volume": 63384
+        },
+        {
+          "date": "2026-01-28",
+          "open": 1309.88,
+          "high": 1310.0,
+          "low": 1279.0,
+          "close": 1282.78,
+          "volume": 69813
+        },
+        {
+          "date": "2026-01-29",
+          "open": 1282.12,
+          "high": 1292.12,
+          "low": 1250.01,
+          "close": 1252.01,
+          "volume": 71582
+        },
+        {
+          "date": "2026-01-30",
+          "open": 1252.0,
+          "high": 1277.87,
+          "low": 1240.1,
+          "close": 1258.89,
+          "volume": 63495
+        },
+        {
+          "date": "2026-02-02",
+          "open": 1249.0,
+          "high": 1273.6,
+          "low": 1233.0,
+          "close": 1242.0,
+          "volume": 66690
+        },
+        {
+          "date": "2026-02-03",
+          "open": 1255.0,
+          "high": 1257.78,
+          "low": 1063.0,
+          "close": 1128.0,
+          "volume": 226145
+        },
+        {
+          "date": "2026-02-04",
+          "open": 1100.0,
+          "high": 1108.6,
+          "low": 1063.97,
+          "close": 1068.0,
+          "volume": 117351
+        },
+        {
+          "date": "2026-02-05",
+          "open": 1050.01,
+          "high": 1072.98,
+          "low": 1037.04,
+          "close": 1058.33,
+          "volume": 79421
+        },
+        {
+          "date": "2026-02-06",
+          "open": 1042.55,
+          "high": 1062.68,
+          "low": 1015.56,
+          "close": 1036.99,
+          "volume": 79813
+        },
+        {
+          "date": "2026-02-09",
+          "open": 1060.0,
+          "high": 1105.94,
+          "low": 1056.0,
+          "close": 1086.8,
+          "volume": 96536
+        },
+        {
+          "date": "2026-02-10",
+          "open": 1105.0,
+          "high": 1148.0,
+          "low": 1091.58,
+          "close": 1100.9,
+          "volume": 96601
+        },
+        {
+          "date": "2026-02-11",
+          "open": 1088.88,
+          "high": 1103.0,
+          "low": 1073.0,
+          "close": 1078.9,
+          "volume": 55273
+        },
+        {
+          "date": "2026-02-12",
+          "open": 1079.98,
+          "high": 1120.0,
+          "low": 1061.33,
+          "close": 1112.5,
+          "volume": 86857
+        },
+        {
+          "date": "2026-02-13",
+          "open": 1100.0,
+          "high": 1143.0,
+          "low": 1093.11,
+          "close": 1120.68,
+          "volume": 70569
+        },
+        {
+          "date": "2026-02-24",
+          "open": 1136.26,
+          "high": 1142.0,
+          "low": 1070.2,
+          "close": 1071.55,
+          "volume": 81877
+        },
+        {
+          "date": "2026-02-25",
+          "open": 1079.99,
+          "high": 1109.0,
+          "low": 1074.0,
+          "close": 1082.65,
+          "volume": 57606
+        },
+        {
+          "date": "2026-02-26",
+          "open": 1095.15,
+          "high": 1188.88,
+          "low": 1068.74,
+          "close": 1168.8,
+          "volume": 140838
+        },
+        {
+          "date": "2026-02-27",
+          "open": 1145.02,
+          "high": 1212.12,
+          "low": 1141.33,
+          "close": 1178.0,
+          "volume": 121512
+        }
+      ],
+      "prediction": {
+        "target_low": -5.4,
+        "target_high": 3.9,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-03-02",
+          "open": 1210.2890625,
+          "high": 1235.100830078125,
+          "low": 1149.032958984375,
+          "close": 1171.74169921875,
+          "volume": 98843.2421875
+        },
+        {
+          "date": "2026-03-03",
+          "open": 1188.513671875,
+          "high": 1228.5550537109375,
+          "low": 1171.6817626953125,
+          "close": 1199.171875,
+          "volume": 125028.9296875
+        },
+        {
+          "date": "2026-03-04",
+          "open": 1215.290771484375,
+          "high": 1224.2984619140625,
+          "low": 1185.648681640625,
+          "close": 1191.43408203125,
+          "volume": 105011.0859375
+        },
+        {
+          "date": "2026-03-05",
+          "open": 1061.571044921875,
+          "high": 1148.9195556640625,
+          "low": 1061.122314453125,
+          "close": 1113.965087890625,
+          "volume": 126770.515625
+        },
+        {
+          "date": "2026-03-06",
+          "open": 1113.2442626953125,
+          "high": 1224.776611328125,
+          "low": 1117.166015625,
+          "close": 1223.572265625,
+          "volume": 119537.0078125
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-03-02",
+          "open": 1180.9346923828125,
+          "high": 1273.3759765625,
+          "low": 1180.4615478515625,
+          "close": 1201.353271484375,
+          "volume": 136086.0625
+        },
+        {
+          "date": "2026-03-03",
+          "open": 1219.4984130859375,
+          "high": 1260.7200927734375,
+          "low": 1190.6741943359375,
+          "close": 1228.32421875,
+          "volume": 120970.328125
+        },
+        {
+          "date": "2026-03-04",
+          "open": 1253.387451171875,
+          "high": 1251.6334228515625,
+          "low": 1186.750244140625,
+          "close": 1187.3389892578125,
+          "volume": 112171.5390625
+        },
+        {
+          "date": "2026-03-05",
+          "open": 1149.81591796875,
+          "high": 1182.1005859375,
+          "low": 1127.467529296875,
+          "close": 1187.67333984375,
+          "volume": 88184.578125
+        },
+        {
+          "date": "2026-03-06",
+          "open": 1219.4326171875,
+          "high": 1218.1944580078125,
+          "low": 1121.3712158203125,
+          "close": 1138.9013671875,
+          "volume": 101920.8828125
+        }
+      ],
+      "prediction_logic": "OpenAI追加融资100亿美元，预计将直接提振A股算力板块情绪。核心标的寒武纪-U、中科曙光、浪潮信息短期有望迎来估值与业绩双重催化，建议关注算力租赁与硬件采购订单落地情况。"
+    }
+  }
 }
