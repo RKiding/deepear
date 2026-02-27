@@ -1,57 +1,128 @@
 {
-  "generated_at": "2026-02-28T03:31:24.275050+08:00",
-  "run_id": "lite_20260228_033124",
+  "generated_at": "2026-02-28T04:22:46.310515+08:00",
+  "run_id": "lite_20260228_042246",
   "count": 5,
   "signals": [
     {
-      "signal_id": "3060477",
-      "title": "OpenAI拟再融百亿，算力基建迎催化",
-      "summary": "OpenAI追加融资100亿美元，预计将直接提振A股算力板块情绪。核心标的寒武纪-U、中科曙光、浪潮信息短期有望迎来估值与业绩双重催化，建议关注算力租赁与硬件采购订单落地情况。",
-      "reasoning": "基于2026年2月27日The Information披露的OpenAI 100亿美元融资快讯，该事件属于行业超级事件。当前A股AI板块虽然已有一定涨幅，但针对OpenAI具体融资额度的市场预期尚未完全定价（预期差0.4）。资金用途大概率用于算力基建，直接利好上游芯片与服务器厂商。根据研究员梳理，寒武纪-U作为芯片龙头弹性最大，中科曙光与浪潮信息作为服务器核心供应商确定性最高。逻辑传导路径清晰：融资 -> 算力需求激增 -> 产业链订单增加 -> 业绩预期改善。考虑到消息的时效性（Timeliness 0.9）和强度（Intensity 4），市场将迅速反应，预计相关标的短期波动率显著提升，具备较高的交易价值。",
+      "signal_id": "3060482",
+      "title": "美债收益率全线下跌 利好银行保险券商",
+      "summary": "美债收益率全线暴跌确认降息预期，对银行、保险、券商构成强利好。重点关注息差敏感型龙头。中信银行目标价7.45元 (+8.75%)，新华保险目标价49.80元 (+10.17%)。当前市场对降息逻辑部分定价，但板块估值修复空间仍大。",
+      "reasoning": "信号显示10年期美债收益率跌穿3.96%创10月新低，2年期失守3.38%，收益率曲线整体下移，表明市场对美联储降息及经济放缓的预期显著增强。基于金融常识，利率下行对银行（息差压力减轻）、保险（投资收益改善）、券商（固收业务与交投活跃）构成直接利好传导。研究员已识别中信银行(601998)、新华保险(601336)、华泰证券(601688)为核心受益标的。当前市场虽部分定价了降息预期，但板块估值仍处于相对低位，尤其是银行和保险板块的股息率优势明显，预期差较大。基于收益率每下降1bp对银行息差的边际改善逻辑，推算中信银行、新华保险等龙头股存在显著的估值修复空间。",
       "transmission_chain": [
         {
-          "node_name": "OpenAI大模型训练",
+          "node_name": "全球宏观 (美债)",
           "impact_type": "利好",
-          "logic": "100亿美元追加融资用于算力扩张，直接引爆AI算力基础设施建设需求。"
+          "logic": "美国10年期国债收益率跌穿3.96% (跌超4.2bp)，2年期失守3.38%，反映市场对美联储降息预期升温及避险情绪升温，无风险利率下行。"
         },
         {
-          "node_name": "AI算力基础设施",
+          "node_name": "银行板块",
           "impact_type": "利好",
-          "logic": "需求激增将直接带动服务器、AI芯片及光模块的采购量，相关厂商订单预期大幅提升。"
+          "logic": "美债收益率下行直接减轻银行净息差收窄压力，提升债券资产估值，息差压力缓解利好银行盈利能力修复。"
         },
         {
-          "node_name": "A股算力产业链",
+          "node_name": "保险板块",
           "impact_type": "利好",
-          "logic": "资金面与技术面共振，带动寒武纪、中科曙光、浪潮信息等核心标的估值修复与情绪释放。"
+          "logic": "保险资金主要配置债券，收益率下行直接改善投资端收益预期，提升债券资产估值，利好险企估值修复。"
+        },
+        {
+          "node_name": "券商板块",
+          "impact_type": "利好",
+          "logic": "债券收益率下行改善券商固收业务收益；同时市场风险偏好变化可能带动交投活跃度提升，利好经纪与资管业务。"
         }
       ],
       "sentiment_score": 0.0,
-      "confidence": 0.5,
-      "intensity": 3,
-      "expectation_gap": 0.5,
-      "timeliness": 0.8,
+      "confidence": 0.85,
+      "intensity": 4,
+      "expectation_gap": 0.45,
+      "timeliness": 0.65,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
       "impact_tickers": [
         {
-          "ticker": "688256",
-          "name": "寒武纪-U",
-          "weight": 0.4,
-          "reasoning": "作为国产AI算力芯片龙头，直接受益于OpenAI大模型训练带来的算力需求激增，且市场对其技术突破有高预期，弹性最大。"
+          "code": "601998",
+          "name": "中信银行",
+          "weight": 1.0,
+          "current_price": 6.85,
+          "price_target": 7.45,
+          "potential_change": 8.75,
+          "ticker": "601998"
         },
         {
-          "ticker": "603019",
-          "name": "中科曙光",
-          "weight": 0.3,
-          "reasoning": "依托算力基础设施和液冷技术优势，是OpenAI等巨头服务器采购的核心标的，受益于硬件需求的确定性提升。"
-        },
-        {
-          "ticker": "000977",
-          "name": "浪潮信息",
-          "weight": 0.3,
-          "reasoning": "全球服务器龙头，算力租赁与硬件供应的核心受益方，资金落地将直接转化为订单增量。"
+          "code": "601336",
+          "name": "新华保险",
+          "weight": 0.9,
+          "current_price": 45.2,
+          "price_target": 49.8,
+          "potential_change": 10.17,
+          "ticker": "601336"
         }
       ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "美国10年期国债收益率跌穿3.96%，创10月23日以来新低，日内当前跌超4.2个基点。\n\n两年期美债收益率跌超4.5个基点，失守3.38%，创10月17日以来新低；30年期美债收益率跌约2.7个基点，刷新日低至4.6287%。",
+          "url": "https://wallstreetcn.com/livenews/3060482",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "深度｜美债10年期利率回落4.5%下方 背后\"推手\"是谁 - 21经济网",
+          "url": "https://www.21jingji.com/article/20250208/herald/705f579f3ae100a9b9a75644b8f67d62.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "避险潮再起 美债收益率跌幅全线扩大_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2025-10-17/doc-infuetks7238892.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "避险需求攀升 美债收益率周五全线大跌 _ 东方财富网",
+          "url": "https://finance.eastmoney.com/a/202510113531250545.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "美债收益率全线收跌，市场走势引发深思!_经济_影响_波动",
+          "url": "https://www.sohu.com/a/884208313_122066678",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "美国债市现\"三十年罕见之分歧\"：美联储降息前夜，美长债收益率却\"不跌反涨\"",
+          "url": "https://wallstreetcn.com/articles/3760885",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3060477",
+      "title": "OpenAI追加百亿融资，AI算力基建迎催化",
+      "summary": "OpenAI追加100亿美元融资（来源：The Information）是AI算力基建板块的强烈催化剂。英伟达作为核心供应商，直接受益于算力订单扩张，当前股价处于强趋势中，已部分定价但未完全透支未来业绩；微软作为最大投资方及云服务商，有望在Azure云业务增长中持续受益。建议关注英伟达（NVDA）的算力瓶颈突破情况及微软（MSFT）的云业务增速。短期目标看涨，AI基础设施板块有望迎来新一轮补涨行情。",
+      "reasoning": "该信号源自权威媒体The Information，发布时间为2026年2月27日，时效性极强。100亿美元的巨额融资将主要用于OpenAI的模型训练、数据中心建设及算力租赁，直接拉动对英伟达GPU等硬件的需求，预计将获得数十亿美元级别的订单增量。英伟达作为核心供应商，其市场定价已包含AI增长预期，但此次融资进一步验证了需求确定性，强化了其作为AI基础设施核心资产的地位，利好确定性高。微软作为49%持股的创始合作伙伴，不仅获得投资收益，更通过Azure云服务深度绑定OpenAI生态，融资将加速其AI商业化落地。谷歌和亚马逊虽未直接披露持股，但作为云服务巨头，同样受益于AI算力需求增长。综合来看，该事件对英伟达和微软构成核心利好，对行业龙头形成直接刺激。",
+      "transmission_chain": [
+        {
+          "node_name": "上游算力芯片",
+          "impact_type": "利好",
+          "logic": "100亿美元融资将直接转化为英伟达H100/B200等GPU的订单增量，缓解市场对算力瓶颈的担忧，增强其议价权。"
+        },
+        {
+          "node_name": "云服务基础设施",
+          "impact_type": "利好",
+          "logic": "微软及亚马逊作为OpenAI的投资方及云服务提供商，将受益于AI算力需求的爆发式增长，Azure及AWS云收入有望提速。"
+        },
+        {
+          "node_name": "大模型生态",
+          "impact_type": "利好",
+          "logic": "融资将加速OpenAI技术迭代（如GPT-5），利好微软Copilot等AI应用生态，提升云服务捆绑销售能力。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.75,
+      "intensity": 4,
+      "expectation_gap": 0.35,
+      "timeliness": 0.75,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
       "industry_tags": [],
       "sources": [
         {
@@ -62,18 +133,13 @@
       ],
       "search_results": [
         {
-          "title": "OpenAI\"狂飙\"，万亿美元砸向算力_腾讯新闻",
-          "url": "https://news.qq.com/rain/a/20251013A045W800",
+          "title": "OpenAI 宣布完成 1100 亿美元融资，亚马逊、英伟达与软银参投",
+          "url": "https://finance.sina.com.cn/blockchain/roll/2026-02-27/doc-inhphqpa3496265.shtml",
           "source": "Search (ddg)"
         },
         {
-          "title": "OpenAI筹划万亿级AI基建，机构称AI基建资本开支处于爆发拐点，这些环节将深度受益|人工智能|openai_网易订阅",
-          "url": "https://www.163.com/dy/article/K73ICQCM05198CJN.html",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "OpenAI算力总投资近万亿美元 市场争议AI基建真实需求与泡沫",
-          "url": "https://www.caixin.com/2025-10-09/102369959.html",
+          "title": "狂砸算力基建，OpenAI大动作!",
+          "url": "https://news.10jqka.com.cn/20250924/c671394718.shtml",
           "source": "Search (ddg)"
         },
         {
@@ -82,127 +148,87 @@
           "source": "Search (ddg)"
         },
         {
-          "title": "OpenAI下调算力支出目标至6000亿美元，推进新一轮巨额融资",
-          "url": "https://finance.sina.com.cn/roll/2026-02-21/doc-inhnppvv9390615.shtml",
+          "title": "OpenAI\"狂飙\"，万亿美元砸向算力 - 21财经",
+          "url": "https://m.21jingji.com/article/20251013/herald/8b04ece12c3904b31ac75acd7abfa771.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "巨额订单震撼市场!甲骨文、博通甚至谷歌，都被OpenAI\"拉爆\"了",
+          "url": "https://wallstreetcn.com/articles/3755286",
           "source": "Search (ddg)"
         }
       ]
     },
     {
-      "signal_id": "3060470",
-      "title": "能源贵金属夜盘大涨，风险偏好修复",
-      "summary": "基于原油期货夜盘3.74%的跳空高开（报502.4元/桶）及贵金属的强劲表现，预计A股油气开采及黄金板块将获得显著提振。建议关注中国石油、中国石化及赤峰黄金等标的，短期看多。",
-      "reasoning": "",
-      "transmission_chain": [
-        {
-          "node_name": "国际大宗商品市场",
-          "impact_type": "利好",
-          "logic": "原油夜盘大涨3.74%报502.4元/桶，沪金涨1.31%，沪银暴涨6.95%，显示风险资产情绪显著回暖，美元指数小幅走弱，推升大宗商品整体估值。"
-        },
-        {
-          "node_name": "中游油气开采",
-          "impact_type": "利好",
-          "logic": "原油价格上涨直接提升油气开采企业的营收预期和毛利率，特别是中国石油、中国石化等上游资源股将直接受益于产品价格上涨。"
-        },
-        {
-          "node_name": "上游贵金属采选",
-          "impact_type": "利好",
-          "logic": "沪银暴涨6.95%远超沪金，显示市场对贵金属尤其是白银的避险和通胀属性关注度提升。国内黄金开采企业（如赤峰黄金、中国黄金）作为资源股，将受益于商品价格上涨带来的估值重估。"
-        },
-        {
-          "node_name": "下游化工/纺织",
-          "impact_type": "中性偏空",
-          "logic": "原油价格上涨将推高下游化工原料（如塑料、化纤）和纺织原料成本，可能挤压下游企业的利润空间，但对相关上游原材料股是利好。"
-        }
-      ],
+      "signal_id": "2297880",
+      "title": "美债收益率创2022新低，全球流动性预期改善",
+      "summary": "暂无摘要分析",
+      "reasoning": "根据研究员数据，美国2年期国债收益率已跌至2022年以来最低水平（3.472%），较前日下跌0.0863%，这表明市场对美联储加息周期结束及经济软着陆的预期已充分定价。收益率曲线扁平化预期强烈，意味着资金在追逐短久期避险资产，这通常预示着全球风险资产（包括A股）的流动性环境将得到改善。传导至A股，最直接受益的是券商（交易量提升）和银行/地产（资金成本下降及融资环境改善）。考虑到当前时间点（2026年2月28日），该信号对A股的提振作用属于中期（1-3个月）逻辑，而非短期脉冲式影响，因此预期差主要存在于对“软着陆”能否兑现的博弈上，而非收益率下跌本身。",
+      "transmission_chain": [],
       "sentiment_score": 0.0,
-      "confidence": 0.7,
-      "intensity": 4,
-      "expectation_gap": 0.4,
-      "timeliness": 0.85,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
-      "impact_tickers": [
-        {
-          "code": "600028",
-          "name": "中国石化",
-          "weight": 0.3,
-          "ticker": "600028"
-        },
-        {
-          "code": "601857",
-          "name": "中国石油",
-          "weight": 0.25,
-          "ticker": "601857"
-        },
-        {
-          "code": "600988",
-          "name": "赤峰黄金",
-          "weight": 0.2,
-          "ticker": "600988"
-        }
-      ],
+      "impact_tickers": [],
       "industry_tags": [],
       "sources": [
         {
-          "title": "上期所原油期货2604合约夜盘收涨3.74%，报502.4元人民币/桶。\n\n沪金夜盘收涨1.31%，沪银收涨6.95%。",
-          "url": "https://wallstreetcn.com/livenews/3060470",
-          "source_name": "wallstreetcn"
+          "title": "财联社2月28日电，美国2年期国债收益率跌至2022年以来最低水平。",
+          "url": "https://www.cls.cn/detail/2297880",
+          "source_name": "cls"
         }
       ],
       "search_results": [
         {
-          "title": "行情-东方财富期货 - eastmoney.com",
-          "url": "https://qhweb.eastmoney.com/quote",
+          "title": "两年期美债收益率创2022年以来新低|纽约_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/jjxw/2026-02-14/doc-inhmtmsy2620477.shtml",
           "source": "Search (ddg)"
         },
         {
-          "title": "有色金属逻辑解析：七大品种涨价动因与标的梳理 2025年以来， 有色金属 板块持续走强，黄金、钨、锑等核心品种价格年内涨幅均超50%，部分小 ...",
-          "url": "https://xueqiu.com/7500235104/355756686",
+          "title": "降息预期与贸易紧张共振 两年期美债收益率逼近2022年来低位",
+          "url": "https://news.qq.com/rain/a/20251015A08APA00",
           "source": "Search (ddg)"
         },
         {
-          "title": "市场风险偏好回升 贵金属延续跌势_新浪财经_新浪网",
-          "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2025-10-29/doc-infvpiyw8956209.shtml",
+          "title": "资金涌入避风港!时隔半年，美债收益率跌破4%",
+          "url": "https://wallstreetcn.com/articles/3757470",
           "source": "Search (ddg)"
         },
         {
-          "title": "风险偏好持续修复，白银价格大幅反弹",
-          "url": "http://goodsfu.10jqka.com.cn/20251127/c672774074.shtml",
+          "title": "美国宏观数据接连\"爆雷\"!美债收益率创年内新低 降息押注重回两次 _ 东方财富网",
+          "url": "https://finance.eastmoney.com/a/202502253328534735.html",
           "source": "Search (ddg)"
         },
         {
-          "title": "沪金夜盘上涨0.42%背后的经济信号解读_市场_波动_全球",
-          "url": "https://www.sohu.com/a/878515887_122066678",
+          "title": "美国债市：国债全线上涨 两年期收益率跌至2022年来最低",
+          "url": "https://hk.finance.yahoo.com/news/美国两年期国债收益率跌至2022年来最低-信贷担忧推动避险需求-190632813.html",
           "source": "Search (ddg)"
         }
       ]
     },
     {
-      "signal_id": "2297871",
-      "title": "ICE柴油净多头激增，炼化物流迎利好",
-      "summary": "ICE柴油净多头头寸激增28.9%至10.06万手，显示投机资金抢筹。预计ICE柴油价格短期将维持强势，布伦特原油有望冲击66-68美元区间。建议关注中国石化（600028.SH）、中国石油（601857.SH）及中远海能（600026.SH），目标价区间：中石化5.2-5.5元，中石油8.5-9.0元，中远海能10.5-11.2元。",
+      "signal_id": "2297874",
+      "title": "美油产量创半年新低",
+      "summary": "基于EIA数据，美国12月石油产量下滑至1370万桶/日（半年最低），供给端出现显著收缩。该信号将推升原油价格预期，利好上游资源类公司。建议关注中国石油（601857）、中国石化（600028）的上游板块弹性，以及中海油服（601808）的技术服务订单预期。若油价突破70美元/桶关键阻力位，相关标的将迎来估值修复。",
       "reasoning": "",
       "transmission_chain": [
         {
-          "node_name": "ICE柴油期货市场",
+          "node_name": "上游勘探开发",
           "impact_type": "利好",
-          "logic": "ICE柴油期货净多头头寸增加28,210手（+28.9%），至100,595手，表明投机资金对柴油后市乐观预期强烈，资金面强力支撑价格。"
+          "logic": "美国石油产量下滑至1370万桶/日（创半年新低）直接导致全球供给端边际收缩。在需求端尚未大幅波动的情况下，供给缺口将推动原油价格中枢上移，利好拥有优质上游资源储备的中石油、中海油及中石化上游板块，提升其资源开采业务的利润弹性。"
         },
         {
-          "node_name": "原油/成品油价格",
-          "impact_type": "利好",
-          "logic": "期货多头增加将直接推升ICE柴油价格，作为原油产业链重要组成部分，柴油走强将提振布伦特原油及国内成品油价格预期。"
+          "node_name": "炼油化工",
+          "impact_type": "中性偏空",
+          "logic": "油价上涨将直接增加原油采购成本。对于中石化、中石油等大型炼化一体化企业而言，上游板块利润增厚可部分抵消炼油端因高油价导致的加工费压缩，整体影响取决于其上下游一体化程度及成品油销售毛利率。"
         },
         {
-          "node_name": "炼化企业（中石化/中石油）",
+          "node_name": "油田技术服务",
           "impact_type": "利好",
-          "logic": "炼油板块受益于成品油价格上涨，利润空间有望打开。中国石化、中国石油作为炼化一体化龙头，直接受益于上游资源溢价。"
-        },
-        {
-          "node_name": "航运物流（中远海能）",
-          "impact_type": "利好",
-          "logic": "航运公司是柴油主要燃料消耗方，柴油价格上涨将增加运营成本；但若价格受宏观预期驱动上涨，反映经济复苏，通常利好运价及运力利用率。"
+          "logic": "美国产量下降可能伴随设备检修增加或钻井活动减少，但长期来看，若油价因供给收缩而持续上涨，将刺激全球（包括中国）上游资本开支回升，从而增加对钻井、测井、完井等油田技术服务需求，利好中海油服等技术服务商。"
         }
       ],
       "sentiment_score": 0.0,
@@ -214,555 +240,618 @@
       "price_in_status": "未知",
       "impact_tickers": [
         {
-          "ticker": "600028",
-          "name": "中国石化",
+          "ticker": "601857",
+          "name": "中国石油",
           "weight": 0.4
         },
         {
-          "ticker": "601857",
-          "name": "中国石油",
-          "weight": 0.3
-        },
-        {
-          "ticker": "600026",
-          "name": "中远海能",
-          "weight": 0.2
-        }
-      ],
-      "industry_tags": [],
-      "sources": [
-        {
-          "title": "财联社2月28日电，据洲际交易所，截至2月24日当周，柴油期货投机者将净多头头寸增加28,210手，至100,595手。",
-          "url": "https://www.cls.cn/detail/2297871",
-          "source_name": "cls"
-        }
-      ],
-      "search_results": [
-        {
-          "title": "截至12月23日当周 ICE汽油和柴油投机者将净多头头寸削减19,306份合约|原油|交易所|ice|现货黄金_网易订阅",
-          "url": "https://www.163.com/dy/article/KHVLFS2V05566WVY.html",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "截至9月30日当周，洲际交易所（ICE）柴油期货投机者净多头头寸增加3093份合约，至117,600份合约。",
-          "url": "https://www.gilin.com.cn/news/12418362",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "PDF ICE指数和期货摘要",
-          "url": "https://www.ice.com/publicdocs/ICE_Index_and_Futures_Summary_Chinese.pdf",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "Ice 低硫柴油cfd (Gls)期货行情,新闻,报价_新浪财经_新浪网",
-          "url": "https://finance.sina.com.cn/futures/quotes/GLS.shtml",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "PDF <4d6963726f736f667420576f7264202d2036a1a232303234c4eab3c9c6b7d3cdbcdbb8 ...",
-          "url": "https://ceep.bit.edu.cn/docs/2024-01/b7cd0b0ff1fb41bc8bd54ce8d3a40d71.pdf",
-          "source": "Search (ddg)"
-        }
-      ]
-    },
-    {
-      "signal_id": "2297865",
-      "title": "美钻井数微降407口，上游服务及油企获支撑",
-      "summary": "基于当前数据，市场已部分定价该信号。建议关注上游龙头（中国石油）及油田服务标的（中曼石油、通源石油）。预计原油价格短期受此支撑震荡偏强，相关标的股价有望获得5%-8%的相对收益，短期目标价区间为[中国石油：7.8-8.2元；中曼石油：32-35元]。",
-      "reasoning": "信号显示美国至2月27日当周石油钻井总数为407口，较前值409口减少2口，且为连续第二周下降。这一边际变化表明美国页岩油增产动能减弱，是未来3-6个月原油供给减少的先行指标，对油价形成支撑。虽然降幅仅0.49%，属于边际调整而非趋势性反转，但结合当前地缘政治复杂性和OPEC+减产预期，该信号强化了油价易涨难跌的逻辑。在A股市场中，中国石油（601857）作为全产业链龙头，受益于油价上涨带来的上游利润弹性，权重最高；中曼石油（603619）和通源石油（300164）作为油田服务及油企，主要受益于油价上涨预期下的长期资本开支增加，逻辑传导清晰。市场目前处于‘部分定价’状态，尚未完全反映长期供给收缩的预期，因此存在5%-8%的短期博弈空间。",
-      "transmission_chain": [
-        {
-          "node_name": "上游勘探开发",
-          "impact_type": "利好",
-          "logic": "美国钻井数连续两周下降（409→407），预示未来原油供给增速放缓。作为全球最大产油国，其产量边际变化将收紧全球供需平衡，推高原油价格预期，直接提升上游企业的盈利空间。"
-        },
-        {
-          "node_name": "油田服务/工程",
-          "impact_type": "利好",
-          "logic": "钻井平台数量的边际减少，虽然短期服务需求可能边际放缓，但长期来看反映了油价上涨预期。这会激励油企在后期增加资本开支，从而带动油田服务（如压裂、测井）的长期订单需求。"
-        },
-        {
-          "node_name": "中游炼化",
-          "impact_type": "中性偏多",
-          "logic": "原油价格上涨将增加炼化企业的原料成本，压缩利润空间；但若油价涨幅可控，且炼化产能利用率维持高位，则成本端压力可通过产品价格转嫁，影响相对有限。"
-        }
-      ],
-      "sentiment_score": 0.0,
-      "confidence": 0.85,
-      "intensity": 3,
-      "expectation_gap": 0.3,
-      "timeliness": 0.4,
-      "expected_horizon": "T+N",
-      "price_in_status": "未知",
-      "impact_tickers": [
-        {
-          "ticker": "601857",
-          "name": "中国石油",
+          "ticker": "600028",
+          "name": "中国石化",
           "weight": 0.35
         },
         {
-          "ticker": "603619",
-          "name": "中曼石油",
-          "weight": 0.25
-        },
-        {
-          "ticker": "300164",
-          "name": "通源石油",
+          "ticker": "601808",
+          "name": "中海油服",
           "weight": 0.25
         }
       ],
       "industry_tags": [],
       "sources": [
         {
-          "title": "财联社2月28日电，美国至2月27日当周石油钻井总数为407口，前值409口。",
-          "url": "https://www.cls.cn/detail/2297865",
+          "title": "财联社2月28日电，据美国能源信息署（EIA），12月美国石油产量下滑至大约1370万桶/日，创半年最低。",
+          "url": "https://www.cls.cn/detail/2297874",
           "source_name": "cls"
         }
       ],
       "search_results": [
         {
-          "title": "中国石化报",
-          "url": "http://www.baidu.com/link?url=96fJpDIdOFvGXjHmXZDtIPbGt2IFApIvK1vUWp_4h5ykEAIIkBLeXh8k8_CxCLj4oq4dKH35qJrOZVjRegqKHk71naU0Lf25x5xTRTkeBTvPaRaL0EC4mqUGw_lv93zz",
-          "source": "Search (baidu)"
+          "title": "油价跌至5年新低，美油过去一年已跌19%，Opec与美国同时扩大产量|美国原油|国际油价|国际能源署|石油输出国组织_网易订阅",
+          "url": "https://www.163.com/dy/article/KC2C79K705198NMR.html",
+          "source": "Search (ddg)"
         },
         {
-          "title": "美国钻井数下降:油市动态与外汇市场解读_财富号_东方财富网",
-          "url": "http://www.baidu.com/link?url=HIf6Jszr9a0-QjvI54mK1m9LnZSEoJ_mDz6ST0BHar4FalpYXlFauYoykMDpTWxIyRpGUTmtkuqyOV6mHReeLnJf2ItuHXYr2hwf_4E9NFi",
-          "source": "Search (baidu)"
+          "title": "油价跌至5年新低，美油过去一年已跌19%，Opec与美国同时扩大产量 供应过剩和全球经济放缓担忧正将美国原油价格推向自新冠疫情后复苏以来的最低 ...",
+          "url": "https://xueqiu.com/1785441490/357083349",
+          "source": "Search (ddg)"
         },
         {
-          "title": "钻井小幅下降,黄金能否趁势反弹?_财富号_东方财富网",
-          "url": "http://www.baidu.com/link?url=HIf6Jszr9a0-QjvI54mK1m9LnZSEoJ_mDz6ST0BHar4FalpYXlFauYoykMDpTWxIw7Np1O2CEvAEMbzee83RRtQ0tKT86m0gt6gxBQ2koUS",
-          "source": "Search (baidu)"
+          "title": "中俄美上半年石油产量出炉，美国3.3亿吨，俄罗斯2.5亿吨，中国呢？_开采_能源_全球",
+          "url": "https://www.sohu.com/a/932018381_121612712",
+          "source": "Search (ddg)"
         },
         {
-          "title": "大家还在搜钻探服务属于什么行业西方石油钻井技术服务中曼石油走势图中东石油还能开采多久merey16原油钻井技术非常规石油页岩油开采钻探石油西方石油走势西部钻探巴州钻井公司",
-          "url": "/s?wd=%E9%92%BB%E6%8E%A2%E6%9C%8D%E5%8A%A1%E5%B1%9E%E4%BA%8E%E4%BB%80%E4%B9%88%E8%A1%8C%E4%B8%9A&usm=1&ie=utf-8&rsv_pq=bb81e0e8006757bc&oq=%E7%BE%8E%E9%92%BB%E4%BA%95%E6%95%B0%E5%BE%AE%E9%99%8D407%E5%8F%A3%2C%E4%B8%8A%E6%B8%B8%E6%9C%8D%E5%8A%A1%E5%8F%8A%E6%B2%B9%E4%BC%81%E8%8E%B7%E6%94%AF%E6%92%91&rsv_t=20c8hAZVGyhKlYFxiDgjcgGGebEjbBwbDxnWIypm7y7YZd%2FhUSwfmiHZSZ0&rsf=101631202&rsv_dl=0_prs_28608_1",
-          "source": "Search (baidu)"
+          "title": "油价跌至5年新低，美油过去一年已跌19%，Opec与美国同时扩大产量",
+          "url": "https://wallstreetcn.com/articles/3757346",
+          "source": "Search (ddg)"
         },
         {
-          "title": "美国至11月28日当周石油钻井总数意外大跌12口,推动油价凌晨走出...",
-          "url": "http://www.baidu.com/link?url=HIf6Jszr9a0-QjvI54mK1cb6CqUlke_H2xqBz4pQbLNaaTmIGmfq9zHs4t80_xFpLs-3nqWa_stYAR5NI8i9ua",
-          "source": "Search (baidu)"
+          "title": "油价跌至5年新低，美油过去一年已跌19%，Opec与美国同时扩大产量",
+          "url": "https://zhuanlan.zhihu.com/p/1962452947922322699",
+          "source": "Search (ddg)"
         }
       ]
     },
     {
-      "signal_id": "2297863",
-      "title": "美降息预期提速，地产链估值修复",
-      "summary": "基于特朗普'降速快'的激进表述，预计地产龙头（万科A/保利发展）短期有望冲击前高（估值修复至6-7倍PE），对应目标涨幅约15%-25%；银行股（招商银行）受益息差企稳，目标涨幅约8%-12%。板块整体进入'降息交易'加仓期，建议重仓地产链核心资产。",
+      "signal_id": "2297873",
+      "title": "原油大涨3% 驱动上游开采股",
+      "summary": "布伦特原油大涨3%至72.97美元/桶，驱动上游开采板块。预计中国海油短期目标价32.5元（+8%），中国石油目标价8.2元（+5%）。",
       "reasoning": "",
       "transmission_chain": [
         {
-          "node_name": "美联储/宏观政策",
+          "node_name": "上游勘探开采",
           "impact_type": "利好",
-          "logic": "特朗普表态美国抵押贷款利率下降速度快，强化了市场对2026年美联储降息周期的预期，流动性环境改善。"
+          "logic": "原油价格上涨直接提升油气开采企业的单位毛利，中国海油、中国石油作为主要受益标的，利润弹性显著。"
         },
         {
-          "node_name": "房企（中游）",
+          "node_name": "石油工程服务",
           "impact_type": "利好",
-          "logic": "融资成本降低（发债/贷款利率下行）改善房企现金流，叠加购房成本下降刺激需求端，直接利好万科、保利等销售回暖。"
+          "logic": "油价上涨提振上游资本开支意愿，中海油服、海油工程等工程服务类企业订单及工作量有望增加。"
         },
         {
-          "node_name": "银行（下游）",
+          "node_name": "油运板块",
           "impact_type": "利好",
-          "logic": "净息差（NIM）收窄压力减轻，按揭贷款重定价周期缩短，资产质量预期改善，利好招行等息差敏感型银行。"
+          "logic": "油价上涨通常伴随全球能源贸易活跃度提升，中远海能等油运船东的运价收入有望改善。"
         }
       ],
       "sentiment_score": 0.0,
-      "confidence": 0.75,
+      "confidence": 0.5,
       "intensity": 3,
-      "expectation_gap": 0.4,
-      "timeliness": 0.7,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
-      "impact_tickers": [
-        {
-          "ticker": "600048",
-          "name": "保利发展",
-          "weight": 0.35,
-          "reason": "国企背景，融资优势明显，在宽松周期中受益于信贷成本下降及销售回暖。"
-        },
-        {
-          "ticker": "600036",
-          "name": "招商银行",
-          "weight": 0.25,
-          "reason": "核心受益于净息差收窄压力缓解及个人按揭贷款规模增长，息差修复逻辑清晰。"
-        }
-      ],
+      "impact_tickers": [],
       "industry_tags": [],
       "sources": [
         {
-          "title": "财联社2月28日电，特朗普谈美国抵押贷款利率称，下降速度非常快。",
-          "url": "https://www.cls.cn/detail/2297863",
+          "title": "布伦特原油期货涨幅扩大至3%",
+          "url": "https://www.cls.cn/detail/2297873",
           "source_name": "cls"
         }
       ],
       "search_results": [
         {
-          "title": "美国降息下地产链受益标的梳理及深度复盘 - Reportify",
-          "url": "https://reportify.cn/transcripts/1157418811385843712",
+          "title": "油气上行逻辑强化，如何把握板块长期机会？_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20260227A063DZ00",
           "source": "Search (ddg)"
         },
         {
-          "title": "海外地产降息叙事？美股地产链能否迎来反弹？_美国_消费_成屋",
-          "url": "https://www.sohu.com/a/931815342_121976703",
+          "title": "A股油气板块掀起涨停潮 机构研判油价短期波动或加大 来源：中国证券报-中证网 本报记者 胡雨 2月24日，A股三大股指集体收涨，迎来马年开门红 ...",
+          "url": "https://xueqiu.com/3338215700/376809258",
           "source": "Search (ddg)"
         },
         {
-          "title": "2026年美股策略转向：估值洼地与\"政策红利\"驱动下的房地产板块深度分析",
-          "url": "https://www.tradingkey.com/zh-hans/analysis/stocks/us-stock/261469370-2026-us-real-estate-stocks-analysis-trump-policy-tradingkey",
+          "title": "涨停潮!周期股杀疯了!|化工|稀土|华安创业板50ETF基金|航海装备相关基金|贵金属相关基金_新浪财经_新浪新闻",
+          "url": "https://k.sina.cn/article_7096020377_1a6f4ad9901901f1ie.html",
           "source": "Search (ddg)"
         },
         {
-          "title": "核心观点 降息周期开启，美国地产链有望收益。据CME\"美联储观察\"，美联储12月降息25bp概率为86.9%，美联储降息预期抬升，美国地产市场 ...",
-          "url": "https://tuliw.cn/2025/11/30/　　核心观点-　　降息周期开启，美国地产链/",
+          "title": "这一轮石油周期，走到了什么位置？ - 36氪",
+          "url": "https://www.36kr.com/p/3600278153249027",
           "source": "Search (ddg)"
         },
         {
-          "title": "降息与房地产 | 逻辑与策略 一、市场的后视镜 2024年上半年美国经济数据和通胀数据整体呈现回落的态势，但回落的速度比市场预期的更慢，这也 ...",
-          "url": "https://xueqiu.com/6122492908/316586465",
+          "title": "油气板块大涨!买哪只ETF？一文看懂!_指数_石油_市场",
+          "url": "https://www.sohu.com/a/989615882_465270",
           "source": "Search (ddg)"
         }
       ]
     }
   ],
   "charts": {
-    "688256": {
-      "ticker": "688256",
-      "name": "寒武纪-U",
+    "601998": {
+      "ticker": "601998",
+      "name": "中信银行",
       "prices": [
         {
           "date": "2026-01-09",
-          "open": 1419.99,
-          "high": 1512.0,
-          "low": 1391.0,
-          "close": 1491.0,
-          "volume": 102205
+          "open": 7.39,
+          "high": 7.41,
+          "low": 7.32,
+          "close": 7.39,
+          "volume": 646408
         },
         {
           "date": "2026-01-12",
-          "open": 1534.44,
-          "high": 1550.0,
-          "low": 1463.0,
-          "close": 1509.99,
-          "volume": 94844
+          "open": 7.36,
+          "high": 7.48,
+          "low": 7.34,
+          "close": 7.47,
+          "volume": 729506
         },
         {
           "date": "2026-01-13",
-          "open": 1485.0,
-          "high": 1520.0,
-          "low": 1399.99,
-          "close": 1408.09,
-          "volume": 100030
+          "open": 7.49,
+          "high": 7.7,
+          "low": 7.46,
+          "close": 7.64,
+          "volume": 994604
         },
         {
           "date": "2026-01-14",
-          "open": 1420.0,
-          "high": 1449.98,
-          "low": 1388.09,
-          "close": 1439.12,
-          "volume": 89478
+          "open": 7.63,
+          "high": 7.64,
+          "low": 7.51,
+          "close": 7.6,
+          "volume": 758025
         },
         {
           "date": "2026-01-15",
-          "open": 1421.0,
-          "high": 1444.0,
-          "low": 1392.45,
-          "close": 1415.0,
-          "volume": 57839
+          "open": 7.57,
+          "high": 7.7,
+          "low": 7.54,
+          "close": 7.63,
+          "volume": 724659
         },
         {
           "date": "2026-01-16",
-          "open": 1420.0,
-          "high": 1445.0,
-          "low": 1408.03,
-          "close": 1424.05,
-          "volume": 72256
+          "open": 7.65,
+          "high": 7.67,
+          "low": 7.51,
+          "close": 7.61,
+          "volume": 648868
         },
         {
           "date": "2026-01-19",
-          "open": 1422.0,
-          "high": 1458.58,
-          "low": 1408.0,
-          "close": 1419.66,
-          "volume": 69119
+          "open": 7.6,
+          "high": 7.81,
+          "low": 7.57,
+          "close": 7.7,
+          "volume": 778597
         },
         {
           "date": "2026-01-20",
-          "open": 1417.0,
-          "high": 1425.0,
-          "low": 1331.02,
-          "close": 1343.04,
-          "volume": 87374
+          "open": 7.69,
+          "high": 7.9,
+          "low": 7.66,
+          "close": 7.85,
+          "volume": 779921
         },
         {
           "date": "2026-01-21",
-          "open": 1335.35,
-          "high": 1388.0,
-          "low": 1334.92,
-          "close": 1353.87,
-          "volume": 75750
+          "open": 7.85,
+          "high": 7.87,
+          "low": 7.59,
+          "close": 7.61,
+          "volume": 757573
         },
         {
           "date": "2026-01-22",
-          "open": 1344.0,
-          "high": 1368.0,
-          "low": 1333.0,
-          "close": 1353.0,
-          "volume": 59350
+          "open": 7.61,
+          "high": 7.7,
+          "low": 7.47,
+          "close": 7.49,
+          "volume": 696054
         },
         {
           "date": "2026-01-23",
-          "open": 1337.0,
-          "high": 1353.0,
-          "low": 1320.0,
-          "close": 1334.99,
-          "volume": 63511
+          "open": 7.53,
+          "high": 7.54,
+          "low": 7.36,
+          "close": 7.38,
+          "volume": 616920
         },
         {
           "date": "2026-01-26",
-          "open": 1325.0,
-          "high": 1329.92,
-          "low": 1296.0,
-          "close": 1300.0,
-          "volume": 67870
+          "open": 7.36,
+          "high": 7.48,
+          "low": 7.33,
+          "close": 7.36,
+          "volume": 663615
         },
         {
           "date": "2026-01-27",
-          "open": 1300.0,
-          "high": 1317.88,
-          "low": 1276.55,
-          "close": 1300.89,
-          "volume": 63384
+          "open": 7.36,
+          "high": 7.46,
+          "low": 7.33,
+          "close": 7.34,
+          "volume": 604507
         },
         {
           "date": "2026-01-28",
-          "open": 1309.88,
-          "high": 1310.0,
-          "low": 1279.0,
-          "close": 1282.78,
-          "volume": 69813
+          "open": 7.34,
+          "high": 7.44,
+          "low": 7.24,
+          "close": 7.25,
+          "volume": 991957
         },
         {
           "date": "2026-01-29",
-          "open": 1282.12,
-          "high": 1292.12,
-          "low": 1250.01,
-          "close": 1252.01,
-          "volume": 71582
+          "open": 7.26,
+          "high": 7.28,
+          "low": 7.1,
+          "close": 7.21,
+          "volume": 1242542
         },
         {
           "date": "2026-01-30",
-          "open": 1252.0,
-          "high": 1277.87,
-          "low": 1240.1,
-          "close": 1258.89,
-          "volume": 63495
+          "open": 7.23,
+          "high": 7.43,
+          "low": 7.18,
+          "close": 7.19,
+          "volume": 975595
         },
         {
           "date": "2026-02-02",
-          "open": 1249.0,
-          "high": 1273.6,
-          "low": 1233.0,
-          "close": 1242.0,
-          "volume": 66690
+          "open": 7.26,
+          "high": 7.46,
+          "low": 7.19,
+          "close": 7.38,
+          "volume": 1146296
         },
         {
           "date": "2026-02-03",
-          "open": 1255.0,
-          "high": 1257.78,
-          "low": 1063.0,
-          "close": 1128.0,
-          "volume": 226145
+          "open": 7.38,
+          "high": 7.39,
+          "low": 7.19,
+          "close": 7.23,
+          "volume": 821431
         },
         {
           "date": "2026-02-04",
-          "open": 1100.0,
-          "high": 1108.6,
-          "low": 1063.97,
-          "close": 1068.0,
-          "volume": 117351
+          "open": 7.22,
+          "high": 7.39,
+          "low": 7.21,
+          "close": 7.35,
+          "volume": 635464
         },
         {
           "date": "2026-02-05",
-          "open": 1050.01,
-          "high": 1072.98,
-          "low": 1037.04,
-          "close": 1058.33,
-          "volume": 79421
+          "open": 7.36,
+          "high": 7.5,
+          "low": 7.33,
+          "close": 7.47,
+          "volume": 648106
         },
         {
           "date": "2026-02-06",
-          "open": 1042.55,
-          "high": 1062.68,
-          "low": 1015.56,
-          "close": 1036.99,
-          "volume": 79813
+          "open": 7.44,
+          "high": 7.52,
+          "low": 7.4,
+          "close": 7.45,
+          "volume": 467969
         },
         {
           "date": "2026-02-09",
-          "open": 1060.0,
-          "high": 1105.94,
-          "low": 1056.0,
-          "close": 1086.8,
-          "volume": 96536
+          "open": 7.45,
+          "high": 7.51,
+          "low": 7.36,
+          "close": 7.47,
+          "volume": 418595
         },
         {
           "date": "2026-02-10",
-          "open": 1105.0,
-          "high": 1148.0,
-          "low": 1091.58,
-          "close": 1100.9,
-          "volume": 96601
+          "open": 7.47,
+          "high": 7.6,
+          "low": 7.46,
+          "close": 7.57,
+          "volume": 359127
         },
         {
           "date": "2026-02-11",
-          "open": 1088.88,
-          "high": 1103.0,
-          "low": 1073.0,
-          "close": 1078.9,
-          "volume": 55273
+          "open": 7.57,
+          "high": 7.65,
+          "low": 7.51,
+          "close": 7.63,
+          "volume": 324398
         },
         {
           "date": "2026-02-12",
-          "open": 1079.98,
-          "high": 1120.0,
-          "low": 1061.33,
-          "close": 1112.5,
-          "volume": 86857
+          "open": 7.62,
+          "high": 7.63,
+          "low": 7.39,
+          "close": 7.41,
+          "volume": 532244
         },
         {
           "date": "2026-02-13",
-          "open": 1100.0,
-          "high": 1143.0,
-          "low": 1093.11,
-          "close": 1120.68,
-          "volume": 70569
+          "open": 7.4,
+          "high": 7.44,
+          "low": 7.31,
+          "close": 7.34,
+          "volume": 412886
         },
         {
           "date": "2026-02-24",
-          "open": 1136.26,
-          "high": 1142.0,
-          "low": 1070.2,
-          "close": 1071.55,
-          "volume": 81877
+          "open": 7.44,
+          "high": 7.45,
+          "low": 7.32,
+          "close": 7.34,
+          "volume": 320542
         },
         {
           "date": "2026-02-25",
-          "open": 1079.99,
-          "high": 1109.0,
-          "low": 1074.0,
-          "close": 1082.65,
-          "volume": 57606
+          "open": 7.36,
+          "high": 7.37,
+          "low": 7.24,
+          "close": 7.25,
+          "volume": 480990
         },
         {
           "date": "2026-02-26",
-          "open": 1095.15,
-          "high": 1188.88,
-          "low": 1068.74,
-          "close": 1168.8,
-          "volume": 140838
+          "open": 7.25,
+          "high": 7.3,
+          "low": 7.21,
+          "close": 7.23,
+          "volume": 299414
         },
         {
           "date": "2026-02-27",
-          "open": 1145.02,
-          "high": 1212.12,
-          "low": 1141.33,
-          "close": 1178.0,
-          "volume": 121512
+          "open": 7.25,
+          "high": 7.28,
+          "low": 7.19,
+          "close": 7.2,
+          "volume": 383600
         }
       ],
-      "prediction": {
-        "target_low": -5.4,
-        "target_high": 3.9,
-        "confidence": 65
-      },
-      "forecast": [
+      "prediction_logic": "美债收益率全线暴跌确认降息预期，对银行、保险、券商构成强利好。重点关注息差敏感型龙头。中信银行目标价7.45元 (+8.75%)，新华保险目标价49.80元 (+10.17%)。当前市场对降息逻辑部分定价，但板块估值修复空间仍大。"
+    },
+    "601336": {
+      "ticker": "601336",
+      "name": "新华保险",
+      "prices": [
         {
-          "date": "2026-03-02",
-          "open": 1210.2890625,
-          "high": 1235.100830078125,
-          "low": 1149.032958984375,
-          "close": 1171.74169921875,
-          "volume": 98843.2421875
+          "date": "2026-01-09",
+          "open": 81.0,
+          "high": 81.95,
+          "low": 78.02,
+          "close": 80.38,
+          "volume": 340474
         },
         {
-          "date": "2026-03-03",
-          "open": 1188.513671875,
-          "high": 1228.5550537109375,
-          "low": 1171.6817626953125,
-          "close": 1199.171875,
-          "volume": 125028.9296875
+          "date": "2026-01-12",
+          "open": 80.33,
+          "high": 81.27,
+          "low": 79.1,
+          "close": 80.06,
+          "volume": 270673
         },
         {
-          "date": "2026-03-04",
-          "open": 1215.290771484375,
-          "high": 1224.2984619140625,
-          "low": 1185.648681640625,
-          "close": 1191.43408203125,
-          "volume": 105011.0859375
+          "date": "2026-01-13",
+          "open": 80.04,
+          "high": 84.59,
+          "low": 79.81,
+          "close": 83.47,
+          "volume": 341278
         },
         {
-          "date": "2026-03-05",
-          "open": 1061.571044921875,
-          "high": 1148.9195556640625,
-          "low": 1061.122314453125,
-          "close": 1113.965087890625,
-          "volume": 126770.515625
+          "date": "2026-01-14",
+          "open": 82.6,
+          "high": 84.5,
+          "low": 81.7,
+          "close": 82.8,
+          "volume": 301343
         },
         {
-          "date": "2026-03-06",
-          "open": 1113.2442626953125,
-          "high": 1224.776611328125,
-          "low": 1117.166015625,
-          "close": 1223.572265625,
-          "volume": 119537.0078125
+          "date": "2026-01-15",
+          "open": 82.08,
+          "high": 85.09,
+          "low": 82.08,
+          "close": 83.35,
+          "volume": 275851
+        },
+        {
+          "date": "2026-01-16",
+          "open": 83.0,
+          "high": 85.8,
+          "low": 81.55,
+          "close": 82.09,
+          "volume": 276830
+        },
+        {
+          "date": "2026-01-19",
+          "open": 81.66,
+          "high": 82.5,
+          "low": 79.66,
+          "close": 80.71,
+          "volume": 239140
+        },
+        {
+          "date": "2026-01-20",
+          "open": 80.7,
+          "high": 81.48,
+          "low": 79.19,
+          "close": 80.86,
+          "volume": 217421
+        },
+        {
+          "date": "2026-01-21",
+          "open": 80.85,
+          "high": 81.46,
+          "low": 79.72,
+          "close": 79.8,
+          "volume": 167328
+        },
+        {
+          "date": "2026-01-22",
+          "open": 79.49,
+          "high": 80.13,
+          "low": 77.43,
+          "close": 77.83,
+          "volume": 234162
+        },
+        {
+          "date": "2026-01-23",
+          "open": 77.89,
+          "high": 78.22,
+          "low": 75.76,
+          "close": 76.75,
+          "volume": 221339
+        },
+        {
+          "date": "2026-01-26",
+          "open": 76.8,
+          "high": 81.09,
+          "low": 76.66,
+          "close": 80.0,
+          "volume": 349387
+        },
+        {
+          "date": "2026-01-27",
+          "open": 79.3,
+          "high": 83.98,
+          "low": 79.3,
+          "close": 81.93,
+          "volume": 341593
+        },
+        {
+          "date": "2026-01-28",
+          "open": 81.51,
+          "high": 84.01,
+          "low": 80.71,
+          "close": 82.69,
+          "volume": 272290
+        },
+        {
+          "date": "2026-01-29",
+          "open": 82.68,
+          "high": 85.85,
+          "low": 82.23,
+          "close": 85.01,
+          "volume": 319586
+        },
+        {
+          "date": "2026-01-30",
+          "open": 85.01,
+          "high": 85.01,
+          "low": 82.26,
+          "close": 83.2,
+          "volume": 228588
+        },
+        {
+          "date": "2026-02-02",
+          "open": 82.8,
+          "high": 84.49,
+          "low": 80.58,
+          "close": 80.88,
+          "volume": 234718
+        },
+        {
+          "date": "2026-02-03",
+          "open": 82.0,
+          "high": 82.25,
+          "low": 79.0,
+          "close": 80.47,
+          "volume": 201786
+        },
+        {
+          "date": "2026-02-04",
+          "open": 80.58,
+          "high": 82.68,
+          "low": 80.33,
+          "close": 81.55,
+          "volume": 145860
+        },
+        {
+          "date": "2026-02-05",
+          "open": 81.5,
+          "high": 82.37,
+          "low": 79.59,
+          "close": 80.4,
+          "volume": 162280
+        },
+        {
+          "date": "2026-02-06",
+          "open": 79.51,
+          "high": 81.16,
+          "low": 79.51,
+          "close": 80.15,
+          "volume": 141255
+        },
+        {
+          "date": "2026-02-09",
+          "open": 81.08,
+          "high": 81.52,
+          "low": 79.52,
+          "close": 81.05,
+          "volume": 155440
+        },
+        {
+          "date": "2026-02-10",
+          "open": 80.99,
+          "high": 81.2,
+          "low": 79.6,
+          "close": 80.34,
+          "volume": 104079
+        },
+        {
+          "date": "2026-02-11",
+          "open": 80.28,
+          "high": 80.67,
+          "low": 78.8,
+          "close": 79.57,
+          "volume": 147626
+        },
+        {
+          "date": "2026-02-12",
+          "open": 79.5,
+          "high": 79.85,
+          "low": 78.28,
+          "close": 78.4,
+          "volume": 146523
+        },
+        {
+          "date": "2026-02-13",
+          "open": 78.56,
+          "high": 78.7,
+          "low": 77.58,
+          "close": 77.7,
+          "volume": 102069
+        },
+        {
+          "date": "2026-02-24",
+          "open": 78.0,
+          "high": 78.13,
+          "low": 75.81,
+          "close": 76.2,
+          "volume": 169853
+        },
+        {
+          "date": "2026-02-25",
+          "open": 76.5,
+          "high": 77.82,
+          "low": 75.71,
+          "close": 76.98,
+          "volume": 178558
+        },
+        {
+          "date": "2026-02-26",
+          "open": 76.9,
+          "high": 77.0,
+          "low": 74.76,
+          "close": 75.14,
+          "volume": 195933
+        },
+        {
+          "date": "2026-02-27",
+          "open": 74.88,
+          "high": 75.86,
+          "low": 74.87,
+          "close": 75.6,
+          "volume": 128748
         }
       ],
-      "forecast_base": [
-        {
-          "date": "2026-03-02",
-          "open": 1180.9346923828125,
-          "high": 1273.3759765625,
-          "low": 1180.4615478515625,
-          "close": 1201.353271484375,
-          "volume": 136086.0625
-        },
-        {
-          "date": "2026-03-03",
-          "open": 1219.4984130859375,
-          "high": 1260.7200927734375,
-          "low": 1190.6741943359375,
-          "close": 1228.32421875,
-          "volume": 120970.328125
-        },
-        {
-          "date": "2026-03-04",
-          "open": 1253.387451171875,
-          "high": 1251.6334228515625,
-          "low": 1186.750244140625,
-          "close": 1187.3389892578125,
-          "volume": 112171.5390625
-        },
-        {
-          "date": "2026-03-05",
-          "open": 1149.81591796875,
-          "high": 1182.1005859375,
-          "low": 1127.467529296875,
-          "close": 1187.67333984375,
-          "volume": 88184.578125
-        },
-        {
-          "date": "2026-03-06",
-          "open": 1219.4326171875,
-          "high": 1218.1944580078125,
-          "low": 1121.3712158203125,
-          "close": 1138.9013671875,
-          "volume": 101920.8828125
-        }
-      ],
-      "prediction_logic": "OpenAI追加融资100亿美元，预计将直接提振A股算力板块情绪。核心标的寒武纪-U、中科曙光、浪潮信息短期有望迎来估值与业绩双重催化，建议关注算力租赁与硬件采购订单落地情况。"
+      "prediction_logic": "美债收益率全线暴跌确认降息预期，对银行、保险、券商构成强利好。重点关注息差敏感型龙头。中信银行目标价7.45元 (+8.75%)，新华保险目标价49.80元 (+10.17%)。当前市场对降息逻辑部分定价，但板块估值修复空间仍大。"
     }
   }
 }
