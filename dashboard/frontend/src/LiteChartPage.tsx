@@ -2,6 +2,8 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import type { ChartData, Signal } from './store'
 import { KLineChart } from './components/KLineChart'
+import { captureLiteEvent } from './analytics'
+import { FeedbackButton } from './components/FeedbackButton'
 import './LiteDashboard.css'
 
 type LitePayload = {
@@ -25,6 +27,39 @@ export const LiteChartPage = () => {
   const [error, setError] = useState<string | null>(null)
 
   useEffect(() => {
+    captureLiteEvent('lite_chart_view', { page: 'lite_chart', ticker })
+  }, [ticker])
+
+  useEffect(() => {
+    const start = Date.now()
+    let sent = false
+    const flushDuration = (reason: string) => {
+      if (sent) return
+      sent = true
+      captureLiteEvent('lite_chart_leave', {
+        page: 'lite_chart',
+        ticker,
+        reason,
+        duration_sec: Math.max(1, Math.round((Date.now() - start) / 1000)),
+      })
+    }
+    const onVisibilityChange = () => {
+      if (document.visibilityState === 'hidden') {
+        flushDuration('hidden')
+      }
+    }
+    const onPageHide = () => flushDuration('pagehide')
+
+    document.addEventListener('visibilitychange', onVisibilityChange)
+    window.addEventListener('pagehide', onPageHide)
+    return () => {
+      document.removeEventListener('visibilitychange', onVisibilityChange)
+      window.removeEventListener('pagehide', onPageHide)
+      flushDuration('unmount')
+    }
+  }, [ticker])
+
+  useEffect(() => {
     let mounted = true
     fetch('/latest.json', { cache: 'no-store' })
       .then((res) => {
@@ -35,9 +70,15 @@ export const LiteChartPage = () => {
       })
       .then((data) => {
         if (mounted) setPayload(data)
+        captureLiteEvent('lite_chart_payload_loaded', {
+          ticker,
+          signal_count: data.count ?? data.signals?.length ?? 0,
+          run_id: data.run_id,
+        })
       })
       .catch((err) => {
         if (mounted) setError(err.message || '加载失败')
+        captureLiteEvent('lite_chart_payload_load_failed', { ticker, message: err.message || '加载失败' })
       })
     return () => {
       mounted = false
@@ -108,6 +149,13 @@ export const LiteChartPage = () => {
                         href={src.url}
                         target="_blank"
                         rel="noreferrer"
+                        onClick={() =>
+                          captureLiteEvent('lite_related_source_click', {
+                            ticker,
+                            signal_id: signal.signal_id,
+                            source_url: src.url,
+                          })
+                        }
                       >
                         {src.title}
                       </a>
@@ -119,6 +167,7 @@ export const LiteChartPage = () => {
           </div>
         </section>
       )}
+      <FeedbackButton />
     </div>
   )
 }

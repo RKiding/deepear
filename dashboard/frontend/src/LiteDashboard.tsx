@@ -1,7 +1,9 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom'
 import type { Signal } from './store'
 import { SignalCard } from './components/SignalCard'
+import { FeedbackButton } from './components/FeedbackButton'
+import { captureLiteEvent } from './analytics'
 import './LiteDashboard.css'
 
 type LitePayload = {
@@ -24,6 +26,44 @@ export const LiteDashboard = () => {
   const location = useLocation()
   const [payload, setPayload] = useState<LitePayload | null>(null)
   const [error, setError] = useState<string | null>(null)
+  const signalCountRef = useRef(0)
+
+  useEffect(() => {
+    signalCountRef.current = payload?.signals?.length ?? 0
+  }, [payload])
+
+  useEffect(() => {
+    captureLiteEvent('lite_page_view', { page: 'lite' })
+  }, [])
+
+  useEffect(() => {
+    const start = Date.now()
+    let sent = false
+    const flushDuration = (reason: string) => {
+      if (sent) return
+      sent = true
+      captureLiteEvent('lite_leave', {
+        page: 'lite',
+        reason,
+        duration_sec: Math.max(1, Math.round((Date.now() - start) / 1000)),
+        signal_count: signalCountRef.current,
+      })
+    }
+    const onVisibilityChange = () => {
+      if (document.visibilityState === 'hidden') {
+        flushDuration('hidden')
+      }
+    }
+    const onPageHide = () => flushDuration('pagehide')
+
+    document.addEventListener('visibilitychange', onVisibilityChange)
+    window.addEventListener('pagehide', onPageHide)
+    return () => {
+      document.removeEventListener('visibilitychange', onVisibilityChange)
+      window.removeEventListener('pagehide', onPageHide)
+      flushDuration('unmount')
+    }
+  }, [])
 
   // Scroll Restoration
   useEffect(() => {
@@ -37,6 +77,7 @@ export const LiteDashboard = () => {
 
   const handleNavigateToChart = (ticker: string) => {
     localStorage.setItem(`scroll_pos_${location.pathname}`, window.scrollY.toString())
+    captureLiteEvent('ticker_chart_click', { ticker })
     navigate(`/lite/chart/${ticker}`)
   }
 
@@ -51,9 +92,14 @@ export const LiteDashboard = () => {
       })
       .then((data) => {
         if (mounted) setPayload(data)
+        captureLiteEvent('lite_payload_loaded', {
+          signal_count: data.count ?? data.signals?.length ?? 0,
+          run_id: data.run_id,
+        })
       })
       .catch((err) => {
         if (mounted) setError(err.message || '加载失败')
+        captureLiteEvent('lite_payload_load_failed', { message: err.message || '加载失败' })
       })
     return () => {
       mounted = false
@@ -103,11 +149,37 @@ export const LiteDashboard = () => {
             <SignalCard
               signal={signal}
               onShowChart={handleNavigateToChart}
+              onTickerClick={(ticker, item) =>
+                captureLiteEvent('signal_ticker_click', {
+                  ticker,
+                  signal_id: item.signal_id,
+                  signal_title: item.title,
+                })
+              }
+              onSummaryToggle={(expanded, item) =>
+                captureLiteEvent('signal_summary_toggle', {
+                  expanded,
+                  signal_id: item.signal_id,
+                })
+              }
+              onSearchToggle={(expanded, item) =>
+                captureLiteEvent('signal_search_toggle', {
+                  expanded,
+                  signal_id: item.signal_id,
+                })
+              }
+              onSourceClick={(url, item) =>
+                captureLiteEvent('signal_source_click', {
+                  signal_id: item.signal_id,
+                  source_url: url,
+                })
+              }
             />
           </div>
         ))}
 
       </main>
+      <FeedbackButton />
     </div>
   )
 }

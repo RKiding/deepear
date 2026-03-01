@@ -7,9 +7,20 @@ import './SignalCard.css'
 interface Props {
     signal: Signal
     onShowChart?: (ticker: string) => void
+    onSummaryToggle?: (expanded: boolean, signal: Signal) => void
+    onSearchToggle?: (expanded: boolean, signal: Signal) => void
+    onSourceClick?: (url: string, signal: Signal) => void
+    onTickerClick?: (ticker: string, signal: Signal) => void
 }
 
-export function SignalCard({ signal, onShowChart }: Props) {
+export function SignalCard({
+    signal,
+    onShowChart,
+    onSummaryToggle,
+    onSearchToggle,
+    onSourceClick,
+    onTickerClick,
+}: Props) {
     const [expanded, setExpanded] = useState(false)
     const [searchExpanded, setSearchExpanded] = useState(false)
 
@@ -36,7 +47,9 @@ export function SignalCard({ signal, onShowChart }: Props) {
                         className="expand-btn"
                         onClick={(e) => {
                             e.stopPropagation()
-                            setExpanded(!expanded)
+                            const next = !expanded
+                            setExpanded(next)
+                            onSummaryToggle?.(next, signal)
                         }}
                     >
                         {expanded ? <><ChevronUp size={12} /> 收起</> : <><ChevronDown size={12} /> 展开</>}
@@ -59,7 +72,10 @@ export function SignalCard({ signal, onShowChart }: Props) {
                     <span
                         key={ticker.ticker}
                         className={`ticker-chip ${onShowChart ? 'clickable' : ''}`}
-                        onClick={() => onShowChart?.(ticker.ticker)}
+                        onClick={() => {
+                            onTickerClick?.(ticker.ticker, signal)
+                            onShowChart?.(ticker.ticker)
+                        }}
                         title="点击查看图表"
                     >
                         {onShowChart && <BarChart2 size={12} style={{ marginRight: 4 }} />}
@@ -94,7 +110,10 @@ export function SignalCard({ signal, onShowChart }: Props) {
                                 target="_blank"
                                 rel="noreferrer"
                                 className="source-link"
-                                onClick={(e) => e.stopPropagation()}
+                                onClick={(e) => {
+                                    e.stopPropagation()
+                                    onSourceClick?.(src.url, signal)
+                                }}
                             >
                                 {src.source_name && (
                                     <span className="source-tag">{src.source_name}</span>
@@ -131,7 +150,9 @@ export function SignalCard({ signal, onShowChart }: Props) {
                             className="expand-btn search-expand-btn"
                             onClick={(e) => {
                                 e.stopPropagation()
-                                setSearchExpanded(!searchExpanded)
+                                const next = !searchExpanded
+                                setSearchExpanded(next)
+                                onSearchToggle?.(next, signal)
                             }}
                         >
                             {searchExpanded ? <><ChevronUp size={12} /> 收起搜索</> : <><ChevronDown size={12} /> 展开更多搜索 ({signal.search_results.length - 1})</>}
