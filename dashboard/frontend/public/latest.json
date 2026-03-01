@@ -1,33 +1,28 @@
 {
-  "generated_at": "2026-03-01T15:33:35.101259+08:00",
-  "run_id": "lite_20260301_153335",
-  "count": 3,
+  "generated_at": "2026-03-01T17:01:33.502800+08:00",
+  "run_id": "lite_20260301_170133",
+  "count": 22,
   "signals": [
     {
-      "signal_id": "2298842",
-      "title": "沙特股市暴跌4.6%",
-      "summary": "沙特TASI指数早盘暴跌4.6%，创近年罕见跌幅。建议关注能源板块（中国石化、中国神华）及航运龙头（中远海控），短期目标价看涨5%-8%。能源板块有望受益于原油价格上行预期，航运板块受益于航线避险溢价。核心消费与银行股受情绪扰动，建议观望。",
-      "reasoning": "沙特股市4.6%的单日跌幅远超正常波动范围，表明市场对中东局势（如近期可能爆发的军事冲突）存在极度恐慌情绪，风险溢价急剧上升。这种情绪溢出效应会迅速传导至全球大宗商品和资金流向。对于A股市场而言，中东局势恶化通常利好国内石油和天然气板块（中国石化、中国神华），因为国内能源对外依存度高，油价上涨直接增厚业绩；同时，地缘政治风险推高航运避险需求，利好中远海控等海运龙头。然而，外资流向可能受到冲击，导致部分流动性好的核心资产（招商银行、海天味业）短期承压。整体来看，事件强度极高（intensity=5），属于重大地缘政治信号，但A股核心资产受基本面影响较小，更多是情绪博弈，因此预期差主要存在于能源和航运板块。",
+      "signal_id": "SZ002177",
+      "title": "御银股份：重组预期驱动，短线急涨",
+      "summary": "基于重组传闻驱动，预计股价短期仍有冲高动能，但需警惕高位分歧。参考技术面及资金流向，预计下周价格波动区间在 [11.5, 13.5] 元。若重组消息落地且符合预期，目标价可看高至 15.0 元上方；若消息证伪，支撑位在 10.5 元附近。",
+      "reasoning": "御银股份股价的快速上涨（当前价12.20元）并非基于基本面的短期改善，而是源于市场对公司可能进行资产重组或注入的强烈预期。从ISQ框架看，sentiment达到0.8（极度乐观），confidence为0.85（基于公告提及重大事项），预期差处于0.6区间（市场部分认知，存在博弈空间）。当前股价已突破关键阻力位，确立了多头趋势，但考虑到小盘股的高波动特性，价格处于'未定价'状态，即当前的上涨是对未来潜在价值的提前反映，而非当前业绩的完全定价。因此，逻辑链条指向重组预期带来的情绪溢价，而非业绩兑现。",
       "transmission_chain": [
         {
-          "node_name": "中东地缘政治",
-          "impact_type": "利空",
-          "logic": "沙特股市单日暴跌4.6%显示中东地区地缘政治风险急剧上升，市场避险情绪飙升，可能引发短期资金流出新兴市场。"
-        },
-        {
-          "node_name": "全球大宗商品",
+          "node_name": "重组预期/资产注入",
           "impact_type": "利好",
-          "logic": "中东局势动荡通常推高原油价格预期，对能源板块形成直接利好，叠加沙特作为全球最大石油出口国的地位，油价上涨弹性大。"
+          "logic": "公司近期股价异动且公告提及重大事项，市场普遍解读为存在资产重组或注入预期。资产注入通常能显著提升上市公司资产质量和盈利能力，是股价上涨的核心驱动力。"
         },
         {
-          "node_name": "航运物流",
+          "node_name": "市场情绪/博弈",
           "impact_type": "利好",
-          "logic": "中东冲突风险增加海运航线不确定性，推高避险运价，利好主要承担中东航线运力的航运企业。"
+          "logic": "股价快速拉升表明资金介入明显，短线投机情绪高涨。游资和散户跟风推升价格，加速了预期差的形成，但同时也带来了短期回调的风险。"
         },
         {
-          "node_name": "A股核心资产",
-          "impact_type": "中性",
-          "logic": "虽然地缘冲突通常压制市场风险偏好，但中国核心资产（如银行、消费）估值较低，受外资流出影响相对可控，更多表现为情绪扰动而非基本面恶化。"
+          "node_name": "流动性溢价",
+          "impact_type": "利好",
+          "logic": "作为小市值题材股，御银股份在重组传闻下往往伴随高换手率，这种高流动性溢价进一步推高了股价。"
         }
       ],
       "sentiment_score": 0.0,
@@ -39,154 +34,216 @@
       "price_in_status": "未知",
       "impact_tickers": [
         {
-          "code": "601088",
-          "name": "中国神华",
-          "weight": 0.15,
-          "type": "利好",
-          "ticker": "601088"
-        },
-        {
-          "code": "600028",
-          "name": "中国石化",
-          "weight": 0.15,
-          "type": "利好",
-          "ticker": "600028"
-        },
-        {
-          "code": "601919",
-          "name": "中远海控",
-          "weight": 0.2,
-          "type": "利好",
-          "ticker": "601919"
+          "code": "002177",
+          "name": "御银股份",
+          "weight": 1.0,
+          "ticker": "002177"
         }
       ],
       "industry_tags": [],
       "sources": [
         {
-          "title": "财联社3月1日电，沙特阿拉伯股市指数（TASI）早盘下跌4.6%。",
-          "url": "https://www.cls.cn/detail/2298842",
-          "source_name": "cls"
+          "title": "御银股份",
+          "url": "https://xueqiu.com/s/SZ002177",
+          "source_name": "xueqiu"
         }
       ],
       "search_results": [
         {
-          "title": "美以袭击伊朗，沙特阿拉伯股市指数早盘大跌4.6%",
-          "url": "https://finance.sina.com.cn/stock/bxjj/2026-03-01/doc-inhpnmvs6166411.shtml",
+          "title": "御银股份年关重组可行性分析：信号明确，概率高企结合广东省最新政策与御银股份近期动_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20251126194114449174690",
           "source": "Search (ddg)"
         },
         {
-          "title": "沙特阿拉伯股指早盘下跌4.6%，比特币走低",
-          "url": "https://wallstreetcn.com/articles/3766457",
+          "title": "御银股份（002177）综合分析报告：工商变更落地与潜在重组机遇研判一、事件概述|资产|金融科技|政策|战略|科技_新浪新闻",
+          "url": "https://cj.sina.com.cn/articles/view/7857201856/1d45362c001902agga",
           "source": "Search (ddg)"
         },
         {
-          "title": "沙特阿拉伯股市指数（Tasi）早盘下跌4.6% | 每经网",
-          "url": "https://www.nbd.com.cn/articles/2026-03-01/4273885.html",
+          "title": "御银股份连板背后的驱动逻辑，看过来! 御银股份 （002177.sz）的深层次买入逻辑及近期催化剂如下：深层次买入逻辑- 业务转型与新业务增长 ...",
+          "url": "https://xueqiu.com/5416385647/337113186",
           "source": "Search (ddg)"
         },
         {
-          "title": "沙特阿拉伯股市指数（Tasi）早盘下跌4.6% _ 东方财富网",
-          "url": "https://finance.eastmoney.com/a/202603013657681886.html",
+          "title": "【异动解读】御银股份10月17日大涨：产业园+ATM+现金充沛+并购预期",
+          "url": "https://t.10jqka.com.cn/pid_525405778.shtml",
           "source": "Search (ddg)"
         },
         {
-          "title": "沙特阿拉伯股市指数早盘大跌4.6%_伊朗_美军基地_消息面上",
-          "url": "https://www.sohu.com/a/991305469_114984",
+          "title": "每天带您了解一家上市公司——御银股份 (Sz:002177)",
+          "url": "https://finance.sina.cn/2025-07-03/detail-infeevph1483745.d.html",
           "source": "Search (ddg)"
         }
       ]
     },
     {
-      "signal_id": "2298841",
-      "title": "伊朗最高领袖遇害，地缘政治黑天鹅",
-      "summary": "该事件属于极端地缘政治黑天鹅，预期短期将推动军工板块（如长城军工、中航沈飞）出现20%-30%的超额收益，中石油/中石化因油价波动潜在弹性约15%-20%，市场需警惕剧烈波动带来的短期交易风险。",
-      "reasoning": "基于研究员提供的背景调查，该信号经财联社、央视等多家权威媒体交叉验证，真实性极高（confidence 0.9）。伊朗最高领袖遇害在神权体制下是颠覆性事件，市场预期差极大（expectation_gap 0.9）。事件直接冲击中东地缘政治稳定性，军工板块作为直接受益者（特别是具备军贸背景的标的如长城军工、中航沈飞）将获得高强度的情绪溢价（intensity 5）。同时，中东局势动荡通常伴随油价上涨，中国石化、中国石油作为上游资源股将间接受益。当前股价尚未充分反应这一极端风险，处于严重未定价状态，是短期博弈的关键窗口。",
+      "signal_id": "SH601899",
+      "title": "紫金矿业：三年产量规划兑现，全球铜业战略升级",
+      "summary": "紫金矿业发布2026-2028年产量规划（2026年105万吨，2028年130-140万吨）及加入国际铜业协会，确立全球铜业巨头地位。当前股价处于2025-2026年产量释放与规划兑现期，预期差主要在于具体项目的投产节奏。建议关注2026年一季度财报中产量数据与铜金价格波动对估值的修复作用。",
+      "reasoning": "基于研究员提供的背景信息，紫金矿业的核心事件是明确的产量扩张（三年规划）和行业地位的提升（加入ICA）。首先，产量目标（105万吨至140万吨）显示公司处于成长期，符合当前全球矿业复苏的大趋势，对股价构成实质利好。其次，加入国际铜业协会不仅提升了品牌溢价，更意味着紫金将获得更多全球产业链话语权，这是中长期逻辑。然而，当前股价状态显示市场对这一利好已有一定程度的定价（Expectation Gap 0.4），因为三年规划属于常规的战略公告。真正的预期差和交易机会在于2026年第一季度的实际产量兑现情况以及铜价的边际变化。目前缺乏实时股价数据，无法精确判断当前定价是否完全透支了2026年的产量增长预期，但基于2026年3月1日的时间点，市场可能正在逐步消化这一利好。总体而言，紫金矿业作为铜金双轮驱动的龙头，在周期上行阶段具有配置价值。",
       "transmission_chain": [
         {
-          "node_name": "地缘政治核心区",
-          "impact_type": "利空",
-          "logic": "伊朗最高领袖遇害导致中东局势瞬间失控，地缘政治风险急剧飙升，触发全球市场避险本能。"
-        },
-        {
-          "node_name": "军工产业链",
+          "node_name": "公司战略层",
           "impact_type": "利好",
-          "logic": "中东地区军火需求激增，且冲突升级将提升军工板块的战略配置价值，订单预期与估值溢价双升。"
+          "logic": "发布2026-2028三年产量规划（2026年目标105万吨，2028年目标130-140万吨）及2035远景目标，管理层对未来增长路径明确，增强市场信心。"
         },
         {
-          "node_name": "能源板块",
+          "node_name": "全球铜业协会",
           "impact_type": "利好",
-          "logic": "中东产油区动荡导致原油供应风险上升，国际油价存在短期暴涨可能，直接利好上游油企业绩。"
+          "logic": "自2026年1月1日正式成为国际铜业协会(ICA)成员，提升品牌国际影响力，深化与全球头部矿企及研究机构的合作，有利于资源获取和技术交流。"
         },
         {
-          "node_name": "全球市场",
-          "impact_type": "利空",
-          "logic": "避险情绪升温导致资金从高风险资产撤离，股市波动加剧，资金向黄金、国债等避险资产转移。"
+          "node_name": "中游冶炼与加工",
+          "impact_type": "中性",
+          "logic": "铜产量提升将增加精炼铜及铜材的供应，对中游加工环节产能利用率形成支撑，但需关注下游需求端的承接能力。"
+        },
+        {
+          "node_name": "下游应用端",
+          "impact_type": "中性偏多",
+          "logic": "作为全球领先的铜生产商，产量扩张将直接增加市场有效供给，对铜价形成一定支撑，利好电力、新能源等下游用铜行业。"
         }
       ],
       "sentiment_score": 0.0,
-      "confidence": 0.9,
-      "intensity": 5,
-      "expectation_gap": 0.9,
-      "timeliness": 0.95,
+      "confidence": 0.7,
+      "intensity": 4,
+      "expectation_gap": 0.4,
+      "timeliness": 0.6,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "601899",
+          "name": "紫金矿业",
+          "weight": 1.0
+        },
+        {
+          "ticker": "02899",
+          "name": "紫金矿业",
+          "weight": 0.9
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "紫金矿业",
+          "url": "https://xueqiu.com/s/SH601899",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "PDF 紫金矿业集团股份有限公司 关于三年（20",
+          "url": "https://stockmc.xueqiu.com/202602/601899_20260209_LNWT.pdf",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "紫金矿业：规划到2028年铜、金矿产品产量进入全球前3位",
+          "url": "https://www.msn.cn/zh-cn/news/other/紫金矿业发布三年-2026-2028-年-主要矿产品产量规划和2035年远景目标纲要/ar-AA1VWEIg",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "紫金矿业：规划到2028年铜、金矿产品产量进入全球前三-上海证券报·中国证券网",
+          "url": "https://www.cnstock.com/commonDetail/636268",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "紫金矿业 (02899.hk)公布2026-2028年产量规划及2035远景目标，铜金产量瞄准全球前三",
+          "url": "https://www.sohu.com/a/985291045_211762",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "紫金矿业：规划到2028年铜、金矿产品产量进入全球前三",
+          "url": "https://finance.sina.com.cn/roll/2026-02-09/doc-inhmesxn5594254.shtml",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "SZ000858",
+      "title": "五粮液：基本面验证强化，估值修复预期升温",
+      "summary": "基于研究员提供的背景信息，五粮液（000858）作为白酒行业“四朵金花”之一，基本面稳健。当前市场预期正处于从悲观向乐观修复的关键节点。预计股价将在近期震荡上行，目标区间参考前期高点或行业平均估值溢价水平，潜在涨幅空间约为 10%-15%。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "公司基本面 (业绩/渠道)",
+          "impact_type": "利好",
+          "logic": "作为白酒行业龙头，五粮液的业绩表现直接影响市场对白酒板块的信心。基本面验证强化将直接提升公司估值中枢，吸引增量资金流入。"
+        },
+        {
+          "node_name": "行业估值体系",
+          "impact_type": "利好",
+          "logic": "五粮液作为白酒板块的核心权重股，其走势往往具有风向标意义。龙头股的上涨有助于带动整个白酒板块（如茅台、泸州老窖等）的估值修复行情。"
+        },
+        {
+          "node_name": "产业链上下游",
+          "impact_type": "中性偏多",
+          "logic": "上游（高粱、小麦等农产品）需求稳定；下游（经销商、电商）受益于品牌动销提升，整体产业链呈现良性循环。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
       "impact_tickers": [],
       "industry_tags": [],
       "sources": [
         {
-          "title": "伊朗外长就最高领袖遇害发表声明",
-          "url": "https://www.cls.cn/detail/2298841",
-          "source_name": "cls"
+          "title": "五粮液",
+          "url": "https://xueqiu.com/s/SZ000858",
+          "source_name": "xueqiu"
         }
       ],
       "search_results": [
         {
-          "title": "阿里·哈梅内伊之死 - 维基百科，自由的百科全书",
-          "url": "https://zh.wikipedia.org/wiki/阿里·哈梅内伊之死",
+          "title": "五粮液估值分析（2025年11月更新）：稳健基本面和阶段压力下的价值再审视 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/1969079055820255280",
           "source": "Search (ddg)"
         },
         {
-          "title": "快评｜伊朗最高领袖哈梅内伊遇害，对局势有何影响？_澎湃防务_澎湃新闻-The Paper",
-          "url": "https://www.thepaper.cn/detail/32678274",
+          "title": "$五粮液 (Sz000858)$ 五粮液 ：调整期下的价值布局窗口已至在白酒行业深度调整与估值回归的双重背景下，五粮液（0... - 雪球",
+          "url": "https://xueqiu.com/1296151275/361879536",
           "source": "Search (ddg)"
         },
         {
-          "title": "\"黑天鹅\"突袭!特朗普：哈梅内伊已身亡!伊朗发声!下周如何应对？|哈梅内伊_新浪财经_新浪网",
-          "url": "https://finance.sina.com.cn/wm/2026-03-01/doc-inhpmuxy6404892.shtml",
+          "title": "估值修复+春节预期 五粮液（000858）强势涨停：板块联动效应、估值修复资金入场等多重因素共振_腾讯新闻",
+          "url": "https://view.inews.qq.com/a/20260129A05WOG00",
           "source": "Search (ddg)"
         },
         {
-          "title": "新闻人物丨已故伊朗最高领袖哈梅内伊 - 新华网",
-          "url": "https://www.xinhuanet.com/world/20260301/f1084047ac2a4f2aa1dad0f64a52324a/c.html",
+          "title": "五粮液2026年增长战略全景透视：国内守正与海外创新双轮驱动分析报告_财富号_东方财富网",
+          "url": "https://caifuhao.eastmoney.com/news/20260227192255650919780",
           "source": "Search (ddg)"
         },
         {
-          "title": "特朗普称伊朗最高领袖哈梅内伊在袭击中身亡 - 纽约时报中文网",
-          "url": "https://cn.nytimes.com/world/20260301/iran-strikes-us/",
+          "title": "估值修复+春节预期 五粮液（000858）强势涨停：板块联动效应、估值修复资金入场等多重因素共振",
+          "url": "https://t.10jqka.com.cn/pid_591346781.shtml",
           "source": "Search (ddg)"
         }
       ]
     },
     {
-      "signal_id": "2298840",
-      "title": "伊朗最高领袖逝世引发地缘政治风险溢价",
-      "summary": "核心观点：伊朗最高领袖逝世引发中东地缘政治黑天鹅，油价存在100美元/桶风险溢价预期。受此驱动，石油石化板块具备短期爆发力。具体标的方面，中国石化、中国石油作为全产业链龙头，具备稳健的业绩支撑与弹性；中国海油作为高弹性标的，值得重点关注；海油工程作为上游工程服务商，将直接受益于行业景气度上行。目标关注中石油、中石化、中海油的波段交易机会，预期短期涨幅区间为3%-8%，具体取决于油价实际反应强度。风险点在于中东局势快速缓和或伊朗内部权力过渡平稳，导致风险溢价迅速消退。",
-      "reasoning": "",
+      "signal_id": "SZ002155",
+      "title": "湖南黄金超买回调风险",
+      "summary": "湖南黄金当前股价37.70元，技术面严重超买（RSI 88），短期面临显著回调压力。鉴于风险收益比恶化，建议规避追高风险，目标回调区间为32.00-34.00元，预计潜在跌幅约5%-15%。",
+      "reasoning": "基于研究员提供的数据，湖南黄金在极短时间内录得+10.01%的涨幅，股价快速脱离合理估值区间，RSI指标达到88表明多头动能极度透支，技术面超买状态极其明显。虽然贵金属行业长期逻辑存在，但在缺乏基本面突发利好支撑的情况下，短期巨大的获利回吐压力将主导走势。当前定价已完全消化了部分预期，但尚未充分定价技术性修正风险，因此判定为回调信号。",
       "transmission_chain": [
         {
-          "node_name": "地缘政治/最高领袖逝世",
-          "impact_type": "利多",
-          "logic": "伊朗最高领袖身亡导致权力真空，引发地区权力斗争激化及代理人战争风险。以色列及美国威胁继续轰炸，中东局势瞬间从紧张升级为极度危险，地缘政治溢价急剧攀升。"
+          "node_name": "技术面指标",
+          "impact_type": "利空",
+          "logic": "当前股价37.70元，较前一交易日涨幅+10.01%，RSI指标飙升至88，处于严重超买区间，且价格远超布林带上轨，短期技术性回调需求强烈。"
         },
         {
-          "node_name": "原油供需/霍尔木兹海峡",
-          "impact_type": "利多",
-          "logic": "伊朗作为全球第三大产油国，局势动荡直接威胁波斯湾及霍尔木兹海峡这一全球20%石油运输要道的安全。尽管目前EIA预测全球石油过剩，但地缘风险溢价将打破供需平衡，推高油价中枢。"
+          "node_name": "市场情绪",
+          "impact_type": "利空",
+          "logic": "股价短期暴涨导致风险收益比严重恶化，市场情绪从极度乐观转向警惕，获利盘出逃意愿增强，可能引发波动。"
         },
         {
-          "node_name": "石油石化板块",
-          "impact_type": "利多",
-          "logic": "油价上涨直接增厚上游开采企业的营业利润；中游炼化企业受益于“原油-成品油”价差扩大带来的高毛利；下游销售企业则享受库存增值红利。"
+          "node_name": "基本面支撑",
+          "impact_type": "中性",
+          "logic": "2026年1月26日研报指出估值已触及合理区间上限，缺乏基本面即时支撑，无法完全对冲技术面带来的调整压力。"
         }
       ],
       "sentiment_score": 0.0,
@@ -198,403 +255,1721 @@
       "price_in_status": "未知",
       "impact_tickers": [
         {
-          "ticker": "600028",
-          "name": "中国石化",
-          "weight": 0.25,
-          "impact": "中游炼化与销售终端，直接受益于油价上涨带来的毛利修复及库存增值，弹性优于上游开采。"
-        },
-        {
-          "ticker": "601857",
-          "name": "中国石油",
-          "weight": 0.25,
-          "impact": "全产业链巨头，上游勘探开采业务将显著受益于油价中枢上移，具备防御性。"
-        },
-        {
-          "ticker": "600938",
-          "name": "中国海油",
-          "weight": 0.2,
-          "impact": "海上油气开采主力，受益于地缘冲突导致的全球能源供应担忧，业绩弹性大。"
-        },
-        {
-          "ticker": "600583",
-          "name": "海油工程",
-          "weight": 0.1,
-          "impact": "海洋油气工程服务，作为产业链上游，将直接受益于全球油气资本开支增加预期。"
+          "code": "002155",
+          "name": "湖南黄金",
+          "weight": 1.0,
+          "ticker": "002155"
         }
       ],
       "industry_tags": [],
       "sources": [
         {
-          "title": "伊朗最高领袖身亡后 伊拉克宣布举行三天全国哀悼",
-          "url": "https://www.cls.cn/detail/2298840",
-          "source_name": "cls"
+          "title": "湖南黄金",
+          "url": "https://xueqiu.com/s/SZ002155",
+          "source_name": "xueqiu"
         }
       ],
       "search_results": [
         {
-          "title": "伊朗总统意外身亡事件引发全球市场波动 原油黄金价格走势与中东地缘政治风险深度关联分析 - 岁序智库",
-          "url": "https://www.siudz.com/news/yi-lang-zong-tong-yi-wai-shen-wang-shi-jian-yin-fa-quan-qiu-shi-chang-bo-dong-yuan-you-huang-jin-jia.html",
+          "title": "湖南黄金近三个月涨超150%，现在还能追高买入吗？",
+          "url": "https://cj.sina.com.cn/articles/view/7879922977/1d5ae152106801bon2",
           "source": "Search (ddg)"
         },
+        {
+          "title": "分析师称黄金处于超买区间，警惕短期回调风险，2026年或见4200美元新高",
+          "url": "https://wallstreetcn.com/articles/3755679",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "湖南黄金近三个月涨超150%，现在还能追高买入吗？|金价|美元|锑|锑矿|COMEX黄金_新浪财经_新浪新闻",
+          "url": "https://k.sina.cn/article_7879922977_1d5ae152106801bon2.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "洪灏：所有人都在买黄金，极端超买行情下风险大于收益 核心结论 对于当前处于历史高位的黄金，建议是： 已持有者可继续持有，但不宜追高加仓；未持有 ...",
+          "url": "https://xueqiu.com/7163180119/357255294",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "机构论市：黄金交易短期存在回调风险",
+          "url": "https://stock.10jqka.com.cn/20250918/c671238405.shtml",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "SH600989",
+      "title": "宝丰业绩高增+绿氢创新驱动",
+      "summary": "基于业绩高增（110-120亿）和绿氢技术突破，股价具备上行空间。建议关注回调至15.5-16.0元附近的买入机会，目标价区间18.0-20.0元，对应上涨空间约15%-28%。",
+      "reasoning": "研究员提供的背景信息显示，宝丰能源2026年1月发布的业绩预告（净利润110-120亿，同比增长73%-89%）是当前最核心的催化剂，显著超出了市场对煤化工行业平稳增长的预期，形成了正向预期差。技术面上，'绿氢+煤制烯烃'技术不仅解决了煤化工的环保痛点，更带来了84%的极高毛利率，确立了行业龙头地位。虽然研究员未能获取实时股价，但结合股份回购（成本16.50元）和行业高景气度，当前定价处于合理区间。内蒙项目达产带来的规模效应叠加高分红政策，支撑了股价的长期走势。因此，综合情绪（看多）、确定性（高增逻辑清晰）和强度（行业龙头），该信号具有显著的投资价值。",
+      "transmission_chain": [
+        {
+          "node_name": "财务端",
+          "impact_type": "利好",
+          "logic": "2026年1月发布业绩预告，预计净利润110-120亿元，同比增长73.57%-89.34%，显示盈利能力大幅提升，是股价上涨的核心驱动力。"
+        },
+        {
+          "node_name": "技术端",
+          "impact_type": "利好",
+          "logic": "全球首创'绿氢+煤制烯烃'技术，绿氢板块毛利率高达84%，且已在宁夏四期推广，技术壁垒构筑了长期的成本与竞争护城河。"
+        },
+        {
+          "node_name": "运营端",
+          "impact_type": "利好",
+          "logic": "内蒙300万吨烯烃项目全面达产，产能释放带来规模效应，同时每年减少碳排放160万吨，契合碳中和政策趋势。"
+        },
+        {
+          "node_name": "估值端",
+          "impact_type": "利好",
+          "logic": "股份回购累计耗用资金10亿元，平均成本16.50元，彰显管理层对公司价值的信心，构成底部支撑。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.7,
+      "intensity": 4,
+      "expectation_gap": 0.4,
+      "timeliness": 0.4,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "600989",
+          "ticker_name": "宝丰能源",
+          "weight": 1.0,
+          "name": "宝丰能源"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "宝丰能源",
+          "url": "https://xueqiu.com/s/SH600989",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "宝丰能源 （600989）：绿氢政策加持下的业绩高增标的【政策分析】国家能源局2025年6月启动能源领域氢能试点，12月... - 雪球",
+          "url": "https://xueqiu.com/7934306155/367752119",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "宝丰能源：绿氢龙头引爆业绩增长，掘金\"十五五\"氢能产业浪潮",
+          "url": "https://www.toutiao.com/article/7575505824089440809/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "宝丰能源（SH:600989）全面深度分析_行业_市值管理_风险",
+          "url": "https://www.sohu.com/a/991127082_120169313",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "355.45亿元!宝丰能源- 大数跨境",
+          "url": "https://www.10100.com/article/100924889",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "PDF 宁夏宝丰能源集团股份有限公司 2025年半年度报告",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-08-22/1224536155.PDF",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "SH600938",
+      "title": "中国海油主力资金大幅流出",
+      "summary": "当前中国海油（SH600938）处于**部分定价**状态。虽然基本面支撑依然存在，但技术面显示主力资金大幅净流出，市场情绪转为偏弱。建议关注35元附近的支撑力度，若跌破可能引发技术性回调。短期目标价关注33.50元（支撑位）及36.80元（前高阻力位），预期波动区间为-2%至+4%。",
+      "reasoning": "基于研究员提供的2026年2月26日具体数据，中国海油收盘价35.47元，当日跌幅2.53%，主力资金净流出3.23亿元，占成交额20.16%。这一数据组合强烈暗示市场在该价位面临巨大的抛压，属于典型的“获利盘出逃”信号。尽管公司作为海洋石油开采龙头具有资源优势，但短期内资金面的剧烈流出（强度4）直接压制了股价走势（情绪-0.7）。当前股价已部分定价了利空情绪，并未完全消化资金压力，存在预期差（0.4）即市场可能高估了短期反弹意愿。因此，判断其当前处于部分定价状态，短期内需警惕进一步回撤风险。",
+      "transmission_chain": [
+        {
+          "node_name": "主力资金流向",
+          "impact_type": "利空",
+          "logic": "2026年2月26日主力资金净流出3.23亿元（占成交额20.16%），伴随股价下跌2.53%，显示机构资金在当前位置存在明显的获利了结或看空调仓行为，压制股价反弹空间。"
+        },
+        {
+          "node_name": "市场情绪与定价",
+          "impact_type": "利空",
+          "logic": "股价35.47元（2026-02-26），换手率1.5%，资金流出显著高于换手率，表明卖压集中在日内，市场对该位置的定价存在短期压力，尚未消化获利盘。"
+        },
+        {
+          "node_name": "下游消费端",
+          "impact_type": "中性",
+          "logic": "作为资源股，中国海油的走势更多受原油价格和资金面驱动，而非成品油销售利润，因此对炼化及销售端传导链条较弱，主要影响集中在自身估值。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.85,
+      "intensity": 4,
+      "expectation_gap": 0.4,
+      "timeliness": 0.9,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "中国海油",
+          "url": "https://xueqiu.com/s/SH600938",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "中国海油跌2.02%，成交额21.87亿元，主力资金净流出7813.05万元|中国海油_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/stock/aiassist/pzzd/2026-02-25/doc-inhnzfcm1211956.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "中国海油跌3.04%，成交额1.89亿元，主力资金净流出2351.09万元|天然气|洲际油气|中国海洋石油_网易订阅",
+          "url": "https://www.163.com/dy/article/KLL2Q9O105568W0A.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "中国海油 (600938)个股资金流向查询_个股行情_同花顺财经",
+          "url": "https://stockpage.10jqka.com.cn/600938/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "中国海油：主力资金流出，应对市场低迷的策略分析",
+          "url": "https://www.sohu.com/a/860576357_122066678",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "中国海油大跌5.01%，主力净流出2亿_九方智投",
+          "url": "https://www.9fzt.com/detail/sh_600938_8_3d6986e567fdd3fa6ddfe029e7288a06.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "PLTR",
+      "title": "PLTR: AI商业化加速，高估值获业绩支撑",
+      "summary": "PLTR当前定价反映了对高增长的预期，但美国商业收入137%的爆发式增长表明基本面存在预期差。基于61%的营收指引及高市盈率，短期目标价看涨至$155-$160，对应涨幅13%-16%。需警惕市盈率回落至150倍对应的回调风险。",
+      "reasoning": "1. **基本面验证**: 2025年Q4收入增70%及2026指引61%，远超市场预期，验证了AIP平台的商业化能力。美国商业收入+137%是关键转折点，证明其摆脱了对政府业务的单一依赖，估值逻辑从'概念'转向'业绩'。\n2. **估值消化**: 股价从$207.52回撤至$137.19，跌幅34%，已消化了部分估值泡沫。当前市盈率201倍虽高，但考虑到60%+的增速，仍处于合理区间。\n3. **技术面信号**: 当前股价$137.19位于5日均线附近，且成交额$80.93亿处于活跃水平，换手率2.48%显示筹码流动性良好。\n4. **风险提示**: 若未来增长无法维持在50%以上，201倍市盈率将面临巨大回调压力，因此短期反弹后需关注业绩兑现情况。",
+      "transmission_chain": [],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "Palantir",
+          "url": "https://xueqiu.com/s/PLTR",
+          "source_name": "xueqiu"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "政企双引擎驱动狂飙式增长! \"AI应用神话\"Palantir (PLTR.US)牛市逻辑依然坚挺",
+          "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2025-12-16/doc-inhayftm3312731.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "AI创收引擎加速发力 软件巨头Palantir (PLTR.US)营收猛增27%!\"AI信仰\"再掀巨浪?",
+          "url": "https://news.qq.com/rain/a/20240806A011IB00",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "PLTR Palantir （ PLTR ）作为AI时代的数据智能核心标的，正以政府+商业双引擎驱动的爆发式增长重塑市场认知。20... - 雪球",
+          "url": "https://xueqiu.com/1464699229/355618715",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "业绩继续炸裂!AI狂潮下Palantir (PLTR.US)政府企业单接到手软 Q3营收利润双双\"狂飙\"",
+          "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2025-11-04/doc-infweshz0350887.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "Palantir Soars: AI Dominance and Landmark Contracts Propel PLTR to Top ...",
+          "url": "https://www.financialcontent.com/article/marketminute-2025-10-16-palantir-soars-ai-dominance-and-landmark-contracts-propel-pltr-to-top-performer-status",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3061100",
+      "title": "伊朗击落MQ-9，无人机防御概念短期爆发",
+      "summary": "中东地缘政治紧张升级，伊朗击落美军MQ-9事件引发市场对军工板块的短期关注。信号强度为4，重点关注直接涉及军用无人机研发制造的**中无人机(688297)**。基于情绪溢价与预期差，建议短期关注目标价66.00元，预期涨幅20.0%。",
+      "reasoning": "2026年3月1日，伊朗伊斯兰革命卫队宣布击落美军MQ-9无人机，这是典型的地缘政治突发事件。MQ-9作为美军高空长航时（HALE）主力侦察机，其被击落直接暴露了对手在防空反无人机领域的技术进步，具有极高的新闻敏感度。\n\n1. **情绪与强度 (ISQ)**: 事件发生在当前时间点，时效性极高(0.85)，属于短期爆发性信号。军工板块作为防御性板块，在地缘紧张时往往有资金流入，情绪评分0.7，强度4分。\n2. **定价状态**: 研究员提供的背景数据显示，中无人机(688297)股价为55.00元。虽然近期军工板块可能有波动，但针对“击落MQ-9”这一具体硬新闻，市场并未完全定价。股价处于“情绪驱动，未定价”状态。\n3. **传导逻辑**: 逻辑链条清晰：地缘冲突 -> 防务需求激增 -> 无人机产业链受益。其中，中无人机是A股稀缺的军用无人机整机制造标的，具备唯一性和高关注度，权重最高(0.8)。\n4. **预测**: 基于事件强度和情绪溢价，给予20%的短期涨幅预期，目标价66.00元。",
+      "transmission_chain": [
+        {
+          "node_name": "地缘政治风险",
+          "impact_type": "利好",
+          "logic": "中东局势升级刺激军工板块避险情绪，地缘政治不确定性提升国防预算预期。"
+        },
+        {
+          "node_name": "无人机产业链",
+          "impact_type": "利好",
+          "logic": "MQ-9被击落事件强化了无人机在现代战争中的侦察与防御价值，刺激军贸与订单预期。"
+        },
+        {
+          "node_name": "整机制造商",
+          "impact_type": "利好",
+          "logic": "中无人机作为A股唯一军用无人机整机厂商，直接受益于事件驱动的板块轮动。"
+        },
+        {
+          "node_name": "航空零部件供应商",
+          "impact_type": "利好",
+          "logic": "广联航空等供应商作为产业链配套，将跟随整机厂商的订单预期上行。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "688297",
+          "name": "中无人机",
+          "weight": 0.8,
+          "current_price": 55.0,
+          "current_state": "情绪驱动，未定价",
+          "target_price": 66.0,
+          "change_pct": 20.0
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "伊朗伊斯兰革命卫队称摧毁美军MQ-9无人机",
+          "url": "https://wallstreetcn.com/livenews/3061100",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "伊朗伊斯兰革命卫队称摧毁美军mq-9无人机_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20260301A04K2K00",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "伊朗官员：击落一架mq-9\"死神\"无人机_系统公司_领空_曾称",
+          "url": "https://www.sohu.com/a/904927784_163278",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "伊朗官员：击落一架MQ-9\"死神\"无人机 - xinwen.bjd.com.cn",
+          "url": "https://xinwen.bjd.com.cn/content/s684ffa97e4b0aabe0a026afd.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "外媒：伊朗伊拉姆省官员称，在该省领空击落一架MQ-9\"死神\"无人机|导弹|mq-9_网易订阅",
+          "url": "https://www.163.com/dy/article/K26QCK2D0514R9OJ.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "伊朗伊拉姆省官员：在该省领空击落一架mq-9\"死神\"无人机",
+          "url": "https://www.yicai.com/news/102671834.html",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3061099",
+      "title": "伊朗袭美升级，军工板块情绪修复",
+      "summary": "事件驱动军工板块短期修复，重点关注军用航空标的。基于强度4的信号，预计军工板块（中信军工）短期反弹目标位在 +3.0% 至 +5.5% 之间。个股层面，洪都航空（600316）和国科军工（688543）弹性最大，若突破关键阻力位，短期涨幅预期可达 8% - 12%。目前市场对此类地缘政治事件的定价尚处于情绪修复初期，预期差存在。",
+      "reasoning": "2026年3月1日伊朗军方称对美军基地发动袭击，属于突发性的地缘政治黑天鹅事件，显著提升了中东地区的不确定性。根据金融常识，此类事件通常会引发市场对国防开支增加的预期，从而推高军工板块估值。从研究员提供的产业链梳理来看，军用航空制造（如导弹、战机零部件）是直接受益环节。虽然无法获取实时具体股价数据，但根据历史经验，此类事件强度（4）和时效性（0.9）均较高，通常会导致军工板块出现显著的情绪修复。传导逻辑清晰：风险溢价上升 -> 军工订单预期改善 -> 军工股上涨。目前市场对该事件的定价可能尚未完全计入最乐观的情景，因此存在短期博弈空间。",
+      "transmission_chain": [
+        {
+          "node_name": "地缘政治风险",
+          "impact_type": "利好",
+          "logic": "伊朗袭击美军基地，中东局势急剧升温，地缘政治风险溢价上升，直接刺激军工板块情绪修复与订单预期。"
+        },
+        {
+          "node_name": "军用航空制造",
+          "impact_type": "利好",
+          "logic": "空军战机打击范围扩大，直接利好军用飞机及航空制造产业链，洪都航空（教练机/无人机）与国科军工（导弹零部件）受关注度提升。"
+        },
+        {
+          "node_name": "航空运输",
+          "impact_type": "中性偏空",
+          "logic": "军事冲突风险可能影响区域航空安全与航线稳定性，但对主要商业航空公司的短期基本面冲击有限，更多反映在估值波动上。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.6,
+      "intensity": 4,
+      "expectation_gap": 0.4,
+      "timeliness": 0.9,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "code": "600316",
+          "name": "洪都航空",
+          "weight": 0.3,
+          "ticker": "600316"
+        },
+        {
+          "code": "688543",
+          "name": "国科军工",
+          "weight": 0.25,
+          "ticker": "688543"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "伊朗军方称对多处美军基地发动袭击",
+          "url": "https://wallstreetcn.com/livenews/3061099",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "伊朗遭袭引爆全球避险潮!哪些标的会受影响？ 伊朗遭袭引爆避险，核心受益板块按优先级排序：油气＞黄金＞军工＞油运＞能源替代/化工替代/跨境结算 ...",
+          "url": "https://xueqiu.com/8533731807/377403285",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "以史观今，美以突袭伊朗对A股影响几何？哪些板块有结构性机会？",
+          "url": "https://news.qq.com/rain/a/20260228A05QBV00",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "美以对伊朗发起军事打击，中东局势升级，如何影响A股、黄金和原油",
+          "url": "https://finance.sina.com.cn/jjxw/2026-03-01/doc-inhpmuxt5735301.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "重大事件!中东战火\"黑天鹅\"再袭，让股市承压!明天A股这样走|a股|美股|大宗商品价格_网易订阅",
+          "url": "https://www.163.com/dy/article/KMUG04C60553USNO.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "伊朗最高领导人遇袭身亡，资本市场将如何反应 - 知乎",
+          "url": "https://zhuanlan.zhihu.com/p/2011405019946186212",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3061098",
+      "title": "极氪2月销量大增70%，8X上市在即",
+      "summary": "极氪2月销量同比增长70%至23,867辆，超市场预期，显示强劲复苏势头。当前股价（ZK $16.85）30日涨幅7.65%，处于30日区间（$15.60-$18.20）中位偏上，部分定价了增长预期。鉴于8X车型（43万起）即将上市，预期ZK股价有望向20美元目标价迈进，对应涨幅约18%。吉利汽车受协同效应影响，亦有望受益于极氪的销量增长。",
+      "reasoning": "1. **数据验证与定价状态**：极氪2月销量23,867辆（+70% YoY）是硬核数据，验证了极氪在高端市场的竞争力。当前ZK股价$16.85处于30日高点$18.20和低点$15.60之间，技术面虽处于反弹通道，但尚未完全消化70%增长带来的乐观预期，存在预期差。2. **核心驱动逻辑**：70%的同比增速不仅反映了复苏，更暗示了高基数下的韧性。9X/009近10万辆的累计销量奠定了高端基本盘，而8X（Q2上市/43万起）是关键的增量变量，若定价成功，将大幅提升全年ASP（平均售价）和利润率。3. **传导机制**：ZK业绩增长直接提升吉利汽车（00175.HK）的估值溢价，同时高销量拉动上游宁德时代（300750.SZ）的装机需求。综合来看，该信号对ZK影响最大（权重0.6），吉利次之（0.3）。",
+      "transmission_chain": [
+        {
+          "node_name": "极氪科技 (ZK)",
+          "impact_type": "利好",
+          "logic": "2月销量23,867辆（+70% YoY）验证产品竞争力；9X累计近10万辆证明高端化成功；8X（Q2上市/43万起）将打开增量空间，直接驱动ZK业绩增长预期。"
+        },
+        {
+          "node_name": "吉利汽车 (00175.HK)",
+          "impact_type": "利好",
+          "logic": "作为母公司，极氪销量增长提升吉利整体新能源板块估值；品牌协同效应显著，利好港股吉利汽车的投资信心。"
+        },
+        {
+          "node_name": "上游供应链",
+          "impact_type": "中性偏多",
+          "logic": "销量高增及交付周期缩短（Hyper版至14周）利好宁德时代等电池供应商需求，但需关注原材料价格波动。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "code": "00175.HK",
+          "name": "吉利汽车",
+          "weight": 0.3,
+          "ticker": "00175"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "极氪2月同比增长70%",
+          "url": "https://wallstreetcn.com/livenews/3061098",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "9x持续热销、8x上市在即，极氪1月销量同比增长99% - 今日头条",
+          "url": "https://www.toutiao.com/article/7601889353899573823/",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "9X持续热销、8X上市在即，极氪1月销量同比增长99%",
+          "url": "https://news.qq.com/rain/a/20260201A05R1M00",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "极氪 2 月新车销量 23867 辆同比劲增 70%，极氪 8x 计划二季度上市 - It之家",
+          "url": "https://www.ithome.com/0/924/791.htm",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "极氪：2月交付新车23867辆|上市|双增长_网易订阅",
+          "url": "https://www.163.com/dy/article/KMURG8UF0512B07B.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "极氪2月同比增长70%_7x24小时财经新闻_新浪网 - 新浪财经",
+          "url": "https://finance.sina.com.cn/7x24/2026-03-01/doc-inhpnmvq9080268.shtml",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3061097",
+      "title": "伊朗换帅引爆地缘风险，避险与能源板块激增",
+      "summary": "地缘风险急剧升温，黄金与原油价格大幅上涨。建议短期关注黄金股（紫金矿业、中国黄金）及油气龙头（中石油、中石化），预计相关标的短期涨幅空间在5%-8%区间。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "中东地缘局势",
+          "impact_type": "利好",
+          "logic": "伊朗伊斯兰革命卫队新任总司令上任，加剧地区军备竞赛与对抗风险，提升地缘政治不确定性。"
+        },
+        {
+          "node_name": "避险资产",
+          "impact_type": "利好",
+          "logic": "风险溢价上升推动资金涌入黄金避险。现货黄金单日暴涨1.81%，突破5279美元关键阻力位。"
+        },
+        {
+          "node_name": "能源供应",
+          "impact_type": "利好",
+          "logic": "中东动荡引发原油供应中断担忧，WTI原油单日上涨3.19%至67.29美元，油价显著走强。"
+        },
+        {
+          "node_name": "A股相关板块",
+          "impact_type": "利好",
+          "logic": "黄金股与油气股作为风险对冲工具，将受益于全球资金避险情绪升温及油价上涨带来的业绩弹性。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.85,
+      "intensity": 4,
+      "expectation_gap": 0.6,
+      "timeliness": 0.9,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "code": "600916.SH",
+          "name": "中国黄金",
+          "weight": 1.2,
+          "ticker": "600916"
+        },
+        {
+          "code": "601899.SH",
+          "name": "紫金矿业",
+          "weight": 1.5,
+          "ticker": "601899"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "艾哈迈德·瓦希迪将担任伊朗伊斯兰革命卫队总司令",
+          "url": "https://wallstreetcn.com/livenews/3061097",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
         {
           "title": "伊朗地缘政治风险升级对国际原油市场与全球能源供应链的影响分析 - 金灵ai",
           "url": "https://www.gilin.com.cn/news/20623-research",
           "source": "Search (ddg)"
         },
         {
-          "title": "当经济崩溃成为地缘政治筹码：伊朗的动荡与新的石油波动机制",
-          "url": "https://www.xitu-tech.com/news/economic-collapse-geopolitical-leverage-iran-unrest-oil-volatility-regime/",
+          "title": "美国以色列攻击伊朗受益股票深度分析 本次美以联合打击伊朗引发的中东局势全面升级，核心驱动逻辑为全球避险情绪飙升、霍尔木兹海峡能源供给中断风险 ...",
+          "url": "https://xueqiu.com/5798578993/377405647",
           "source": "Search (ddg)"
         },
         {
-          "title": "美国打击伊朗后，国际油价怎么走？高盛推演了四种可能 高盛 交易团队警告，美伊地缘政治冲突升级可能对国际油价产生重大影响。在最极端情况下，国际 ...",
-          "url": "https://xueqiu.com/1107854878/339764873",
+          "title": "伊以冲突加剧，你该重新评估这些资产了!_伊朗_风险规避_高净值人群",
+          "url": "https://www.sohu.com/a/907263899_120610659",
           "source": "Search (ddg)"
         },
         {
-          "title": "当前油价已蕴含多大的地缘政治风险溢价？|美元|彭博社|伊朗|中东|霍尔木兹海峡_新浪财经_新浪新闻",
-          "url": "https://k.sina.cn/article_7879922977_1d5ae152106801bf34.html",
+          "title": "中东战云若引爆，全球能源市场会面临哪些连锁反应？|石油出口|供应链|油价|伊朗|成本_手机新浪网",
+          "url": "https://news.sina.cn/bignews/insight/2026-02-28/detail-inhpimss3141902.d.html?vt=4",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "伊朗以色列冲突升级，能源与避险板块成a股焦点 - 今日头条",
+          "url": "https://www.toutiao.com/article/7516122347028398626/",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3061092",
+      "title": "长城2月新能源销量超预期，情绪显著转多",
+      "summary": "长城汽车（601633.SH/02333.HK）2月新能源车销量数据显著优于市场此前谨慎预期。数据显示公司新能源业务正在稳步复苏，1-2月累计销量超3万台，验证了转型成效。基于当前市场环境，预计股价将获得显著提振，短期目标价关注前高阻力位附近，预期涨幅在5%-8%区间。建议投资者关注股价在支撑位（如近期低点）的企稳信号。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "市场预期与基本面",
+          "impact_type": "利好",
+          "logic": "2月新能源车销量12,744台，1-2月累计30,773台。在行业竞争加剧背景下，这一数据表明公司新能源转型初见成效，打破了市场此前对其销量不及预期的悲观预期。"
+        },
+        {
+          "node_name": "短期股价定价",
+          "impact_type": "利好",
+          "logic": "具体数据验证了基本面拐点，预期差修复将驱动股价上行。考虑到当前市场情绪偏向谨慎，此数据将提供明确的买入逻辑支撑。"
+        },
+        {
+          "node_name": "中游产业链传导",
+          "impact_type": "利好",
+          "logic": "销量增长将直接带动对电池、芯片等上游零部件的订单需求，利好产业链相关公司。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "601633",
+          "name": "长城汽车",
+          "weight": 0.9,
+          "rationale": "事件直接标的，销量数据直接反映经营基本面，市场定价将迅速反应"
+        },
+        {
+          "ticker": "02333",
+          "name": "长城汽车",
+          "weight": 0.9,
+          "rationale": "H股同步受数据提振，由于H股估值通常较A股折价，弹性可能更大"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "长城汽车：2月新能源车销售12,744台，1-2月累计销售30,773台。",
+          "url": "https://wallstreetcn.com/livenews/3061092",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "长城汽车 2 月新能源车销售 12744 台，1-2 月累计销售 30773 台",
+          "url": "https://www.ithome.com/0/924/785.htm",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "长城汽车2月销量强劲上涨，新能源车成新增长点：同比增长9.65%_搜狐汽车_搜狐网",
+          "url": "https://www.sohu.com/a/865855822_122066676",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "PDF 长城汽车股份有限公司 2025 年2月产销快报",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-03-03/1222683523.PDF",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "长城汽车：2月新能源车销售12744台|长城汽车_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/jjxw/2026-03-01/doc-inhpnmvs6186541.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "长城汽车：2月新能源车销售12744台|销量|财讯|证券时报|公告|人民_手机新浪网",
+          "url": "https://finance.sina.cn/2026-03-01/detail-inhpnmvs6186541.d.html?vt=4",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3061089",
+      "title": "沙特TASI收复失地，跌势趋缓",
+      "summary": "当前TASI指数下跌近2%后收复失地，属于市场情绪的阶段性修复。该信号对A股相关联动的沙特概念股（基建、汽车、消费）构成边际利好。预计相关标的短期将获得情绪溢价，但需警惕全球宏观风险对风险偏好的压制。重点推荐四川路桥（基建龙头）、比亚迪（新能源龙头）。",
+      "reasoning": "华尔街见闻报道指出沙特TASI指数在经历近2%的下跌后收复部分失地，这表明市场恐慌情绪有所缓解，并非单边下跌趋势，属于短期技术性反弹。虽然指数整体仍处于下跌区间，但“收复失地”是一个积极的转折信号。对于A股市场而言，沙特是“一带一路”沿线重要国家，且是中国基建和新能源汽车的主要出口市场。虽然研究员搜集的背景信息缺失具体股价数据，无法进行精确的技术面量化，但基于宏观传导逻辑，沙特市场的企稳将提升国际资金对新兴市场的风险偏好，从而利好相关板块。因此，该信号强度定级为3（中等影响），主要影响板块为基建（四川路桥）和新能车（比亚迪）。由于缺乏具体的股价和支撑位数据，当前状态判定为“部分定价”，即市场已开始反应部分利好，但尚未完全反转。",
+      "transmission_chain": [
+        {
+          "node_name": "沙特主权财富基金/投资",
+          "impact_type": "利好",
+          "logic": "TASI指数收复部分失地（下跌近2%后反弹）显示沙特市场情绪边际改善，作为中东核心资产配置地，其市场企稳将提振国际资金对中东资产的风险偏好，利好相关重仓股表现。"
+        },
+        {
+          "node_name": "基建与高端制造出口",
+          "impact_type": "利好",
+          "logic": "沙特是中国基建（如四川路桥）和新能源汽车（如比亚迪）的重要出口目的地。沙特经济多元化转型及基础设施项目持续，将为相关企业带来业绩增长确定性。"
+        },
+        {
+          "node_name": "金融服务",
+          "impact_type": "中性偏多",
+          "logic": "交通银行等金融机构在海外有中东业务布局，TASI指数回升有助于改善当地业务盈利环境。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.6,
+      "intensity": 3,
+      "expectation_gap": 0.3,
+      "timeliness": 0.3,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "600039",
+          "name": "四川路桥",
+          "weight": 0.3
+        },
+        {
+          "ticker": "002594",
+          "name": "比亚迪",
+          "weight": 0.2
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "沙特阿拉伯股市指数（TASI）收复部分失地，目前下跌近2%。",
+          "url": "https://wallstreetcn.com/livenews/3061089",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "沙特tasi (Tasi) 实时行情，今日最新指数，走势图_英为财情",
+          "url": "https://cn.investing.com/indices/tasi",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "沙特TASI指数疲软联动沙特ETF走弱，抄底需盯紧油价与指数双重反转信号|沙特_新浪财经_新浪网",
+          "url": "https://finance.sina.com.cn/roll/2026-01-06/doc-inhfkfup7189363.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "沙特阿拉伯股市（Tasi） | 1998-2026 数据 | 2027-2028 预测",
+          "url": "https://zh.tradingeconomics.com/saudi-arabia/stock-market",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "中东紧张局势升级 沙特股市高开回落_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20250622A05XOV00",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "沙特阿拉伯 - Tadawul All Share TASI Index - MacroMicro 财经M平方",
+          "url": "https://sc.macromicro.me/series/2306/saudi-arabia-stock-index",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3061088",
+      "title": "英伟达牵头构建6G AI原生网络",
+      "summary": "英伟达联合全球顶级电信巨头与机构组建6G AI原生网络联盟，确立了AI算力在6G标准制定中的核心地位。该信号验证了6G从“网络+AI”向“AI原生”演进的技术路线。对于英伟达及产业链设备商（爱立信、诺基亚），这是长期订单的确定性背书，预期利好将持续发酵。建议重点关注英伟达及相关电信设备股的短期股价波动。目标涨幅：NVDA +5%，设备商 +3%。",
+      "reasoning": "该信号由华尔街见闻在2026年3月1日发布，正值6G标准制定的关键窗口期。信号核心在于“AI原生”和“开放安全平台”，这直接指向了英伟达在AI算力基础设施上的先发优势。英伟达不仅是参与者，更是标准制定的主导者，这将锁定未来数年的设备采购需求。虽然涉及标的众多，但英伟达（NVDA）作为信号源头，权重最高（0.25）。爱立信和诺基亚作为传统设备商，受益于6G换机周期和AI功能加持，权重次之（0.15）。运营商和咨询公司更多是协同角色，权重较低。当前市场对6G炒作已进入理性期，此信号属于强预期验证，预期差（Expectation Gap）为0.65，即市场虽然知晓6G趋势，但对“AI原生”这一具体落地路径的认知尚在深化，存在博弈空间。技术面上，英伟达作为科技股风向标，该消息有望提振市场情绪，推动股价突破关键阻力位。",
+      "transmission_chain": [
+        {
+          "node_name": "基础设施层 (AI芯片/算力)",
+          "impact_type": "利好",
+          "logic": "英伟达作为联盟核心，提供AI原生计算平台（GPU/加速器），直接拉动AI算力需求，巩固其在6G基础设施中的统治地位。"
+        },
+        {
+          "node_name": "网络设备层 (电信设备)",
+          "impact_type": "利好",
+          "logic": "诺基亚、爱立信、思科作为设备商，将加速部署支持AI的6G网络设备，获取长期设备升级订单。"
+        },
+        {
+          "node_name": "运营商层 (网络服务)",
+          "impact_type": "中性偏多",
+          "logic": "BT、德国电信、软银等运营商通过合作降低6G研发成本，加速技术验证，但短期业绩弹性有限。"
+        },
+        {
+          "node_name": "应用层 (AI原生应用)",
+          "impact_type": "利好",
+          "logic": "开放、可信的AI原生平台将催生新的网络切片与边缘计算应用场景，利好AI应用生态。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.85,
+      "intensity": 4,
+      "expectation_gap": 0.65,
+      "timeliness": 0.7,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "英伟达与全球电信巨头携手，致力于在开放、安全的原生AI平台上构建6G网络",
+          "url": "https://wallstreetcn.com/livenews/3061088",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "英伟达宣布联手多家电信企业，共同研发ai原生6g无线网络 -2026全球6g技术与产业生态大会官网",
+          "url": "https://www.g6gconference.com/index/Details/index.html?id=888",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "英伟达与全球电信巨头携手，致力于在开放、安全的原生AI平台上构建6G网络_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20260301A0497N00",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "英伟达携手全球电信巨头共建6G原生AI平台_网络_合作_技术",
+          "url": "https://www.sohu.com/a/991308900_122066678",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "英伟达与全球电信巨头携手，致力于在开放、安全的原生AI平台上构建6G网络",
+          "url": "https://stock.10jqka.com.cn/20260301/c674997318.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "英伟达与多家电信企业就 6g 网络建设达成承诺，融入人工智能技术 - It之家",
+          "url": "https://www.ithome.com/0/924/784.htm",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3061087",
+      "title": "香港拟成中东避险资金安全港",
+      "summary": "核心观点：香港拟承接中东避险资金，香港交易所（00388.HK）作为交易枢纽受益最大，预期2026Q1日均成交额有望回升至1200亿港元区间，较当前水平提升约15%；汇丰控股（00005.HK）作为资金中转枢纽，净息差受益于离岸资金回流。黄金股（0883.HK）跟随金价波动，目标价区间较现价上行8%-12%。",
+      "reasoning": "陈茂波表态明确将香港定位为应对中东风险的‘安全港’，逻辑上符合资金避险流向低风险资产的特征。虽然市场已部分定价避险情绪，但香港作为离岸人民币中心和亚洲金融枢纽的独特地位，使其在动荡中具备相对韧性。当前定价更多反映情绪，实际资金流入规模取决于战事升级的烈度及港府具体措施，存在0.6的预期差。信号时效性高，需密切关注香港金管局流动性投放数据及中东局势演变对交易量的即时拉动。",
+      "transmission_chain": [
+        {
+          "node_name": "地缘政治避险",
+          "impact_type": "利好",
+          "logic": "中东局势不确定性推高避险需求，香港作为自由港和全球金融中心，是资金‘安全港’的首选，利好香港金融基础设施。"
+        },
+        {
+          "node_name": "金融交易量提升",
+          "impact_type": "利好",
+          "logic": "避险资金涌入将增加港股成交量及衍生品交易活跃度，直接提升香港交易所的经调整EBITDA及股本回报率。"
+        },
+        {
+          "node_name": "大宗商品价格",
+          "impact_type": "利好",
+          "logic": "冲突预期支撑金价及油价上涨，利好上游资源股（黄金、石油），但需注意全球衰退预期对需求的压制。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.75,
+      "intensity": 4,
+      "expectation_gap": 0.6,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "00388",
+          "name": "香港交易所",
+          "weight": 1.0
+        },
+        {
+          "ticker": "00005",
+          "name": "汇丰控股",
+          "weight": 0.8
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "陈茂波：香港有足够预案应对中东战事带来的市场风险",
+          "url": "https://wallstreetcn.com/livenews/3061087",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "陈茂波：香港成资金避险安全港 存款总额升逾10%超19万亿港元",
+          "url": "https://news.qq.com/rain/a/20251124A03D6B00",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "陳茂波：香港成資金避險安全港 - 香港政府新聞網",
+          "url": "https://www.news.gov.hk/chi/2025/11/20251123/20251123_105703_779.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "陈茂波：香港成为资金避险的安全港 - 新华网",
+          "url": "https://www.xinhuanet.com/20251123/2554c09297714e0cb6b0a4357770c61f/c.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "2025年香港又赢麻了，香港成为全球资金避险安全港_国际金融机构_配置_资本利得税",
+          "url": "https://www.sohu.com/a/960670612_122047043",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "陈茂波：香港有足够预案应对中东战事带来的金融市场风险",
+          "url": "https://finance.sina.com.cn/stock/hkstock/hkstocknews/2026-03-01/doc-inhpnmvq9068943.shtml",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3061086",
+      "title": "伊武装袭美基地，军工黄金避险逻辑",
+      "summary": "短期地缘冲突加剧，军工与黄金板块具备高弹性。重点关注中无人机（688297）与黄金龙头（600547），目标价区间分别对应 +12%至+18%及 +8%至+15%。",
+      "reasoning": "地缘政治事件通常引发市场避险情绪。本次伊拉克武装袭击美军基地，直接验证了无人机在现代不对称战争中的有效性（利好无人机概念），同时也强化了中东局势的不稳定性（利好黄金、石油避险）。虽然市场此前对中东局势已有一定预期，但突发袭击提升了事件的不确定性，导致军工板块情绪修复，黄金板块受国际现货金价（参考背景数据为5279.22附近）支撑反弹。考虑到当前时间点（2026-03-01），事件属于短期催化剂，预计影响将持续1-2周，重点关注资金流向与事件后续发酵。",
+      "transmission_chain": [
+        {
+          "node_name": "上游原材料",
+          "impact_type": "利好",
+          "logic": "军工订单预期提升，带动航空材料、电子元器件等上游需求，但传导存在时滞。"
+        },
+        {
+          "node_name": "中游装备制造",
+          "impact_type": "利好",
+          "logic": "地缘冲突刺激军费与采购预算，无人机及防空系统厂商订单预期增强，直接受益。"
+        },
+        {
+          "node_name": "下游资源/避险",
+          "impact_type": "利好",
+          "logic": "避险情绪升温推动黄金价格上涨，原油供应风险溢价提升，资源板块受益。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.7,
+      "intensity": 4,
+      "expectation_gap": 0.3,
+      "timeliness": 0.85,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "688297",
+          "name": "中无人机",
+          "weight": 0.4,
+          "reason": "事件直接使用无人机袭击，强化了军用无人机作为低成本、高杀伤性武器的市场认知，符合事件直接逻辑。",
+          "data_ref": "研究员背景调查：业务特点为军用无人机研发制造"
+        },
+        {
+          "ticker": "600547",
+          "name": "山东黄金",
+          "weight": 0.2,
+          "reason": "中东局势紧张引发避险需求，黄金作为传统避险资产价格上扬，带动黄金开采股估值修复。",
+          "data_ref": "研究员背景调查：潜在受益逻辑为地缘冲突提升避险需求"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "伊拉克武装组织称打击美军基地",
+          "url": "https://wallstreetcn.com/livenews/3061086",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "美以密谋对伊新战略，伊朗恐报复美军基地，避险黄金再探5000|美伊|德黑兰|核计划|以色列|内塔尼亚胡_网易订阅",
+          "url": "https://www.163.com/dy/article/KLAOMREO0519ALI0.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "美伊战争 美军对伊朗福尔多核设施的空袭标志着冲突进入全新阶段，中东及全球格局面临系统性重构。以下结合最新战况与战略逻辑，分析美军基... - 雪球",
+          "url": "https://xueqiu.com/2084943074/339633559",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "美以密谋对伊新战略，伊朗恐报复美军基地，避险黄金再探5000",
+          "url": "https://finance.sina.com.cn/money/nmetal/hjzx/2026-02-09/doc-inhmesxn5569370.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "美以密谋对伊新战略，伊朗恐报复美军基地，避险黄金再探5000",
+          "url": "https://forex.stockstar.com/IG2026020900008355.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "波斯湾危机？美伊动武风险与资产推演_伊朗_军事打击_特朗普",
+          "url": "https://www.sohu.com/a/984558480_121123901",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2298883",
+      "title": "狮头股份重组中止审核 财务资料过期",
+      "summary": "事件定性为程序性障碍，非实质性风险。短期利空落地，股价承压。建议观望，等待加期审计完成及恢复审核公告。若能快速完成加期审计，情绪有望修复。",
+      "reasoning": "基于研究员数据，狮头股份(600539.SH)因财务资料过期被上交所中止重组审核。根据上交所规定，重大资产重组财务数据有效期通常为6个月，审计报告于2025年8月28日到期，2026年2月28日失效，导致审核中断。事件性质属于'程序性瑕疵'，公司已明确表示将进行加期审计，通常此类问题在补充材料后可快速恢复。虽然公司态度积极，但事件发布当日股价下跌0.85%，说明市场对重组进度存在担忧。当前股价处于'未定价'状态，因中止审核带来的不确定性压制了短期情绪。该事件对公司的长期基本面无实质影响，但增加了交易的时间成本。鉴于重组预期被延后，短期内股价缺乏上涨动力，建议投资者以观望为主，关注后续恢复审核的节点。",
+      "transmission_chain": [
+        {
+          "node_name": "公司端",
+          "impact_type": "中性偏空",
+          "logic": "因重组申请引用的审计财务数据（2025年8月28日到期）超过6个月有效期，被上交所中止审核。虽公司称'无重大不利影响'并承诺加期审计，但流程中断客观上延长了重组落地时间，且事件当日股价下跌0.85%，反映市场短期情绪承压。"
+        },
+        {
+          "node_name": "监管端",
+          "impact_type": "中性",
+          "logic": "上交所中止审核属于程序性合规要求，旨在确保重组方案的时效性与信息披露质量。加期审计是监管常态，中止本身不构成实质性障碍，但恢复了审核需耗时。"
+        },
+        {
+          "node_name": "市场端",
+          "impact_type": "利空",
+          "logic": "重组预期落空或延后，资金观望情绪上升。当前定价状态处于'未定价'（预期被打破），短期缺乏催化剂，股价面临回调压力。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.7,
+      "intensity": 2,
+      "expectation_gap": 0.3,
+      "timeliness": 0.4,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "600539",
+          "name": "狮头股份",
+          "weight": 1.0
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "狮头股份：因财务资料过期 上交所中止审核公司重大资产重组",
+          "url": "https://www.cls.cn/detail/2298883",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "狮头股份：因财务资料过期 上交所中止审核公司重大资产重组",
+          "url": "https://xueqiu.com/7437424816/377450762",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "狮头股份：因财务资料过期 上交所中止审核公司重大资产重组|上海证券交易所|证券相关基金|审计|交易|资金_手机新浪网",
+          "url": "https://finance.sina.cn/2026-03-01/detail-inhpnmvq9088432.d.html?vt=4",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "狮头股份：因财务资料过期，上交所中止审核公司重大资产重组",
+          "url": "https://www.sohu.com/a/991319086_114984",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "狮头股份：因财务资料过期 上交所中止审核公司重大资产重组",
+          "url": "https://www.cls.cn/detail/2298883",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "狮头股份：因财务资料过期，上交所中止审核公司重大资产重组",
+          "url": "https://stock.10jqka.com.cn/20260301/c674997615.shtml",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2298882",
+      "title": "俄乌安全保障条款达成",
+      "summary": "地缘缓和信号引发军工板块情绪扰动。当前市场对该信号反应剧烈，核心标的（如国科军工、洪都航空）短线获利盘丰厚，面临技术性回调压力。建议规避短期情绪博弈，关注基本面扎实、估值合理的龙头标的。",
+      "reasoning": "基于研究员提供的背景数据，该信号标志着俄乌冲突出现实质性缓和迹象（俄方同意条款），这将直接削弱军工行业的边际需求增量。虽然俄罗斯尚未证实，但作为地缘政治类信号，其市场冲击力在于“预期差”的修正。从传导逻辑看，冲突缓和 -> 军备采购降温 -> 军工企业业绩预期下调 -> 估值杀跌。虽然该信号对军工行业整体构成利空，但“利空出尽是利好”，长期看若和平落地将消除不确定性。从技术面和资金流向看，该信号作为超短期突发信息（timeliness 0.8），将导致相关军工股（尤其是高弹性的导弹零部件标的）出现剧烈波动。当前军工板块处于高位，此信号可能导致板块短期回调，需警惕情绪退潮带来的风险。",
+      "transmission_chain": [
+        {
+          "node_name": "地缘政治博弈",
+          "impact_type": "中性偏空",
+          "logic": "俄方同意安全保障条款可能预示冲突缓和，军事装备采购需求边际递减，直接打击军工板块情绪。"
+        },
+        {
+          "node_name": "军工装备需求",
+          "impact_type": "利空",
+          "logic": "地缘紧张度下降导致单兵装备、导弹等消耗性武器采购节奏放缓，企业订单增速预期下调。"
+        },
+        {
+          "node_name": "军工产业链",
+          "impact_type": "利空",
+          "logic": "上游原材料及核心零部件（如导弹制导系统）短期出货压力增大，估值面临杀估值风险。"
+        },
+        {
+          "node_name": "避险资产",
+          "impact_type": "利好",
+          "logic": "冲突缓和预期可能降低黄金等避险资产配置需求，资金流出相关板块。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.6,
+      "intensity": 2,
+      "expectation_gap": 0.4,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "code": "688543",
+          "name": "国科军工",
+          "weight": 4.0,
+          "reason": "导弹及核心零部件供应商，地缘缓和直接冲击核心订单预期，技术面弹性最大。",
+          "ticker": "688543"
+        },
+        {
+          "code": "600316",
+          "name": "洪都航空",
+          "weight": 3.5,
+          "reason": "军用航空装备制造商，受益于冲突烈度，缓和信号可能导致估值回调。",
+          "ticker": "600316"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "乌官员称俄方已同意美向乌提供的安全保障条款",
+          "url": "https://www.cls.cn/detail/2298882",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "乌官员称俄方已同意美向乌提供的安全保障条款|乌克兰|谈判|俄罗斯|美国_新浪新闻",
+          "url": "https://news.sina.com.cn/w/2026-03-01/doc-inhpnmvs6189454.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "乌官员称俄方已同意美向乌提供的安全保障条款 _ 东方财富网",
+          "url": "https://finance.eastmoney.com/a/202603013657708225.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "乌官员称俄方已同意美向乌提供的安全保障条款|俄罗斯|乌克兰|谈判|总台|领土问题_手机新浪网",
+          "url": "https://finance.sina.cn/2026-03-01/detail-inhpnmvp2266961.d.html?vt=4",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "俄乌停火重大进展，美国安全保障将正式落地？领土分歧仍在",
+          "url": "https://www.sohu.com/a/967043574_121200872",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "特朗普俄乌和平计划全文：28项条款原文全曝光（中英对照）",
+          "url": "https://www.toutiao.com/article/7575354189962920486/",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2298881",
+      "title": "小鹏2月交付1.5万台，市场反应平淡",
+      "summary": "基于当前未提供具体股价数据，无法计算目标价。综合分析，该信号对小鹏汽车影响强度为2（小幅影响）。若股价当前在区间内，短期缺乏大幅上涨动力，但X9上市提供中期支撑。预计未来1-3个月股价波动区间与当前持平或小幅震荡。",
+      "reasoning": "研究员提供的背景信息显示，2月交付量15,256台属于常规水平，且未提及环比增长或超预期数据。结合当前时间点（2026年3月1日），市场可能已部分消化该数据。虽然X9即将上市，但2月数据本身属于滞后指标，无法直接反映新产品对业绩的拉动。因此，情绪评分较低（0.2），确定性中等（0.6）。强度评分仅为2，表明该数据更多是验证现状，而非改变市场趋势的关键催化剂。",
+      "transmission_chain": [
+        {
+          "node_name": "终端销量",
+          "impact_type": "中性",
+          "logic": "2月交付量15,256台，虽保持增长但增速放缓，且未超市场预期，对股价短期提振有限。"
+        },
+        {
+          "node_name": "新产品上市",
+          "impact_type": "利好",
+          "logic": "X9纯电版及G6在英国上市，短期无法立即转化为销量，长期需观察出口市场反馈。"
+        },
+        {
+          "node_name": "供应链",
+          "impact_type": "中性偏利好",
+          "logic": "交付量稳定，利好上游电池及芯片需求，但考虑到价格竞争，利润弹性有限。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "小鹏汽车：2月共交付新车15256台",
+          "url": "https://www.cls.cn/detail/2298881",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "小鹏汽车2月交付量15256辆，未来战略引关注 - 搜狐",
+          "url": "https://www.sohu.com/a/991320215_122066678",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "小鹏汽车公布2月交付量_腾讯新闻",
+          "url": "https://news.qq.com/rain/a/20260301A04M0R00",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "小鹏汽车：2月共交付新车15256台",
+          "url": "https://www.yicai.com/news/103064120.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "小鹏汽车2月交付新车15256台，第二代VLA官宣本月开启推送",
+          "url": "https://finance.sina.com.cn/stock/t/2026-03-01/doc-inhpnmvp2270708.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "小鹏汽车 2026 年 2 月交付新车 15256 台，第二代 Vla 官宣本月开启推送 - It之家",
+          "url": "https://www.ithome.com/0/924/789.htm",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2298879",
+      "title": "杭州银行行长任职获批",
+      "summary": "杭州银行(600926)行长任职资格获批，属于程序性利好。当前股价已对监管风险进行消化，预期差在于市场对行长过往业绩的验证。基于当前估值水平，预计股价将在现有基础上维持震荡整理，若后续业绩释放超预期，则存在 3%-5% 的上行空间。",
+      "reasoning": "该信号属于银行板块典型的“程序性利好”。根据当前时间点（2026-03-01）及市场惯例，行长任职获批是公司正常运营的必要条件，属于低确定性但高可信度的信息。从市场定价角度，该消息通常被计入“风险消除”的预期，而非“业绩爆发”的预期，因此预期差较小（Expectation Gap 0.4）。鉴于当前银行业整体估值处于历史低位，且杭州银行作为优质城商行具备护城河，该消息虽不改变长期趋势，但确认了公司经营的连续性和稳定性，短期内可能带来情绪面的边际改善。",
+      "transmission_chain": [
+        {
+          "node_name": "监管审批",
+          "impact_type": "利好",
+          "logic": "监管核准意味着公司治理结构完善，管理层正式就位，消除了长期悬而未决的潜在风险，提升了经营稳定性预期。"
+        },
+        {
+          "node_name": "业务战略执行",
+          "impact_type": "利好",
+          "logic": "行长作为核心执行层，其过往履历与能力将直接决定公司未来在长三角地区的信贷扩张速度及资产质量管控，利好业绩兑现。"
+        },
+        {
+          "node_name": "二级市场情绪",
+          "impact_type": "中性偏多",
+          "logic": "消息属于常规性人事变动，利好属于程序性落地，市场通常将其视为靴子落地，短期可能引发小幅情绪波动，但缺乏超预期刺激。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "600926",
+          "name": "杭州银行",
+          "weight": 3.0
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "杭州银行：张精科行长任职资格获监管核准",
+          "url": "https://www.cls.cn/detail/2298879",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "张精科获批出任杭州银行行长，高管全员\"70后\"",
+          "url": "https://finance.sina.com.cn/wm/2026-02-28/doc-inhpkpei6222721.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "杭州银行行长张精科任职资格获批_财经_中国网",
+          "url": "https://finance.china.com.cn/news/20260228/6295787.shtml",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "张精科获批出任杭州银行行长 _ 东方财富网",
+          "url": "https://finance.eastmoney.com/a/202602283657537378.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "杭州银行：聘任张精科为行长-经济参考网 _ 新华社《经济参考报》官方网站",
+          "url": "http://jjckb.xinhuanet.com/20260112/72989f2ee7b4446187199ece0fc975c7/c.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "\"75后\"张精科升任杭州银行行长，任职资格尚待监管核准",
+          "url": "https://www.sohu.com/a/975322132_211762",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2298878",
+      "title": "天楹氢基项目推进，全球首单落地",
+      "summary": "基于项目进度超预期（辽源项目预计三季度末出产品）及全球首单订单确立的行业地位，给予目标价区间8.5-9.5元（基于当前股价6.5元），对应上涨幅度约30.8%-46.2%。核心逻辑在于氢基能源一体化项目进入投产倒计时，业绩兑现期临近。",
+      "reasoning": "中国天楹核心利好点在于氢基能源一体化项目的实质性推进。首先，吉林辽源项目计划于2026年三季度末调试出产品，且设备安装进度快（98台风机计划6月底完成），显示出极强的执行力，验证了技术成熟度，打破了市场对项目延期的担忧。其次，国际首单订单的签署标志着公司产品进入国际主流供应链，不仅验证了技术壁垒，更打开了海外市场空间，市场预期从“概念”转向“业绩”。当前股价（6.5元）仅反映了部分预期，尚未完全定价投产带来的业绩增量。考虑到两大项目总投资169.5亿元，一旦投产，将大幅增厚公司营收，给予30%-46%的估值溢价是合理的。",
+      "transmission_chain": [
+        {
+          "node_name": "项目投产节点",
+          "impact_type": "利好",
+          "logic": "吉林辽源项目计划2026年三季度末调试出产品，超预期进度（原计划可能较晚），验证技术落地能力，直接驱动业绩预期上修。"
+        },
+        {
+          "node_name": "订单拓展",
+          "impact_type": "利好",
+          "logic": "获得国际头部能源巨头全球首单电制甲醇订单，并持续商谈新订单，确立行业龙头地位，打开长期成长空间。"
+        },
+        {
+          "node_name": "产业链整合",
+          "impact_type": "利好",
+          "logic": "风光电+秸秆+二氧化碳耦合技术路径成熟，构建闭环生态，提升项目抗风险能力与盈利稳定性。"
+        },
+        {
+          "node_name": "资金与产能",
+          "impact_type": "中性",
+          "logic": "两大项目总投资约169.5亿元，资金压力较大，虽然短期对现金流有考验，但产能释放后有望带来规模效应。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.75,
+      "intensity": 3,
+      "expectation_gap": 0.3,
+      "timeliness": 0.6,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "code": "000035",
+          "name": "中国天楹",
+          "weight": 0.85,
+          "ticker": "000035"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "中国天楹：正在全力推进吉林辽源、黑龙江安达两大氢基能源一体化标杆项目进程",
+          "url": "https://www.cls.cn/detail/2298878",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "中国天楹：吉林辽源氢基能源一期项目计划6月底完成建设，三季度末调试出产品|风机_网易订阅",
+          "url": "https://www.163.com/dy/article/KMURDI1T05568W0A.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "中国天楹斩获全球首单电制甲醇供货订单，辽源项目三季度末实现产品产出_绿色",
+          "url": "https://www.sohu.com/a/991326001_114984",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "中国天楹发布机构调研公告：氢基能源战略落地，锚定全球能源转型",
+          "url": "https://cj.sina.com.cn/articles/view/3307324252/c521c35c020028a2c",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "中国天楹：正在全力推进吉林辽源、黑龙江安达两大氢基能源一体化标杆项目进程 【 中国天楹 ：正在全力推进吉林辽源、黑龙江安达两大氢基能源一体化 ...",
+          "url": "https://xueqiu.com/7437424816/377450773",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "中国天楹斩获全球首单电制甲醇供货订单，辽源项目三季度末实现产品产出",
+          "url": "https://t.10jqka.com.cn/pid_597898599.shtml",
+          "source": "Search (ddg)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2298877",
+      "title": "长城汽车2月新能源销增9.5%",
+      "summary": "基于2月新能源销量12744台及1-2月累计同比增9.5%的数据，长城汽车（601633.SH）的新能源转型步伐虽在加速，但增长势头不及行业头部。当前股价已部分定价市场对其转型的不确定性。预计短期股价将在区间震荡，若后续3月数据环比大幅改善，则存在超跌反弹机会；若持续低迷，则面临估值重塑压力。",
+      "reasoning": "1. **数据验证**：2月新能源销量12744台，占总销量72,594台的17.6%，1-2月累计新能源销量30,773台，同比增长9.5%。这表明长城汽车的新能源产品力在逐步释放，但增速（9.5%）低于行业平均水平，且总销量增速（2.58%）疲软。\n2. **市场预期差**：市场普遍预期中国车企在新能源转型上会有更激进的增速。长城汽车的数据验证了其正在转型，但未能证明其具备“弯道超车”的能力，市场对其新能源板块的估值折价依然存在。\n3. **定价状态**：由于数据未出现大幅不及预期或大幅超预期的惊喜，当前股价处于“部分定价”状态。投资者在消化这一数据的增量信息（占比提升）的同时，依然关注其绝对销量的绝对值。\n4. **技术面逻辑**：缺乏具体实时股价数据，但基于“量增价滞”或“量缩价平”的常识推断，在缺乏强催化剂的情况下，该数据难以引发单边趋势性行情，更多影响短期资金博弈。\n5. **结论**：该信号强度为2（中等影响），属于基本面跟踪类信号，不具备立刻改变股价大趋势的力度。",
+      "transmission_chain": [
+        {
+          "node_name": "公司层面",
+          "impact_type": "中性偏多",
+          "logic": "2月新能源车销量12744台，1-2月累计新能源销量30773台，同比增长9.5%，环比1月（假设数据）有提升迹象。新能源车占比提升至17.6%，符合转型预期，但总量增速（1-2月累计同比2.58%）低于行业平均，反映市场对其转型速度仍有担忧。"
+        },
+        {
+          "node_name": "行业层面",
+          "impact_type": "中性",
+          "logic": "新能源车渗透率持续提升是行业大趋势，但长城汽车的数据显示其在新能源转型上落后于头部竞品（如比亚迪、吉利），属于行业分化信号，而非普涨利好。"
+        },
+        {
+          "node_name": "二级市场",
+          "impact_type": "中性",
+          "logic": "数据发布于3月1日，属于季度开局数据。鉴于当前市场对新能源车渗透率的预期较高，且长城汽车此前股价已反映部分转型预期，该数据未能显著打破市场关于其转型不及预期的定价逻辑，预计股价波动有限。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "长城汽车：2月新能源车销售12744台",
+          "url": "https://www.cls.cn/detail/2298877",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "长城汽车 2 月新能源车销售 12744 台，1-2 月累计销售 30773 台",
+          "url": "https://www.ithome.com/0/924/785.htm",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "PDF 长城汽车股份有限公司 2025 年2月产销快报",
+          "url": "https://static.cninfo.com.cn/finalpage/2025-03-03/1222683523.PDF",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "长城汽车：2月汽车销量7.79万辆 同比增长9.65%|新能源车|知名企业|月新能源汽车销量_网易订阅",
+          "url": "https://www.163.com/dy/article/JPLIVIMH053469RG.html",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "搜狐汽车全球快讯 | 长城汽车2月销量77883辆 同比增长9.65%_搜狐汽车_搜狐网",
+          "url": "https://www.sohu.com/a/865897566_115292",
+          "source": "Search (ddg)"
+        },
+        {
+          "title": "长城汽车前两月销量同比下降9.28%，新能源车与海外市场增速放缓 3月2日晚间， 长城汽车 公布了2月份产销数据。2月份公司汽车销量77883 ...",
+          "url": "https://xueqiu.com/6620276709/325628063",
           "source": "Search (ddg)"
         }
       ]
     }
   ],
   "charts": {
-    "601088": {
-      "ticker": "601088",
-      "name": "中国神华",
+    "002177": {
+      "ticker": "002177",
+      "name": "御银股份",
       "prices": [
         {
           "date": "2026-01-09",
-          "open": 41.4,
-          "high": 42.55,
-          "low": 41.22,
-          "close": 42.45,
-          "volume": 368140
+          "open": 8.66,
+          "high": 9.63,
+          "low": 8.65,
+          "close": 9.36,
+          "volume": 3083157
         },
         {
           "date": "2026-01-12",
-          "open": 42.45,
-          "high": 42.55,
-          "low": 41.68,
-          "close": 41.86,
-          "volume": 260950
+          "open": 9.15,
+          "high": 10.3,
+          "low": 9.05,
+          "close": 9.92,
+          "volume": 3087117
         },
         {
           "date": "2026-01-13",
-          "open": 41.94,
-          "high": 42.33,
-          "low": 41.7,
-          "close": 41.9,
-          "volume": 222889
+          "open": 9.84,
+          "high": 9.89,
+          "low": 9.13,
+          "close": 9.14,
+          "volume": 2158901
         },
         {
           "date": "2026-01-14",
-          "open": 42.0,
-          "high": 42.0,
-          "low": 41.38,
-          "close": 41.74,
-          "volume": 273423
+          "open": 9.17,
+          "high": 9.88,
+          "low": 8.88,
+          "close": 9.1,
+          "volume": 2267085
         },
         {
           "date": "2026-01-15",
-          "open": 41.6,
-          "high": 42.1,
-          "low": 41.48,
-          "close": 41.56,
-          "volume": 232559
+          "open": 8.86,
+          "high": 8.9,
+          "low": 8.32,
+          "close": 8.48,
+          "volume": 1536133
         },
         {
           "date": "2026-01-16",
-          "open": 41.58,
-          "high": 42.0,
-          "low": 40.66,
-          "close": 41.0,
-          "volume": 303871
+          "open": 8.54,
+          "high": 8.63,
+          "low": 8.14,
+          "close": 8.32,
+          "volume": 962522
         },
         {
           "date": "2026-01-19",
-          "open": 40.66,
-          "high": 41.3,
-          "low": 40.51,
-          "close": 40.7,
-          "volume": 227742
+          "open": 8.19,
+          "high": 8.28,
+          "low": 8.04,
+          "close": 8.22,
+          "volume": 688003
         },
         {
           "date": "2026-01-20",
-          "open": 40.73,
-          "high": 40.99,
-          "low": 40.51,
-          "close": 40.85,
-          "volume": 198199
+          "open": 8.21,
+          "high": 8.3,
+          "low": 7.87,
+          "close": 7.94,
+          "volume": 811374
         },
         {
           "date": "2026-01-21",
-          "open": 40.98,
-          "high": 40.98,
-          "low": 40.0,
-          "close": 40.08,
-          "volume": 320677
+          "open": 7.83,
+          "high": 8.03,
+          "low": 7.76,
+          "close": 7.93,
+          "volume": 529914
         },
         {
           "date": "2026-01-22",
-          "open": 40.1,
-          "high": 40.85,
-          "low": 40.0,
-          "close": 40.65,
-          "volume": 317150
+          "open": 8.02,
+          "high": 8.11,
+          "low": 7.93,
+          "close": 8.03,
+          "volume": 505963
         },
         {
           "date": "2026-01-23",
-          "open": 40.79,
-          "high": 40.8,
-          "low": 39.86,
-          "close": 40.0,
-          "volume": 337432
+          "open": 8.02,
+          "high": 8.2,
+          "low": 7.94,
+          "close": 8.14,
+          "volume": 696410
         },
         {
           "date": "2026-01-26",
-          "open": 40.0,
-          "high": 42.2,
-          "low": 39.8,
-          "close": 41.65,
-          "volume": 685746
+          "open": 8.11,
+          "high": 8.12,
+          "low": 7.76,
+          "close": 7.9,
+          "volume": 676298
         },
         {
           "date": "2026-01-27",
-          "open": 41.66,
-          "high": 42.17,
-          "low": 40.51,
-          "close": 40.65,
-          "volume": 374792
+          "open": 7.86,
+          "high": 7.89,
+          "low": 7.56,
+          "close": 7.71,
+          "volume": 568858
         },
         {
           "date": "2026-01-28",
-          "open": 40.8,
-          "high": 41.84,
-          "low": 40.36,
-          "close": 41.18,
-          "volume": 651930
+          "open": 7.71,
+          "high": 7.84,
+          "low": 7.67,
+          "close": 7.68,
+          "volume": 376829
         },
         {
           "date": "2026-01-29",
-          "open": 41.3,
-          "high": 41.64,
-          "low": 40.52,
-          "close": 41.38,
-          "volume": 444644
+          "open": 7.6,
+          "high": 7.79,
+          "low": 7.49,
+          "close": 7.65,
+          "volume": 422529
         },
         {
           "date": "2026-01-30",
-          "open": 41.37,
-          "high": 42.46,
-          "low": 41.18,
-          "close": 41.93,
-          "volume": 442671
+          "open": 7.65,
+          "high": 7.66,
+          "low": 7.4,
+          "close": 7.48,
+          "volume": 409679
         },
         {
           "date": "2026-02-02",
-          "open": 41.65,
-          "high": 41.65,
-          "low": 40.02,
-          "close": 40.21,
-          "volume": 438352
+          "open": 7.43,
+          "high": 7.62,
+          "low": 7.41,
+          "close": 7.43,
+          "volume": 309766
         },
         {
           "date": "2026-02-03",
-          "open": 40.25,
-          "high": 40.48,
-          "low": 39.52,
-          "close": 39.6,
-          "volume": 388603
+          "open": 7.68,
+          "high": 7.82,
+          "low": 7.53,
+          "close": 7.82,
+          "volume": 658758
         },
         {
           "date": "2026-02-04",
-          "open": 39.65,
-          "high": 42.6,
-          "low": 39.65,
-          "close": 42.42,
-          "volume": 882483
+          "open": 7.72,
+          "high": 7.95,
+          "low": 7.68,
+          "close": 7.9,
+          "volume": 594365
         },
         {
           "date": "2026-02-05",
-          "open": 41.9,
-          "high": 42.35,
-          "low": 41.18,
-          "close": 41.86,
-          "volume": 361014
+          "open": 7.82,
+          "high": 7.98,
+          "low": 7.77,
+          "close": 7.93,
+          "volume": 477133
         },
         {
           "date": "2026-02-06",
-          "open": 41.43,
-          "high": 42.19,
-          "low": 41.05,
-          "close": 41.67,
-          "volume": 251804
+          "open": 7.86,
+          "high": 8.36,
+          "low": 7.81,
+          "close": 8.15,
+          "volume": 1024061
         },
         {
           "date": "2026-02-09",
-          "open": 41.87,
-          "high": 42.44,
-          "low": 41.58,
-          "close": 42.21,
-          "volume": 241415
+          "open": 8.2,
+          "high": 8.39,
+          "low": 8.12,
+          "close": 8.26,
+          "volume": 767154
         },
         {
           "date": "2026-02-10",
-          "open": 42.21,
-          "high": 42.6,
-          "low": 42.02,
-          "close": 42.48,
-          "volume": 213252
+          "open": 8.19,
+          "high": 8.55,
+          "low": 8.12,
+          "close": 8.15,
+          "volume": 824704
         },
         {
           "date": "2026-02-11",
-          "open": 42.67,
-          "high": 42.98,
-          "low": 42.13,
-          "close": 42.86,
-          "volume": 190880
+          "open": 8.07,
+          "high": 8.97,
+          "low": 8.03,
+          "close": 8.72,
+          "volume": 2108905
         },
         {
           "date": "2026-02-12",
-          "open": 42.85,
-          "high": 43.07,
-          "low": 42.4,
-          "close": 42.56,
-          "volume": 224671
+          "open": 8.5,
+          "high": 8.53,
+          "low": 8.24,
+          "close": 8.33,
+          "volume": 1295411
         },
         {
           "date": "2026-02-13",
-          "open": 42.56,
-          "high": 42.58,
-          "low": 41.11,
-          "close": 41.45,
-          "volume": 314720
+          "open": 8.45,
+          "high": 8.75,
+          "low": 8.45,
+          "close": 8.49,
+          "volume": 1201046
         },
         {
           "date": "2026-02-24",
-          "open": 41.73,
-          "high": 42.69,
-          "low": 41.73,
-          "close": 42.52,
-          "volume": 255000
+          "open": 8.66,
+          "high": 8.75,
+          "low": 8.45,
+          "close": 8.45,
+          "volume": 887295
         },
         {
           "date": "2026-02-25",
-          "open": 42.53,
-          "high": 42.8,
-          "low": 42.05,
-          "close": 42.18,
-          "volume": 228811
+          "open": 8.45,
+          "high": 9.3,
+          "low": 8.43,
+          "close": 8.95,
+          "volume": 2309503
         },
         {
           "date": "2026-02-26",
-          "open": 42.18,
-          "high": 42.77,
-          "low": 41.74,
-          "close": 41.83,
-          "volume": 171434
+          "open": 9.37,
+          "high": 9.5,
+          "low": 8.77,
+          "close": 8.81,
+          "volume": 1721675
         },
         {
           "date": "2026-02-27",
-          "open": 41.9,
-          "high": 42.45,
-          "low": 41.68,
-          "close": 42.26,
-          "volume": 207992
+          "open": 8.89,
+          "high": 9.69,
+          "low": 8.89,
+          "close": 9.69,
+          "volume": 1838494
         }
       ],
       "prediction": {
-        "target_low": -2.0,
-        "target_high": -0.6,
+        "target_low": -7.8,
+        "target_high": -2.6,
         "confidence": 65
       },
       "forecast": [
         {
           "date": "2026-03-02",
-          "open": 42.1689453125,
-          "high": 42.34200668334961,
-          "low": 41.031951904296875,
-          "close": 41.39374923706055,
-          "volume": 382983.8125
+          "open": 9.004292488098145,
+          "high": 9.481534004211426,
+          "low": 8.89612102508545,
+          "close": 9.435198783874512,
+          "volume": 1369001.0
         },
         {
           "date": "2026-03-03",
-          "open": 41.5129508972168,
-          "high": 42.0037841796875,
-          "low": 40.89899444580078,
-          "close": 41.536842346191406,
-          "volume": 388975.21875
+          "open": 9.118979454040527,
+          "high": 9.585893630981445,
+          "low": 9.034649848937988,
+          "close": 9.429245948791504,
+          "volume": 781278.0
         },
         {
           "date": "2026-03-04",
-          "open": 41.01665496826172,
-          "high": 41.86100769042969,
-          "low": 41.060020446777344,
-          "close": 41.55004119873047,
-          "volume": 361242.875
+          "open": 9.320401191711426,
+          "high": 9.650469779968262,
+          "low": 9.072121620178223,
+          "close": 9.363636016845703,
+          "volume": 662189.75
         },
         {
           "date": "2026-03-05",
-          "open": 41.59836196899414,
-          "high": 42.27617645263672,
-          "low": 41.39726257324219,
-          "close": 41.9972038269043,
-          "volume": 310692.40625
+          "open": 9.150286674499512,
+          "high": 9.451812744140625,
+          "low": 8.773187637329102,
+          "close": 9.007757186889648,
+          "volume": 976499.75
         },
         {
           "date": "2026-03-06",
-          "open": 42.23178482055664,
-          "high": 42.328433990478516,
-          "low": 41.283390045166016,
-          "close": 41.507179260253906,
-          "volume": 367695.34375
+          "open": 8.765809059143066,
+          "high": 9.279812812805176,
+          "low": 8.68742561340332,
+          "close": 8.937504768371582,
+          "volume": 942677.25
         }
       ],
       "forecast_base": [
         {
           "date": "2026-03-02",
-          "open": 42.14485549926758,
-          "high": 42.42100524902344,
-          "low": 40.76922607421875,
-          "close": 42.24864196777344,
-          "volume": 305302.3125
+          "open": 9.735997200012207,
+          "high": 10.268214225769043,
+          "low": 9.163290977478027,
+          "close": 9.381364822387695,
+          "volume": 2923787.5
         },
         {
           "date": "2026-03-03",
-          "open": 42.70612716674805,
-          "high": 42.77727508544922,
-          "low": 41.506011962890625,
-          "close": 41.993961334228516,
-          "volume": 263416.0625
+          "open": 8.956182479858398,
+          "high": 9.452818870544434,
+          "low": 8.725711822509766,
+          "close": 9.083723068237305,
+          "volume": 1526189.625
         },
         {
           "date": "2026-03-04",
-          "open": 41.735958099365234,
-          "high": 42.64914321899414,
-          "low": 41.658302307128906,
-          "close": 42.03481674194336,
-          "volume": 299593.75
+          "open": 8.829519271850586,
+          "high": 9.33329963684082,
+          "low": 8.733908653259277,
+          "close": 9.122169494628906,
+          "volume": 1320869.0
         },
         {
           "date": "2026-03-05",
-          "open": 42.053550720214844,
-          "high": 42.63764190673828,
-          "low": 41.662353515625,
-          "close": 42.26289367675781,
-          "volume": 377084.65625
+          "open": 8.897139549255371,
+          "high": 9.227043151855469,
+          "low": 8.570310592651367,
+          "close": 8.819340705871582,
+          "volume": 1500679.5
         },
         {
           "date": "2026-03-06",
-          "open": 42.124969482421875,
-          "high": 42.470157623291016,
-          "low": 41.817535400390625,
-          "close": 42.26190948486328,
-          "volume": 264205.1875
+          "open": 8.645354270935059,
+          "high": 9.06861400604248,
+          "low": 8.480917930603027,
+          "close": 8.85243034362793,
+          "volume": 1590847.625
         }
       ],
-      "prediction_logic": "沙特TASI指数早盘暴跌4.6%，创近年罕见跌幅。建议关注能源板块（中国石化、中国神华）及航运龙头（中远海控），短期目标价看涨5%-8%。能源板块有望受益于原油价格上行预期，航运板块受益于航线避险溢价。核心消费与银行股受情绪扰动，建议观望。"
+      "prediction_logic": "基于重组传闻驱动，预计股价短期仍有冲高动能，但需警惕高位分歧。参考技术面及资金流向，预计下周价格波动区间在 [11.5, 13.5] 元。若重组消息落地且符合预期，目标价可看高至 15.0 元上方；若消息证伪，支撑位在 10.5 元附近。"
     }
   }
 }
