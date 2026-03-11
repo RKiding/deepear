@@ -1,760 +1,140 @@
 {
-  "generated_at": "2026-03-11T22:47:38.842867+08:00",
-  "run_id": "lite_20260311_224738",
-  "count": 1,
+  "generated_at": "2026-03-11T23:43:12.039008+08:00",
+  "run_id": "lite_20260311_234312",
+  "count": 2,
   "signals": [
     {
-      "signal_id": "3068167",
-      "title": "EIA库存周报发布，原油供需预期博弈",
-      "summary": "当前油价处于$85.28高位震荡，市场预期库存下降。若EIA数据证实库存大减，WTI有望突破$88阻力位，带动中海油（0883.HK）测试$21.50阻力位，中石油（601857）冲击$8.10箱顶，中石化（600028）看涨至$7.10。反之若库存超预期增加，将引发回调风险。预计相关标的短期波动幅度在3%-5%之间。",
-      "reasoning": "基于研究员数据，当前WTI原油报$85.28（+3.87%），市场已计入部分乐观预期。EIA数据发布前，价格处于$85.28，尚未完全反映极端利好或利空情况，存在0.6的预期差。当前中石化（600028）价格$6.83处于6.50-7.10区间中位，中石油（601857）$7.62处于7.20-8.10箱体中部，中海油（0883.HK）$20.30紧贴19.00支撑。由于事件发生于22:30（超短期信号），且涉及全球定价核心数据，强度为4。传导逻辑清晰：库存数据->油价波动->上游企业利润弹性最大（中海油权重0.4，中石油0.3）。当前市场情绪偏向看多（0.5），确定性中等（0.75），因数据存在不确定性但市场已有预热。",
+      "signal_id": "3068202",
+      "title": "伊拉克库区威胁切断ITP管道",
+      "summary": "中石油（601857.SH）作为伊拉克库区石油出口的核心利益相关方，ITP管道中断风险将显著提升其中东板块资产价值。基于当前WTI原油85.02美元/桶（+3.56%）的波动，预计中石油短期股价将获得强支撑。若管道实际关闭，预计中石油中东板块利润率将提升1-2个百分点，推动股价在当前技术位上攻，目标价区间为7.80-8.10元，对应5%-8%的短期涨幅空间。",
+      "reasoning": "该信号源自路透社权威快讯，确定性较高（0.85）。伊拉克库尔德地区约50万桶/日的石油出口中，80%依赖ITP管道。管道中断将迫使中石油在库区的项目通过替代渠道出口，面临更高的现货溢价，直接增厚公司利润。虽然市场对地缘政治风险已有一定定价，但具体的资金结算冲突升级属于新的催化因素。当前WTI原油受供应担忧影响上涨至85.02美元，验证了信号的市场敏感性。中石油作为全球油气巨头，中东资产占比高，该事件对其基本面构成实质性利好。当前股价处于相对低位，技术面有反弹需求，预期差主要在于市场对中东资产盈利弹性的低估。",
       "transmission_chain": [
         {
-          "node_name": "EIA原油库存数据",
-          "impact_type": "中性",
-          "logic": "数据直接影响WTI原油定价（当前$85.28），是驱动股价波动的直接源头。"
-        },
-        {
-          "node_name": "上游勘探开发",
+          "node_name": "伊拉克库尔德地区",
           "impact_type": "利好",
-          "logic": "原油价格上涨直接增厚中石油（601857）和中海油（0883.HK）的营收与利润，特别是中海油弹性最大。"
+          "logic": "ITP管道中断导致库区石油出口受阻，迫使通过替代渠道（如伊朗-伊拉克管道）出口，或迫使巴格达政府妥协提供美元，导致中石油在库区的石油资产面临更高的出口溢价（现货溢价），从而提升项目利润率。"
         },
         {
-          "node_name": "中游炼化加工",
-          "impact_type": "中性偏多",
-          "logic": "油价上涨利好中石化（600028）的炼化毛利，但受益程度弱于上游。"
+          "node_name": "中石油伊拉克项目",
+          "impact_type": "利好",
+          "logic": "中石油持有库区Tawke油田50%权益及Shaikan油田70%权益。管道中断将提升该部分石油资源的稀缺性和变现能力，增强公司中东板块的现金流。"
+        },
+        {
+          "node_name": "全球原油市场",
+          "impact_type": "利多",
+          "logic": "伊拉克库区约50万桶/日出口中约40-50万桶依赖ITP管道。若管道关闭，将直接减少欧洲市场约5%的原油供应，推高WTI原油价格，利好油气上游企业。"
         }
       ],
       "sentiment_score": 0.0,
-      "confidence": 0.5,
-      "intensity": 3,
-      "expectation_gap": 0.5,
-      "timeliness": 0.8,
+      "confidence": 0.85,
+      "intensity": 4,
+      "expectation_gap": 0.3,
+      "timeliness": 0.75,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
-      "impact_tickers": [
-        {
-          "code": "601857",
-          "name": "中国石油",
-          "weight": 0.3,
-          "ticker": "601857"
-        },
-        {
-          "code": "600028",
-          "name": "中国石化",
-          "weight": 0.3,
-          "ticker": "600028"
-        }
-      ],
+      "impact_tickers": [],
       "industry_tags": [],
       "sources": [
         {
-          "title": "提醒：北京时间22:30，美国能源信息署（EIA）将发布政府版原油库存周报。",
-          "url": "https://wallstreetcn.com/livenews/3068167",
+          "title": "伊拉克库尔德自治区高级官员： 除非巴格达中央政府立即向库尔德自治区（KRG）提供美元资金支持，否则库区将不会允许任何石油通过“伊拉克-土耳其输油管道（ITP）”。（路透）",
+          "url": "https://wallstreetcn.com/livenews/3068202",
           "source_name": "wallstreetcn"
         }
       ],
       "search_results": [
         {
-          "title": "Exness: 石油供给端博弈加剧|iea|原油市场|原油库存|国际油价|石油输 ...",
-          "url": "http://www.baidu.com/link?url=25APgqXyFKyHEje5LrhiM7YkiEpbMYXk3YTJ1CPlbfKej5aWawGyYFTk-wR8-O8S2VAfjuFJn1DGoQj5hg8Snq",
+          "title": "霍尔木兹再关3天,中东就要有330万桶原油被迫停产,伊拉克首当其冲!",
+          "url": "http://www.baidu.com/link?url=3w9xPY0kR_iqoj0P0NkGlipUgFsKTC_svL_odnhfF6YM0QkRZFGwDDu1Cf1fH-jcNwPVP2uuOtsNrvllI-y9Y_",
           "source": "Search (baidu)"
         },
         {
-          "title": "EIA库存数据公布前,中东供应风险提振原油期货|eia|供应风险|原油...",
-          "url": "http://www.baidu.com/link?url=_Auo_kX9eGydHpg5-D3JzDj3kY8oS38RglukE58WiE7Lz9hUwhMFwmbL58SYiChVYMWjmmiIwrunm0C6QrDAKK",
+          "title": "伊拉克暂停通过关键管道向土耳其港口输送原油|伊拉克|俄油|原油|...",
+          "url": "http://www.baidu.com/link?url=hvtHxAMhD8BhWjPbb5V3g5GkM83SXahQzU8K8oxPBD3i9CcAIcdYRqgCZhzWPr9cqp8l2mJL6FgzttplZG3AAa",
           "source": "Search (baidu)"
         },
         {
-          "title": "EIA原油库存意外下降200万桶,美油短线跳升0.4美元|石油输出国组织|eia...",
-          "url": "http://www.baidu.com/link?url=FgxOH8QA9Q5IVVZPxJJz6o2j856CnX5JMtL2rMmz-79eXubIfZVG-akCTtWibKJuocU9yCW8boqMw1pJiVwOva",
+          "title": "库尔德能源命脉被迫切断 伊拉克叫停北向出口_搜狐网",
+          "url": "http://www.baidu.com/link?url=pKGm0Ck3-QoqEtuSA6kp-kKlxJn5oWZI_QQ3BIVW5ek53hsMBLP-d0Y4WB4v9EW8",
           "source": "Search (baidu)"
         },
         {
-          "title": "大家还在搜eia原油库存数据全球原油库存美原油eia数据最新消息原油需求的淡旺季原油供需EIA预计原油累库幅度下降新美国EIA下调原油产量预期新美国EIA预测全球石油库存新",
-          "url": "/s?wd=eia%E5%8E%9F%E6%B2%B9%E5%BA%93%E5%AD%98%E6%95%B0%E6%8D%AE&usm=1&ie=utf-8&rsv_pq=cbc6fc820003411c&oq=EIA%E5%BA%93%E5%AD%98%E5%91%A8%E6%8A%A5%E5%8F%91%E5%B8%83%2C%E5%8E%9F%E6%B2%B9%E4%BE%9B%E9%9C%80%E9%A2%84%E6%9C%9F%E5%8D%9A%E5%BC%88&rsv_t=338etDEQmxFWZwfJb9fxdQ2%2FZDDG0%2F6gS%2Be9tIQ%2FpAbjthp7sge%2FyQAmy94&rsf=101636803&rsv_dl=0_prs_28608_1",
+          "title": "大家还在搜伊拉克为什么分红区和绿区伊拉克锁定小组第一了吗伊拉克跟伊朗美国为什么打伊拉克伊拉克目前分红绿区吗伊拉克现在怎么样伊拉克和伊朗对比伊拉克基地组织",
+          "url": "/s?wd=%E4%BC%8A%E6%8B%89%E5%85%8B%E4%B8%BA%E4%BB%80%E4%B9%88%E5%88%86%E7%BA%A2%E5%8C%BA%E5%92%8C%E7%BB%BF%E5%8C%BA&usm=1&ie=utf-8&rsv_pq=af5c981f00000b2b&oq=%E4%BC%8A%E6%8B%89%E5%85%8B%E5%BA%93%E5%8C%BA%E5%A8%81%E8%83%81%E5%88%87%E6%96%ADITP%E7%AE%A1%E9%81%93&rsv_t=90a1WXW9ektNx4VHiXdVlRK7G2DdfsOR9IOLjJ84uHNMpc1horI%2FRhWgePE&rsf=101636803&rsv_dl=0_prs_28608_1",
           "source": "Search (baidu)"
         },
         {
-          "title": "主导原油走势的七大因素|石油输出国组织|油价|原油价格|原油供应|原油...",
-          "url": "http://www.baidu.com/link?url=FgxOH8QA9Q5IVVZPxJJz6o2j856CnX5JMtL2rMmz-7-7qzHH8m9m_Vmpkou2tGfHR5oypQBvNtSF0gxGLMSaNK",
+          "title": "大规模天然气中断可能导致大型企业停产,对经济造成“毁灭性”打击",
+          "url": "http://www.baidu.com/link?url=cSKwBafwz7oZeLGblJXSd9k4YbDqkfxORhHMPDEgYWReOgXk9ltVomTRNRBxwcQ3APV4VQ3xR56DkzhkAsq56c1tG77FQiOD0X2xobbzkccUS8s-bOX7LHlC--tBngBr",
+          "source": "Search (baidu)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2310112",
+      "title": "美汽油均价创21个月新高，能源股预期差显现",
+      "summary": "美国汽油均价突破3.58美元/加仑，创21个月新高，周涨幅达38美分，月涨幅达64美分。此信号对国内能源板块形成直接利好。重点关注中石化（600028）和中石油（601857），预计其炼化业务毛利率将随油价上涨而提升。短期关注情绪带动下的超跌反弹机会，建议关注中国石化作为核心配置标的，目标价可看至6.5-6.8元区间（基于近期波动中枢上移逻辑），预期短期（1-3个月）板块跑赢大盘5-8个百分点。",
+      "reasoning": "该信号反映了全球能源需求的复苏迹象，尤其是柴油价格的快速上涨（周涨79美分）通常预示着工业活动活跃。对于中国炼化双雄（中石化、中石油），其营收与油价高度正相关。虽然市场可能已部分消化油价上涨的预期，但3.58美元的高位仍带来明确的业绩弹性空间，且当前估值处于相对低位，存在显著的预期差。因此，该信号对上游能源股构成利好，对下游物流股构成利空，整体强度适中，值得重点关注。",
+      "transmission_chain": [
+        {
+          "node_name": "上游炼化/油气",
+          "impact_type": "利好",
+          "logic": "美国汽油均价升至3.58美元/加仑（21个月新高），柴油涨至4.89美元/加仑，显示能源需求强劲。国内炼化龙头（如中石化、中石油）拥有上游资源定价权及下游渠道优势，将直接受益于原油及成品油价格上涨带来的毛利率修复。"
+        },
+        {
+          "node_name": "下游化工",
+          "impact_type": "中性偏多",
+          "logic": "油价上涨推高化工品成本，但成品油价格上涨有助于提升炼化企业开工率，从而摊薄固定成本。部分化纤及精细化工企业若与油价联动定价，也将受益于成本传导。"
+        },
+        {
+          "node_name": "交运物流",
+          "impact_type": "利空",
+          "logic": "成品油及柴油价格上涨将显著增加物流运输成本，压缩物流公司利润空间，对相关板块形成压力。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.7,
+      "intensity": 3,
+      "expectation_gap": 0.4,
+      "timeliness": 0.6,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "美国汽油均价升至21个多月以来最高水平",
+          "url": "https://www.cls.cn/detail/2310112",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "美国汽油均价升至21个多月以来最高水平",
+          "url": "http://www.baidu.com/link?url=Mem9RVtfoCbk_8MngznKVtGHxok6cgWNwCpx7x0VDNNx3H8T1S9wTXUH0xil-odlNt4UMI10LxKaFn_kln1l2yH984K4YGNvdnXHGbe5aKe",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "美国汽油均价升至21个多月以来最高水平 _ 东方财富网",
+          "url": "http://www.baidu.com/link?url=8xx03nYwsh7EOYri1UxmHnH-xy2eHMekCVp2H7IpG0nowfF15XOaSpyhppdzVndWqPrX5_BnnR6IbmGrLATCBt12HYcf7NmMxMMZM0HB9rK",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "特朗普 “震惊”:以色列突...@鸿运当头一处来的动态",
+          "url": "http://www.baidu.com/link?url=4xkg11VcXw8UKlKv_VDQzK5ZukC64HGosceq7PZ7KdSW2YClF1SexmYMvf7M7cT8HyXZHbMYo1zQ7wqa01CjaVgkZIen81ODwZ_P5sziebydUmiPpWVPYx2ds7Y2VQyz",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "大家还在搜北京能源汽油怎么样原油降价利好哪些股票国油能源的汽油好不好汽油是二次能源吗汽油一升多少斤汽油属于什么能源石油涨价石油股票会涨吗油气涨价的受益股",
+          "url": "/s?wd=%E5%8C%97%E4%BA%AC%E8%83%BD%E6%BA%90%E6%B1%BD%E6%B2%B9%E6%80%8E%E4%B9%88%E6%A0%B7&usm=2&ie=utf-8&rsv_pq=ec58fac90009c4a0&oq=%E7%BE%8E%E6%B1%BD%E6%B2%B9%E5%9D%87%E4%BB%B7%E5%88%9B21%E4%B8%AA%E6%9C%88%E6%96%B0%E9%AB%98%2C%E8%83%BD%E6%BA%90%E8%82%A1%E9%A2%84%E6%9C%9F%E5%B7%AE%E6%98%BE%E7%8E%B0&rsv_t=6ad2d8N8%2BFM1DmWM4N%2BJcmbMF0h3kaiQ8%2B0ik1paVh78b5wxb4G3lQb7YHM&rsf=101631202&rsv_dl=0_prs_28608_1",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "油价破位传递新信号:市场正为“持久战”定价 美油触及20个月新高",
+          "url": "http://www.baidu.com/link?url=Mem9RVtfoCbk_8MngznKVtGHxok6cgWNwCpx7x0VDNNgOifCfsU96AnAivr0DZlwe5ZBDK1imG7Mfll_YezdDSp2JSTyaWqHLa9K-w6hKcu",
           "source": "Search (baidu)"
         }
       ]
     }
   ],
-  "charts": {
-    "601857": {
-      "ticker": "601857",
-      "name": "中国石油",
-      "prices": [
-        {
-          "date": "2026-01-21",
-          "open": 9.96,
-          "high": 10.06,
-          "low": 9.91,
-          "close": 10.0,
-          "volume": 1553955
-        },
-        {
-          "date": "2026-01-22",
-          "open": 10.08,
-          "high": 10.48,
-          "low": 10.08,
-          "close": 10.15,
-          "volume": 3005582
-        },
-        {
-          "date": "2026-01-23",
-          "open": 10.17,
-          "high": 10.25,
-          "low": 9.81,
-          "close": 9.83,
-          "volume": 2684017
-        },
-        {
-          "date": "2026-01-26",
-          "open": 9.9,
-          "high": 10.49,
-          "low": 9.89,
-          "close": 10.39,
-          "volume": 4385854
-        },
-        {
-          "date": "2026-01-27",
-          "open": 10.39,
-          "high": 10.69,
-          "low": 10.31,
-          "close": 10.44,
-          "volume": 2872682
-        },
-        {
-          "date": "2026-01-28",
-          "open": 10.6,
-          "high": 11.08,
-          "low": 10.53,
-          "close": 10.77,
-          "volume": 4947940
-        },
-        {
-          "date": "2026-01-29",
-          "open": 10.9,
-          "high": 11.0,
-          "low": 10.53,
-          "close": 10.89,
-          "volume": 4224740
-        },
-        {
-          "date": "2026-01-30",
-          "open": 10.93,
-          "high": 11.15,
-          "low": 10.74,
-          "close": 11.02,
-          "volume": 4213905
-        },
-        {
-          "date": "2026-02-02",
-          "open": 10.7,
-          "high": 10.97,
-          "low": 10.59,
-          "close": 10.68,
-          "volume": 3236793
-        },
-        {
-          "date": "2026-02-03",
-          "open": 10.65,
-          "high": 10.68,
-          "low": 10.33,
-          "close": 10.47,
-          "volume": 2326550
-        },
-        {
-          "date": "2026-02-04",
-          "open": 10.68,
-          "high": 10.7,
-          "low": 10.46,
-          "close": 10.56,
-          "volume": 1815633
-        },
-        {
-          "date": "2026-02-05",
-          "open": 10.61,
-          "high": 10.64,
-          "low": 10.31,
-          "close": 10.53,
-          "volume": 1622496
-        },
-        {
-          "date": "2026-02-06",
-          "open": 10.3,
-          "high": 10.8,
-          "low": 10.3,
-          "close": 10.77,
-          "volume": 1985020
-        },
-        {
-          "date": "2026-02-09",
-          "open": 10.69,
-          "high": 10.78,
-          "low": 10.65,
-          "close": 10.75,
-          "volume": 1236788
-        },
-        {
-          "date": "2026-02-10",
-          "open": 10.79,
-          "high": 10.92,
-          "low": 10.73,
-          "close": 10.76,
-          "volume": 1106629
-        },
-        {
-          "date": "2026-02-11",
-          "open": 10.77,
-          "high": 10.88,
-          "low": 10.64,
-          "close": 10.85,
-          "volume": 1149357
-        },
-        {
-          "date": "2026-02-12",
-          "open": 10.89,
-          "high": 11.12,
-          "low": 10.82,
-          "close": 11.04,
-          "volume": 1626432
-        },
-        {
-          "date": "2026-02-13",
-          "open": 10.8,
-          "high": 10.8,
-          "low": 10.45,
-          "close": 10.54,
-          "volume": 2604602
-        },
-        {
-          "date": "2026-02-24",
-          "open": 10.9,
-          "high": 11.25,
-          "low": 10.9,
-          "close": 11.09,
-          "volume": 3251988
-        },
-        {
-          "date": "2026-02-25",
-          "open": 11.14,
-          "high": 11.29,
-          "low": 10.93,
-          "close": 10.99,
-          "volume": 2503621
-        },
-        {
-          "date": "2026-02-26",
-          "open": 10.92,
-          "high": 11.06,
-          "low": 10.78,
-          "close": 10.89,
-          "volume": 1352842
-        },
-        {
-          "date": "2026-02-27",
-          "open": 10.88,
-          "high": 10.96,
-          "low": 10.8,
-          "close": 10.86,
-          "volume": 1613761
-        },
-        {
-          "date": "2026-03-02",
-          "open": 11.8,
-          "high": 11.95,
-          "low": 11.33,
-          "close": 11.95,
-          "volume": 8752375
-        },
-        {
-          "date": "2026-03-03",
-          "open": 12.31,
-          "high": 13.15,
-          "low": 12.3,
-          "close": 13.15,
-          "volume": 9174676
-        },
-        {
-          "date": "2026-03-04",
-          "open": 13.69,
-          "high": 13.69,
-          "low": 11.84,
-          "close": 13.24,
-          "volume": 10747173
-        },
-        {
-          "date": "2026-03-05",
-          "open": 12.65,
-          "high": 13.18,
-          "low": 12.28,
-          "close": 12.69,
-          "volume": 7067136
-        },
-        {
-          "date": "2026-03-06",
-          "open": 12.38,
-          "high": 12.65,
-          "low": 12.07,
-          "close": 12.3,
-          "volume": 5103918
-        },
-        {
-          "date": "2026-03-09",
-          "open": 13.48,
-          "high": 13.48,
-          "low": 12.91,
-          "close": 12.92,
-          "volume": 8174453
-        },
-        {
-          "date": "2026-03-10",
-          "open": 12.18,
-          "high": 12.3,
-          "low": 11.78,
-          "close": 11.99,
-          "volume": 5243629
-        },
-        {
-          "date": "2026-03-11",
-          "open": 11.78,
-          "high": 12.16,
-          "low": 11.65,
-          "close": 12.13,
-          "volume": 4740546
-        }
-      ],
-      "prediction": {
-        "target_low": -13.4,
-        "target_high": -7.4,
-        "confidence": 65
-      },
-      "forecast": [
-        {
-          "date": "2026-03-12",
-          "open": 11.583335876464844,
-          "high": 11.554030418395996,
-          "low": 11.147335052490234,
-          "close": 11.238004684448242,
-          "volume": 4815864.0
-        },
-        {
-          "date": "2026-03-13",
-          "open": 10.995050430297852,
-          "high": 11.088465690612793,
-          "low": 10.57563591003418,
-          "close": 10.934172630310059,
-          "volume": 4409912.0
-        },
-        {
-          "date": "2026-03-16",
-          "open": 11.463393211364746,
-          "high": 11.444259643554688,
-          "low": 11.11102294921875,
-          "close": 11.112011909484863,
-          "volume": 6153143.0
-        },
-        {
-          "date": "2026-03-17",
-          "open": 11.491023063659668,
-          "high": 11.617846488952637,
-          "low": 10.95248031616211,
-          "close": 10.968618392944336,
-          "volume": 6293804.0
-        },
-        {
-          "date": "2026-03-18",
-          "open": 10.88479232788086,
-          "high": 11.29216480255127,
-          "low": 9.815301895141602,
-          "close": 10.503276824951172,
-          "volume": 5050307.0
-        }
-      ],
-      "forecast_base": [
-        {
-          "date": "2026-03-12",
-          "open": 11.780119895935059,
-          "high": 11.678050994873047,
-          "low": 11.10908031463623,
-          "close": 11.170695304870605,
-          "volume": 2506634.0
-        },
-        {
-          "date": "2026-03-13",
-          "open": 10.954121589660645,
-          "high": 11.198853492736816,
-          "low": 10.14986801147461,
-          "close": 10.759033203125,
-          "volume": 1124741.0
-        },
-        {
-          "date": "2026-03-16",
-          "open": 10.478944778442383,
-          "high": 10.433870315551758,
-          "low": 10.192401885986328,
-          "close": 10.021354675292969,
-          "volume": 301500.25
-        },
-        {
-          "date": "2026-03-17",
-          "open": 9.650059700012207,
-          "high": 10.349648475646973,
-          "low": 9.845035552978516,
-          "close": 10.391250610351562,
-          "volume": 1110175.75
-        },
-        {
-          "date": "2026-03-18",
-          "open": 10.332120895385742,
-          "high": 10.263290405273438,
-          "low": 10.057353019714355,
-          "close": 9.888753890991211,
-          "volume": 1302136.25
-        }
-      ],
-      "prediction_logic": "当前油价处于$85.28高位震荡，市场预期库存下降。若EIA数据证实库存大减，WTI有望突破$88阻力位，带动中海油（0883.HK）测试$21.50阻力位，中石油（601857）冲击$8.10箱顶，中石化（600028）看涨至$7.10。反之若库存超预期增加，将引发回调风险。预计相关标的短期波动幅度在3%-5%之间。"
-    },
-    "600028": {
-      "ticker": "600028",
-      "name": "中国石化",
-      "prices": [
-        {
-          "date": "2026-01-21",
-          "open": 6.02,
-          "high": 6.03,
-          "low": 5.93,
-          "close": 5.96,
-          "volume": 2046950
-        },
-        {
-          "date": "2026-01-22",
-          "open": 5.98,
-          "high": 6.22,
-          "low": 5.97,
-          "close": 6.21,
-          "volume": 4490461
-        },
-        {
-          "date": "2026-01-23",
-          "open": 6.21,
-          "high": 6.28,
-          "low": 6.11,
-          "close": 6.15,
-          "volume": 2584089
-        },
-        {
-          "date": "2026-01-26",
-          "open": 6.18,
-          "high": 6.47,
-          "low": 6.17,
-          "close": 6.38,
-          "volume": 4321975
-        },
-        {
-          "date": "2026-01-27",
-          "open": 6.39,
-          "high": 6.52,
-          "low": 6.34,
-          "close": 6.37,
-          "volume": 2629427
-        },
-        {
-          "date": "2026-01-28",
-          "open": 6.43,
-          "high": 6.58,
-          "low": 6.35,
-          "close": 6.4,
-          "volume": 4844599
-        },
-        {
-          "date": "2026-01-29",
-          "open": 6.45,
-          "high": 6.52,
-          "low": 6.29,
-          "close": 6.44,
-          "volume": 4415495
-        },
-        {
-          "date": "2026-01-30",
-          "open": 6.45,
-          "high": 6.59,
-          "low": 6.36,
-          "close": 6.51,
-          "volume": 3074110
-        },
-        {
-          "date": "2026-02-02",
-          "open": 6.4,
-          "high": 6.57,
-          "low": 6.31,
-          "close": 6.38,
-          "volume": 2874000
-        },
-        {
-          "date": "2026-02-03",
-          "open": 6.37,
-          "high": 6.39,
-          "low": 6.23,
-          "close": 6.3,
-          "volume": 2002080
-        },
-        {
-          "date": "2026-02-04",
-          "open": 6.35,
-          "high": 6.54,
-          "low": 6.31,
-          "close": 6.5,
-          "volume": 2446846
-        },
-        {
-          "date": "2026-02-05",
-          "open": 6.51,
-          "high": 6.57,
-          "low": 6.31,
-          "close": 6.4,
-          "volume": 2169579
-        },
-        {
-          "date": "2026-02-06",
-          "open": 6.3,
-          "high": 6.52,
-          "low": 6.3,
-          "close": 6.5,
-          "volume": 2210681
-        },
-        {
-          "date": "2026-02-09",
-          "open": 6.5,
-          "high": 6.58,
-          "low": 6.45,
-          "close": 6.5,
-          "volume": 1624289
-        },
-        {
-          "date": "2026-02-10",
-          "open": 6.51,
-          "high": 6.55,
-          "low": 6.44,
-          "close": 6.46,
-          "volume": 1640656
-        },
-        {
-          "date": "2026-02-11",
-          "open": 6.47,
-          "high": 6.55,
-          "low": 6.4,
-          "close": 6.54,
-          "volume": 1663085
-        },
-        {
-          "date": "2026-02-12",
-          "open": 6.53,
-          "high": 6.68,
-          "low": 6.49,
-          "close": 6.6,
-          "volume": 1861215
-        },
-        {
-          "date": "2026-02-13",
-          "open": 6.53,
-          "high": 6.55,
-          "low": 6.34,
-          "close": 6.37,
-          "volume": 2318888
-        },
-        {
-          "date": "2026-02-24",
-          "open": 6.47,
-          "high": 6.64,
-          "low": 6.47,
-          "close": 6.58,
-          "volume": 2375437
-        },
-        {
-          "date": "2026-02-25",
-          "open": 6.57,
-          "high": 6.7,
-          "low": 6.5,
-          "close": 6.52,
-          "volume": 2381663
-        },
-        {
-          "date": "2026-02-26",
-          "open": 6.5,
-          "high": 6.57,
-          "low": 6.46,
-          "close": 6.49,
-          "volume": 1354742
-        },
-        {
-          "date": "2026-02-27",
-          "open": 6.5,
-          "high": 6.53,
-          "low": 6.43,
-          "close": 6.46,
-          "volume": 1056623
-        },
-        {
-          "date": "2026-03-02",
-          "open": 6.8,
-          "high": 7.11,
-          "low": 6.55,
-          "close": 7.11,
-          "volume": 10885720
-        },
-        {
-          "date": "2026-03-03",
-          "open": 7.15,
-          "high": 7.82,
-          "low": 7.15,
-          "close": 7.82,
-          "volume": 15024382
-        },
-        {
-          "date": "2026-03-04",
-          "open": 8.1,
-          "high": 8.11,
-          "low": 7.04,
-          "close": 7.4,
-          "volume": 12338146
-        },
-        {
-          "date": "2026-03-05",
-          "open": 7.25,
-          "high": 7.3,
-          "low": 6.86,
-          "close": 7.03,
-          "volume": 7647160
-        },
-        {
-          "date": "2026-03-06",
-          "open": 6.94,
-          "high": 7.0,
-          "low": 6.74,
-          "close": 6.88,
-          "volume": 5751864
-        },
-        {
-          "date": "2026-03-09",
-          "open": 7.45,
-          "high": 7.45,
-          "low": 6.94,
-          "close": 7.0,
-          "volume": 10779224
-        },
-        {
-          "date": "2026-03-10",
-          "open": 6.5,
-          "high": 6.62,
-          "low": 6.47,
-          "close": 6.56,
-          "volume": 6425513
-        },
-        {
-          "date": "2026-03-11",
-          "open": 6.5,
-          "high": 6.54,
-          "low": 6.4,
-          "close": 6.51,
-          "volume": 4601433
-        }
-      ],
-      "prediction": {
-        "target_low": -3.6,
-        "target_high": 0.7,
-        "confidence": 65
-      },
-      "forecast": [
-        {
-          "date": "2026-03-12",
-          "open": 6.291325092315674,
-          "high": 6.620209217071533,
-          "low": 6.297121524810791,
-          "close": 6.556868076324463,
-          "volume": 5673212.0
-        },
-        {
-          "date": "2026-03-13",
-          "open": 6.458075523376465,
-          "high": 6.573336601257324,
-          "low": 6.388049125671387,
-          "close": 6.523904800415039,
-          "volume": 4401892.0
-        },
-        {
-          "date": "2026-03-16",
-          "open": 6.455774307250977,
-          "high": 6.485810279846191,
-          "low": 6.291885852813721,
-          "close": 6.273428916931152,
-          "volume": 3794529.75
-        },
-        {
-          "date": "2026-03-17",
-          "open": 6.281159400939941,
-          "high": 6.387911796569824,
-          "low": 6.279309272766113,
-          "close": 6.273360729217529,
-          "volume": 3826814.0
-        },
-        {
-          "date": "2026-03-18",
-          "open": 6.231035232543945,
-          "high": 6.355409145355225,
-          "low": 6.285767555236816,
-          "close": 6.3447089195251465,
-          "volume": 2835248.5
-        }
-      ],
-      "forecast_base": [
-        {
-          "date": "2026-03-12",
-          "open": 6.4799017906188965,
-          "high": 6.512528896331787,
-          "low": 6.343070030212402,
-          "close": 6.33673620223999,
-          "volume": 3950270.5
-        },
-        {
-          "date": "2026-03-13",
-          "open": 6.293040752410889,
-          "high": 6.444246768951416,
-          "low": 6.289236545562744,
-          "close": 6.406865119934082,
-          "volume": 3020583.75
-        },
-        {
-          "date": "2026-03-16",
-          "open": 6.312689304351807,
-          "high": 6.349424839019775,
-          "low": 6.2627387046813965,
-          "close": 6.261861801147461,
-          "volume": 3175609.5
-        },
-        {
-          "date": "2026-03-17",
-          "open": 6.262442111968994,
-          "high": 6.349186897277832,
-          "low": 6.28126859664917,
-          "close": 6.278287887573242,
-          "volume": 2842614.5
-        },
-        {
-          "date": "2026-03-18",
-          "open": 6.250570774078369,
-          "high": 6.319368362426758,
-          "low": 6.2859787940979,
-          "close": 6.27483606338501,
-          "volume": 2661326.75
-        }
-      ],
-      "prediction_logic": "当前油价处于$85.28高位震荡，市场预期库存下降。若EIA数据证实库存大减，WTI有望突破$88阻力位，带动中海油（0883.HK）测试$21.50阻力位，中石油（601857）冲击$8.10箱顶，中石化（600028）看涨至$7.10。反之若库存超预期增加，将引发回调风险。预计相关标的短期波动幅度在3%-5%之间。"
-    }
-  }
+  "charts": {}
 }
