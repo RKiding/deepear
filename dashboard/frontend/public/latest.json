@@ -1,135 +1,838 @@
 {
-  "generated_at": "2026-04-12T21:58:21.616634+08:00",
-  "run_id": "lite_20260412_215821",
+  "generated_at": "2026-04-12T22:39:56.519620+08:00",
+  "run_id": "lite_20260412_223956",
   "count": 2,
   "signals": [
     {
-      "signal_id": "3086437",
-      "title": "美澳6亿美元背书Tronox稀土项目",
-      "summary": "基于TRX当前股价1.54元（3月13日-4月10日区间：1.23-1.74元）及近期震荡上行趋势，该融资利好尚未完全反映在价格中。预计短期目标价区间为1.60-1.75元，对应涨幅3.9%-13.6%；若突破1.74元阻力位，看涨至1.90元（+23.4%）。",
-      "reasoning": "事件核心为美澳政府提供6亿美元（约8.49亿澳元）融资支持Tronox稀土项目，属于实质性利好。技术面上，TRX股价自3月中旬低点1.26元反弹至4月上旬高点1.74元，当前回调至1.54元，处于震荡区间底部。6亿美元融资大幅降低了项目资本开支风险，加速产能落地预期，将提升公司长期成长性。虽然当前股价已从3月底的1.3元反弹，但尚未突破4月8日的高点1.74元，说明市场对该利好的定价仍处于消化期，存在预期差。因此，短期内股价有望依托1.23元支撑，向1.60-1.75元区间修复，长期有望突破阻力位。",
+      "signal_id": "3086442",
+      "title": "北约介入霍尔木兹海峡，地缘风险升温",
+      "summary": "该信号属于高时效性的地缘政治风险事件，强度4级。核心逻辑是北约介入霍尔木兹海峡显著推升了短期冲突概率。市场当前定价呈现'军工部分定价、航运未定价'的特征。建议重点关注军工船舶龙头（中国重工、中国船舶）的订单弹性，警惕航运物流板块（中远海控）的成本上升压力。预计军工板块短期弹性在10%-15%，若冲突实质性升级，军工船舶订单预期将重估。",
+      "reasoning": "",
       "transmission_chain": [
         {
-          "node_name": "上游资源开采/冶炼",
-          "impact_type": "利好",
-          "logic": "美澳政府联合融资6亿美元，显著降低Tronox稀土精炼项目的资本开支风险，加速产能落地，直接提升北美及澳洲稀土供应链的供给确定性。"
+          "node_name": "地缘政治事件 (北约介入)",
+          "impact_type": "利多",
+          "logic": "特朗普表态北约协助处理霍尔木兹海峡问题，显著提升该海域军事冲突风险溢价，打破当前相对平静的地缘格局。"
         },
         {
-          "node_name": "中游稀土材料",
+          "node_name": "军工/船舶制造 (中游)",
           "impact_type": "利好",
-          "logic": "项目投产后将产出轻重稀土混合碳酸盐，改善全球稀土产品结构，减少对中国单一供应链的依赖，利好具备扩产潜力的非中国系稀土企业估值重塑。"
+          "logic": "北约介入逻辑传导至军工板块，引发军费开支预期上升，直接刺激中国船舶（造船）和中国重工（军船）订单预期。"
         },
         {
-          "node_name": "下游永磁材料",
-          "impact_type": "中性偏多",
-          "logic": "长期看，海外供应链多元化将缓解稀土价格波动风险，利好新能源汽车及风电用稀土永磁材料企业的长期需求稳定性。"
+          "node_name": "航运物流 (中游)",
+          "impact_type": "利空",
+          "logic": "霍尔木兹海峡作为全球石油命脉，若局势升级导致关闭，航运公司需绕行好望角，导致中远海控（集装箱）运输成本激增30%-50%，效率下降。"
+        },
+        {
+          "node_name": "能源/石油 (下游)",
+          "impact_type": "利多",
+          "logic": "海峡关闭风险推升油价至120-130美元区间，利好石油贸易和下游炼化企业，但短期剧烈波动增加市场不确定性。"
         }
       ],
       "sentiment_score": 0.0,
       "confidence": 0.7,
       "intensity": 4,
-      "expectation_gap": 0.4,
-      "timeliness": 0.7,
+      "expectation_gap": 0.6,
+      "timeliness": 0.9,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
-      "impact_tickers": [],
+      "impact_tickers": [
+        {
+          "ticker": "600150",
+          "name": "中国船舶",
+          "weight": 0.2,
+          "impact_type": "利好",
+          "reasoning": "国内造船龙头，在大型油轮及军船制造领域具备垄断地位，地缘风险上升将直接刺激船厂交付意愿和订单积压释放。"
+        },
+        {
+          "ticker": "601919",
+          "name": "中远海控",
+          "weight": 0.15,
+          "impact_type": "中性偏空",
+          "reasoning": "集装箱航运受绕行好望角影响，成本上升30%-50%，且航线受阻导致周转率下降，短期业绩承压。"
+        }
+      ],
       "industry_tags": [],
       "sources": [
         {
-          "title": "美澳为稀土项目提供6亿美元融资支持",
-          "url": "https://wallstreetcn.com/livenews/3086437",
+          "title": "特朗普：北约现在有意协助处理霍尔木兹海峡问题。",
+          "url": "https://wallstreetcn.com/livenews/3086442",
           "source_name": "wallstreetcn"
         }
       ],
       "search_results": [
         {
-          "title": "85亿美元稀土豪赌背后:中国“以静制动”掌控权力棋局|矿石|美澳|...",
-          "url": "http://www.baidu.com/link?url=bRY_5-ZS7WRpkNhQGV54UhvFQbZ6VUhK-ulnbnVtsiaed6J9vKLZtilwG4lzDUaRNBA4sSNxi6kPwir3FInwzq",
+          "title": "北约“硬着头皮”入局?霍尔木兹海峡风云再起",
+          "url": "http://www.baidu.com/link?url=McQLCisrXZc5nYA6aiSfIm2Z1GxTigXCq7_4SoTqJMB_1ZIg6GSc_mW7Oul4C_-WuZSPDKddYefI4SNK3WcM3rDwIwSGmyjIO2EuR_Uf5n7",
           "source": "Search (baidu)"
         },
         {
-          "title": "美元即将崛起,澳元寻突破机会,澳洲矿企扩大与中国股东合作关系...",
-          "url": "http://www.baidu.com/link?url=7UifSE5Twl3bN2GaR_D860U4Ja53dRCaFE6z45H7-uteexhZPQ2aQW5YT5cySuLJsu4KGlcwb-qbmCN3OIKEaMPNSKvzMVqXkRRG8Nu0C6G",
+          "title": "短短两周超10国对美说不,霍尔木兹海峡危机中北约还能撑多久?",
+          "url": "http://www.baidu.com/link?url=McQLCisrXZc5nYA6aiSfIm2Z1GxTigXCq7_4SoTqJM4M77RFgp6am7eQu8vBjSegV5y1-tYbFNHTaNb49WXagw9zF9x6vgdMP68eUJAp33W",
           "source": "Search (baidu)"
         },
         {
-          "title": "大家还在搜全球稀土澳大利亚稀土稀土有什么用途美股稀土概念股稀土价格老挝稀土矿非洲稀土格陵兰岛稀土稀土分离收购3.79万吨稀土矿的公司稀土比稀土还珍贵的矿产",
-          "url": "/s?wd=%E5%85%A8%E7%90%83%E7%A8%80%E5%9C%9F&usm=2&ie=utf-8&rsv_pq=cee2961f01059e4e&oq=%E7%BE%8E%E6%BE%B36%E4%BA%BF%E7%BE%8E%E5%85%83%E8%83%8C%E4%B9%A6Tronox%E7%A8%80%E5%9C%9F%E9%A1%B9%E7%9B%AE&rsv_t=e981739vB2ZMksgGv8EUAqP6WtsfWCGkeWGZtzANmoN2idsyRC2iaoy4h%2BY&rsf=101633403&rsv_dl=0_prs_28608_1",
+          "title": "局势再升级!北约酝酿出兵霍尔木兹海峡,背后原因不简单",
+          "url": "http://www.baidu.com/link?url=McQLCisrXZc5nYA6aiSfIm2Z1GxTigXCq7_4SoTqJM4M77RFgp6am7eQu8vBjSegqJ1qddz6lO56jKNF0rMysCbl_-Llj_yzjyl44EgD3yS",
           "source": "Search (baidu)"
         },
         {
-          "title": "Tronox.(TROX)股票最新价格行情,实时走势图,股价分析预测_英为财...",
-          "url": "http://www.baidu.com/link?url=T1KTCaprbVaTfjRAnZQqXQ1KJ8FhalCeoaETkd0Ef_DPu2NGqgi5YVKWub8PBiHr78c2n_mgrYHbbyZCCE_6Qa",
+          "title": "北约护航背后的“投名状”与大国博弈",
+          "url": "http://www.baidu.com/link?url=McQLCisrXZc5nYA6aiSfIm2Z1GxTigXCq7_4SoTqJM4M77RFgp6am7eQu8vBjSegyM_HLTy9phXixM94Xn4c_ZGxhTbbgIQpgYvWkxd_L3q",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "据德媒报道,北约可能在霍尔木兹海峡部署海军。该计划被指意在为...",
+          "url": "http://www.baidu.com/link?url=F_8Y4amweUINk8Yclh4Phjy6_L66bml5fxy7mMv1AH-1X9D1QtTwk6xyHT5OiQxAq1y_6ePpXl4igKt1q40aCRQdaCN4HyZCKlCXxSzaz1e5_6cL9sR0QRiwP4nV6dCz",
           "source": "Search (baidu)"
         }
       ]
     },
     {
-      "signal_id": "2341603",
-      "title": "美伊霍尔木兹海峡冲突升级，军工船舶板块迎催化",
-      "summary": "基于事件强度（4级）及时效性（0.9），军工船舶板块处于强势催化期。建议关注中国船舶（600150），若地缘风险持续，预计短期（1-3个月）股价有望突破近期震荡区间，目标涨幅区间为8%-15%。中国重工（601989）与中船防务（600685）将跟随板块波动，弹性略低于龙头。",
-      "reasoning": "",
+      "signal_id": "3086441",
+      "title": "特朗普威胁封锁霍尔木兹海峡",
+      "summary": "该信号为超短期、高强度的地缘政治黑天鹅事件。预计布伦特原油价格短期快速冲高至85-95美元区间，相关石油开采龙头（中石油、中海油）具备短期博弈价值，建议关注量能配合情况。",
+      "reasoning": "基于研究员背景调查，该信号涉及全球石油咽喉霍尔木兹海峡，若封锁级别超过委内瑞拉制裁，将直接切断全球约30%的石油供应。当前市场可能仅对常规制裁定价，对“高级别封锁”预期不足（Expectation Gap 0.6）。情绪面极度乐观（0.8），强度5级（极大影响）。传导逻辑清晰：地缘紧张推升油价 -> 上游开采企业利润最大化（权重最高）；同时军工板块受益于冲突预期。鉴于信号时效性极高（0.9），且特朗普言论风格强硬，市场可能迅速反应，建议重点关注中石油（601857）与中海油（600938）的短期股价表现及原油期货（WTI）的即时波动。",
       "transmission_chain": [
         {
-          "node_name": "地缘政治事件",
-          "impact_type": "利好",
-          "logic": "特朗普发文威胁摧毁伊朗水雷，明确将采取军事行动，地缘冲突风险急剧升温，打破市场对地区局势的平淡预期。"
-        },
-        {
-          "node_name": "军船制造/海工",
-          "impact_type": "利好",
-          "logic": "冲突升级将直接刺激各国海军军备更新及护航需求。中国船舶（600150）、中国重工（601989）作为大型造船央企，具备承接军船订单及海工装备的产能优势，订单预期大幅提升。"
-        },
-        {
-          "node_name": "航运物流",
+          "node_name": "地缘政治",
           "impact_type": "利空",
-          "logic": "霍尔木兹海峡是全球30%石油运输要道，水雷威胁导致航运保险费率飙升，商船绕行风险增加，短期压制航运板块估值。"
+          "logic": "特朗普威胁封锁霍尔木兹海峡，将造成全球约30%石油贸易中断，地缘溢价急剧攀升。"
+        },
+        {
+          "node_name": "上游原油开采",
+          "impact_type": "利好",
+          "logic": "原油价格飙升（预期涨幅10-20%）将直接推高中石油、中海油、中石化的业绩弹性。"
+        },
+        {
+          "node_name": "炼化板块",
+          "impact_type": "中性偏利空",
+          "logic": "原油成本上涨将挤压炼化企业毛利，但若成品油价格同步跟涨，影响可控。"
+        },
+        {
+          "node_name": "军工板块",
+          "impact_type": "利好",
+          "logic": "地缘冲突升级预期将催化军工订单释放及估值修复，关注造船及战机制造标的。"
         }
       ],
       "sentiment_score": 0.0,
-      "confidence": 0.5,
-      "intensity": 3,
-      "expectation_gap": 0.5,
-      "timeliness": 0.8,
+      "confidence": 0.75,
+      "intensity": 5,
+      "expectation_gap": 0.6,
+      "timeliness": 0.9,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
       "impact_tickers": [],
       "industry_tags": [],
       "sources": [
         {
-          "title": "特朗普称美国将“摧毁”霍尔木兹海峡的水雷",
-          "url": "https://www.cls.cn/detail/2341603",
-          "source_name": "cls"
+          "title": "美国总统特朗普：我们将封锁霍尔木兹海峡。\n\n这将耗费一段时间，但将是行之有效的手段。\n\n伊朗不会掌握核武器，他们没有底牌。\n\n对海峡的封锁级别将比对委内瑞拉“更高”。（福克斯新闻）",
+          "url": "https://wallstreetcn.com/livenews/3086441",
+          "source_name": "wallstreetcn"
         }
       ],
       "search_results": [
         {
-          "title": "美伊冲突升级,军工板块整体受情绪+订单预期双重催化; 天海防务 弹 ...",
-          "url": "http://www.baidu.com/link?url=3nCNV3FvlpwBJOZ_YaRBC6L32AUZ5KBiRg-hWAYpOD0C0N8Aadsqu0HZ2RBcId8pLQM7Jeb_Ln-tqun0XsHpGa",
+          "title": "特朗普:除核问题外谈判进展顺利 美将封锁霍尔木兹海峡-新华网",
+          "url": "http://www.baidu.com/link?url=HOzqRfa3l7iY4FCOOXrCl452VURudnFstw_HlH_HqYaXcpI2JEPPlP5paYs9Uqdvkq8fhL3y1XzSXyqR82CFmUWng6Q5QZJWbT2sX6IEw9CFSDd5k0aZkgmX03wWN6qC",
           "source": "Search (baidu)"
         },
         {
-          "title": "美伊军事冲突升级、对航母概念、船舶、电力行业的影响。_财富号...",
-          "url": "http://www.baidu.com/link?url=oZHoUWBvbqBYV2oDUkcjfR610w9Xw2BEqTGyeh5zWlZN9oGZ-kTh-LdS68C1mgMjcxNjan6kEnCK2qOLICcPH4oIZRUA8NFQEEk27kWBDpK",
+          "title": "特朗普:除核问题外谈判进展顺利 美将封锁霍尔木兹海峡",
+          "url": "http://www.baidu.com/link?url=yZg80EdvlZcHRyw176N9PlwNXpTmlH2froRwIo39KxJQtEIZC9MkI7gIjiiFtg8jdQ16Z43_r-1AxTPyuP6wSzJ5NdWeN6L_xM7VuSXkeUS",
           "source": "Search (baidu)"
         },
         {
-          "title": "美伊霍尔木兹海峡冲突升级,军工船舶板块迎催化的最新相关信息",
-          "url": "http://www.baidu.com/link?url=Axbzk9AVTEJFm0ZPLhfDehsT5ECmsvHJgeXnauqw_ms-ZWP-rwK28b1Q65D7tbidcWjfoIyIm9vwYvlO4MzfHEbH_dasK3afpG1jWy12-bWZ80daljl0wXxKxaeNHy0IlWxhCo9UtdAsm44vKqqUon75V6kj9j-ALEW7i7DDWzHrwjC-KhdQ16kkJHZGNBVygEHswxWbgbx4NUAY6DU4TLPPjd86V8npk4ntQLBMwukMDGPb-tgP6PHlp6BtWsHvVZVJwWFMLdr8T20mOOB2BiCgXb9G_-JTNAXNa2EGunv8lzcVsHRBa0bXzygff5WO-RQ2R_Y1Q5k-Xs5EYr4oRq",
+          "title": "特朗普:除核问题外谈判进展顺利 美将封锁霍尔木兹海峡",
+          "url": "http://www.baidu.com/link?url=yZg80EdvlZcHRyw176N9PlwNXpTmlH2froRwIo39KxJQtEIZC9MkI7gIjiiFtg8j349T8tjgqDXVfYup4OLbAAKfzuBM6jV8JUIFIf5iGSa",
           "source": "Search (baidu)"
         },
         {
-          "title": "美伊军事冲突升级、特别是霍尔木兹海峡关闭事件,对航母概念行业...",
-          "url": "http://www.baidu.com/link?url=oZHoUWBvbqBYV2oDUkcjfR610w9Xw2BEqTGyeh5zWlZN9oGZ-kTh-LdS68C1mgMjcxNjan6kEnCK2qOLICcPH483zp6IAP5hHPNm7EYwbaO",
+          "title": "大家还在搜特朗普是谁霍尔木兹海峡位置霍尔木兹岛伊斯坦布尔 海峡霍尔木兹海峡被称为什么霍尔木兹海峡沟通了什么海和什么海特朗普声明伊朗海峡霍尔木兹重要性",
+          "url": "/s?wd=%E7%89%B9%E6%9C%97%E6%99%AE%E6%98%AF%E8%B0%81&usm=3&ie=utf-8&rsv_pq=ba71473700aa933d&oq=%E7%89%B9%E6%9C%97%E6%99%AE%E5%A8%81%E8%83%81%E5%B0%81%E9%94%81%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1&rsv_t=b03fUUxmq0rcU22lem5rQIsf9ptK5DO%2FzC3MI6gVbEfl5Zo456%2BD4OwztVo&rsf=101631202&rsv_dl=0_prs_28608_1",
           "source": "Search (baidu)"
         },
         {
-          "title": "美伊冲突升级!全球化工命脉被掐断,这5大化工板块最受益",
-          "url": "http://www.baidu.com/link?url=-MhNOoYncJgyNIa7Cr5KpO69tRbazVdt5XfGd1G5fAYhU8FeS2K0veOTRTzBIE878b0aSnfRcA_jIHl2LBRwSsnXPUiyPGwT4Spi_lRDqhe",
+          "title": "特朗普威胁封锁霍尔木兹海峡的最新相关信息",
+          "url": "http://www.baidu.com/link?url=qgUCmNAP9dAzzwLW_nhiKBHaHfjv8sI32Bo3GrLgMbcdTMP3bn-YMvZQmFki2LesPlpzIjV3BdkuBFbpPX31RKvfvAB_nqEAZIWmJa9tnrOM1Y5d1tY1YlGK4WOXdr7RC6P4gBrtcWtdCi7-jsr376JCVilt4YhvXg2gtY7rQHb9DJ-eOpwyrYuTo8lzNhcaEHaTNaxE5jvBPCKmP664UgpRfCFtv1YAiej7UrFFpJTFjetLPcKB7yGqY1apg3aK",
           "source": "Search (baidu)"
         }
       ]
     }
   ],
-  "charts": {}
+  "charts": {
+    "600150": {
+      "ticker": "600150",
+      "name": "中国船舶",
+      "prices": [
+        {
+          "date": "2026-02-27",
+          "open": 38.0,
+          "high": 38.28,
+          "low": 37.59,
+          "close": 37.75,
+          "volume": 878614
+        },
+        {
+          "date": "2026-03-02",
+          "open": 38.1,
+          "high": 38.38,
+          "low": 37.67,
+          "close": 38.13,
+          "volume": 1185762
+        },
+        {
+          "date": "2026-03-03",
+          "open": 38.31,
+          "high": 39.07,
+          "low": 37.48,
+          "close": 37.57,
+          "volume": 1318067
+        },
+        {
+          "date": "2026-03-04",
+          "open": 37.29,
+          "high": 38.86,
+          "low": 36.78,
+          "close": 38.56,
+          "volume": 1509048
+        },
+        {
+          "date": "2026-03-05",
+          "open": 38.8,
+          "high": 39.27,
+          "low": 38.51,
+          "close": 38.76,
+          "volume": 1060742
+        },
+        {
+          "date": "2026-03-06",
+          "open": 38.55,
+          "high": 39.45,
+          "low": 38.43,
+          "close": 38.93,
+          "volume": 983634
+        },
+        {
+          "date": "2026-03-09",
+          "open": 38.64,
+          "high": 38.78,
+          "low": 37.25,
+          "close": 37.32,
+          "volume": 1223581
+        },
+        {
+          "date": "2026-03-10",
+          "open": 37.6,
+          "high": 37.96,
+          "low": 36.95,
+          "close": 37.0,
+          "volume": 803308
+        },
+        {
+          "date": "2026-03-11",
+          "open": 37.01,
+          "high": 37.09,
+          "low": 36.37,
+          "close": 36.56,
+          "volume": 804612
+        },
+        {
+          "date": "2026-03-12",
+          "open": 36.58,
+          "high": 36.65,
+          "low": 35.77,
+          "close": 36.0,
+          "volume": 780189
+        },
+        {
+          "date": "2026-03-13",
+          "open": 35.89,
+          "high": 35.98,
+          "low": 35.08,
+          "close": 35.18,
+          "volume": 790381
+        },
+        {
+          "date": "2026-03-16",
+          "open": 35.6,
+          "high": 35.61,
+          "low": 34.63,
+          "close": 34.91,
+          "volume": 810469
+        },
+        {
+          "date": "2026-03-17",
+          "open": 34.95,
+          "high": 35.2,
+          "low": 34.36,
+          "close": 34.4,
+          "volume": 801264
+        },
+        {
+          "date": "2026-03-18",
+          "open": 34.46,
+          "high": 34.6,
+          "low": 34.02,
+          "close": 34.58,
+          "volume": 708021
+        },
+        {
+          "date": "2026-03-19",
+          "open": 34.17,
+          "high": 34.71,
+          "low": 34.05,
+          "close": 34.16,
+          "volume": 801953
+        },
+        {
+          "date": "2026-03-20",
+          "open": 34.38,
+          "high": 34.41,
+          "low": 33.15,
+          "close": 33.15,
+          "volume": 970724
+        },
+        {
+          "date": "2026-03-23",
+          "open": 32.49,
+          "high": 32.5,
+          "low": 30.83,
+          "close": 31.13,
+          "volume": 1384161
+        },
+        {
+          "date": "2026-03-24",
+          "open": 31.52,
+          "high": 31.73,
+          "low": 31.1,
+          "close": 31.58,
+          "volume": 774084
+        },
+        {
+          "date": "2026-03-25",
+          "open": 31.81,
+          "high": 32.06,
+          "low": 31.64,
+          "close": 31.85,
+          "volume": 714826
+        },
+        {
+          "date": "2026-03-26",
+          "open": 31.85,
+          "high": 31.85,
+          "low": 30.52,
+          "close": 30.67,
+          "volume": 832688
+        },
+        {
+          "date": "2026-03-27",
+          "open": 30.29,
+          "high": 30.98,
+          "low": 30.0,
+          "close": 30.84,
+          "volume": 529242
+        },
+        {
+          "date": "2026-03-30",
+          "open": 30.35,
+          "high": 30.78,
+          "low": 30.16,
+          "close": 30.55,
+          "volume": 567154
+        },
+        {
+          "date": "2026-03-31",
+          "open": 30.9,
+          "high": 31.53,
+          "low": 30.81,
+          "close": 30.84,
+          "volume": 825881
+        },
+        {
+          "date": "2026-04-01",
+          "open": 31.3,
+          "high": 31.44,
+          "low": 30.88,
+          "close": 31.05,
+          "volume": 573898
+        },
+        {
+          "date": "2026-04-02",
+          "open": 31.0,
+          "high": 31.21,
+          "low": 30.62,
+          "close": 30.9,
+          "volume": 479427
+        },
+        {
+          "date": "2026-04-03",
+          "open": 30.91,
+          "high": 31.0,
+          "low": 30.4,
+          "close": 30.51,
+          "volume": 364583
+        },
+        {
+          "date": "2026-04-07",
+          "open": 30.55,
+          "high": 32.29,
+          "low": 30.55,
+          "close": 31.98,
+          "volume": 1125420
+        },
+        {
+          "date": "2026-04-08",
+          "open": 32.26,
+          "high": 32.43,
+          "low": 31.81,
+          "close": 32.42,
+          "volume": 1019298
+        },
+        {
+          "date": "2026-04-09",
+          "open": 32.15,
+          "high": 32.33,
+          "low": 31.91,
+          "close": 32.23,
+          "volume": 552745
+        },
+        {
+          "date": "2026-04-10",
+          "open": 32.3,
+          "high": 32.88,
+          "low": 32.3,
+          "close": 32.65,
+          "volume": 600439
+        }
+      ],
+      "prediction": {
+        "target_low": -0.8,
+        "target_high": 0.7,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-04-13",
+          "open": 32.752845764160156,
+          "high": 32.903053283691406,
+          "low": 32.30419158935547,
+          "close": 32.46234130859375,
+          "volume": 626738.25
+        },
+        {
+          "date": "2026-04-14",
+          "open": 32.68251037597656,
+          "high": 32.83967971801758,
+          "low": 32.32168960571289,
+          "close": 32.37898254394531,
+          "volume": 646807.0625
+        },
+        {
+          "date": "2026-04-15",
+          "open": 32.52647018432617,
+          "high": 32.86577606201172,
+          "low": 32.32691192626953,
+          "close": 32.60212326049805,
+          "volume": 595246.4375
+        },
+        {
+          "date": "2026-04-16",
+          "open": 32.838871002197266,
+          "high": 33.23704147338867,
+          "low": 32.59318542480469,
+          "close": 32.88606262207031,
+          "volume": 590727.875
+        },
+        {
+          "date": "2026-04-17",
+          "open": 33.10799026489258,
+          "high": 33.242191314697266,
+          "low": 32.636260986328125,
+          "close": 32.75089645385742,
+          "volume": 553331.125
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-04-13",
+          "open": 32.74002456665039,
+          "high": 33.224552154541016,
+          "low": 32.22727966308594,
+          "close": 32.88544845581055,
+          "volume": 965308.875
+        },
+        {
+          "date": "2026-04-14",
+          "open": 32.90658187866211,
+          "high": 32.87189483642578,
+          "low": 32.441070556640625,
+          "close": 32.46336364746094,
+          "volume": 802681.6875
+        },
+        {
+          "date": "2026-04-15",
+          "open": 32.697200775146484,
+          "high": 32.94154739379883,
+          "low": 32.35953140258789,
+          "close": 32.57387924194336,
+          "volume": 661811.0625
+        },
+        {
+          "date": "2026-04-16",
+          "open": 32.91598129272461,
+          "high": 32.940216064453125,
+          "low": 32.5169677734375,
+          "close": 32.54884338378906,
+          "volume": 890294.5
+        },
+        {
+          "date": "2026-04-17",
+          "open": 32.81542205810547,
+          "high": 32.806636810302734,
+          "low": 32.3911018371582,
+          "close": 32.42345428466797,
+          "volume": 615590.0
+        }
+      ],
+      "prediction_logic": "该信号属于高时效性的地缘政治风险事件，强度4级。核心逻辑是北约介入霍尔木兹海峡显著推升了短期冲突概率。市场当前定价呈现'军工部分定价、航运未定价'的特征。建议重点关注军工船舶龙头（中国重工、中国船舶）的订单弹性，警惕航运物流板块（中远海控）的成本上升压力。预计军工板块短期弹性在10%-15%，若冲突实质性升级，军工船舶订单预期将重估。"
+    },
+    "601919": {
+      "ticker": "601919",
+      "name": "中远海控",
+      "prices": [
+        {
+          "date": "2026-02-27",
+          "open": 15.1,
+          "high": 15.11,
+          "low": 14.95,
+          "close": 15.01,
+          "volume": 802744
+        },
+        {
+          "date": "2026-03-02",
+          "open": 15.47,
+          "high": 15.49,
+          "low": 14.95,
+          "close": 15.44,
+          "volume": 2948627
+        },
+        {
+          "date": "2026-03-03",
+          "open": 15.5,
+          "high": 16.98,
+          "low": 15.31,
+          "close": 16.97,
+          "volume": 5663360
+        },
+        {
+          "date": "2026-03-04",
+          "open": 16.5,
+          "high": 16.5,
+          "low": 15.27,
+          "close": 15.85,
+          "volume": 3792399
+        },
+        {
+          "date": "2026-03-05",
+          "open": 15.71,
+          "high": 16.14,
+          "low": 15.49,
+          "close": 15.78,
+          "volume": 2633098
+        },
+        {
+          "date": "2026-03-06",
+          "open": 15.65,
+          "high": 15.88,
+          "low": 15.47,
+          "close": 15.79,
+          "volume": 1487880
+        },
+        {
+          "date": "2026-03-09",
+          "open": 16.02,
+          "high": 16.24,
+          "low": 15.51,
+          "close": 15.52,
+          "volume": 1910308
+        },
+        {
+          "date": "2026-03-10",
+          "open": 15.3,
+          "high": 15.67,
+          "low": 15.26,
+          "close": 15.4,
+          "volume": 1189997
+        },
+        {
+          "date": "2026-03-11",
+          "open": 15.36,
+          "high": 15.78,
+          "low": 15.3,
+          "close": 15.75,
+          "volume": 1301929
+        },
+        {
+          "date": "2026-03-12",
+          "open": 15.73,
+          "high": 16.0,
+          "low": 15.66,
+          "close": 15.94,
+          "volume": 1267834
+        },
+        {
+          "date": "2026-03-13",
+          "open": 15.82,
+          "high": 16.0,
+          "low": 15.74,
+          "close": 15.78,
+          "volume": 1265149
+        },
+        {
+          "date": "2026-03-16",
+          "open": 15.77,
+          "high": 16.14,
+          "low": 15.69,
+          "close": 16.08,
+          "volume": 1292222
+        },
+        {
+          "date": "2026-03-17",
+          "open": 16.07,
+          "high": 16.41,
+          "low": 16.0,
+          "close": 16.14,
+          "volume": 1111792
+        },
+        {
+          "date": "2026-03-18",
+          "open": 16.15,
+          "high": 16.42,
+          "low": 15.98,
+          "close": 16.2,
+          "volume": 1028569
+        },
+        {
+          "date": "2026-03-19",
+          "open": 16.14,
+          "high": 16.29,
+          "low": 15.98,
+          "close": 15.98,
+          "volume": 1023909
+        },
+        {
+          "date": "2026-03-20",
+          "open": 15.69,
+          "high": 15.96,
+          "low": 15.65,
+          "close": 15.83,
+          "volume": 1486433
+        },
+        {
+          "date": "2026-03-23",
+          "open": 15.66,
+          "high": 15.7,
+          "low": 15.33,
+          "close": 15.38,
+          "volume": 1440992
+        },
+        {
+          "date": "2026-03-24",
+          "open": 15.49,
+          "high": 15.65,
+          "low": 15.35,
+          "close": 15.5,
+          "volume": 1056000
+        },
+        {
+          "date": "2026-03-25",
+          "open": 15.48,
+          "high": 15.48,
+          "low": 15.08,
+          "close": 15.17,
+          "volume": 1233399
+        },
+        {
+          "date": "2026-03-26",
+          "open": 15.3,
+          "high": 15.42,
+          "low": 15.21,
+          "close": 15.26,
+          "volume": 810516
+        },
+        {
+          "date": "2026-03-27",
+          "open": 15.16,
+          "high": 15.25,
+          "low": 15.06,
+          "close": 15.17,
+          "volume": 724383
+        },
+        {
+          "date": "2026-03-30",
+          "open": 15.17,
+          "high": 15.46,
+          "low": 15.1,
+          "close": 15.37,
+          "volume": 974881
+        },
+        {
+          "date": "2026-03-31",
+          "open": 15.41,
+          "high": 15.48,
+          "low": 15.0,
+          "close": 15.01,
+          "volume": 828198
+        },
+        {
+          "date": "2026-04-01",
+          "open": 15.1,
+          "high": 15.22,
+          "low": 15.03,
+          "close": 15.18,
+          "volume": 676076
+        },
+        {
+          "date": "2026-04-02",
+          "open": 15.1,
+          "high": 15.31,
+          "low": 15.09,
+          "close": 15.2,
+          "volume": 640986
+        },
+        {
+          "date": "2026-04-03",
+          "open": 15.21,
+          "high": 15.25,
+          "low": 14.95,
+          "close": 15.04,
+          "volume": 662855
+        },
+        {
+          "date": "2026-04-07",
+          "open": 15.04,
+          "high": 15.18,
+          "low": 15.0,
+          "close": 15.1,
+          "volume": 450747
+        },
+        {
+          "date": "2026-04-08",
+          "open": 15.16,
+          "high": 15.24,
+          "low": 15.07,
+          "close": 15.2,
+          "volume": 911908
+        },
+        {
+          "date": "2026-04-09",
+          "open": 15.15,
+          "high": 15.22,
+          "low": 15.08,
+          "close": 15.2,
+          "volume": 577286
+        },
+        {
+          "date": "2026-04-10",
+          "open": 15.28,
+          "high": 15.4,
+          "low": 15.15,
+          "close": 15.2,
+          "volume": 624765
+        }
+      ],
+      "prediction": {
+        "target_low": 1.1,
+        "target_high": 2.5,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-04-13",
+          "open": 15.279287338256836,
+          "high": 15.597005844116211,
+          "low": 15.25667667388916,
+          "close": 15.36893367767334,
+          "volume": 831082.75
+        },
+        {
+          "date": "2026-04-14",
+          "open": 15.36657428741455,
+          "high": 15.570852279663086,
+          "low": 15.241880416870117,
+          "close": 15.374727249145508,
+          "volume": 1015008.1875
+        },
+        {
+          "date": "2026-04-15",
+          "open": 15.403085708618164,
+          "high": 15.602657318115234,
+          "low": 15.129914283752441,
+          "close": 15.559147834777832,
+          "volume": 1027367.625
+        },
+        {
+          "date": "2026-04-16",
+          "open": 15.444618225097656,
+          "high": 15.652225494384766,
+          "low": 15.383112907409668,
+          "close": 15.566411972045898,
+          "volume": 1192303.25
+        },
+        {
+          "date": "2026-04-17",
+          "open": 15.595669746398926,
+          "high": 15.756590843200684,
+          "low": 15.474295616149902,
+          "close": 15.586456298828125,
+          "volume": 825334.5625
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-04-13",
+          "open": 15.333968162536621,
+          "high": 15.439603805541992,
+          "low": 15.302519798278809,
+          "close": 15.354674339294434,
+          "volume": 629326.375
+        },
+        {
+          "date": "2026-04-14",
+          "open": 15.407845497131348,
+          "high": 15.493246078491211,
+          "low": 15.22532844543457,
+          "close": 15.31352710723877,
+          "volume": 800786.75
+        },
+        {
+          "date": "2026-04-15",
+          "open": 15.300268173217773,
+          "high": 15.38992977142334,
+          "low": 15.092905044555664,
+          "close": 15.316351890563965,
+          "volume": 656787.4375
+        },
+        {
+          "date": "2026-04-16",
+          "open": 15.27585506439209,
+          "high": 15.339986801147461,
+          "low": 15.035158157348633,
+          "close": 15.092132568359375,
+          "volume": 896437.5625
+        },
+        {
+          "date": "2026-04-17",
+          "open": 14.966867446899414,
+          "high": 15.167978286743164,
+          "low": 14.940092086791992,
+          "close": 15.176675796508789,
+          "volume": 926520.6875
+        }
+      ],
+      "prediction_logic": "该信号属于高时效性的地缘政治风险事件，强度4级。核心逻辑是北约介入霍尔木兹海峡显著推升了短期冲突概率。市场当前定价呈现'军工部分定价、航运未定价'的特征。建议重点关注军工船舶龙头（中国重工、中国船舶）的订单弹性，警惕航运物流板块（中远海控）的成本上升压力。预计军工板块短期弹性在10%-15%，若冲突实质性升级，军工船舶订单预期将重估。"
+    }
+  }
 }
