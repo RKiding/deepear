@@ -1,80 +1,314 @@
 {
-  "generated_at": "2026-08-12T17:01:49.680086+08:00",
-  "run_id": "lite_20260812_170149",
-  "count": 2,
+  "generated_at": "2026-08-12T17:58:39.575146+08:00",
+  "run_id": "lite_20260812_175839",
+  "count": 5,
   "signals": [
     {
-      "signal_id": "3148524",
-      "title": "腾讯Q2营收超预期，利润不及预期",
-      "summary": "腾讯Q2营收超预期验证业务复苏逻辑，但净利润不及预期显示成本端压力。基于当前数据，短期股价可能维持震荡，建议关注后续单季盈利修复情况。",
-      "reasoning": "根据ISQ框架分析：1) 营收2,047.9亿（+8%）超市场预估，表明游戏及广告业务强劲复苏，提振情绪分至0.5；2) 净利润560.2亿（+2%）低于预估，主要受非现金收益减少及研发投入增加影响，导致预期差分至0.3；3) 投资者对复苏路径已部分定价，但利润波动提供了博弈空间；4) 数据明确，为官方财报，确定性分0.8。股价当前处于业绩验证期，核心看点在于利润端能否在后续季度兑现增长。",
+      "signal_id": "3148557",
+      "title": "美债下行+非农疲软，纳指期货拉升降息预期",
+      "summary": "当前市场已部分定价降息预期，但期指0.7%的拉升显示情绪仍有上行空间。预计纳指100短期目标位96.5（+1.6%），美债价格进一步上行，科技股（特别是英伟达）反弹弹性最大。",
+      "reasoning": "基于研究员提供的数据，当前事件核心在于宏观数据驱动。10年期美债收益率下行3bp至4.66%直接降低了科技股的贴现率，配合非农数据大幅不及预期的宏观背景，市场对美联储降息的确定性增强。NDAQ指数当前处于95.02附近，日内波动区间显示多头尝试突破96.0阻力位。技术面上，虽然当日收跌0.63%，但开盘价95.43强于前收盘，且成交量209万股显示交投活跃，表明多头承接有力。综合来看，情绪偏向乐观（0.8），强度中等偏上（4），市场正处于“经济数据走弱 -> 降息预期强化 -> 科技股估值修复”的传导链条中。预期差主要在于市场对降息幅度的博弈，而非降息本身。",
       "transmission_chain": [
         {
-          "node_name": "核心业务",
+          "node_name": "宏观因子 (美债收益率)",
           "impact_type": "利好",
-          "logic": "营收超预期（2047.9亿 vs 2028.4亿）印证游戏及广告业务复苏，营收端利好股价估值提升。"
+          "logic": "10年期美债收益率下行3bp至4.66%，融资成本降低，提升科技股估值弹性，强化软着陆预期。"
         },
         {
-          "node_name": "盈利能力",
-          "impact_type": "利空",
-          "logic": "净利润低于预期（560.2亿 vs 583.6亿），受投资收益波动及研发投入增加影响，短期压制利润表现。"
+          "node_name": "宏观因子 (非农数据)",
+          "impact_type": "利好",
+          "logic": "非农就业大幅不及预期（-23万 vs +8万），市场转向预期9月降息，风险偏好显著回升。"
         },
         {
-          "node_name": "市场情绪",
-          "impact_type": "中性偏多",
-          "logic": "基本面稳健，符合市场对复苏趋势的预期，但利润不及预期可能引发短期获利回吐。"
+          "node_name": "指数层面 (纳斯达克100)",
+          "impact_type": "利好",
+          "logic": "期指拉升0.7%，资金回流高贝塔科技股，NDAQ指数技术面虽有调整但核心支撑稳固。"
+        },
+        {
+          "node_name": "成分股 (科技巨头)",
+          "impact_type": "利好",
+          "logic": "NVDA、AAPL等高估值标的受益于利率下行，盈利贴现模型（DCF）中的折现率降低，推升目标价。"
         }
       ],
       "sentiment_score": 0.0,
-      "confidence": 0.5,
-      "intensity": 3,
-      "expectation_gap": 0.5,
-      "timeliness": 0.8,
+      "confidence": 0.75,
+      "intensity": 4,
+      "expectation_gap": 0.3,
+      "timeliness": 0.85,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
       "impact_tickers": [],
       "industry_tags": [],
       "sources": [
         {
-          "title": "【腾讯控股第二季度营收2,047.9亿元人民币，预估2,028.4亿元人民币】第二季度净利润560.2亿元人民币，预估583.6亿元人民币。",
-          "url": "https://wallstreetcn.com/livenews/3148524",
+          "title": "美股期指短线拉升，纳斯达克100指数期货上涨0.7%。\n\n美国国债上涨，美国10年期国债收益率下行3个基点至4.66%。",
+          "url": "https://wallstreetcn.com/livenews/3148557",
           "source_name": "wallstreetcn"
         }
       ],
       "search_results": [
         {
-          "title": "腾讯控股q2营收2047.9亿元，算力采购大幅推高资本开支至527.8亿元，自由现金流转负...",
-          "url": "https://xueqiu.com/1107854878/404743883",
-          "source": "Search (ddg)"
+          "title": "大家还在搜美联储加息对期货市场的影响新兴市场外汇指数跌幅扩大热降息美债价格会如何美债投资者称美联储将转向美联储降息对美元的影响1月美债波动大期货尾盘做单美元降息美元指数会涨吗",
+          "url": "/s?wd=%E7%BE%8E%E8%81%94%E5%82%A8%E5%8A%A0%E6%81%AF%E5%AF%B9%E6%9C%9F%E8%B4%A7%E5%B8%82%E5%9C%BA%E7%9A%84%E5%BD%B1%E5%93%8D&usm=2&ie=utf-8&rsv_pq=d3f8b2e60004d4c6&oq=%E7%BE%8E%E5%80%BA%E4%B8%8B%E8%A1%8C%20%E9%9D%9E%E5%86%9C%E7%96%B2%E8%BD%AF%2C%E7%BA%B3%E6%8C%87%E6%9C%9F%E8%B4%A7%E6%8B%89%E5%8D%87%E9%99%8D%E6%81%AF%E9%A2%84%E6%9C%9F&rsv_t=84d5ntAzg89jDQc%2F7Isd3vuDlHT4nPXPiLFubWgeQP4WEZ8SAhr3FzgKvic&rsf=101636703&rsv_dl=0_prs_28608_1",
+          "source": "Search (baidu)"
         },
         {
-          "title": "特斯拉q2营收超预期但利润失色 资本开支不及目标引发技术担忧_腾讯新闻",
-          "url": "https://news.qq.com/rain/a/20260723A03JPB00",
-          "source": "Search (ddg)"
+          "title": "...美债|债市|股市|美股|日元|美元指数|非农数据_网易订阅",
+          "url": "http://www.baidu.com/link?url=pYvYFiXTqjkmdODw3IdwnsMCjrqdtfK6i6yzc5G2KjH30VTuK6RaBFxLw0M6twhd6eT6Q0nqTv7IHIVED5OMMa",
+          "source": "Search (baidu)"
         },
         {
-          "title": "⚡️华泰证券对于腾讯音乐q2业绩的点评~ Q2收入和利润超预期，但主要是 喜马拉雅 并表影响，喜马拉雅q2贡献收入4.07亿元【大部分会员收入 ...",
-          "url": "https://xueqiu.com/3464131377/404730429",
-          "source": "Search (ddg)"
+          "title": "ADP 数据大幅降温,非农倒计时!外盘期货迎来关键变盘窗口|原油|...",
+          "url": "http://www.baidu.com/link?url=Eglw_MMUhQe4ZXwbnf52uRW1PgUcRMvwPogWC695gboyoEnoh6DZC3jWvH8ZJ4xyzkxu0mBoSaNKPw3xCK6fi_",
+          "source": "Search (baidu)"
         },
         {
-          "title": "腾讯控股q2营收2047.9亿元，算力采购大幅推高资本开支至527.8亿元，自由现金流转负 | 财报见闻",
-          "url": "https://www.msn.cn/zh-cn/money/other/腾讯控股q2营收2047-9亿元-算力采购大幅推高资本开支至527-8亿元-自由现金流转负-财报见闻/ar-AA29VlZu",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "腾讯Q2财报超预期，AI效益加速兑现驱动广告、游戏显著增长",
-          "url": "https://zhuanlan.zhihu.com/p/1939272679036281157",
-          "source": "Search (ddg)"
+          "title": "非农“大降温” 美股期货走高 美债收益率快速下行|国债|美联储|美元...",
+          "url": "http://www.baidu.com/link?url=nzCqCl5XydJcN7wpBWPNyPawo5YgCKMqxIgJ4h7aa627k0kUpLpsE3gBkwPi8olY1y-xhzCA92JpjEEJ7KX-Aq",
+          "source": "Search (baidu)"
         }
       ]
     },
     {
-      "signal_id": "2452405",
-      "title": "腾讯加码算力采购，AI落地提速",
-      "summary": "暂无摘要分析",
-      "reasoning": "腾讯公告显示Q3大幅增加算力采购，将AI应用与模型转化为收入，属于实质性利好。虽然市场此前已预期腾讯在AI领域的投入，但“转化为收入”的明确表态显著降低了市场对长期盈利不确定性的担忧。股价目前处于震荡上行通道，突破前高将打开上涨空间，建议关注430港元阻力位突破情况及395港元支撑位的防守。",
-      "transmission_chain": [],
+      "signal_id": "3148554",
+      "title": "中矿资源津巴布韦10万吨锂矿项目开工",
+      "summary": "信号强度中等（3/5），情绪偏多（0.6）。中矿资源（002738）津巴布韦10万吨锂矿项目全面开工，是公司产能扩张的关键里程碑。当前股价53.28元处于技术震荡区间（支撑53.00，阻力55.49），30日涨幅4.47%，显示市场已开始关注但尚未完全定价。项目预期将增厚未来业绩，建议关注后续突破方向及产能爬坡进度。目标价区间：58.00 - 62.00元（对应较当前涨幅+8.9% ~ +16.4%）。",
+      "reasoning": "基于研究员提供的数据，中矿资源当前股价53.28元，位于30日区间（42.31-55.49）的上半部，振幅26.2%，且近期成交量在19-37万手之间波动，显示资金活跃但分歧存在。技术面显示股价在53.00支撑位和55.49阻力位之间震荡。项目全面开工是明确的产能扩张信号，通常此类信号会提升市场对业绩增长的确定性预期。虽然研究员指出当前定价可能处于‘部分定价’状态（因为股价已从低位回升），但项目投产的具体时间节点和盈利贡献尚未完全体现在股价中，因此存在一定的预期差修复空间。逻辑链条上，项目开工直接利好公司未来业绩，但受限于锂价周期和项目建设周期，短期（1-3个月）对股价的推动更多是情绪和预期层面的，而非即时的财务报表修正。",
+      "transmission_chain": [
+        {
+          "node_name": "项目投产",
+          "impact_type": "利好",
+          "logic": "津巴布韦10万吨硫酸锂项目全面开工，标志着公司海外锂资源产能扩张进入实质性建设阶段，未来将显著增厚公司锂盐业务利润，提振市场对业绩增长的预期。"
+        },
+        {
+          "node_name": "产能释放",
+          "impact_type": "利好",
+          "logic": "项目投产后将直接提升公司锂盐供给能力，有助于降低单一市场依赖，增强供应链抗风险能力，增强公司长期业绩确定性。"
+        },
+        {
+          "node_name": "股价震荡",
+          "impact_type": "中性",
+          "logic": "当前股价53.28元，处于30日高点55.49元和低点42.31元震荡区间，技术面显示短期在53-55元区间博弈，资金关注度较高，但尚未完全反映项目投产的具体时间表和盈利贡献。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "002738",
+          "name": "中矿资源",
+          "weight": 0.8
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "中矿资源津巴布韦年产10万吨硫酸锂项目全面开工",
+          "url": "https://wallstreetcn.com/livenews/3148554",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "大家还在搜中矿资源津巴布韦锂矿招聘中矿集团津巴布韦项目紫金矿业刚果金锂矿项目西部矿业锂矿注入锂矿有什么用途中国最大的锂矿公司排名雅化集团锂矿最新进展全球锂矿资源储量",
+          "url": "/s?wd=%E4%B8%AD%E7%9F%BF%E8%B5%84%E6%BA%90%E6%B4%A5%E5%B7%B4%E5%B8%83%E9%9F%A6%E9%94%82%E7%9F%BF%E6%8B%9B%E8%81%98&usm=2&ie=utf-8&rsv_pq=b87220e1001e9f3f&oq=%E4%B8%AD%E7%9F%BF%E8%B5%84%E6%BA%90%E6%B4%A5%E5%B7%B4%E5%B8%83%E9%9F%A610%E4%B8%87%E5%90%A8%E9%94%82%E7%9F%BF%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%B7%A5&rsv_t=8269Bwdqvcm%2BYRZ8gV13T5Wwbxei5PhJn08Th7kCabhKJvTbkJ0EkVgCAYY&rsf=101636703&rsv_dl=0_prs_28608_1",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "中矿资源:拟定增募资不超52亿元,用于津巴布韦年产10万吨硫酸锂项目等...",
+          "url": "http://www.baidu.com/link?url=PJTlg-hdvF29KzqKWzYGDsVKXkizbxe0l2saBpZI_dujHVxDuJbJhwyXIdxLAYys9oGuZ15Q97lZV5hVp3Gg3_",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "中矿资源:拟定增募资不超52亿元,用于津巴布韦年产10万吨硫酸锂项目等...",
+          "url": "http://www.baidu.com/link?url=E0f89h11-61BdZQ1QZFBUuzL5JDLY2euqpO14E7dSWzhIDQmKy_MtS4BkySLzdMYu-K4k8FG7prmrPcJh0A_ZK",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "中矿资源拟募52亿推进三大项目 首季扣非增10倍经营净现金流转正...",
+          "url": "http://www.baidu.com/link?url=3kVQ-iZaWELH-r-Q4RXBdO6ay5_w2agKZ4C1ERyZT52wwUgwDC8EgPRrZf7_6JUl4rP7Z91TctQOh_3LsVkuMq",
+          "source": "Search (baidu)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3148553",
+      "title": "美日汇率失守159，日元贬值加速",
+      "summary": "美元兑日元跌破159关口（158.86），创40年新低，市场对利差交易的交易情绪达到极值。受此影响，A股外资重仓股（如茅台、五粮液）面临估值调整压力，但出境消费板块（如中国中免）受益于日元贬值带来的客流回流，具备短期业绩弹性。预计未来一周，日元贬值逻辑将持续发酵，关注158.50-158.00关键支撑位。",
+      "reasoning": "基于研究员提供的数据，美元兑日元在2026年8月12日报158.86，失守159心理关口，且为40年来最低位，这一信号具有极强的历史周期意义和趋势破坏性。当前市场情绪极度悲观（Sentiment -0.8），市场对利差交易的平仓风险高度敏感。在A股映射层面，日元贬值对“中国中免”等出境消费股构成直接利好逻辑，而对“宁德时代”等依赖进口资源的公司则构成成本压力。虽然汇率波动本身不直接决定A股涨跌，但其作为全球宏观情绪的风向标，会通过影响北向资金流向和人民币汇率预期，进而对市场风格产生分流作用。当前定价处于“部分定价”状态，市场已开始交易贬值带来的结构性行情，但尚未完全计入日元进一步贬值的极端风险。",
+      "transmission_chain": [
+        {
+          "node_name": "宏观汇率",
+          "impact_type": "利空",
+          "logic": "美元兑日元失守159关口，创40年新低，日元加速贬值，中美货币政策分化加剧。"
+        },
+        {
+          "node_name": "A股出口/消费",
+          "impact_type": "利好",
+          "logic": "日元贬值削弱日本出口竞争力，利好中国出口型企业抢占市场份额；同时刺激赴日消费，利好免税及出境游板块。"
+        },
+        {
+          "node_name": "A股进口/资源",
+          "impact_type": "利空",
+          "logic": "日元贬值导致全球大宗商品定价波动，增加中国进口型企业原材料成本，压缩利润空间。"
+        },
+        {
+          "node_name": "外资流向",
+          "impact_type": "中性偏空",
+          "logic": "日元贬值可能导致部分资金回流日本市场寻求套利机会，短期内对A股北向资金造成分流压力。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.85,
+      "intensity": 4,
+      "expectation_gap": 0.6,
+      "timeliness": 0.75,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "601888",
+          "name": "中国中免",
+          "weight": 0.12,
+          "reason": "高度依赖入境游及免税消费，日元贬值利好赴日游客消费，直接提升其免税消费场景业绩弹性。"
+        },
+        {
+          "ticker": "601888",
+          "name": "中国中免",
+          "weight": 0.1,
+          "reason": "汇率波动影响海外采购及销售成本，日元贬值导致进口商品成本相对上升，压缩部分毛利率。"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "美元兑日元失守159，报158.86，日内跌约0.22%。",
+          "url": "https://wallstreetcn.com/livenews/3148553",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "大家还在搜美元兑日元突破159新美国紧急介入日元暴跌新美元兑日元失守156.00关口美元兑日元失守149中美连手失败日元持续下跌新美元兑换日元汇率最新日元 汇率日元对美元汇率历史",
+          "url": "/s?wd=%E7%BE%8E%E5%85%83%E5%85%91%E6%97%A5%E5%85%83%E7%AA%81%E7%A0%B4159&usm=2&ie=utf-8&rsv_pq=c2ea47b3001f2730&oq=%E7%BE%8E%E6%97%A5%E6%B1%87%E7%8E%87%E5%A4%B1%E5%AE%88159%2C%E6%97%A5%E5%85%83%E8%B4%AC%E5%80%BC%E5%8A%A0%E9%80%9F&rsv_t=a830Y95BBP%2FcNvvzgzumj4BXM5JqjuIOjcNgiDVRNuMaSg1Zi20aMD%2BJg4E&rsf=101632809&rsv_dl=0_prs_28608_1",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "【稿费】日元崩了_腾讯新闻",
+          "url": "http://www.baidu.com/link?url=2ZnOl94aOM2eCg3xzYuvP27rGN55z8gLLUaSHBViGsusEHLIUQeMV1DiocBB8B3OiIWBRNHjJrLU_t9Ud5OAh_",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "失去“避险货币”,日本左右为难|日本|美元|日本央行_新浪新闻",
+          "url": "http://www.baidu.com/link?url=nHxHUd3q9aQ-qpE-EuM1UCbGMo6gWrxjXPjZG9BWSEdMHDLShOIZpHZoRPfoxCtO6vlHJev5G_EzPlghk2nhdyKFM7eP995SvdTdDZfdlkC",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "160日元关口保卫战:日元贬值压力持续升级|关口保卫战|加息|日元|...",
+          "url": "http://www.baidu.com/link?url=9GNQOqI84I8TOLAEMu53jEJKO8TbM2XN2I5JW6S5wShyuFQmt8B8jU49Z6VPEZcsTgQlHWzU1MOcraVdMhlrWa",
+          "source": "Search (baidu)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2452449",
+      "title": "贝莱德减持中石油H股0.17%",
+      "summary": "当前信号处于【部分定价】状态。贝莱德减持幅度极小，属于常规操作，市场情绪面承压但基本面支撑稳固。预计H股短期将面临0.5%-1.0%的调整压力，但长期价值未受破坏。建议关注AH股溢价率修复带来的结构性机会。",
+      "reasoning": "基于研究员提供的具体数据：贝莱德于8月7日减持中国石油H股0.17个百分点（从6.16%降至5.99%）。首先，从量化角度看，0.17%的持股变动在总股本中占比微乎其微，属于典型的仓位微调，不具备“抛售”信号的特征。其次，贝莱德作为ESG投资巨头，通常长期持有优质蓝筹，此次减持更可能是基于全球资产配置的再平衡或获利了结，而非对中石油基本面的否定。第三，中石油作为能源安全核心资产，在当前地缘政治背景下具备较强的抗跌性。因此，该信号对股价的实质影响有限，更多是短期情绪扰动，属于【部分定价】状态。",
+      "transmission_chain": [
+        {
+          "node_name": "贝莱德投资决策",
+          "impact_type": "中性偏空",
+          "logic": "贝莱德作为全球最大资管机构，减持幅度微小（0.17个百分点），属于典型的持仓微调或获利了结，非大规模撤退。此举主要反映全球宏观资产配置轮动，对个股基本面影响有限，但会在短期引发市场情绪波动。"
+        },
+        {
+          "node_name": "H股市场情绪",
+          "impact_type": "利空",
+          "logic": "外资动向是H股定价的风向标。贝莱德减持可能被部分资金解读为外资看淡能源板块，导致H股短期承压，尤其在缺乏增量资金的情况下，容易放大波动。"
+        },
+        {
+          "node_name": "中石油基本面",
+          "impact_type": "中性",
+          "logic": "作为全球能源巨头，中国石油拥有稳定的现金流和分红。0.17%的减持比例不足以改变其长期投资价值。在油价高位震荡和能源安全逻辑支撑下，其核心资产属性未变。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "00857",
+          "name": "中国石油股份",
+          "weight": 1.0
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "财联社8月12日电，香港交易所信息显示，贝莱德（BlackRock）在中国石油股份H股的持股比例于08月07日从6.16%降至5.99%。",
+          "url": "https://www.cls.cn/detail/2452449",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "书写鲁迈拉公司高质量效益发展新篇章-中国石油新闻中心-中国石油...",
+          "url": "http://www.baidu.com/link?url=dDDYyzbmwWuf9zP1e_RyHZWxHVI79Vg4NcczQc62-AdESV2Maeg5PhTG4KHZDM84mPoziPdefUIfq6paWDdK5FpU2bO92MsAjr0CyjV3L-m",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "鲁迈拉公司深度融入共建“一带一路”纪实-中国石油新闻中心-中国...",
+          "url": "http://www.baidu.com/link?url=dDDYyzbmwWuf9zP1e_RyHZWxHVI79Vg4NcczQc62-AdESV2Maeg5PhTG4KHZDM843DJMxQbQunYwCz5wKD2Ikt9KlYXelooHhOuAbDRm-XO",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "中国石油(伊拉克)鲁迈拉公司国际化经营发展透视",
+          "url": "http://www.baidu.com/link?url=5y9sbL0iQtDbtgQ4RWrvue5aBE5nEF3CsdLZix2IjNxGPIk81fXnkTnTmBbkqtHAg6NJRrzhenhmIoMgGouiUa",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "大家还在搜贝莱德减持中国石油贝莱德减持首都机场股份贝莱德巨额减持在美国有油田的a股上市公司贝莱德股票行情贝莱德买了哪些a股贝莱德中国a股持股贝莱德公司持有中国上市公司",
+          "url": "/s?wd=%E8%B4%9D%E8%8E%B1%E5%BE%B7%E5%87%8F%E6%8C%81%E4%B8%AD%E5%9B%BD%E7%9F%B3%E6%B2%B9&usm=1&ie=utf-8&rsv_pq=e32f328b00081221&oq=%E8%B4%9D%E8%8E%B1%E5%BE%B7%E5%87%8F%E6%8C%81%E4%B8%AD%E7%9F%B3%E6%B2%B9H%E8%82%A10.17%25&rsv_t=39fbS3BXuJ44CuKSQ%2FxVDQlC7D3DlydvDBv%2BCkR92NYQ8%2FyKD%2BypZyT3CeI&rsf=101636703&rsv_dl=0_prs_28608_1",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "贝莱德减持约1.97亿港元中海油服H股",
+          "url": "http://www.baidu.com/link?url=NPP1a9uZb9g_6ca9jLNKJ0Gvq2_oOJdZG9dXCptEzYnNMzZ7EhOwdTGgFGgBP39w",
+          "source": "Search (baidu)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2452454",
+      "title": "摩根大通增持天齐锂业0.37%持股",
+      "summary": "摩根大通增持0.37%持股至10.11%，建仓均价35.85港元显著低于现价69.25港元，确认底部布局。结合技术面从50.25反弹至69.25，预期目标价73.00港元（+5.5%），阻力位71.95港元。若突破，有望挑战历史高点71.95港元。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "摩根大通增持",
+          "impact_type": "利好",
+          "logic": "摩根大通在低位(均价35.85港元)建仓，持股升至10.11%，显示机构看好长期价值，提振市场信心。"
+        },
+        {
+          "node_name": "股价走势",
+          "impact_type": "利好",
+          "logic": "股价从7月28日低点50.25港元反弹至69.25港元，涨幅37.6%，技术面处于强势区，机构背书强化上涨动能。"
+        },
+        {
+          "node_name": "行业周期",
+          "impact_type": "中性偏多",
+          "logic": "锂行业处于调整期，优质资源稀缺，龙头公司具备配置价值，利好板块情绪。"
+        }
+      ],
       "sentiment_score": 0.0,
       "confidence": 0.5,
       "intensity": 3,
@@ -86,39 +320,987 @@
       "industry_tags": [],
       "sources": [
         {
-          "title": "财联社8月12日电，腾讯控股在财报中表示，第三季度大幅增加了算力采购，将助力公司把应用及模型的使用转化为收入。",
-          "url": "https://www.cls.cn/detail/2452405",
+          "title": "财联社8月12日电，香港交易所信息显示，摩根大通（JPMorgan）在天齐锂业H股的持股比例于08月07日从9.74%升至10.11%，购买的平均股价为35.8463港元。",
+          "url": "https://www.cls.cn/detail/2452454",
           "source_name": "cls"
         }
       ],
       "search_results": [
         {
-          "title": "2025年腾讯、阿里、字节、华为AIGC算力投入建设报告——核心上市公司及未来半年业绩催化点分析",
-          "url": "https://xueqiu.com/6036626539/371300664",
-          "source": "Search (ddg)"
+          "title": "大家还在搜天齐锂业利好消息天齐锂业还能涨吗天齐锂业业绩预告天齐锂业股份股票股吧摩根大通10大股东摩根大通a股持仓明细世界最大锂矿是天齐锂业吗天齐锂业连续并购过程",
+          "url": "/s?wd=%E5%A4%A9%E9%BD%90%E9%94%82%E4%B8%9A%E5%88%A9%E5%A5%BD%E6%B6%88%E6%81%AF&usm=2&ie=utf-8&rsv_pq=95add0320017a302&oq=%E6%91%A9%E6%A0%B9%E5%A4%A7%E9%80%9A%E5%A2%9E%E6%8C%81%E5%A4%A9%E9%BD%90%E9%94%82%E4%B8%9A0.37%25%E6%8C%81%E8%82%A1&rsv_t=d4b5dkjFBSlW%2BWh041INiX2lyepeaLNHYDgtfRpfBlkptG3T3mK6%2B0xMiyI&rsf=101636703&rsv_dl=0_prs_28608_1",
+          "source": "Search (baidu)"
         },
         {
-          "title": "腾讯控股：大幅增加了算力采购，将助力公司把应用及模型使用转化为收入|界面新闻 · 快讯",
-          "url": "https://www.jiemian.com/article/14912806.html",
-          "source": "Search (ddg)"
+          "title": "摩根大通减持天齐锂业(09696)约20.74万股 每股作价约35.24港元|...",
+          "url": "http://www.baidu.com/link?url=qhQykfkyC2KMOwXsYrti7FvbEvBmx_cZZtCv-hWGsvpAJ1Z4LGkg43jTIbVaLGzBt7A-OvIFceGg97aPkaCmYq",
+          "source": "Search (baidu)"
         },
         {
-          "title": "腾讯大规模算力全面部署，全产业链受益标的深度解析 在2026世界人工智能大会上， 腾讯 云正式敲定两大产业级战略：全年算力资本开支翻倍加码、四 ...",
-          "url": "https://xueqiu.com/2430471067/401760943",
-          "source": "Search (ddg)"
+          "title": "摩根大通增持天齐锂业(09696)约251.78万股 每股作价约58.17港元|持股|...",
+          "url": "http://www.baidu.com/link?url=5iEgTTZdJr8cNylD-Oih0o2bnf6SYaHde0Mm_dlC1mL9MJCZIJx3Jl1XuZAOGI6rXXIsUH8yBSmb8t0uha6JYK",
+          "source": "Search (baidu)"
         },
         {
-          "title": "彻底崛起!腾讯云大规模部署国产算力，国产AI彻底摆脱海外卡脖子",
-          "url": "https://www.sohu.com/a/1053216401_100085330",
-          "source": "Search (ddg)"
-        },
-        {
-          "title": "全方位加码AI:Q1研发开支189亿，从算力到人力加速全场景落地",
-          "url": "https://cj.sina.com.cn/articles/view/7879848900/1d5acf3c401902py8c",
-          "source": "Search (ddg)"
+          "title": "有色金属行业深度研究:深度剖析锂产业链一体化布局_腾讯新闻",
+          "url": "http://www.baidu.com/link?url=KaGAUA4g_vs-CQge8bDH6QZQ498k58maTAnm9UQM6o7Tk2HGBNguLAhfhSImVBpvfsvfPWEqlHxa_Q0IwVzO3_",
+          "source": "Search (baidu)"
         }
       ]
     }
   ],
-  "charts": {}
+  "charts": {
+    "002738": {
+      "ticker": "002738",
+      "name": "中矿资源",
+      "prices": [
+        {
+          "date": "2026-07-13",
+          "open": 52.0,
+          "high": 52.8,
+          "low": 50.6,
+          "close": 51.0,
+          "volume": 380228
+        },
+        {
+          "date": "2026-07-14",
+          "open": 51.35,
+          "high": 53.88,
+          "low": 49.19,
+          "close": 52.56,
+          "volume": 415987
+        },
+        {
+          "date": "2026-07-15",
+          "open": 52.7,
+          "high": 52.7,
+          "low": 49.15,
+          "close": 49.33,
+          "volume": 317234
+        },
+        {
+          "date": "2026-07-16",
+          "open": 48.02,
+          "high": 49.49,
+          "low": 47.73,
+          "close": 48.65,
+          "volume": 259472
+        },
+        {
+          "date": "2026-07-17",
+          "open": 48.55,
+          "high": 49.42,
+          "low": 46.52,
+          "close": 46.55,
+          "volume": 319761
+        },
+        {
+          "date": "2026-07-20",
+          "open": 47.0,
+          "high": 47.0,
+          "low": 43.0,
+          "close": 44.1,
+          "volume": 386301
+        },
+        {
+          "date": "2026-07-21",
+          "open": 43.6,
+          "high": 45.3,
+          "low": 42.31,
+          "close": 45.02,
+          "volume": 368308
+        },
+        {
+          "date": "2026-07-22",
+          "open": 44.36,
+          "high": 48.26,
+          "low": 44.36,
+          "close": 47.45,
+          "volume": 425555
+        },
+        {
+          "date": "2026-07-23",
+          "open": 47.99,
+          "high": 52.15,
+          "low": 47.71,
+          "close": 50.74,
+          "volume": 512687
+        },
+        {
+          "date": "2026-07-24",
+          "open": 50.0,
+          "high": 50.53,
+          "low": 48.25,
+          "close": 48.36,
+          "volume": 272503
+        },
+        {
+          "date": "2026-07-27",
+          "open": 49.1,
+          "high": 49.77,
+          "low": 47.48,
+          "close": 48.74,
+          "volume": 256191
+        },
+        {
+          "date": "2026-07-28",
+          "open": 47.97,
+          "high": 49.65,
+          "low": 47.23,
+          "close": 47.75,
+          "volume": 210750
+        },
+        {
+          "date": "2026-07-29",
+          "open": 47.75,
+          "high": 49.95,
+          "low": 46.51,
+          "close": 48.7,
+          "volume": 260950
+        },
+        {
+          "date": "2026-07-30",
+          "open": 48.5,
+          "high": 49.27,
+          "low": 46.8,
+          "close": 47.31,
+          "volume": 201304
+        },
+        {
+          "date": "2026-07-31",
+          "open": 48.0,
+          "high": 48.66,
+          "low": 46.7,
+          "close": 47.06,
+          "volume": 223216
+        },
+        {
+          "date": "2026-08-03",
+          "open": 46.59,
+          "high": 48.95,
+          "low": 45.9,
+          "close": 47.89,
+          "volume": 225793
+        },
+        {
+          "date": "2026-08-04",
+          "open": 47.89,
+          "high": 49.66,
+          "low": 47.7,
+          "close": 49.22,
+          "volume": 193698
+        },
+        {
+          "date": "2026-08-05",
+          "open": 49.46,
+          "high": 52.09,
+          "low": 49.05,
+          "close": 51.56,
+          "volume": 274712
+        },
+        {
+          "date": "2026-08-06",
+          "open": 52.28,
+          "high": 54.14,
+          "low": 51.91,
+          "close": 52.95,
+          "volume": 369208
+        },
+        {
+          "date": "2026-08-07",
+          "open": 53.71,
+          "high": 53.95,
+          "low": 51.92,
+          "close": 53.14,
+          "volume": 212378
+        },
+        {
+          "date": "2026-08-10",
+          "open": 54.53,
+          "high": 55.49,
+          "low": 53.3,
+          "close": 54.35,
+          "volume": 237499
+        },
+        {
+          "date": "2026-08-11",
+          "open": 54.2,
+          "high": 55.2,
+          "low": 53.09,
+          "close": 53.26,
+          "volume": 177206
+        },
+        {
+          "date": "2026-08-12",
+          "open": 53.53,
+          "high": 55.11,
+          "low": 53.0,
+          "close": 53.28,
+          "volume": 191377
+        }
+      ],
+      "prediction": {
+        "target_low": -7.0,
+        "target_high": -0.7,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-08-13",
+          "open": 53.79240798950195,
+          "high": 55.14384460449219,
+          "low": 52.571495056152344,
+          "close": 52.905582427978516,
+          "volume": 229436.875
+        },
+        {
+          "date": "2026-08-14",
+          "open": 52.87923049926758,
+          "high": 55.600303649902344,
+          "low": 51.81352615356445,
+          "close": 52.184226989746094,
+          "volume": 322261.84375
+        },
+        {
+          "date": "2026-08-17",
+          "open": 51.97768020629883,
+          "high": 52.85074996948242,
+          "low": 49.95813751220703,
+          "close": 50.859256744384766,
+          "volume": 314503.9375
+        },
+        {
+          "date": "2026-08-18",
+          "open": 50.174285888671875,
+          "high": 51.888389587402344,
+          "low": 48.74405288696289,
+          "close": 50.09471893310547,
+          "volume": 272050.71875
+        },
+        {
+          "date": "2026-08-19",
+          "open": 49.54037094116211,
+          "high": 51.86286163330078,
+          "low": 49.26919937133789,
+          "close": 49.53751754760742,
+          "volume": 252783.703125
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-08-13",
+          "open": 53.06096649169922,
+          "high": 54.695587158203125,
+          "low": 51.49650192260742,
+          "close": 51.70517349243164,
+          "volume": 258784.828125
+        },
+        {
+          "date": "2026-08-14",
+          "open": 51.28861999511719,
+          "high": 53.42236328125,
+          "low": 50.812931060791016,
+          "close": 51.369781494140625,
+          "volume": 246638.78125
+        },
+        {
+          "date": "2026-08-17",
+          "open": 51.22848129272461,
+          "high": 52.321388244628906,
+          "low": 50.517391204833984,
+          "close": 51.30012512207031,
+          "volume": 198682.234375
+        },
+        {
+          "date": "2026-08-18",
+          "open": 51.235939025878906,
+          "high": 52.868980407714844,
+          "low": 50.79790496826172,
+          "close": 52.03891372680664,
+          "volume": 258611.3125
+        },
+        {
+          "date": "2026-08-19",
+          "open": 51.01539993286133,
+          "high": 53.801856994628906,
+          "low": 49.89982986450195,
+          "close": 52.69512939453125,
+          "volume": 265983.71875
+        }
+      ],
+      "prediction_logic": "信号强度中等（3/5），情绪偏多（0.6）。中矿资源（002738）津巴布韦10万吨锂矿项目全面开工，是公司产能扩张的关键里程碑。当前股价53.28元处于技术震荡区间（支撑53.00，阻力55.49），30日涨幅4.47%，显示市场已开始关注但尚未完全定价。项目预期将增厚未来业绩，建议关注后续突破方向及产能爬坡进度。目标价区间：58.00 - 62.00元（对应较当前涨幅+8.9% ~ +16.4%）。"
+    },
+    "601888": {
+      "ticker": "601888",
+      "name": "中国中免",
+      "prices": [
+        {
+          "date": "2026-07-01",
+          "open": 53.2,
+          "high": 55.27,
+          "low": 52.29,
+          "close": 54.55,
+          "volume": 458268
+        },
+        {
+          "date": "2026-07-02",
+          "open": 54.35,
+          "high": 55.33,
+          "low": 53.23,
+          "close": 53.24,
+          "volume": 367951
+        },
+        {
+          "date": "2026-07-03",
+          "open": 53.23,
+          "high": 53.89,
+          "low": 52.45,
+          "close": 52.66,
+          "volume": 307206
+        },
+        {
+          "date": "2026-07-06",
+          "open": 52.29,
+          "high": 53.33,
+          "low": 52.29,
+          "close": 52.57,
+          "volume": 275076
+        },
+        {
+          "date": "2026-07-07",
+          "open": 52.06,
+          "high": 52.4,
+          "low": 50.5,
+          "close": 50.52,
+          "volume": 339319
+        },
+        {
+          "date": "2026-07-08",
+          "open": 50.75,
+          "high": 51.75,
+          "low": 50.58,
+          "close": 51.08,
+          "volume": 296884
+        },
+        {
+          "date": "2026-07-09",
+          "open": 50.81,
+          "high": 51.13,
+          "low": 49.85,
+          "close": 50.54,
+          "volume": 274549
+        },
+        {
+          "date": "2026-07-10",
+          "open": 50.55,
+          "high": 52.71,
+          "low": 49.87,
+          "close": 52.28,
+          "volume": 432528
+        },
+        {
+          "date": "2026-07-13",
+          "open": 51.95,
+          "high": 52.27,
+          "low": 50.45,
+          "close": 50.46,
+          "volume": 308413
+        },
+        {
+          "date": "2026-07-14",
+          "open": 50.9,
+          "high": 51.34,
+          "low": 50.21,
+          "close": 50.92,
+          "volume": 201974
+        },
+        {
+          "date": "2026-07-15",
+          "open": 50.6,
+          "high": 55.3,
+          "low": 50.5,
+          "close": 54.41,
+          "volume": 714042
+        },
+        {
+          "date": "2026-07-16",
+          "open": 53.7,
+          "high": 55.32,
+          "low": 53.33,
+          "close": 54.52,
+          "volume": 425670
+        },
+        {
+          "date": "2026-07-17",
+          "open": 54.11,
+          "high": 55.74,
+          "low": 52.59,
+          "close": 52.9,
+          "volume": 420192
+        },
+        {
+          "date": "2026-07-20",
+          "open": 52.5,
+          "high": 55.14,
+          "low": 52.4,
+          "close": 54.67,
+          "volume": 501344
+        },
+        {
+          "date": "2026-07-21",
+          "open": 54.7,
+          "high": 54.96,
+          "low": 53.65,
+          "close": 54.08,
+          "volume": 422285
+        },
+        {
+          "date": "2026-07-22",
+          "open": 53.8,
+          "high": 55.96,
+          "low": 53.28,
+          "close": 55.7,
+          "volume": 544971
+        },
+        {
+          "date": "2026-07-23",
+          "open": 55.42,
+          "high": 55.57,
+          "low": 54.33,
+          "close": 55.24,
+          "volume": 315319
+        },
+        {
+          "date": "2026-07-24",
+          "open": 54.9,
+          "high": 55.21,
+          "low": 53.02,
+          "close": 53.2,
+          "volume": 323691
+        },
+        {
+          "date": "2026-07-27",
+          "open": 53.75,
+          "high": 55.17,
+          "low": 53.16,
+          "close": 54.44,
+          "volume": 284648
+        },
+        {
+          "date": "2026-07-28",
+          "open": 53.98,
+          "high": 55.7,
+          "low": 53.92,
+          "close": 55.51,
+          "volume": 402489
+        },
+        {
+          "date": "2026-07-29",
+          "open": 55.92,
+          "high": 57.96,
+          "low": 55.52,
+          "close": 57.38,
+          "volume": 578596
+        },
+        {
+          "date": "2026-07-30",
+          "open": 56.99,
+          "high": 59.5,
+          "low": 56.99,
+          "close": 58.08,
+          "volume": 599565
+        },
+        {
+          "date": "2026-07-31",
+          "open": 56.2,
+          "high": 58.06,
+          "low": 56.2,
+          "close": 58.01,
+          "volume": 402841
+        },
+        {
+          "date": "2026-08-03",
+          "open": 58.02,
+          "high": 58.7,
+          "low": 57.32,
+          "close": 57.97,
+          "volume": 303328
+        },
+        {
+          "date": "2026-08-04",
+          "open": 57.76,
+          "high": 57.96,
+          "low": 56.62,
+          "close": 56.82,
+          "volume": 372831
+        },
+        {
+          "date": "2026-08-05",
+          "open": 56.68,
+          "high": 56.93,
+          "low": 55.91,
+          "close": 56.39,
+          "volume": 380036
+        },
+        {
+          "date": "2026-08-06",
+          "open": 56.51,
+          "high": 56.66,
+          "low": 55.31,
+          "close": 55.56,
+          "volume": 346071
+        },
+        {
+          "date": "2026-08-07",
+          "open": 55.26,
+          "high": 55.95,
+          "low": 54.9,
+          "close": 55.82,
+          "volume": 332638
+        },
+        {
+          "date": "2026-08-10",
+          "open": 55.56,
+          "high": 56.68,
+          "low": 55.5,
+          "close": 56.24,
+          "volume": 301198
+        },
+        {
+          "date": "2026-08-11",
+          "open": 56.1,
+          "high": 56.16,
+          "low": 55.41,
+          "close": 55.45,
+          "volume": 252728
+        }
+      ],
+      "prediction": {
+        "target_low": 0.9,
+        "target_high": 2.3,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-08-12",
+          "open": 55.04590606689453,
+          "high": 56.29939270019531,
+          "low": 54.668739318847656,
+          "close": 56.11126708984375,
+          "volume": 306746.5625
+        },
+        {
+          "date": "2026-08-13",
+          "open": 56.25034713745117,
+          "high": 57.093814849853516,
+          "low": 55.16004180908203,
+          "close": 56.717994689941406,
+          "volume": 290348.75
+        },
+        {
+          "date": "2026-08-14",
+          "open": 56.272216796875,
+          "high": 56.879150390625,
+          "low": 55.978206634521484,
+          "close": 56.12123107910156,
+          "volume": 297130.3125
+        },
+        {
+          "date": "2026-08-17",
+          "open": 56.04151153564453,
+          "high": 57.14627456665039,
+          "low": 55.51020431518555,
+          "close": 55.9306755065918,
+          "volume": 320766.5625
+        },
+        {
+          "date": "2026-08-18",
+          "open": 55.6751708984375,
+          "high": 56.97975158691406,
+          "low": 55.143550872802734,
+          "close": 56.65562438964844,
+          "volume": 403678.28125
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-08-12",
+          "open": 55.0888671875,
+          "high": 55.843719482421875,
+          "low": 54.04377746582031,
+          "close": 54.67887878417969,
+          "volume": 300942.125
+        },
+        {
+          "date": "2026-08-13",
+          "open": 54.48715591430664,
+          "high": 55.46575927734375,
+          "low": 53.4704475402832,
+          "close": 54.25841522216797,
+          "volume": 317730.3125
+        },
+        {
+          "date": "2026-08-14",
+          "open": 53.080257415771484,
+          "high": 56.15266036987305,
+          "low": 52.790740966796875,
+          "close": 55.25185012817383,
+          "volume": 365793.40625
+        },
+        {
+          "date": "2026-08-17",
+          "open": 55.138553619384766,
+          "high": 56.57401657104492,
+          "low": 55.229366302490234,
+          "close": 56.234764099121094,
+          "volume": 314497.625
+        },
+        {
+          "date": "2026-08-18",
+          "open": 55.906864166259766,
+          "high": 56.817298889160156,
+          "low": 55.08723449707031,
+          "close": 56.14857864379883,
+          "volume": 403534.28125
+        }
+      ],
+      "prediction_logic": "美元兑日元跌破159关口（158.86），创40年新低，市场对利差交易的交易情绪达到极值。受此影响，A股外资重仓股（如茅台、五粮液）面临估值调整压力，但出境消费板块（如中国中免）受益于日元贬值带来的客流回流，具备短期业绩弹性。预计未来一周，日元贬值逻辑将持续发酵，关注158.50-158.00关键支撑位。"
+    },
+    "00857": {
+      "ticker": "00857",
+      "name": "中国石油股份",
+      "prices": [
+        {
+          "date": "2026-07-02",
+          "open": 8.44,
+          "high": 8.8,
+          "low": 8.39,
+          "close": 8.75,
+          "volume": 123878672
+        },
+        {
+          "date": "2026-07-03",
+          "open": 8.7,
+          "high": 8.86,
+          "low": 8.7,
+          "close": 8.82,
+          "volume": 62765900
+        },
+        {
+          "date": "2026-07-06",
+          "open": 8.5,
+          "high": 9.01,
+          "low": 8.5,
+          "close": 8.91,
+          "volume": 56420778
+        },
+        {
+          "date": "2026-07-07",
+          "open": 8.79,
+          "high": 8.94,
+          "low": 8.7,
+          "close": 8.94,
+          "volume": 84938813
+        },
+        {
+          "date": "2026-07-08",
+          "open": 9.1,
+          "high": 9.32,
+          "low": 9.07,
+          "close": 9.12,
+          "volume": 128790248
+        },
+        {
+          "date": "2026-07-09",
+          "open": 9.24,
+          "high": 9.29,
+          "low": 9.02,
+          "close": 9.04,
+          "volume": 86021191
+        },
+        {
+          "date": "2026-07-10",
+          "open": 9.14,
+          "high": 9.16,
+          "low": 8.78,
+          "close": 9.03,
+          "volume": 74765061
+        },
+        {
+          "date": "2026-07-13",
+          "open": 9.13,
+          "high": 9.29,
+          "low": 9.09,
+          "close": 9.25,
+          "volume": 79492963
+        },
+        {
+          "date": "2026-07-14",
+          "open": 9.58,
+          "high": 9.67,
+          "low": 9.4,
+          "close": 9.57,
+          "volume": 125027407
+        },
+        {
+          "date": "2026-07-15",
+          "open": 9.54,
+          "high": 9.59,
+          "low": 9.43,
+          "close": 9.54,
+          "volume": 54779336
+        },
+        {
+          "date": "2026-07-16",
+          "open": 9.68,
+          "high": 9.69,
+          "low": 9.44,
+          "close": 9.47,
+          "volume": 46953383
+        },
+        {
+          "date": "2026-07-17",
+          "open": 9.5,
+          "high": 9.59,
+          "low": 9.35,
+          "close": 9.59,
+          "volume": 121800564
+        },
+        {
+          "date": "2026-07-20",
+          "open": 9.75,
+          "high": 10.12,
+          "low": 9.72,
+          "close": 9.99,
+          "volume": 104488537
+        },
+        {
+          "date": "2026-07-21",
+          "open": 9.9,
+          "high": 9.99,
+          "low": 9.67,
+          "close": 9.82,
+          "volume": 86123907
+        },
+        {
+          "date": "2026-07-22",
+          "open": 9.57,
+          "high": 10.07,
+          "low": 9.57,
+          "close": 10.05,
+          "volume": 60950292
+        },
+        {
+          "date": "2026-07-23",
+          "open": 10.01,
+          "high": 10.22,
+          "low": 9.99,
+          "close": 10.11,
+          "volume": 78478768
+        },
+        {
+          "date": "2026-07-24",
+          "open": 10.14,
+          "high": 10.25,
+          "low": 10.04,
+          "close": 10.21,
+          "volume": 77564316
+        },
+        {
+          "date": "2026-07-27",
+          "open": 9.9,
+          "high": 9.98,
+          "low": 9.78,
+          "close": 9.85,
+          "volume": 104782526
+        },
+        {
+          "date": "2026-07-28",
+          "open": 9.8,
+          "high": 9.89,
+          "low": 9.69,
+          "close": 9.84,
+          "volume": 102563740
+        },
+        {
+          "date": "2026-07-29",
+          "open": 9.79,
+          "high": 9.94,
+          "low": 9.7,
+          "close": 9.93,
+          "volume": 70085788
+        },
+        {
+          "date": "2026-07-30",
+          "open": 9.99,
+          "high": 10.2,
+          "low": 9.99,
+          "close": 10.15,
+          "volume": 89082406
+        },
+        {
+          "date": "2026-07-31",
+          "open": 10.15,
+          "high": 10.15,
+          "low": 9.89,
+          "close": 9.94,
+          "volume": 77169023
+        },
+        {
+          "date": "2026-08-03",
+          "open": 9.89,
+          "high": 9.985,
+          "low": 9.725,
+          "close": 9.81,
+          "volume": 81719701
+        },
+        {
+          "date": "2026-08-04",
+          "open": 9.8,
+          "high": 9.85,
+          "low": 9.59,
+          "close": 9.645,
+          "volume": 108176834
+        },
+        {
+          "date": "2026-08-05",
+          "open": 9.46,
+          "high": 9.525,
+          "low": 9.35,
+          "close": 9.49,
+          "volume": 134354167
+        },
+        {
+          "date": "2026-08-06",
+          "open": 9.4,
+          "high": 9.55,
+          "low": 9.3,
+          "close": 9.415,
+          "volume": 114819264
+        },
+        {
+          "date": "2026-08-07",
+          "open": 9.48,
+          "high": 9.635,
+          "low": 9.48,
+          "close": 9.505,
+          "volume": 81601981
+        },
+        {
+          "date": "2026-08-10",
+          "open": 9.51,
+          "high": 9.615,
+          "low": 9.42,
+          "close": 9.565,
+          "volume": 57320630
+        },
+        {
+          "date": "2026-08-11",
+          "open": 9.74,
+          "high": 9.89,
+          "low": 9.665,
+          "close": 9.735,
+          "volume": 94255133
+        },
+        {
+          "date": "2026-08-12",
+          "open": 9.63,
+          "high": 9.73,
+          "low": 9.455,
+          "close": 9.51,
+          "volume": 80269353
+        }
+      ],
+      "prediction": {
+        "target_low": -2.0,
+        "target_high": 0.2,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-08-13",
+          "open": 9.517958641052246,
+          "high": 9.574359893798828,
+          "low": 9.476337432861328,
+          "close": 9.529216766357422,
+          "volume": 107773936.0
+        },
+        {
+          "date": "2026-08-14",
+          "open": 9.485031127929688,
+          "high": 9.523574829101562,
+          "low": 9.288272857666016,
+          "close": 9.316506385803223,
+          "volume": 71353872.0
+        },
+        {
+          "date": "2026-08-17",
+          "open": 9.405309677124023,
+          "high": 9.544778823852539,
+          "low": 9.333002090454102,
+          "close": 9.43696117401123,
+          "volume": 92482712.0
+        },
+        {
+          "date": "2026-08-18",
+          "open": 9.37942123413086,
+          "high": 9.42760181427002,
+          "low": 9.139083862304688,
+          "close": 9.403521537780762,
+          "volume": 67688416.0
+        },
+        {
+          "date": "2026-08-19",
+          "open": 9.372214317321777,
+          "high": 9.394580841064453,
+          "low": 9.328396797180176,
+          "close": 9.32292652130127,
+          "volume": 63212264.0
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-08-13",
+          "open": 9.430682182312012,
+          "high": 9.616303443908691,
+          "low": 9.340109825134277,
+          "close": 9.47472858428955,
+          "volume": 97653400.0
+        },
+        {
+          "date": "2026-08-14",
+          "open": 9.49853801727295,
+          "high": 9.574036598205566,
+          "low": 9.399909019470215,
+          "close": 9.45730972290039,
+          "volume": 77556032.0
+        },
+        {
+          "date": "2026-08-17",
+          "open": 9.570405006408691,
+          "high": 9.665979385375977,
+          "low": 9.22114372253418,
+          "close": 9.391443252563477,
+          "volume": 130984064.0
+        },
+        {
+          "date": "2026-08-18",
+          "open": 9.432455062866211,
+          "high": 9.718185424804688,
+          "low": 9.242866516113281,
+          "close": 9.469635963439941,
+          "volume": 102477248.0
+        },
+        {
+          "date": "2026-08-19",
+          "open": 9.30030632019043,
+          "high": 9.62708854675293,
+          "low": 9.237996101379395,
+          "close": 9.322615623474121,
+          "volume": 94618632.0
+        }
+      ],
+      "prediction_logic": "当前信号处于【部分定价】状态。贝莱德减持幅度极小，属于常规操作，市场情绪面承压但基本面支撑稳固。预计H股短期将面临0.5%-1.0%的调整压力，但长期价值未受破坏。建议关注AH股溢价率修复带来的结构性机会。"
+    }
+  }
 }
