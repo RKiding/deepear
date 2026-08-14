@@ -1,33 +1,28 @@
 {
-  "generated_at": "2026-08-15T03:41:52.023564+08:00",
-  "run_id": "lite_20260815_034152",
-  "count": 2,
+  "generated_at": "2026-08-15T04:20:47.336658+08:00",
+  "run_id": "lite_20260815_042047",
+  "count": 3,
   "signals": [
     {
-      "signal_id": "3149850",
-      "title": "Tiger减持科技龙头，加仓AI硬件与支付",
-      "summary": "Tiger Global Q2持仓变动显示资金从估值较高的互联网巨头流向AI算力硬件及防御性金融板块。重点标的AMD、STX预期上涨空间分别为12.5%和18.1%，而GOOGL、META存在回调风险。整体板块情绪由“互联网消费”转向“硬科技+防御”。",
-      "reasoning": "Tiger Global作为顶级对冲基金，其13F持仓变动通常被视为市场风向标。减持Alphabet和Meta表明机构对AI商业化回报的怀疑，或认为其当前估值已包含过高的乐观预期；反之，新建AMD和希捷仓位，精准踩中了AI产业链中“算力卡”和“存储”这一核心环节的供需错配机会。Visa的加入则显示出对高股息、强现金流资产的配置需求。从技术面看，AMD处于突破前兆，希捷受益于数据中心需求逻辑未变。这一信号意味着资金正在从“软科技”向“硬科技”迁移，预期差主要存在于AI硬件的持续高景气度上。",
+      "signal_id": "3149871",
+      "title": "美股AI芯片分化：博通暴跌闪迪大涨",
+      "summary": "美股市场呈现明显的结构性分化：博通(AVGO)跌近6%压制AI硬件情绪，闪迪(SD)涨超7%提振存储板块。博通股份(600455)与博通集成(603068)受直接映射影响较大，短期或面临抛压；安博通(688168)需观察其与博通在网络安全/云网融合业务的关联度。数据港(002249)及北方华创(002371)作为存储产业链下游及设备商，存在潜在的结构性机会。",
+      "reasoning": "",
       "transmission_chain": [
         {
-          "node_name": "AI算力硬件",
-          "impact_type": "利好",
-          "logic": "Tiger Global新建AMD仓位，反映其对AI芯片数据中心业务的看好。AMD作为NVIDIA的重要竞争者，其数据中心GPU（如MI300系列）放量将直接受益于AI算力需求爆发，预期股价将获得超额收益。"
+          "node_name": "美股半导体/存储",
+          "impact_type": "分化",
+          "logic": "博通(AVGO)因AI需求担忧暴跌近6%，闪迪(SD)受益于存储行业涨价预期大涨超7%，显示市场对AI算力硬件与存储介质需求逻辑的重新评估。"
         },
         {
-          "node_name": "AI存储基础设施",
-          "impact_type": "利好",
-          "logic": "新建希捷仓位，逻辑源于AI训练对海量存储数据的依赖。随着AI模型参数量激增，大容量硬盘（18TB以上）需求刚性增长，希捷作为存储龙头将优先受益于云厂商扩容。"
-        },
-        {
-          "node_name": "互联网广告与社交",
+          "node_name": "A股半导体/网络设备",
           "impact_type": "利空",
-          "logic": "减持Alphabet、Meta及Spotify，表明Tiger Global认为部分科技巨头估值过高且短期增长面临压力（如搜索广告放缓、元宇宙投入大）。市场预期可能被高估，导致股价承压。"
+          "logic": "博通作为全球AI芯片龙头，其大幅下跌引发A股对标公司（博通股份、博通集成、安博通）的估值回调风险，市场情绪受到压制。"
         },
         {
-          "node_name": "金融支付与软件",
-          "impact_type": "利好",
-          "logic": "增持Visa、Intuit，逻辑在于其作为防御性资产或高现金流业务，在经济波动中表现出较强的韧性，且AI技术赋能有助于提升产品转化率，符合当前市场对“高股息+高增长”资产的偏好。"
+          "node_name": "A股云计算/数据中心",
+          "impact_type": "中性偏多",
+          "logic": "闪迪大涨反映存储板块景气度回升，作为数据中心存储核心标的，利好国内数据中心运营商（数据港）及上游设备商（北方华创）的业绩预期。"
         }
       ],
       "sentiment_score": 0.0,
@@ -37,68 +32,89 @@
       "timeliness": 0.8,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
-      "impact_tickers": [],
+      "impact_tickers": [
+        {
+          "code": "600455",
+          "name": "博通股份",
+          "weight": 0.3,
+          "ticker": "600455"
+        },
+        {
+          "code": "603068",
+          "name": "博通集成",
+          "weight": 0.2,
+          "ticker": "603068"
+        },
+        {
+          "code": "688168",
+          "name": "安博通",
+          "weight": 0.1,
+          "ticker": "688168"
+        },
+        {
+          "code": "002249",
+          "name": "大洋电机",
+          "weight": 0.1,
+          "ticker": "002249"
+        },
+        {
+          "code": "002371",
+          "name": "北方华创",
+          "weight": 0.1,
+          "ticker": "002371"
+        }
+      ],
       "industry_tags": [],
       "sources": [
         {
-          "title": "Tiger Global披露二季度13F持仓：\n\n减持Alphabet、博通、Spotify、Meta等；同时新建AMD、希捷、Visa、丹纳赫等仓位。\n\n增持Intuit、Corpay、Reddit、MercadoLibre等；退出AppLovin、Netflix、Zscaler、Procore等。",
-          "url": "https://wallstreetcn.com/livenews/3149850",
+          "title": "美股三大股指低跌，博通跌近6%，闪迪涨超7%",
+          "url": "https://wallstreetcn.com/livenews/3149871",
           "source_name": "wallstreetcn"
         }
       ],
       "search_results": [
         {
-          "title": "new.qq.com/rain/a/20260415A05PFO00",
-          "url": "http://www.baidu.com/link?url=LnKV1neFShOBV7uY0nJbpLICFbpAJaKT_ooBS9HdWvaVH_efCRjUZHHdOlheca984M89tOPQZg6l6VWhnzzFTK",
+          "title": "大家还在搜美股芯片股大爆发美股存储芯片概念美股芯片股票行情DeepSeek崛起中美芯片战台积电英伟达deepseek英伟达AI收入接近翻倍美股芯片股盘前反弹英伟达新AI芯片引爆CES",
+          "url": "/s?wd=%E7%BE%8E%E8%82%A1%E8%8A%AF%E7%89%87%E8%82%A1%E5%A4%A7%E7%88%86%E5%8F%91&usm=2&ie=utf-8&rsv_pq=94598cec0026e490&oq=%E7%BE%8E%E8%82%A1AI%E8%8A%AF%E7%89%87%E5%88%86%E5%8C%96%3A%E5%8D%9A%E9%80%9A%E6%9A%B4%E8%B7%8C%E9%97%AA%E8%BF%AA%E5%A4%A7%E6%B6%A8&rsv_t=5761GXoufn9JqwrrEqv7NktQMuoaBoHLz%2F5sbuiEpLn5NVGOhM8l2MW4yec&rsf=101636703&rsv_dl=0_prs_28608_1",
           "source": "Search (baidu)"
         },
         {
-          "title": "突发!投资大佬,清仓式减持AI巨头",
-          "url": "http://www.baidu.com/link?url=YCMghs6XiJIPPg1U_5Ogri1AAbZ7XCR8zNb4eJy-WDRgxcmJsS7_hLqi_D3NzJy9L3xEN2av2Qdb2VFEZsTM3_",
+          "title": "new.qq.com/rain/a/20260609A05PQR00",
+          "url": "http://www.baidu.com/link?url=R4V2JmO9kVgy4g9jSUgQvDHlhDuX0Uu6NWY-sDvpD1feLtfGs9sdc-5lrVkPsauqCXHcvA8Qzzv8OhF3rmRKHq",
           "source": "Search (baidu)"
         },
         {
-          "title": "减持科技股,布局光模块!景林调仓背后的AI赛道投资逻辑解析|私募...",
-          "url": "http://www.baidu.com/link?url=CEBHRbHpQeds2xpTfS1VMN-Nva5_iXGJ8khpWvHc0J18Hg1GFH89B6np0UBrf0DZnhyxYq0vKd7yhVQTLLxJBa",
+          "title": "道指飙涨近900点,芯片股遭抛售,博通市值一夜蒸发近2万亿元|科技股|...",
+          "url": "http://www.baidu.com/link?url=-JwcNpp_nYRaa5otjwcnRX3QZ-A0L-3l5v0OKhNoKgDvXx_zbB34s4Ir6Vbn90L75-1GHawZlDeuT2PpM69fjK",
           "source": "Search (baidu)"
         },
         {
-          "title": "大家还在搜ai芯片概念股龙头中国ai智能龙头公司AI概念ai人工智能龙头股特斯拉称人形机器人硬件竞争激烈特斯拉机器人产业链核心标的AI监管对科技巨头影响英伟达新AI处理器助力市场",
-          "url": "/s?wd=ai%E8%8A%AF%E7%89%87%E6%A6%82%E5%BF%B5%E8%82%A1%E9%BE%99%E5%A4%B4&usm=1&ie=utf-8&rsv_pq=b79eaccb000b1ea6&oq=Tiger%E5%87%8F%E6%8C%81%E7%A7%91%E6%8A%80%E9%BE%99%E5%A4%B4%2C%E5%8A%A0%E4%BB%93AI%E7%A1%AC%E4%BB%B6%E4%B8%8E%E6%94%AF%E4%BB%98&rsv_t=2822%2F2w1CSqqMpk4IM7uaUKrvVukMkzvZ9dB%2BRt3%2BUIivLzbCVrfJkeN%2F9U&rsf=101631202&rsv_dl=0_prs_28608_1",
-          "source": "Search (baidu)"
-        },
-        {
-          "title": "林俊旸创办新公司,获红杉腾讯投资;宇树科技中签结果出炉",
-          "url": "http://www.baidu.com/link?url=fCZwXRYJLGE_9VDoTigvCgnb17rN_GccN2EFHxXg2Y5TM_a9RE21egSjay2TUFHGWc0oK9H0NasAUR-OtA26YxR9U6JS8izzzFEF9k4ldcW",
+          "title": "AI的风猛吹存储芯片:美光科技、闪迪暴拉七连阳|AI|NAND|美光科技_新浪新 ...",
+          "url": "http://www.baidu.com/link?url=Tf_lDE0p0I0sl9ILGyhI6DOCSr1mCqYIx93QhT89PJ8pJqa3_Z688REsrwAP6fT9r5H0JOuPpWqeuBPyiUh97lfuu-pWiVSGpi5T6UgExYu",
           "source": "Search (baidu)"
         }
       ]
     },
     {
-      "signal_id": "2455011",
-      "title": "老虎环球Q2调仓：AMD获加仓，科技股估值分化",
-      "summary": "基于老虎环球Q2持仓变动，核心信号为AMD获加仓而科技巨头被减持。建议关注AMD在AI算力市场的追赶机会，以及NVDA和TSM的回调风险。预计AMD短期有5-8%的反弹空间，NVDA/GOOGL/TSM短期面临2-5%的调整压力。",
-      "reasoning": "老虎环球作为知名对冲基金，其调仓行为往往反映其对未来3-6个月行业景气度的判断。信号显示机构资金正在从“广谱AI龙头”（NVDA/GOOGL/TSM）向“特定细分领域进攻者”（AMD/SpaceX）转移。这表明市场虽然看好AI大方向，但对现有龙头的估值（expectation_gap偏小）存在分歧。AMD作为受益者，其股价当前定价尚未完全反映机构加仓的力度，存在预期差；而被减持的巨头则面临估值回归压力。因此，短期策略应侧重于AMD的反弹博弈，同时规避巨头的高位回调风险。",
+      "signal_id": "3149864",
+      "title": "AMD创纪录发债47.5亿美元",
+      "summary": "基于当前¥514.39的股价，该信号对AMD定价影响中性偏多，市场已部分计入融资预期。预计在发债用途明确前，股价将在¥460-¥560区间震荡。若资金明确用于AI产能扩张，有望带动股价测试¥560阻力位，反弹目标位¥560（较当前涨幅+8.9%）；若市场担忧债务负担，可能回踩¥460支撑（跌幅-10.6%）。",
+      "reasoning": "",
       "transmission_chain": [
         {
-          "node_name": "Alpha基金调仓",
-          "impact_type": "中性/策略调整",
-          "logic": "老虎环球Q2建仓SpaceX和AMD，减持谷歌、台积电、英伟达，反映机构对AI算力硬件（AMD）与基础设施（SpaceX）的看好，以及对现有AI龙头（NVDA/TSM）估值溢价的获利了结。"
+          "node_name": "公司资本运作",
+          "impact_type": "中性偏多",
+          "logic": "AMD发行47.5亿美元债券创纪录，表明公司资金需求旺盛，主要用于AI芯片研发或产能扩张，利好长期业绩增长，但短期增加债务负担。"
         },
         {
-          "node_name": "芯片设计行业",
-          "impact_type": "利好",
-          "logic": "AMD获加仓，受益于AI芯片需求增长及在数据中心市场对英伟达的追赶，市场预期AMD在AI算力板块的份额有望提升，利好股价表现。"
+          "node_name": "半导体行业",
+          "impact_type": "中性",
+          "logic": "行业巨头大规模融资显示AI算力需求依然强劲，印证了行业高景气度，但同时也反映了当前产能瓶颈和竞争压力。"
         },
         {
-          "node_name": "云计算/互联网巨头",
-          "impact_type": "利空",
-          "logic": "谷歌被减持，可能因市场对其当前估值水平（PE）过高，或对广告业务复苏节奏的担忧，机构选择锁定收益，导致短期承压。"
-        },
-        {
-          "node_name": "半导体制造/代工",
-          "impact_type": "中性偏空",
-          "logic": "台积电被减持，可能与市场对当前先进制程扩产节奏放缓的担忧有关，机构倾向于将资金重新配置至估值更具弹性的设计环节。"
+          "node_name": "AMD股价定价",
+          "impact_type": "中性",
+          "logic": "当前股价¥514.39位于30日区间中高位，技术面处于反弹修复阶段，市场可能已部分计入发债预期，短期波动受制于¥530阻力位。"
         }
       ],
       "sentiment_score": 0.0,
@@ -112,34 +128,1083 @@
       "industry_tags": [],
       "sources": [
         {
-          "title": "老虎环球Q2建仓SpaceX和AMD 减持谷歌、台积电、英伟达等",
-          "url": "https://www.cls.cn/detail/2455011",
-          "source_name": "cls"
+          "title": "AMD发行47.5亿美元债券，创公司最高规模发债纪录",
+          "url": "https://wallstreetcn.com/livenews/3149864",
+          "source_name": "wallstreetcn"
         }
       ],
       "search_results": [
         {
-          "title": "大家还在搜老虎环球Q2建仓SpaceXAMD新美股尽显颓势a股蓄势待发美股老虎证券股价老虎环球押注中概股港股MAT三巨头的AI布局股票有底仓的加仓能卖出吗东方财富华南虎老虎证券美股入金",
-          "url": "/s?wd=%E8%80%81%E8%99%8E%E7%8E%AF%E7%90%83Q2%E5%BB%BA%E4%BB%93SpaceXAMD&usm=2&ie=utf-8&rsv_pq=a8b0479c0013add5&oq=%E8%80%81%E8%99%8E%E7%8E%AF%E7%90%83Q2%E8%B0%83%E4%BB%93%3AAMD%E8%8E%B7%E5%8A%A0%E4%BB%93%2C%E7%A7%91%E6%8A%80%E8%82%A1%E4%BC%B0%E5%80%BC%E5%88%86%E5%8C%96&rsv_t=0594WqYk3ArUbW0KTUK5dYJ6yMwcs8w9iEvNXsoXZTUiqCfiPPdSb6J7RLo&rsf=101632809&rsv_dl=0_prs_28608_1",
+          "title": "大家还在搜AMD发行47.5亿美元票据新曝AMD拟发债募资至多50亿美元新AMD完成史上最大美元债发行新AMD最新消息AMD股价预测汇丰为何下调AMD目标价为什么AMD今年崛起了AMD股票",
+          "url": "/s?wd=AMD%E5%8F%91%E8%A1%8C47.5%E4%BA%BF%E7%BE%8E%E5%85%83%E7%A5%A8%E6%8D%AE&usm=2&ie=utf-8&rsv_pq=ae25a97e00127d14&oq=AMD%E5%88%9B%E7%BA%AA%E5%BD%95%E5%8F%91%E5%80%BA47.5%E4%BA%BF%E7%BE%8E%E5%85%83&rsv_t=b74f0ei9xaanPErl3vG8MPc7LqYMw68%2BXoQUchaxzljkeY%2FNiD5VJDshs0U&rsf=101632809&rsv_dl=0_prs_28608_1",
           "source": "Search (baidu)"
         },
         {
-          "title": "老虎环球Q2重仓美股AI科技巨头、大举增持亚马逊(AMZN.US) 建仓...",
-          "url": "http://www.baidu.com/link?url=OdJ9vTHkLo00xP4Iz606N596m6SdKepADgWEDjrbXadt3nMPjM7L5fEtxWwwVPBudLcadbi911osqsV5yi4OGK",
+          "title": "美股蹿升,纳指涨1.6%,AMD涨近10%,美债收益率尾盘跌幅扩大至日低|道 ...",
+          "url": "http://www.baidu.com/link?url=yLEn6GE4clv-_gFnDt_qos_lY_nAS5cDCSBjCAae6Gjarc4m29LhsmMCUrK-XzLnF3eEG6FBDPEgn2pIFh-lNa",
           "source": "Search (baidu)"
         },
         {
-          "title": "科技股深度回调,公募三季度调仓布局呈现分化趋势|估值修复行情|公...",
-          "url": "http://www.baidu.com/link?url=g_RNCFgzNT76KDG_klmIuQfZHU7ZpN_gMlyUDHHnO_M3qhlgHurOZPQ-tshzIV8KuoKwnD0h8IxlMXcPUvSn2a",
+          "title": "华尔街见闻早餐FM-Radio | 2026年4月17日|伊朗|特朗普|黄仁勋|鲍威尔|...",
+          "url": "http://www.baidu.com/link?url=yLEn6GE4clv-_gFnDt_qos_lY_nAS5cDCSBjCAae6GiULeMmE1fi3qvkdl5XsEYE6ZjjrVbpP3QOEEDHOcb8C_",
           "source": "Search (baidu)"
         },
         {
-          "title": "财闻早知道|假期金银分别涨近4%和14% 关税政策被否特朗普又出新...",
-          "url": "http://www.baidu.com/link?url=vQ3SxE762bUs-SBNENZvKqLnJsBQWFEow4Q71CaoFoaH0CX7q2HpDqSqFacy7xF5pBEYLLDJYbTNSwFSZSCVxK",
+          "title": "AMD:“鸡肋” 般的指引,给 AI 浇了盆冷水_腾讯新闻",
+          "url": "http://www.baidu.com/link?url=P6iQm2Wghm4kwh6xWX6YQBGTGuZa7rb4twmK0BFYy8q-ljrJS3jWKXQYXQyKTYK-EDG2TpIvEKKSxFaG2prcJK",
           "source": "Search (baidu)"
         }
       ]
+    },
+    {
+      "signal_id": "2455025",
+      "title": "闪迪逆势大涨7% 确认存储周期反转",
+      "summary": "闪迪(SNDK)股价逆纳指跌势大涨7%，确认存储周期强势反转。基于行业Q4营收89.7亿美元创纪录及AI驱动需求，当前市场对存储龙头定价仍处于修正阶段。预计SNDK目标价区间在185-200美元，较当前价格仍有10%-20%上行空间，建议重点关注库存去化完成后的量价齐升逻辑。",
+      "reasoning": "闪迪在纳指整体下跌0.3%的背景下逆势大涨7%，显示极强的板块正相关性。核心驱动来自行业供需逆转：2026年NAND Flash市场由三家供应商主导，产能持续紧张导致Q4营收创89.7亿美元历史新高，超预期82.5亿美元。这一数据验证了“存储周期反转”逻辑。AI对高性能存储的需求是主要增量来源。虽然股价短期涨幅巨大，但考虑到行业景气度仍在上升通道且预期差依然存在（市场此前对周期反转力度存疑），当前定价状态为“部分定价”。权重分配上，SNDK作为直接标的权重最高，美光(MU)和西部数据(WDC)作为可比龙头权重次之。技术面上，逆势大涨确立短期趋势强劲，建议关注回调买入机会。",
+      "transmission_chain": [
+        {
+          "node_name": "上游晶圆制造",
+          "impact_type": "利好",
+          "logic": "NAND Flash价格持续上涨，行业从供过于求转向供不应求，供需剪刀差扩大，推高代工及材料端毛利率。"
+        },
+        {
+          "node_name": "中游存储模组",
+          "impact_type": "利好",
+          "logic": "闪迪作为模组龙头，受益于Q4营收创89.7亿美元纪录的超预期表现，以及AI驱动的高端存储需求增长。"
+        },
+        {
+          "node_name": "下游AI数据中心",
+          "impact_type": "利好",
+          "logic": "AI训练与推理对高性能存储需求旺盛，推动企业级SSD和存储墙解决方案的市场渗透率提升。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "纳指收跌0.3% 闪迪涨超7%",
+          "url": "https://www.cls.cn/detail/2455025",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": []
     }
   ],
-  "charts": {}
+  "charts": {
+    "600455": {
+      "ticker": "600455",
+      "name": "博通股份",
+      "prices": [
+        {
+          "date": "2026-07-06",
+          "open": 22.96,
+          "high": 23.36,
+          "low": 22.63,
+          "close": 22.92,
+          "volume": 17257
+        },
+        {
+          "date": "2026-07-07",
+          "open": 22.94,
+          "high": 23.01,
+          "low": 22.1,
+          "close": 22.2,
+          "volume": 14759
+        },
+        {
+          "date": "2026-07-08",
+          "open": 22.19,
+          "high": 22.62,
+          "low": 21.6,
+          "close": 21.97,
+          "volume": 14298
+        },
+        {
+          "date": "2026-07-09",
+          "open": 22.0,
+          "high": 22.28,
+          "low": 21.42,
+          "close": 21.84,
+          "volume": 14734
+        },
+        {
+          "date": "2026-07-10",
+          "open": 21.87,
+          "high": 22.74,
+          "low": 21.4,
+          "close": 22.45,
+          "volume": 18554
+        },
+        {
+          "date": "2026-07-13",
+          "open": 22.37,
+          "high": 22.55,
+          "low": 21.7,
+          "close": 21.84,
+          "volume": 18015
+        },
+        {
+          "date": "2026-07-14",
+          "open": 21.84,
+          "high": 22.52,
+          "low": 21.56,
+          "close": 22.48,
+          "volume": 16406
+        },
+        {
+          "date": "2026-07-15",
+          "open": 22.5,
+          "high": 23.2,
+          "low": 22.27,
+          "close": 22.72,
+          "volume": 15249
+        },
+        {
+          "date": "2026-07-16",
+          "open": 22.5,
+          "high": 22.95,
+          "low": 22.26,
+          "close": 22.46,
+          "volume": 13305
+        },
+        {
+          "date": "2026-07-17",
+          "open": 22.45,
+          "high": 22.87,
+          "low": 21.3,
+          "close": 21.41,
+          "volume": 20374
+        },
+        {
+          "date": "2026-07-20",
+          "open": 21.6,
+          "high": 22.12,
+          "low": 20.19,
+          "close": 20.7,
+          "volume": 21355
+        },
+        {
+          "date": "2026-07-21",
+          "open": 20.7,
+          "high": 20.92,
+          "low": 19.67,
+          "close": 20.53,
+          "volume": 25999
+        },
+        {
+          "date": "2026-07-22",
+          "open": 20.55,
+          "high": 20.93,
+          "low": 19.99,
+          "close": 20.1,
+          "volume": 19123
+        },
+        {
+          "date": "2026-07-23",
+          "open": 19.95,
+          "high": 20.95,
+          "low": 19.95,
+          "close": 20.84,
+          "volume": 14837
+        },
+        {
+          "date": "2026-07-24",
+          "open": 20.73,
+          "high": 20.8,
+          "low": 19.94,
+          "close": 20.11,
+          "volume": 12099
+        },
+        {
+          "date": "2026-07-27",
+          "open": 20.2,
+          "high": 20.91,
+          "low": 20.0,
+          "close": 20.63,
+          "volume": 16622
+        },
+        {
+          "date": "2026-07-28",
+          "open": 20.52,
+          "high": 21.26,
+          "low": 20.43,
+          "close": 20.87,
+          "volume": 17075
+        },
+        {
+          "date": "2026-07-29",
+          "open": 20.96,
+          "high": 21.6,
+          "low": 20.89,
+          "close": 21.39,
+          "volume": 19265
+        },
+        {
+          "date": "2026-07-30",
+          "open": 21.39,
+          "high": 21.86,
+          "low": 21.15,
+          "close": 21.57,
+          "volume": 20457
+        },
+        {
+          "date": "2026-07-31",
+          "open": 21.76,
+          "high": 22.31,
+          "low": 21.41,
+          "close": 22.23,
+          "volume": 17441
+        },
+        {
+          "date": "2026-08-03",
+          "open": 22.57,
+          "high": 23.2,
+          "low": 22.27,
+          "close": 23.17,
+          "volume": 24597
+        },
+        {
+          "date": "2026-08-04",
+          "open": 23.15,
+          "high": 23.84,
+          "low": 23.11,
+          "close": 23.8,
+          "volume": 25362
+        },
+        {
+          "date": "2026-08-05",
+          "open": 23.79,
+          "high": 23.99,
+          "low": 23.2,
+          "close": 23.53,
+          "volume": 18692
+        },
+        {
+          "date": "2026-08-06",
+          "open": 23.33,
+          "high": 23.78,
+          "low": 23.25,
+          "close": 23.69,
+          "volume": 15724
+        },
+        {
+          "date": "2026-08-07",
+          "open": 23.58,
+          "high": 23.84,
+          "low": 23.33,
+          "close": 23.77,
+          "volume": 15805
+        },
+        {
+          "date": "2026-08-10",
+          "open": 23.6,
+          "high": 24.58,
+          "low": 23.4,
+          "close": 24.48,
+          "volume": 16148
+        },
+        {
+          "date": "2026-08-11",
+          "open": 24.26,
+          "high": 24.47,
+          "low": 23.95,
+          "close": 24.1,
+          "volume": 12609
+        },
+        {
+          "date": "2026-08-12",
+          "open": 24.0,
+          "high": 24.34,
+          "low": 23.89,
+          "close": 24.15,
+          "volume": 10234
+        },
+        {
+          "date": "2026-08-13",
+          "open": 24.15,
+          "high": 24.37,
+          "low": 23.81,
+          "close": 23.93,
+          "volume": 12714
+        },
+        {
+          "date": "2026-08-14",
+          "open": 23.93,
+          "high": 24.09,
+          "low": 23.61,
+          "close": 23.94,
+          "volume": 10878
+        }
+      ],
+      "prediction": {
+        "target_low": -2.3,
+        "target_high": -1.0,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-08-17",
+          "open": 23.87188148498535,
+          "high": 24.272302627563477,
+          "low": 23.12066650390625,
+          "close": 23.39875602722168,
+          "volume": 13099.568359375
+        },
+        {
+          "date": "2026-08-18",
+          "open": 23.34424591064453,
+          "high": 23.851194381713867,
+          "low": 23.209915161132812,
+          "close": 23.703283309936523,
+          "volume": 14615.2734375
+        },
+        {
+          "date": "2026-08-19",
+          "open": 23.452533721923828,
+          "high": 23.724685668945312,
+          "low": 23.060056686401367,
+          "close": 23.45787811279297,
+          "volume": 15782.0205078125
+        },
+        {
+          "date": "2026-08-20",
+          "open": 23.36284828186035,
+          "high": 23.786497116088867,
+          "low": 23.222610473632812,
+          "close": 23.653112411499023,
+          "volume": 15244.365234375
+        },
+        {
+          "date": "2026-08-21",
+          "open": 23.448383331298828,
+          "high": 23.69598388671875,
+          "low": 23.13561248779297,
+          "close": 23.460433959960938,
+          "volume": 14949.943359375
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-08-17",
+          "open": 23.78212547302246,
+          "high": 24.098115921020508,
+          "low": 23.619966506958008,
+          "close": 23.95387840270996,
+          "volume": 11615.107421875
+        },
+        {
+          "date": "2026-08-18",
+          "open": 23.803794860839844,
+          "high": 24.332218170166016,
+          "low": 23.320526123046875,
+          "close": 23.430578231811523,
+          "volume": 17253.193359375
+        },
+        {
+          "date": "2026-08-19",
+          "open": 23.357641220092773,
+          "high": 23.479419708251953,
+          "low": 22.84537124633789,
+          "close": 23.041362762451172,
+          "volume": 14780.810546875
+        },
+        {
+          "date": "2026-08-20",
+          "open": 22.971298217773438,
+          "high": 23.500980377197266,
+          "low": 22.889192581176758,
+          "close": 23.386741638183594,
+          "volume": 13067.1171875
+        },
+        {
+          "date": "2026-08-21",
+          "open": 23.223255157470703,
+          "high": 23.568445205688477,
+          "low": 22.87694549560547,
+          "close": 23.301639556884766,
+          "volume": 18012.232421875
+        }
+      ],
+      "prediction_logic": "美股市场呈现明显的结构性分化：博通(AVGO)跌近6%压制AI硬件情绪，闪迪(SD)涨超7%提振存储板块。博通股份(600455)与博通集成(603068)受直接映射影响较大，短期或面临抛压；安博通(688168)需观察其与博通在网络安全/云网融合业务的关联度。数据港(002249)及北方华创(002371)作为存储产业链下游及设备商，存在潜在的结构性机会。"
+    },
+    "603068": {
+      "ticker": "603068",
+      "name": "博通集成",
+      "prices": [
+        {
+          "date": "2026-07-06",
+          "open": 38.89,
+          "high": 40.14,
+          "low": 37.49,
+          "close": 39.15,
+          "volume": 90714
+        },
+        {
+          "date": "2026-07-07",
+          "open": 38.87,
+          "high": 40.14,
+          "low": 38.09,
+          "close": 38.97,
+          "volume": 64023
+        },
+        {
+          "date": "2026-07-08",
+          "open": 38.87,
+          "high": 40.2,
+          "low": 38.29,
+          "close": 39.3,
+          "volume": 89470
+        },
+        {
+          "date": "2026-07-09",
+          "open": 38.95,
+          "high": 40.18,
+          "low": 38.24,
+          "close": 40.07,
+          "volume": 114649
+        },
+        {
+          "date": "2026-07-10",
+          "open": 40.12,
+          "high": 41.21,
+          "low": 39.04,
+          "close": 39.05,
+          "volume": 137193
+        },
+        {
+          "date": "2026-07-13",
+          "open": 38.02,
+          "high": 40.9,
+          "low": 37.8,
+          "close": 38.88,
+          "volume": 109878
+        },
+        {
+          "date": "2026-07-14",
+          "open": 39.6,
+          "high": 40.59,
+          "low": 37.01,
+          "close": 39.25,
+          "volume": 115965
+        },
+        {
+          "date": "2026-07-15",
+          "open": 39.45,
+          "high": 39.99,
+          "low": 37.56,
+          "close": 38.38,
+          "volume": 81165
+        },
+        {
+          "date": "2026-07-16",
+          "open": 37.63,
+          "high": 40.19,
+          "low": 37.49,
+          "close": 38.4,
+          "volume": 104182
+        },
+        {
+          "date": "2026-07-17",
+          "open": 37.59,
+          "high": 39.88,
+          "low": 35.03,
+          "close": 35.39,
+          "volume": 131860
+        },
+        {
+          "date": "2026-07-20",
+          "open": 36.09,
+          "high": 36.12,
+          "low": 31.85,
+          "close": 32.68,
+          "volume": 110686
+        },
+        {
+          "date": "2026-07-21",
+          "open": 32.68,
+          "high": 34.0,
+          "low": 30.7,
+          "close": 33.92,
+          "volume": 82527
+        },
+        {
+          "date": "2026-07-22",
+          "open": 33.19,
+          "high": 36.79,
+          "low": 33.12,
+          "close": 35.39,
+          "volume": 95201
+        },
+        {
+          "date": "2026-07-23",
+          "open": 35.11,
+          "high": 36.9,
+          "low": 33.5,
+          "close": 33.65,
+          "volume": 79841
+        },
+        {
+          "date": "2026-07-24",
+          "open": 32.97,
+          "high": 37.02,
+          "low": 32.87,
+          "close": 37.02,
+          "volume": 105138
+        },
+        {
+          "date": "2026-07-27",
+          "open": 37.02,
+          "high": 37.02,
+          "low": 35.01,
+          "close": 35.9,
+          "volume": 145373
+        },
+        {
+          "date": "2026-07-28",
+          "open": 34.96,
+          "high": 37.38,
+          "low": 34.17,
+          "close": 36.11,
+          "volume": 134449
+        },
+        {
+          "date": "2026-07-29",
+          "open": 35.1,
+          "high": 39.72,
+          "low": 34.98,
+          "close": 39.72,
+          "volume": 114866
+        },
+        {
+          "date": "2026-07-30",
+          "open": 38.95,
+          "high": 39.33,
+          "low": 35.75,
+          "close": 35.75,
+          "volume": 182948
+        },
+        {
+          "date": "2026-07-31",
+          "open": 36.47,
+          "high": 37.5,
+          "low": 35.68,
+          "close": 36.84,
+          "volume": 162169
+        },
+        {
+          "date": "2026-08-03",
+          "open": 35.71,
+          "high": 37.54,
+          "low": 35.5,
+          "close": 35.89,
+          "volume": 100999
+        },
+        {
+          "date": "2026-08-04",
+          "open": 35.9,
+          "high": 36.56,
+          "low": 34.18,
+          "close": 36.56,
+          "volume": 115748
+        },
+        {
+          "date": "2026-08-05",
+          "open": 36.0,
+          "high": 40.22,
+          "low": 35.8,
+          "close": 39.66,
+          "volume": 310779
+        },
+        {
+          "date": "2026-08-06",
+          "open": 38.18,
+          "high": 41.66,
+          "low": 38.18,
+          "close": 41.6,
+          "volume": 300715
+        },
+        {
+          "date": "2026-08-07",
+          "open": 40.81,
+          "high": 41.18,
+          "low": 39.86,
+          "close": 40.91,
+          "volume": 190207
+        },
+        {
+          "date": "2026-08-10",
+          "open": 41.39,
+          "high": 41.49,
+          "low": 40.34,
+          "close": 40.98,
+          "volume": 112864
+        },
+        {
+          "date": "2026-08-11",
+          "open": 40.5,
+          "high": 41.98,
+          "low": 40.2,
+          "close": 40.53,
+          "volume": 140238
+        },
+        {
+          "date": "2026-08-12",
+          "open": 40.68,
+          "high": 41.27,
+          "low": 40.16,
+          "close": 40.85,
+          "volume": 113872
+        },
+        {
+          "date": "2026-08-13",
+          "open": 41.01,
+          "high": 41.8,
+          "low": 40.5,
+          "close": 40.5,
+          "volume": 109598
+        },
+        {
+          "date": "2026-08-14",
+          "open": 41.09,
+          "high": 41.8,
+          "low": 39.66,
+          "close": 41.44,
+          "volume": 122532
+        }
+      ],
+      "prediction": {
+        "target_low": -3.1,
+        "target_high": 2.6,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-08-17",
+          "open": 41.735443115234375,
+          "high": 42.259132385253906,
+          "low": 41.261322021484375,
+          "close": 42.113563537597656,
+          "volume": 112810.015625
+        },
+        {
+          "date": "2026-08-18",
+          "open": 41.48112487792969,
+          "high": 42.30353927612305,
+          "low": 40.013816833496094,
+          "close": 40.1760139465332,
+          "volume": 149119.0625
+        },
+        {
+          "date": "2026-08-19",
+          "open": 40.2750358581543,
+          "high": 41.75132751464844,
+          "low": 40.16632843017578,
+          "close": 41.65152359008789,
+          "volume": 113096.140625
+        },
+        {
+          "date": "2026-08-20",
+          "open": 40.58700942993164,
+          "high": 42.15492630004883,
+          "low": 40.12840270996094,
+          "close": 42.497764587402344,
+          "volume": 142044.65625
+        },
+        {
+          "date": "2026-08-21",
+          "open": 41.548561096191406,
+          "high": 42.16265106201172,
+          "low": 41.07628631591797,
+          "close": 41.93071365356445,
+          "volume": 110681.609375
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-08-17",
+          "open": 41.035438537597656,
+          "high": 41.63064193725586,
+          "low": 39.35344314575195,
+          "close": 40.663143157958984,
+          "volume": 172461.125
+        },
+        {
+          "date": "2026-08-18",
+          "open": 40.456520080566406,
+          "high": 41.64228820800781,
+          "low": 39.58282470703125,
+          "close": 40.22099685668945,
+          "volume": 125749.9140625
+        },
+        {
+          "date": "2026-08-19",
+          "open": 40.53827667236328,
+          "high": 41.39311981201172,
+          "low": 39.5140266418457,
+          "close": 40.51168441772461,
+          "volume": 140717.265625
+        },
+        {
+          "date": "2026-08-20",
+          "open": 40.97671890258789,
+          "high": 41.73516082763672,
+          "low": 39.2197151184082,
+          "close": 40.068817138671875,
+          "volume": 171540.28125
+        },
+        {
+          "date": "2026-08-21",
+          "open": 39.6381721496582,
+          "high": 41.10661697387695,
+          "low": 39.43952941894531,
+          "close": 41.075531005859375,
+          "volume": 128036.3515625
+        }
+      ],
+      "prediction_logic": "美股市场呈现明显的结构性分化：博通(AVGO)跌近6%压制AI硬件情绪，闪迪(SD)涨超7%提振存储板块。博通股份(600455)与博通集成(603068)受直接映射影响较大，短期或面临抛压；安博通(688168)需观察其与博通在网络安全/云网融合业务的关联度。数据港(002249)及北方华创(002371)作为存储产业链下游及设备商，存在潜在的结构性机会。"
+    },
+    "688168": {
+      "ticker": "688168",
+      "name": "安博通",
+      "prices": [
+        {
+          "date": "2026-07-06",
+          "open": 74.74,
+          "high": 76.78,
+          "low": 68.84,
+          "close": 75.48,
+          "volume": 7633495
+        },
+        {
+          "date": "2026-07-07",
+          "open": 75.49,
+          "high": 78.59,
+          "low": 71.02,
+          "close": 71.49,
+          "volume": 4444457
+        },
+        {
+          "date": "2026-07-08",
+          "open": 71.49,
+          "high": 71.54,
+          "low": 57.19,
+          "close": 62.9,
+          "volume": 10449148
+        },
+        {
+          "date": "2026-07-09",
+          "open": 60.89,
+          "high": 63.37,
+          "low": 58.0,
+          "close": 59.86,
+          "volume": 5824126
+        },
+        {
+          "date": "2026-07-10",
+          "open": 59.8,
+          "high": 62.05,
+          "low": 58.5,
+          "close": 59.5,
+          "volume": 4054022
+        },
+        {
+          "date": "2026-07-13",
+          "open": 58.49,
+          "high": 59.39,
+          "low": 52.51,
+          "close": 52.69,
+          "volume": 4784643
+        },
+        {
+          "date": "2026-07-14",
+          "open": 52.97,
+          "high": 57.29,
+          "low": 51.87,
+          "close": 55.52,
+          "volume": 4131067
+        },
+        {
+          "date": "2026-07-15",
+          "open": 54.8,
+          "high": 57.28,
+          "low": 54.2,
+          "close": 54.81,
+          "volume": 2500368
+        },
+        {
+          "date": "2026-07-16",
+          "open": 54.87,
+          "high": 54.9,
+          "low": 51.26,
+          "close": 51.84,
+          "volume": 3079854
+        },
+        {
+          "date": "2026-07-17",
+          "open": 52.0,
+          "high": 52.0,
+          "low": 42.99,
+          "close": 44.05,
+          "volume": 6280227
+        },
+        {
+          "date": "2026-07-20",
+          "open": 47.0,
+          "high": 47.0,
+          "low": 38.05,
+          "close": 39.8,
+          "volume": 6580177
+        },
+        {
+          "date": "2026-07-21",
+          "open": 40.29,
+          "high": 41.54,
+          "low": 35.2,
+          "close": 41.02,
+          "volume": 7099257
+        },
+        {
+          "date": "2026-07-22",
+          "open": 41.0,
+          "high": 41.57,
+          "low": 38.55,
+          "close": 38.87,
+          "volume": 4931831
+        },
+        {
+          "date": "2026-07-23",
+          "open": 39.0,
+          "high": 39.98,
+          "low": 37.6,
+          "close": 38.4,
+          "volume": 5405263
+        },
+        {
+          "date": "2026-07-24",
+          "open": 37.65,
+          "high": 38.18,
+          "low": 36.01,
+          "close": 36.52,
+          "volume": 2912218
+        },
+        {
+          "date": "2026-07-27",
+          "open": 36.37,
+          "high": 37.92,
+          "low": 35.56,
+          "close": 37.49,
+          "volume": 3469109
+        },
+        {
+          "date": "2026-07-28",
+          "open": 38.25,
+          "high": 38.55,
+          "low": 35.47,
+          "close": 35.75,
+          "volume": 4340269
+        },
+        {
+          "date": "2026-07-29",
+          "open": 35.59,
+          "high": 36.29,
+          "low": 33.0,
+          "close": 34.3,
+          "volume": 4512733
+        },
+        {
+          "date": "2026-07-30",
+          "open": 34.2,
+          "high": 34.75,
+          "low": 31.27,
+          "close": 31.4,
+          "volume": 4483099
+        },
+        {
+          "date": "2026-07-31",
+          "open": 32.2,
+          "high": 33.83,
+          "low": 31.36,
+          "close": 31.41,
+          "volume": 9788265
+        },
+        {
+          "date": "2026-08-03",
+          "open": 31.0,
+          "high": 31.8,
+          "low": 30.4,
+          "close": 31.0,
+          "volume": 6491046
+        },
+        {
+          "date": "2026-08-04",
+          "open": 31.1,
+          "high": 33.35,
+          "low": 31.1,
+          "close": 33.11,
+          "volume": 5277636
+        },
+        {
+          "date": "2026-08-05",
+          "open": 32.8,
+          "high": 35.73,
+          "low": 32.5,
+          "close": 35.47,
+          "volume": 6144301
+        },
+        {
+          "date": "2026-08-06",
+          "open": 35.0,
+          "high": 37.3,
+          "low": 34.78,
+          "close": 36.61,
+          "volume": 4930720
+        },
+        {
+          "date": "2026-08-07",
+          "open": 36.63,
+          "high": 37.28,
+          "low": 34.87,
+          "close": 37.06,
+          "volume": 4691787
+        },
+        {
+          "date": "2026-08-10",
+          "open": 37.5,
+          "high": 37.77,
+          "low": 35.86,
+          "close": 36.56,
+          "volume": 3671585
+        },
+        {
+          "date": "2026-08-11",
+          "open": 36.22,
+          "high": 37.56,
+          "low": 35.16,
+          "close": 36.7,
+          "volume": 3658382
+        },
+        {
+          "date": "2026-08-12",
+          "open": 37.17,
+          "high": 38.4,
+          "low": 36.0,
+          "close": 38.08,
+          "volume": 3065416
+        },
+        {
+          "date": "2026-08-13",
+          "open": 38.41,
+          "high": 38.79,
+          "low": 36.7,
+          "close": 36.78,
+          "volume": 2658429
+        },
+        {
+          "date": "2026-08-14",
+          "open": 36.78,
+          "high": 38.0,
+          "low": 36.7,
+          "close": 37.86,
+          "volume": 2471697
+        }
+      ],
+      "prediction": {
+        "target_low": -0.4,
+        "target_high": 3.3,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-08-17",
+          "open": 39.73312759399414,
+          "high": 40.25978088378906,
+          "low": 37.60936737060547,
+          "close": 39.12343215942383,
+          "volume": 3745544.0
+        },
+        {
+          "date": "2026-08-18",
+          "open": 39.46894073486328,
+          "high": 40.76655960083008,
+          "low": 37.14948272705078,
+          "close": 37.9999885559082,
+          "volume": 4087221.0
+        },
+        {
+          "date": "2026-08-19",
+          "open": 39.13543701171875,
+          "high": 40.2870979309082,
+          "low": 37.452701568603516,
+          "close": 38.78274154663086,
+          "volume": 2963077.0
+        },
+        {
+          "date": "2026-08-20",
+          "open": 38.934349060058594,
+          "high": 40.420284271240234,
+          "low": 36.01137161254883,
+          "close": 37.69571304321289,
+          "volume": 3290806.5
+        },
+        {
+          "date": "2026-08-21",
+          "open": 39.063079833984375,
+          "high": 39.738677978515625,
+          "low": 36.39455795288086,
+          "close": 38.68440628051758,
+          "volume": 2321323.75
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-08-17",
+          "open": 37.81258010864258,
+          "high": 38.492000579833984,
+          "low": 36.08094024658203,
+          "close": 37.36800003051758,
+          "volume": 2626376.25
+        },
+        {
+          "date": "2026-08-18",
+          "open": 38.16616439819336,
+          "high": 38.95272445678711,
+          "low": 36.411415100097656,
+          "close": 37.675819396972656,
+          "volume": 3762006.5
+        },
+        {
+          "date": "2026-08-19",
+          "open": 37.258419036865234,
+          "high": 40.0621223449707,
+          "low": 35.52134323120117,
+          "close": 38.029296875,
+          "volume": 3993078.5
+        },
+        {
+          "date": "2026-08-20",
+          "open": 38.479251861572266,
+          "high": 39.305667877197266,
+          "low": 36.46549987792969,
+          "close": 38.0155143737793,
+          "volume": 4369907.0
+        },
+        {
+          "date": "2026-08-21",
+          "open": 38.954002380371094,
+          "high": 40.42531967163086,
+          "low": 36.70521545410156,
+          "close": 37.40555191040039,
+          "volume": 5087897.5
+        }
+      ],
+      "prediction_logic": "美股市场呈现明显的结构性分化：博通(AVGO)跌近6%压制AI硬件情绪，闪迪(SD)涨超7%提振存储板块。博通股份(600455)与博通集成(603068)受直接映射影响较大，短期或面临抛压；安博通(688168)需观察其与博通在网络安全/云网融合业务的关联度。数据港(002249)及北方华创(002371)作为存储产业链下游及设备商，存在潜在的结构性机会。"
+    }
+  }
 }
