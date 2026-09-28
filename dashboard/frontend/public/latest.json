@@ -1,69 +1,855 @@
 {
-  "generated_at": "2026-09-28T22:45:33.114240+08:00",
-  "run_id": "lite_20260928_224533",
-  "count": 1,
+  "generated_at": "2026-09-29T04:56:24.924856+08:00",
+  "run_id": "lite_20260929_045624",
+  "count": 3,
   "signals": [
     {
-      "signal_id": "2494538",
-      "title": "美股半导体板块普跌，高通领跌",
-      "summary": "鉴于板块情绪转弱，预计半导体板块将在未来1-2周内维持震荡寻底走势。建议关注防御性较强的细分领域（如汽车半导体）或等待板块调整至关键支撑位（如SOXX指数回踩430点附近）后的反弹机会。短期目标维持震荡，中期需等待新一轮AI硬件订单落地确认。",
-      "reasoning": "基于研究员提供的数据，美股半导体板块多数下跌，高通跌幅超7%。这一剧烈波动表明市场情绪已从单边乐观转向谨慎。虽然AI仍是长期主线，但短期内消费电子疲软的利空情绪压制了板块估值。高通作为权重股领跌，其负面情绪具有极强的传染性。当前定价状态为'部分定价'，意味着市场已对部分利空有所反应，但恐慌性抛售可能尚未结束。从传导逻辑看，此次下跌主要源于对智能手机需求复苏的担忧以及对AI硬件资本开支的重新评估。",
+      "signal_id": "3171744",
+      "title": "彭博电车指数跌1.41% 中美分化加剧",
+      "summary": "彭博电车指数跌幅1.41%，引发全球板块回调。建议规避安霸(RIVN)、Aurora等美股高估值标的；关注地平线(02433.HK)、吉利(00175.HK)等中国标的的结构性机会。预计下周指数将测试3100点整数关口，中国智能驾驶产业链有望获得超额收益。",
+      "reasoning": "",
       "transmission_chain": [
         {
-          "node_name": "终端消费电子",
+          "node_name": "全球电车板块",
           "impact_type": "利空",
-          "logic": "高通作为CDMA/LTE/5G基带及智能手机芯片龙头，其业绩与手机出货量强相关。板块普跌反映市场对全球智能手机需求复苏不及预期的担忧，导致上游芯片厂商营收预期下调。"
+          "logic": "彭博电车指数单日跌1.41%，亚太盘冲高回落美股持续扩大跌幅，显示全球电动化进程短期情绪承压，市场对高估值板块的获利回吐意愿增强。"
         },
         {
-          "node_name": "AI算力基础设施",
+          "node_name": "上游原材料与芯片",
           "impact_type": "利空",
-          "logic": "半导体板块的联动下跌表明市场正在重估AI硬件的投资回报率。如果高通等公司业绩指引疲软，可能打击市场对AI服务器和HBM（高带宽内存）长期需求的信心，引发资金从高估值AI板块轮动流出。"
+          "logic": "安霸(Ambarella)领跌，作为车载视觉芯片龙头，其下跌反映了市场对上游芯片需求增速放缓的担忧，可能传导至下游自动驾驶算力成本预期。"
         },
         {
-          "node_name": "中游设备与材料",
-          "impact_type": "中性偏空",
-          "logic": "虽然AI需求仍是核心逻辑，但手机业务的拖累会波及晶圆代工（如台积电）和设备厂（如应用材料）的营收结构。市场将更关注其AI业务的占比能否对冲消费电子下滑的风险。"
+          "node_name": "中游整车制造",
+          "impact_type": "利空",
+          "logic": "Rivian领跌，作为特斯拉最大竞争对手，其股价疲软加剧了市场对电动车整车行业盈利能力及估值泡沫的担忧，尤其是美国市场。"
+        },
+        {
+          "node_name": "中国智能驾驶/整车",
+          "impact_type": "利好",
+          "logic": "地平线、速腾聚创、吉利汽车逆势大涨，说明市场资金从海外高估值标的切换至中国具有性价比的智能化及混动技术标的，反映区域间估值洼地效应。"
         }
       ],
       "sentiment_score": 0.0,
-      "confidence": 0.7,
-      "intensity": 4,
+      "confidence": 0.6,
+      "intensity": 3,
       "expectation_gap": 0.4,
-      "timeliness": 0.9,
+      "timeliness": 0.6,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "02433",
+          "name": "中天湖南集团",
+          "weight": 0.15,
+          "price_data": {
+            "current_price": 8.9,
+            "change": 2.11,
+            "trend": "逆势上涨",
+            "position": "强于大盘"
+          }
+        },
+        {
+          "ticker": "00175",
+          "name": "吉利汽车",
+          "weight": 0.2,
+          "price_data": {
+            "current_price": 4.25,
+            "change": 3.65,
+            "trend": "放量上攻",
+            "position": "突破阻力位"
+          }
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "周一（9月28日），彭博电动汽车价格回报指数跌1.41%，报3154.61点，亚太盘初微幅冲高回落，北京时间10:00-美股开盘持稳于3190点一线、之后持续扩大跌幅。\n\n成分股中，Aurora Innovation普拉格动力、安霸、PM材料、“特斯拉劲敌”Rivian领跌，港股地平线收涨2.11%表现第三、吉利汽车控股涨3.65%、速腾聚创科技涨4.31%。",
+          "url": "https://wallstreetcn.com/livenews/3171744",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "大家还在搜王曼昱蒯曼晋级亚运女双四强《兰香如故》夫妻双双掉马甲张继科谈樊振东的强者特质电竞项目将退出亚运9月已有10位演员名人去世五仁月饼成回收香饽饽",
+          "url": "/s?wd=%E7%8E%8B%E6%9B%BC%E6%98%B1%E8%92%AF%E6%9B%BC%E6%99%8B%E7%BA%A7%E4%BA%9A%E8%BF%90%E5%A5%B3%E5%8F%8C%E5%9B%9B%E5%BC%BA&usm=1&ie=utf-8&rsv_pq=ff6802b300154242&oq=%E5%BD%AD%E5%8D%9A%E7%94%B5%E8%BD%A6%E6%8C%87%E6%95%B0%E8%B7%8C1.41%25%20%E4%B8%AD%E7%BE%8E%E5%88%86%E5%8C%96%E5%8A%A0%E5%89%A7&rsv_t=8a0aOoqGwrO9z%2F%2BDkj%2FftHxi74rpLJBDVioOLpOgO6TbWbQEKLs8j2HrE7E&rsf=100637000&rsv_dl=0_prs_28608_1",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "中美在关键技术领域急速脱钩|美国|边际|世界制造业大会_网易订阅",
+          "url": "http://www.baidu.com/link?url=_kvIsCwgekdOZHfyiKhsbLlUVYdt4RF4GfEQK-tctepJ7k5JCE3RpfRaCvf4ZhNwCZ0ZGjiW1Thb2PA3usUHPa",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "华尔街见闻早餐FM-Radio | 2024年12月2日|美国|里根|特朗普|反倾销|...",
+          "url": "http://www.baidu.com/link?url=_kvIsCwgekdOZHfyiKhsbLlUVYdt4RF4GfEQK-tcteoog5cS7_LaY7M9mpVerZswvrdav1UNFGJsB7kkls3mwK",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "new.qq.com/rain/a/20250510A01P7I00",
+          "url": "http://www.baidu.com/link?url=LCjI98ndug44ut02UNJQM_8rnpgKdAbAp1fml03Jpdm5SWrLvPAcl5tQyRKySkqpptRcALjzkE1stirzHL15Wa",
+          "source": "Search (baidu)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3171741",
+      "title": "AMD 82亿并购李飞飞 World Labs",
+      "summary": "基于2026年9月数据，AMD以82亿美元收购李飞飞旗下World Labs，引入'空间智能'核心技术及顶级人才。预计该交易将显著提振AMD估值，利好股价表现，目标价区间为$165-$175（基于当前市场情绪），对应短期涨幅约8%-15%。",
+      "reasoning": "交易发生在2026年2月，当前时间（9月）已过半年，市场对82亿美元收购及李飞飞加盟的消息已充分消化。虽然消息时效性降低（timeliness 0.2），但作为AI算力巨头补齐算法短板的战略举措，其基本面影响依然深远。李飞飞的加入极大提升了AMD的技术含金量，对抗英伟达（NVDA）的护城河效应明显。考虑到市场对AI芯片的持续高预期，尽管消息面无新刺激，但行业背景下的战略价值重估仍将支撑股价。AMD作为AI算力核心标的，其技术协同效应（Sentiment 0.8）和行业地位（Expectation Gap 0.4）是核心驱动力。",
+      "transmission_chain": [
+        {
+          "node_name": "技术层",
+          "impact_type": "利好",
+          "logic": "World Labs的'空间智能'技术填补了AMD在3D理解与生成领域的空白，与AMD GPU算力形成强协同，提升产品壁垒。"
+        },
+        {
+          "node_name": "人才层",
+          "impact_type": "利好",
+          "logic": "李飞飞作为AI教母及斯坦福教授加入AMD，直接提升公司技术公信力与研发水平，吸引顶尖人才。"
+        },
+        {
+          "node_name": "竞争层",
+          "impact_type": "利好",
+          "logic": "在AI芯片双寡头格局下，通过收购补足算法短板，增强对抗英伟达（NVDA）的综合竞争力。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
       "impact_tickers": [],
       "industry_tags": [],
       "sources": [
         {
-          "title": "美股半导体板块多数下跌 高通跌超7%",
-          "url": "https://www.cls.cn/detail/2494538",
-          "source_name": "cls"
+          "title": "AMD同意收购李飞飞旗下AI初创公司World Labs，交易金额82亿美元，从而推进未来的AI计算。\n\n李飞飞将加入AMD，担任执行副总裁兼首席科学家。",
+          "url": "https://wallstreetcn.com/livenews/3171741",
+          "source_name": "wallstreetcn"
         }
       ],
       "search_results": [
         {
-          "title": "大家还在搜高通半导体亚德诺半导体美股半导体板块实时行情半导体股市行情美股三大股指均创收盘新高1美股明星科技股集体下跌半导体龙头股票有哪些半导体第一王者净利暴增新",
-          "url": "/s?wd=%E9%AB%98%E9%80%9A%E5%8D%8A%E5%AF%BC%E4%BD%93&usm=2&ie=utf-8&rsv_pq=fe79bb79000efea9&oq=%E7%BE%8E%E8%82%A1%E5%8D%8A%E5%AF%BC%E4%BD%93%E6%9D%BF%E5%9D%97%E6%99%AE%E8%B7%8C%2C%E9%AB%98%E9%80%9A%E9%A2%86%E8%B7%8C&rsv_t=25f8Su7ve4IcSRvtzZYPfB4jTVscWsg91zv2QGHWKRont7mP2SKt1YxkF3o&rsf=101631202&rsv_dl=0_prs_28608_1",
+          "title": "大家还在搜美国币圈华人女高管自杀郑刚实名举报罗永浩偷税中方：特奥多罗极端反华张继科谈樊振东的强者特质原来宋威龙也追星林诗栋身兼四项全进决赛",
+          "url": "/s?wd=%E7%BE%8E%E5%9B%BD%E5%B8%81%E5%9C%88%E5%8D%8E%E4%BA%BA%E5%A5%B3%E9%AB%98%E7%AE%A1%E8%87%AA%E6%9D%80&usm=1&ie=utf-8&rsv_pq=c68826310015a3d5&oq=AMD%2082%E4%BA%BF%E5%B9%B6%E8%B4%AD%E6%9D%8E%E9%A3%9E%E9%A3%9E%20World%20Labs&rsv_t=0d1c%2Bz91tDQloelcPyIM97YRvALo1j7%2BLX4HD0Oo4KBZz8bdSZ71zYSh1Tk&rsf=100637000&rsv_dl=0_prs_28608_1",
           "source": "Search (baidu)"
         },
         {
-          "title": "暴跌达36%,美股半导体存储芯片板块领跌,欧股尾盘出现跳水,中概股...",
-          "url": "http://www.baidu.com/link?url=OYmGnpdpg4fHKGM1yOIFxY29Lv8dnYlaO8BAB69VFq3zXH0p4gtY1Gf5iAGNonymtSdxIk48zeBw8jSC71llsYKsYk5qJBIwdyd6VHWTYsW",
+          "title": "炸翻硅谷!李飞飞狂砸10亿美金,英伟达AMD联手入局3D空间大战|vr|低功耗...",
+          "url": "http://www.baidu.com/link?url=piijQGOo-J4pxDGJ-f0CXJPp7pS6e057sg-HgdmfZvhmOn-YulzE7T5eoA7nSVb-MbLkDNWSLlTh2wMhkHlIC_",
           "source": "Search (baidu)"
         },
         {
-          "title": "美股半导体股深夜重挫",
-          "url": "http://www.baidu.com/link?url=OYmGnpdpg4fHKGM1yOIFxY29Lv8dnYlaO8BAB69VFqAYCihiH0zlfKHGvSNr8eBmj4IWH4BGUt6LMBJFd5usnahJFH6UQ1yN1Kgcc9IK4j3",
+          "title": "李飞飞创立World Labs获10亿美元融资,英伟达AMD入局|amd|人工智能|l...",
+          "url": "http://www.baidu.com/link?url=piijQGOo-J4pxDGJ-f0CXJPp7pS6e057sg-HgdmfZvfc-teBZVXPpt3UXvm2E_YEUfFweClqp6jYQbo_RTqp7K",
           "source": "Search (baidu)"
         },
         {
-          "title": "暴跌36%,美股半导体存储芯片领跌,欧股尾盘急跌,中概股小幅下跌!",
-          "url": "http://www.baidu.com/link?url=OYmGnpdpg4fHKGM1yOIFxY29Lv8dnYlaO8BAB69VFqAYCihiH0zlfKHGvSNr8eBmomWNWZ05WzcJisaRuvTc7iXJw6HvxpZYB2cDl0NfFse",
+          "title": "...斯坦福教授、ImageNet之母李飞飞创办World Labs,获NVIDIA、AMD...",
+          "url": "http://www.baidu.com/link?url=6YP3cd6wRplb8JwmQOqYARzmayJo6XofoU3TJroBH9EHAGQ_Orh2VhEsLXh5wGiuOHzwg1xkRx9ZE_RZL03oYq",
           "source": "Search (baidu)"
         }
       ]
+    },
+    {
+      "signal_id": "2494668",
+      "title": "光通信存储芯片领跌科技股",
+      "summary": "当前光通信与存储芯片板块处于'业绩兑现期'与'估值消化期'的交叉点。基于美股板块跌幅（光通信、存储）及研究员调研的扩产与去库存数据，预计相关标的（如中际旭创、新易盛）短期承压。建议关注业绩确定性高的龙头，目标价维持区间震荡，建议仓位控制在30%以下，等待库存周期拐点确认。",
+      "reasoning": "该信号源于美股科技股的集体回调，核心传导逻辑在于AI算力产业链的供需再平衡。首先，从基本面看，研究员调研指出东精密等光通信巨头扩产至170亿美元，意味着供给端在增加；同时，存储芯片处于去库存周期，供给过剩导致价格承压。其次，从市场情绪看，美股作为全球科技股定价锚，其光通信和存储板块的下跌，直接打击了市场对AI基础设施高估值的信心。最后，结合A股市值关联，中际旭创等核心标的在A股的定价已部分包含了对美股走势的预期，但当前调整幅度（跌幅居前）表明市场对短期业绩波动的定价仍不充分。因此，判定为中性偏空的短期调整信号，预期差在于市场对去库存周期的持续时间和幅度存在分歧。",
+      "transmission_chain": [],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "美股三大指数集体收跌 光通信、存储芯片板块跌幅居前",
+          "url": "https://www.cls.cn/detail/2494668",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": []
     }
   ],
-  "charts": {}
+  "charts": {
+    "02433": {
+      "ticker": "02433",
+      "name": "中天湖南集团",
+      "prices": [
+        {
+          "date": "2026-08-06",
+          "open": 0.078,
+          "high": 0.078,
+          "low": 0.07,
+          "close": 0.076,
+          "volume": 1196000
+        },
+        {
+          "date": "2026-08-07",
+          "open": 0.072,
+          "high": 0.074,
+          "low": 0.07,
+          "close": 0.074,
+          "volume": 332000
+        },
+        {
+          "date": "2026-08-10",
+          "open": 0.073,
+          "high": 0.08,
+          "low": 0.073,
+          "close": 0.079,
+          "volume": 138000
+        },
+        {
+          "date": "2026-08-12",
+          "open": 0.079,
+          "high": 0.079,
+          "low": 0.079,
+          "close": 0.079,
+          "volume": 2000
+        },
+        {
+          "date": "2026-08-13",
+          "open": 0.073,
+          "high": 0.073,
+          "low": 0.072,
+          "close": 0.073,
+          "volume": 242000
+        },
+        {
+          "date": "2026-08-14",
+          "open": 0.073,
+          "high": 0.08,
+          "low": 0.073,
+          "close": 0.079,
+          "volume": 360000
+        },
+        {
+          "date": "2026-08-17",
+          "open": 0.079,
+          "high": 0.079,
+          "low": 0.065,
+          "close": 0.07,
+          "volume": 888000
+        },
+        {
+          "date": "2026-08-18",
+          "open": 0.065,
+          "high": 0.067,
+          "low": 0.065,
+          "close": 0.067,
+          "volume": 42000
+        },
+        {
+          "date": "2026-08-20",
+          "open": 0.067,
+          "high": 0.075,
+          "low": 0.067,
+          "close": 0.074,
+          "volume": 16000
+        },
+        {
+          "date": "2026-08-21",
+          "open": 0.068,
+          "high": 0.069,
+          "low": 0.068,
+          "close": 0.069,
+          "volume": 62000
+        },
+        {
+          "date": "2026-08-25",
+          "open": 0.072,
+          "high": 0.072,
+          "low": 0.072,
+          "close": 0.072,
+          "volume": 340000
+        },
+        {
+          "date": "2026-08-26",
+          "open": 0.071,
+          "high": 0.071,
+          "low": 0.071,
+          "close": 0.071,
+          "volume": 100000
+        },
+        {
+          "date": "2026-08-27",
+          "open": 0.07,
+          "high": 0.07,
+          "low": 0.07,
+          "close": 0.07,
+          "volume": 78000
+        },
+        {
+          "date": "2026-08-31",
+          "open": 0.07,
+          "high": 0.07,
+          "low": 0.064,
+          "close": 0.067,
+          "volume": 1210000
+        },
+        {
+          "date": "2026-09-01",
+          "open": 0.06,
+          "high": 0.069,
+          "low": 0.06,
+          "close": 0.068,
+          "volume": 1120000
+        },
+        {
+          "date": "2026-09-02",
+          "open": 0.066,
+          "high": 0.067,
+          "low": 0.066,
+          "close": 0.066,
+          "volume": 1846000
+        },
+        {
+          "date": "2026-09-03",
+          "open": 0.067,
+          "high": 0.067,
+          "low": 0.067,
+          "close": 0.067,
+          "volume": 20000
+        },
+        {
+          "date": "2026-09-07",
+          "open": 0.067,
+          "high": 0.068,
+          "low": 0.067,
+          "close": 0.067,
+          "volume": 1240000
+        },
+        {
+          "date": "2026-09-08",
+          "open": 0.065,
+          "high": 0.068,
+          "low": 0.065,
+          "close": 0.066,
+          "volume": 832000
+        },
+        {
+          "date": "2026-09-09",
+          "open": 0.068,
+          "high": 0.068,
+          "low": 0.066,
+          "close": 0.066,
+          "volume": 152000
+        },
+        {
+          "date": "2026-09-10",
+          "open": 0.066,
+          "high": 0.066,
+          "low": 0.066,
+          "close": 0.066,
+          "volume": 90000
+        },
+        {
+          "date": "2026-09-11",
+          "open": 0.068,
+          "high": 0.068,
+          "low": 0.068,
+          "close": 0.068,
+          "volume": 20000
+        },
+        {
+          "date": "2026-09-14",
+          "open": 0.066,
+          "high": 0.066,
+          "low": 0.066,
+          "close": 0.066,
+          "volume": 108000
+        },
+        {
+          "date": "2026-09-15",
+          "open": 0.068,
+          "high": 0.068,
+          "low": 0.06,
+          "close": 0.061,
+          "volume": 148000
+        },
+        {
+          "date": "2026-09-16",
+          "open": 0.068,
+          "high": 0.068,
+          "low": 0.068,
+          "close": 0.068,
+          "volume": 10000
+        },
+        {
+          "date": "2026-09-21",
+          "open": 0.067,
+          "high": 0.067,
+          "low": 0.067,
+          "close": 0.067,
+          "volume": 16000
+        },
+        {
+          "date": "2026-09-22",
+          "open": 0.068,
+          "high": 0.068,
+          "low": 0.067,
+          "close": 0.067,
+          "volume": 2000
+        },
+        {
+          "date": "2026-09-23",
+          "open": 0.068,
+          "high": 0.068,
+          "low": 0.068,
+          "close": 0.068,
+          "volume": 168000
+        },
+        {
+          "date": "2026-09-24",
+          "open": 0.061,
+          "high": 0.067,
+          "low": 0.061,
+          "close": 0.067,
+          "volume": 128000
+        },
+        {
+          "date": "2026-09-28",
+          "open": 0.068,
+          "high": 0.068,
+          "low": 0.066,
+          "close": 0.066,
+          "volume": 272000
+        }
+      ],
+      "prediction": {
+        "target_low": 0.5,
+        "target_high": 4.1,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-09-29",
+          "open": 0.06843914836645126,
+          "high": 0.0679406225681305,
+          "low": 0.06277905404567719,
+          "close": 0.0666690468788147,
+          "volume": 53348.0
+        },
+        {
+          "date": "2026-09-30",
+          "open": 0.06648708879947662,
+          "high": 0.0680716335773468,
+          "low": 0.0674060806632042,
+          "close": 0.06867371499538422,
+          "volume": 640575.4375
+        },
+        {
+          "date": "2026-10-01",
+          "open": 0.06384333968162537,
+          "high": 0.06766305863857269,
+          "low": 0.06234609708189964,
+          "close": 0.06631314009428024,
+          "volume": 248097.078125
+        },
+        {
+          "date": "2026-10-02",
+          "open": 0.06833510100841522,
+          "high": 0.06896603107452393,
+          "low": 0.06112298369407654,
+          "close": 0.06735245883464813,
+          "volume": 477871.625
+        },
+        {
+          "date": "2026-10-05",
+          "open": 0.06300103664398193,
+          "high": 0.06689527630805969,
+          "low": 0.06402236223220825,
+          "close": 0.06691615283489227,
+          "volume": 163284.9375
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-09-29",
+          "open": 0.06314843147993088,
+          "high": 0.06705760210752487,
+          "low": 0.06395883858203888,
+          "close": 0.06710878759622574,
+          "volume": 185306.421875
+        },
+        {
+          "date": "2026-09-30",
+          "open": 0.06701278686523438,
+          "high": 0.06702487915754318,
+          "low": 0.06482207775115967,
+          "close": 0.06730442494153976,
+          "volume": 109904.90625
+        },
+        {
+          "date": "2026-10-01",
+          "open": 0.06649810820817947,
+          "high": 0.06747724115848541,
+          "low": 0.06669877469539642,
+          "close": 0.0668504610657692,
+          "volume": 241664.921875
+        },
+        {
+          "date": "2026-10-02",
+          "open": 0.06692333519458771,
+          "high": 0.06736550480127335,
+          "low": 0.06652463227510452,
+          "close": 0.06628086417913437,
+          "volume": 121173.21875
+        },
+        {
+          "date": "2026-10-05",
+          "open": 0.066276915371418,
+          "high": 0.06695274263620377,
+          "low": 0.0667615458369255,
+          "close": 0.06629585474729538,
+          "volume": 64762.1875
+        }
+      ],
+      "prediction_logic": "彭博电车指数跌幅1.41%，引发全球板块回调。建议规避安霸(RIVN)、Aurora等美股高估值标的；关注地平线(02433.HK)、吉利(00175.HK)等中国标的的结构性机会。预计下周指数将测试3100点整数关口，中国智能驾驶产业链有望获得超额收益。"
+    },
+    "00175": {
+      "ticker": "00175",
+      "name": "吉利汽车",
+      "prices": [
+        {
+          "date": "2026-08-18",
+          "open": 18.63,
+          "high": 19.12,
+          "low": 17.92,
+          "close": 18.26,
+          "volume": 88749943
+        },
+        {
+          "date": "2026-08-19",
+          "open": 18.19,
+          "high": 18.56,
+          "low": 17.75,
+          "close": 17.93,
+          "volume": 58187026
+        },
+        {
+          "date": "2026-08-20",
+          "open": 18.15,
+          "high": 18.72,
+          "low": 18.11,
+          "close": 18.54,
+          "volume": 42723819
+        },
+        {
+          "date": "2026-08-21",
+          "open": 18.6,
+          "high": 19.03,
+          "low": 18.49,
+          "close": 18.75,
+          "volume": 55659220
+        },
+        {
+          "date": "2026-08-24",
+          "open": 18.75,
+          "high": 18.75,
+          "low": 18.32,
+          "close": 18.47,
+          "volume": 37024648
+        },
+        {
+          "date": "2026-08-25",
+          "open": 18.55,
+          "high": 19.03,
+          "low": 18.3,
+          "close": 18.98,
+          "volume": 41935714
+        },
+        {
+          "date": "2026-08-26",
+          "open": 18.74,
+          "high": 18.83,
+          "low": 18.33,
+          "close": 18.36,
+          "volume": 47513943
+        },
+        {
+          "date": "2026-08-27",
+          "open": 18.57,
+          "high": 18.67,
+          "low": 18.21,
+          "close": 18.3,
+          "volume": 25080106
+        },
+        {
+          "date": "2026-08-28",
+          "open": 18.1,
+          "high": 18.29,
+          "low": 18.03,
+          "close": 18.08,
+          "volume": 28512822
+        },
+        {
+          "date": "2026-08-31",
+          "open": 18.0,
+          "high": 18.08,
+          "low": 17.49,
+          "close": 17.6,
+          "volume": 55380193
+        },
+        {
+          "date": "2026-09-01",
+          "open": 17.61,
+          "high": 17.89,
+          "low": 17.55,
+          "close": 17.57,
+          "volume": 25935814
+        },
+        {
+          "date": "2026-09-02",
+          "open": 17.57,
+          "high": 17.57,
+          "low": 16.79,
+          "close": 17.06,
+          "volume": 57698474
+        },
+        {
+          "date": "2026-09-03",
+          "open": 17.35,
+          "high": 17.38,
+          "low": 17.16,
+          "close": 17.22,
+          "volume": 21609491
+        },
+        {
+          "date": "2026-09-04",
+          "open": 17.42,
+          "high": 17.66,
+          "low": 17.26,
+          "close": 17.28,
+          "volume": 30410152
+        },
+        {
+          "date": "2026-09-07",
+          "open": 17.36,
+          "high": 17.39,
+          "low": 16.7,
+          "close": 16.79,
+          "volume": 33337460
+        },
+        {
+          "date": "2026-09-08",
+          "open": 16.65,
+          "high": 16.93,
+          "low": 16.17,
+          "close": 16.92,
+          "volume": 46506986
+        },
+        {
+          "date": "2026-09-09",
+          "open": 16.92,
+          "high": 16.98,
+          "low": 16.52,
+          "close": 16.6,
+          "volume": 35267185
+        },
+        {
+          "date": "2026-09-10",
+          "open": 16.27,
+          "high": 16.27,
+          "low": 16.03,
+          "close": 16.13,
+          "volume": 48876568
+        },
+        {
+          "date": "2026-09-11",
+          "open": 15.93,
+          "high": 16.15,
+          "low": 15.82,
+          "close": 16.12,
+          "volume": 32051360
+        },
+        {
+          "date": "2026-09-14",
+          "open": 15.93,
+          "high": 16.6,
+          "low": 15.9,
+          "close": 16.59,
+          "volume": 37012315
+        },
+        {
+          "date": "2026-09-15",
+          "open": 16.67,
+          "high": 16.82,
+          "low": 16.1,
+          "close": 16.14,
+          "volume": 33883860
+        },
+        {
+          "date": "2026-09-16",
+          "open": 16.25,
+          "high": 16.27,
+          "low": 15.91,
+          "close": 16.11,
+          "volume": 31009340
+        },
+        {
+          "date": "2026-09-17",
+          "open": 16.11,
+          "high": 16.12,
+          "low": 15.67,
+          "close": 16.0,
+          "volume": 31090897
+        },
+        {
+          "date": "2026-09-18",
+          "open": 15.67,
+          "high": 16.01,
+          "low": 15.67,
+          "close": 15.94,
+          "volume": 50524831
+        },
+        {
+          "date": "2026-09-21",
+          "open": 15.89,
+          "high": 15.93,
+          "low": 15.78,
+          "close": 15.91,
+          "volume": 26474132
+        },
+        {
+          "date": "2026-09-22",
+          "open": 15.9,
+          "high": 15.95,
+          "low": 15.58,
+          "close": 15.73,
+          "volume": 42922659
+        },
+        {
+          "date": "2026-09-23",
+          "open": 15.73,
+          "high": 15.86,
+          "low": 15.66,
+          "close": 15.76,
+          "volume": 19029409
+        },
+        {
+          "date": "2026-09-24",
+          "open": 15.56,
+          "high": 15.92,
+          "low": 15.56,
+          "close": 15.77,
+          "volume": 20140455
+        },
+        {
+          "date": "2026-09-25",
+          "open": 15.64,
+          "high": 15.65,
+          "low": 15.36,
+          "close": 15.6,
+          "volume": 15246557
+        },
+        {
+          "date": "2026-09-28",
+          "open": 15.68,
+          "high": 16.17,
+          "low": 15.63,
+          "close": 16.17,
+          "volume": 36491803
+        }
+      ],
+      "prediction": {
+        "target_low": -0.9,
+        "target_high": 1.6,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-09-29",
+          "open": 15.958359718322754,
+          "high": 16.338581085205078,
+          "low": 15.938373565673828,
+          "close": 16.245546340942383,
+          "volume": 30294362.0
+        },
+        {
+          "date": "2026-09-30",
+          "open": 15.968545913696289,
+          "high": 16.49880599975586,
+          "low": 15.618492126464844,
+          "close": 16.025720596313477,
+          "volume": 34978920.0
+        },
+        {
+          "date": "2026-10-01",
+          "open": 16.000011444091797,
+          "high": 16.141902923583984,
+          "low": 15.839162826538086,
+          "close": 16.082199096679688,
+          "volume": 24378024.0
+        },
+        {
+          "date": "2026-10-02",
+          "open": 16.020124435424805,
+          "high": 16.256269454956055,
+          "low": 16.02726936340332,
+          "close": 16.28875732421875,
+          "volume": 29175560.0
+        },
+        {
+          "date": "2026-10-05",
+          "open": 16.38060188293457,
+          "high": 16.52451515197754,
+          "low": 16.244449615478516,
+          "close": 16.43290138244629,
+          "volume": 37897160.0
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-09-29",
+          "open": 16.241960525512695,
+          "high": 16.588010787963867,
+          "low": 15.94327163696289,
+          "close": 16.353004455566406,
+          "volume": 38814828.0
+        },
+        {
+          "date": "2026-09-30",
+          "open": 16.255081176757812,
+          "high": 16.368234634399414,
+          "low": 16.124256134033203,
+          "close": 16.252553939819336,
+          "volume": 27464364.0
+        },
+        {
+          "date": "2026-10-01",
+          "open": 16.07874298095703,
+          "high": 16.47747039794922,
+          "low": 15.922959327697754,
+          "close": 16.17084503173828,
+          "volume": 33189862.0
+        },
+        {
+          "date": "2026-10-02",
+          "open": 16.456512451171875,
+          "high": 16.498018264770508,
+          "low": 15.91428279876709,
+          "close": 16.11268424987793,
+          "volume": 33476180.0
+        },
+        {
+          "date": "2026-10-05",
+          "open": 15.804957389831543,
+          "high": 16.050615310668945,
+          "low": 15.308187484741211,
+          "close": 16.040918350219727,
+          "volume": 40198112.0
+        }
+      ],
+      "prediction_logic": "彭博电车指数跌幅1.41%，引发全球板块回调。建议规避安霸(RIVN)、Aurora等美股高估值标的；关注地平线(02433.HK)、吉利(00175.HK)等中国标的的结构性机会。预计下周指数将测试3100点整数关口，中国智能驾驶产业链有望获得超额收益。"
+    }
+  }
 }
