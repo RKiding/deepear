@@ -1,73 +1,23 @@
 {
-  "generated_at": "2026-10-21T19:02:38.853901+08:00",
-  "run_id": "lite_20261021_190238",
+  "generated_at": "2026-10-21T23:44:27.651680+08:00",
+  "run_id": "lite_20261021_234427",
   "count": 6,
   "signals": [
     {
-      "signal_id": "SZ300750",
-      "title": "宁德时代验证异常，信号暂时中断",
-      "summary": "当前无法获取具体股价数据与新闻内容，无法进行 ISQ 评估。",
-      "reasoning": "研究员提供的原始信号内容仅为雪球网站的访问保护提示（验证码拦截），而非任何实质性的财务数据、公司公告或行业新闻。背景信息显示 'Service may be temporarily overloaded'（服务可能暂时过载）。由于缺乏核心的股价数据、技术面信息或事件逻辑，无法建立有效的投资传导链条，因此 ISQ 框架的各项评分均为 0，无法生成可操作的投资情报。",
-      "transmission_chain": [],
-      "sentiment_score": 0.0,
-      "confidence": 0.0,
-      "intensity": 0,
-      "expectation_gap": 0.0,
-      "timeliness": 0.0,
-      "expected_horizon": "T+N",
-      "price_in_status": "未知",
-      "impact_tickers": [],
-      "industry_tags": [],
-      "sources": [
-        {
-          "title": "宁德时代",
-          "url": "https://xueqiu.com/s/SZ300750",
-          "source_name": "xueqiu"
-        }
-      ],
-      "search_results": [
-        {
-          "title": "宁德时代申请电芯异常检测专利,显著提升三电极电芯的使用安全和稳定性|负极|正极|新能源|知名企业_网易订阅",
-          "url": "http://www.baidu.com/link?url=6Wxu2ApnLccxyU_TIBEbTaawnYPfw290jpR7p6yXs6VCquDcAXqpKjdepdw89aidhLYh5D672M3ms1sDQHRg6a",
-          "source": "Search (baidu)"
-        },
-        {
-          "title": "nsrm.catl.com/",
-          "url": "http://www.baidu.com/link?url=RnL0LCZPb-Xg6c6yNf52xalzTv40mz-56iBNQS90DZS",
-          "source": "Search (baidu)"
-        },
-        {
-          "title": "宁德时代·CATL",
-          "url": "http://www.baidu.com/link?url=6Wxu2ApnLccxyU_TIBEbTdlrjCcy8mqMl0gMmGDzRtejbaDy7upqmmUAo0CMg4ydczyQe0cwwareWlgpeDGQca",
-          "source": "Search (baidu)"
-        },
-        {
-          "title": "宁德时代户外移动电源坏了,记录维修检测全过程。_哔哩哔哩_bilibili",
-          "url": "http://www.baidu.com/link?url=Cz2VEufHPkor3KmFYJrgVHJ1ZPt3iFgZVBumQnVSh-c8SDY6t22Hnn4cOaWod_KrGbVNd3Kq6pqphhwyCh9mbq",
-          "source": "Search (baidu)"
-        }
-      ]
-    },
-    {
-      "signal_id": "00700",
-      "title": "腾讯遭雪球风控限制，情绪扰动引发流动性危机",
-      "summary": "当前定价状态：**未定价（部分定价）**。**预期**：腾讯控股短期面临显著下行压力，若情绪恐慌蔓延，不排除回踩关键支撑位（如近期低点或前低）。**目标**：短期目标价下看至350-360港币区间（假设当前价受情绪压制），关注修复力度。",
-      "reasoning": "研究员提供的背景信息显示雪球平台出现“临时过载”及“访问频率异常”限制，这并非基本面变化，而是**平台层面的流动性/技术性危机**。作为投资者获取信息的核心渠道，雪球的限制直接切断了市场情绪的沟通机制，导致投资者无法评估风险。这种“信息断供”引发的恐慌往往大于实质利好，极易在缺乏流动性的港股市场被放大，造成非理性抛售。因此，判定为短期情绪利空事件，强度较高（4分），时效性极强（0.9分）。",
+      "signal_id": "NVDA",
+      "title": "英伟达验证触发，数据源访问受限",
+      "summary": "当前无法获取英伟达(NVDA)的具体股价及基本面数据，无法计算具体目标价。建议等待验证通过或切换数据源，待信息恢复后再进行价值评估。",
+      "reasoning": "当前信号为数据获取受阻。雪球显示“访问触发保护”及“网络环境异常”，研究员无法通过该平台获取NVDA的最新资讯。由于缺乏具体的股价支撑位、阻力位及基本面驱动因素，无法判断市场是否已充分定价该事件。短期来看，信息真空期可能导致市场波动加剧，但缺乏具体数据支撑，逻辑链条断裂，属于典型的信息中断型信号。",
       "transmission_chain": [
         {
-          "node_name": "雪球平台/用户触达",
+          "node_name": "数据源层",
           "impact_type": "利空",
-          "logic": "雪球作为核心雪球用户社区，限制访问导致核心活跃用户（尤其是长线资金）无法查看行情、发布观点或交易，直接削弱了市场情绪的宣泄渠道，引发恐慌性抛售。"
+          "logic": "雪球访问触发保护，导致研究员无法获取英伟达最新的新闻、财报及技术面数据，造成信息不对称，无法进行有效定价。"
         },
         {
-          "node_name": "港股流动性/情绪",
+          "node_name": "情绪面",
           "impact_type": "利空",
-          "logic": "港股流动性本就不足，雪球限制访问导致大量散户情绪宣泄受阻，短期内引发非理性抛售，加剧股价波动，压制市场做多信心。"
-        },
-        {
-          "node_name": "互联网板块",
-          "impact_type": "利空",
-          "logic": "作为互联网龙头，腾讯的负面情绪会通过估值传导，导致整个恒生科技指数及互联网板块跟随调整。"
+          "logic": "关键数据源中断导致市场无法确认英伟达当前的定价状态（已定价/未定价），短期情绪易受恐慌性抛售影响。"
         }
       ],
       "sentiment_score": 0.0,
@@ -81,83 +31,122 @@
       "industry_tags": [],
       "sources": [
         {
-          "title": "腾讯控股",
-          "url": "https://xueqiu.com/s/00700",
+          "title": "英伟达",
+          "url": "https://xueqiu.com/s/NVDA",
           "source_name": "xueqiu"
         }
       ],
       "search_results": [
         {
-          "title": "new.qq.com/rain/a/20240202A07VCE00",
-          "url": "http://www.baidu.com/link?url=b5f4fUffr-ABH6hP4-kJ-ywcB1DTIuyEayzCnKK5nuyYcAcO7W2bXLX6kOMfZ7AqkKPfrF1kEIohSXzG2o2SfK",
+          "title": "大家还在搜英伟达授权权限卡住了英伟达显卡限制出口英伟达驱动CRC错误原因分析英伟达在中国的业务受限吗英伟达驱动签名验证失败解决方法英伟达安全验证加载不出来",
+          "url": "/s?wd=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E6%8E%88%E6%9D%83%E6%9D%83%E9%99%90%E5%8D%A1%E4%BD%8F%E4%BA%86&usm=2&ie=utf-8&rsv_pq=eabb7aa7000fb007&oq=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E9%AA%8C%E8%AF%81%E8%A7%A6%E5%8F%91%2C%E6%95%B0%E6%8D%AE%E6%BA%90%E8%AE%BF%E9%97%AE%E5%8F%97%E9%99%90&rsv_t=40c0EyfTTvhCc2uhz83x3HOnUGOV%2BtE7ahwzc7qpQ5V75wJzLSA2bNMNb9c&rsf=101636703&rsv_dl=0_prs_28608_1",
           "source": "Search (baidu)"
         },
         {
-          "title": "Wind风控日报 | 山东经销商爆雷,比亚迪回应|山东省|知名企业_网易订阅",
-          "url": "http://www.baidu.com/link?url=cS2wm_JOTb2Q-pybAA8XuzwgxTW-dN0liUmGA-2uprNYfX0bYEQZj_M5-x1T_wpZPvhMCbIjEIxYRUG_DzPhCa",
+          "title": "企业级 NVIDIA 认证系统 | NVIDIA",
+          "url": "http://www.baidu.com/link?url=Vn0Y1u5kfihqpXe6SM68SBN_vNpzslEE0LeZfv2hoN_nIaLBYHGy5h-cuUZJ0bCWIZIOncwKzR0JJaHOkQrk4UXGb8xDFId7ScCBzKjChFm",
           "source": "Search (baidu)"
         },
         {
-          "title": "new.qq.com/rain/a/20240123A0AD0X00",
-          "url": "http://www.baidu.com/link?url=b5f4fUffr-ABH6hP4-kJ-ywcB1DTIuyEayzCnKK5nuyYcAcO7W2bXLX6kOMfZ7Aqg-w2wq1kds-XWAY123T8Da",
+          "title": "利用机密计算确保 AI 安全性 | NVIDIA",
+          "url": "http://www.baidu.com/link?url=l1ZgPzC0F5xQfUp03mmAeZkjXWibZSpH9knZ6InfmvkjeQpJUkaZ3dQEJVy47NjMzyH4SSgPm7XYKEeAemQestPoJLZEMAoCHP4TCdETu_q",
           "source": "Search (baidu)"
         },
         {
-          "title": "大家还在搜新央企董事长总经理亮相宝马员工争着离职杨幂亮色卫衣造型超有元气英伟达宣布新突破女子被狗咬伤后几分钟狗死亡炒饭师傅因长相酷似沈腾走红",
-          "url": "/s?wd=%E6%96%B0%E5%A4%AE%E4%BC%81%E8%91%A3%E4%BA%8B%E9%95%BF%E6%80%BB%E7%BB%8F%E7%90%86%E4%BA%AE%E7%9B%B8&ie=utf-8&rsv_pq=c7eb42ed00061183&oq=%E8%85%BE%E8%AE%AF%E9%81%AD%E9%9B%AA%E7%90%83%E9%A3%8E%E6%8E%A7%E9%99%90%E5%88%B6%2C%E6%83%85%E7%BB%AA%E6%89%B0%E5%8A%A8%E5%BC%95%E5%8F%91%E6%B5%81%E5%8A%A8%E6%80%A7%E5%8D%B1%E6%9C%BA&rsv_t=586bXCvVKxdBVwkMUhngw23tP%2FQTMu7I2YNfGPWUIX43mJKfs4E4lq39HQQ&rsf=100637000&rsv_dl=0_prs_28608_1",
-          "source": "Search (baidu)"
-        },
-        {
-          "title": "讨论详情 - 雪球",
-          "url": "http://www.baidu.com/link?url=tC7YAp1jMDqiu1geRpPPOeVqirDY6L9EaxPl1ZAyDmW6FVkl4Fs3bWphRvlqbPyDqqZYjq2dJd6BXIvSQWfw1K",
+          "title": "关于NVIDIA vGPU 软件许可 - 参考",
+          "url": "http://www.baidu.com/link?url=AubNttXSD5gZZDxHl5Mh6zzE5G2gQAeSYXanq_V_NutPmvgw5rzDTg0qAGlquKbP1PeB3863StG5T-bb9EXz5r9mk_EHA_fF8CYZqHMJcWmGcyUylu2GaVdCNWwqJUHYV89SpJETWkkDBC63pKHvKyQ71kJsDupYWTECMuDbUCISKCZUWRdrte5JPbU2cC_d",
           "source": "Search (baidu)"
         }
       ]
     },
     {
-      "signal_id": "SZ300308",
-      "title": "中际旭创验证触发，信号源受阻",
-      "summary": "无法获取信号：研究员访问被雪球平台触发人机验证限制，当前无法获取关于中际旭创的任何具体数据（股价、新闻、逻辑）。",
-      "reasoning": "根据研究员提供的原始信号，核心内容为‘访问触发保护’及‘人机验证’提示，且背景信息显示‘Operation failed’。这表明研究员的数据采集源头（雪球）被平台风控拦截，导致无法获取具体的标的代码、股价走势、基本面数据或技术面支撑/阻力位信息。由于缺乏核心数据支撑，无法进行任何维度的 ISQ 评估（情绪、强度、预期差等），也无法构建有效的传导逻辑链条。",
-      "transmission_chain": [],
+      "signal_id": "SKHY",
+      "title": "SK海力士访问受限，存储板块预期差重构",
+      "summary": "SK海力士访问受限导致核心数据缺失，市场预期差从'业绩确定性'转向'数据可获得性'。板块短期波动加剧，建议关注兆易创新等业绩兑现能力强且估值合理的标的，预期短期情绪提振，目标价区间维持现价5%-10%上修空间。",
+      "reasoning": "基于研究员提供的背景信息，SK海力士遭遇访问限制，这意味着其即将发布的季报或行业数据无法被市场及时解读。在金融市场中，核心数据的缺失往往会导致定价效率下降，从而产生预期差。对于存储芯片板块而言，SK海力士是行业风向标，其数据缺失会引发市场对HBM（高带宽内存）及DDR5需求放缓的担忧，但也可能成为资金博弈'信息不对称'的契机。当前板块处于存储周期复苏阶段，兆易创新等标的业绩确定性较高，在情绪扰动下更容易获得避险资金青睐。技术面上，若当前股价处于支撑位附近，此信号可作为加仓或布局的短线买点。",
+      "transmission_chain": [
+        {
+          "node_name": "存储芯片龙头 (SK海力士)",
+          "impact_type": "利好",
+          "logic": "作为全球存储龙头，SK海力士访问受限通常意味着其即将披露的业绩指引或产能规划数据对市场有重大影响。数据不可得导致市场对HBM及DDR5需求端的预期产生缺口，利好板块内具备业绩兑现能力的标的。"
+        },
+        {
+          "node_name": "存储芯片产业链",
+          "impact_type": "利好",
+          "logic": "信息真空期下，市场倾向于防御性交易，资金会回流基本面最扎实、业绩确定性最高的存储设计公司（如兆易创新），推动板块估值修复。"
+        },
+        {
+          "node_name": "半导体设备与材料",
+          "impact_type": "中性偏多",
+          "logic": "存储周期回暖带动设备需求，但受限于具体利好内容（是扩产还是技术突破），短期影响幅度有限。"
+        }
+      ],
       "sentiment_score": 0.0,
-      "confidence": 0.0,
-      "intensity": 0,
-      "expectation_gap": 0.0,
-      "timeliness": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
-      "impact_tickers": [],
+      "impact_tickers": [
+        {
+          "code": "603986.SH",
+          "name": "兆易创新",
+          "weight": 0.9,
+          "ticker": "603986"
+        }
+      ],
       "industry_tags": [],
       "sources": [
         {
-          "title": "中际旭创",
-          "url": "https://xueqiu.com/s/SZ300308",
+          "title": "SK海力士",
+          "url": "https://xueqiu.com/s/SKHY",
           "source_name": "xueqiu"
         }
       ],
-      "search_results": []
+      "search_results": [
+        {
+          "title": "大家还在搜SK海力士半导体SK海力士和三星谁的存储技术更强SK海力士大涨对A股存储板块的影响SK海力士和西部数据哪个更值得投资SK海力士将开建AI存储芯片SK海力士与英伟达合作细节",
+          "url": "/s?wd=SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E5%8D%8A%E5%AF%BC%E4%BD%93&usm=2&ie=utf-8&rsv_pq=a2210c29000fc932&oq=SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E8%AE%BF%E9%97%AE%E5%8F%97%E9%99%90%2C%E5%AD%98%E5%82%A8%E6%9D%BF%E5%9D%97%E9%A2%84%E6%9C%9F%E5%B7%AE%E9%87%8D%E6%9E%84&rsv_t=e5adi5NakjW4OCbygjDjBY6usy2BJQblRUb5KQIN8CWUJGQw6Pck5kjuHJE&rsf=101636703&rsv_dl=0_prs_28608_1",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "SK海力士已暴跌近40%,大摩警告:内存本质是周期性商品|美光|hbm|三星电子|知名企业_网易订阅",
+          "url": "http://www.baidu.com/link?url=iw0XBxZk7_1WVQl256Z8DRdNjnMlk_hhauI3XGWzDQuYUvkz1fidcE4Ii1fuoA9eMwxTAdU3_ey10Gb3TcuD_K",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "存储“崩了”",
+          "url": "http://www.baidu.com/link?url=P27dz7janutK9alP8rXm_NNvsfoxoxGsv_31QEHYs6H276V4gEA0ugSJKHqwkh9COdIpemJUDJvF-f5ABo_MKANv_MYfU4hpiavaEBANbJ_",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "SK海力士重磅表态:明年全球存储行业将面临史上最严重的供应短缺,未来十年供不应求",
+          "url": "http://www.baidu.com/link?url=P27dz7janutK9alP8rXm_NNvsfoxoxGsv_31QEHYs6HaHV9ksywzN8U2yp6fnfkuekdLFLKWov89sVrNkpqRZbN2qJHLihPf9uoQil8koUG",
+          "source": "Search (baidu)"
+        }
+      ]
     },
     {
-      "signal_id": "SH600941",
-      "title": "雪球平台访问受限引发流动性担忧",
-      "summary": "当前定价状态：**部分定价**。虽然市场主要关注公司基本面，但雪球平台作为其核心流量入口，服务中断将引发短期情绪性波动。预计股价可能回踩支撑位（参考近期波动下沿），存在1-3%的回调风险。",
-      "reasoning": "研究员提供的原始信号显示雪球平台触发“访问触发保护”及“服务过载”提示，这是典型的平台级流动性危机信号。虽然目前数据仅显示技术故障或风控升级，而非用户流失，但短期内直接导致信息交互停滞。中国移动作为雪球母公司，其金融科技板块估值易受母公司运营状况扰动。技术面看，若股价处于震荡整理期，此类利空消息极易引发止损盘，导致短期价格向成本区回归。",
+      "signal_id": "3182831",
+      "title": "分子筛催化烯烃羰基化技术突破",
+      "summary": "分子筛独自催化烯烃羰基化技术的突破，标志着化工催化领域从“金属依赖”向“结构调控”的范式转变。市场目前对该事件的定价主要集中在概念炒作，尚未充分反映其长期工业化潜力。建议关注具备分子筛技术储备或下游烯烃深加工布局的标的。龙星化工作为兼具分子筛业务与烯烃产业链属性的标的，具备较高弹性。预期相关概念股短期情绪驱动下或迎来20%-30%的波动，中长期需等待工艺放大后的业绩验证。",
+      "reasoning": "",
       "transmission_chain": [
         {
-          "node_name": "雪球平台",
-          "impact_type": "利空",
-          "logic": "验证码限制及服务过载导致用户无法正常访问，短期内将显著降低流量活跃度与用户粘性。"
+          "node_name": "上游新材料/催化剂",
+          "impact_type": "利好",
+          "logic": "中科院大连化物所实现无金属分子筛催化新反应，打破了传统金属配体催化垄断，分子筛作为核心材料的需求将迎来技术升级与扩容预期。"
         },
         {
-          "node_name": "广告/增值服务收入",
-          "impact_type": "利空",
-          "logic": "流量受阻直接影响广告投放效率及会员转化率，导致短期营收预期下调。"
+          "node_name": "中游精细化工",
+          "impact_type": "利好",
+          "logic": "该技术适用于醋酸、香料、医药中间体等基础反应的绿色高效制备。拥有相关催化剂生产能力或下游应用布局的化工企业将直接受益于工艺升级带来的成本下降与产能释放。"
         },
         {
-          "node_name": "中国移动 (关联方)",
-          "impact_type": "利空",
-          "logic": "作为雪球母公司，平台运营中断将削弱其旗下金融科技生态的协同效应，拖累资本市场信心。"
+          "node_name": "下游应用端",
+          "impact_type": "中性偏多",
+          "logic": "虽然技术突破为下游提供了更优的原料来源，但目前主要处于实验室向工业化过渡阶段，短期对终端产品价格影响有限。"
         }
       ],
       "sentiment_score": 0.0,
@@ -171,140 +160,1233 @@
       "industry_tags": [],
       "sources": [
         {
-          "title": "中国移动",
-          "url": "https://xueqiu.com/s/SH600941",
-          "source_name": "xueqiu"
-        }
-      ],
-      "search_results": [
-        {
-          "title": "大家还在搜雪球app下载雪球网股票论坛雪球官方网站手机版雪球网雪球财经网雪球公认的牛人雪球app是干啥的雪球最厉害的三个高手雪球平台安全吗雪球平台可靠吗",
-          "url": "/s?wd=%E9%9B%AA%E7%90%83app%E4%B8%8B%E8%BD%BD&usm=2&ie=utf-8&rsv_pq=904c650500062b49&oq=%E9%9B%AA%E7%90%83%E5%B9%B3%E5%8F%B0%E8%AE%BF%E9%97%AE%E5%8F%97%E9%99%90%E5%BC%95%E5%8F%91%E6%B5%81%E5%8A%A8%E6%80%A7%E6%8B%85%E5%BF%A7&rsv_t=2a433SxAo0kLNgcI22%2FN89U9vk0zimBzcer%2F2ooy9c8VnAaBvF3vCVl70Ts&rsf=101635701&rsv_dl=0_prs_28608_1",
-          "source": "Search (baidu)"
-        },
-        {
-          "title": "问题是流动性困境因何而起?后续能否解决? - 雪球",
-          "url": "http://www.baidu.com/link?url=vHbx56YnwYrC9XT13plIFopmAqm7JblIPRc4U9EbRzEYLjh6YGwTw-2TOzadq5JFmU68rl7Y41t7NGsNqQT4Ea",
-          "source": "Search (baidu)"
-        },
-        {
-          "title": "-- 千问你提供的链接(网页链接)指向雪球平台的一篇帖子,但目前无法直接访问该网页内容——因为页面返回了一个滑动验证(V... - 雪球",
-          "url": "http://www.baidu.com/link?url=vHbx56YnwYrC9XT13plIFopmAqm7JblIPRc4U9EbRzFjdRZv9JxS9nEsOrjRsJqr59Qb42ymyy21J0_jyhXWba",
-          "source": "Search (baidu)"
-        },
-        {
-          "title": "雪球qdii基金暂停交易的原因 - 百度知道",
-          "url": "http://www.baidu.com/link?url=mTK32kXDQOkIuk1gA7b-KAnJoO9QNUfTDMIXAg6aRMStXQv8O2BJdAwSQsajjp5WdSNF3VclnhfXhmUP5mdM2iVynIjB0655pZRbQCBCIQq",
-          "source": "Search (baidu)"
-        }
-      ]
-    },
-    {
-      "signal_id": "3182657",
-      "title": "英伟达:2026-27测试产能翻倍",
-      "summary": "英伟达预计2026-27年半导体测试产能翻倍，验证了AI芯片爆发式增长对供应链的极致压力。市场当前对此认知存在预期差，预计相关测试设备及封测龙头将在未来1-2年内迎来业绩高增，重点关注长川科技（+25%）、华峰测控（+20%）。",
-      "reasoning": "英伟达作为AI算力核心，其产能规划具有极强的风向标意义。测试环节是保证芯片性能和良率的关键，产能翻倍意味着对ATE（自动测试设备）和封测服务的双重拉动。当前股价尚未充分反应未来两年的产能扩张预期，尤其是国产替代逻辑在海外扩产背景下被进一步强化。传导链条清晰：下游需求验证 -> 设备商扩产 -> 封测厂需求提升。建议重点关注拥有高端ATE技术和大客户渠道的标的。",
-      "transmission_chain": [
-        {
-          "node_name": "下游芯片厂商",
-          "impact_type": "利好",
-          "logic": "英伟达产能翻倍意味着对高端芯片（如H200, Blackwell）的验证需求激增，迫使下游终端厂商扩大测试采购。"
-        },
-        {
-          "node_name": "半导体测试设备商",
-          "impact_type": "利好",
-          "logic": "测试设备作为芯片制造的关键环节，产能扩张将直接拉动设备销量。国产替代逻辑叠加全球扩产，利好长川、华峰测控等标的。"
-        },
-        {
-          "node_name": "封测厂 (OSAT)",
-          "impact_type": "利好",
-          "logic": "封测厂为降低成本并提升良率，通常会配套增加测试设备投入。立讯精密作为苹果产业链核心，将受益于大客户AI芯片带来的测试需求。"
-        }
-      ],
-      "sentiment_score": 0.0,
-      "confidence": 0.7,
-      "intensity": 4,
-      "expectation_gap": 0.6,
-      "timeliness": 0.5,
-      "expected_horizon": "T+N",
-      "price_in_status": "未知",
-      "impact_tickers": [],
-      "industry_tags": [],
-      "sources": [
-        {
-          "title": "英伟达预计，2026年至2027年半导体测试产能将翻倍。",
-          "url": "https://wallstreetcn.com/livenews/3182657",
-          "source_name": "wallstreetcn"
-        }
-      ],
-      "search_results": []
-    },
-    {
-      "signal_id": "3182656",
-      "title": "上交所首批主动ETF动员会",
-      "summary": "事件确认首批主动ETF将落地，当前定价处于‘部分定价’状态。预计首批产品上市初期将带来约30-50亿元的增量资金关注。受政策推动及产品创新驱动，相关ETF板块短期存在修复动力，建议关注沪深300ETF（510300）、上证50ETF（510050）及红利ETF（510880）。",
-      "reasoning": "根据新闻，上交所于10月21日召开首批主动ETF动员会，9家基金管理人参会，旨在推动产品落地并引导中长期资金。这表明市场此前关于‘主动ETF扩容’的预期已得到官方确认。虽然具体产品尚未发行，但监管层明确‘严防风险’和‘平稳起步’，消除了市场对产品失败或暴雷的顾虑。结合当前市场环境，该信号提升了市场对权益类资产配置的信心。股价方面，相关ETF指数并未出现显著的单日暴涨，说明市场对具体标的仍在观望，预期差主要在于首批产品的具体规模和费率结构，而非单纯的扩容概念。",
-      "transmission_chain": [
-        {
-          "node_name": "政策端",
-          "impact_type": "利好",
-          "logic": "上交所召开动员会，明确‘平稳起步、严防风险’基调，强化全链条监管，提升中长期资金入市预期，引导增量资金入场。"
-        },
-        {
-          "node_name": "中游产品端",
-          "impact_type": "利好",
-          "logic": "首批9家基金管理人及券商参与动员，主动ETF扩容，丰富产品供给，为市场提供更多元化投资工具。"
-        },
-        {
-          "node_name": "资金面",
-          "impact_type": "利好",
-          "logic": "会议强调提升中长期资金比例与稳定性，长期来看有助于改善A股投资者结构，增强市场韧性。"
-        },
-        {
-          "node_name": "相关ETF",
-          "impact_type": "利好",
-          "logic": "作为首批主动ETF的潜在标的，相关指数ETF有望受益于产品创新带来的流动性提升和关注度增加。"
-        }
-      ],
-      "sentiment_score": 0.0,
-      "confidence": 0.5,
-      "intensity": 3,
-      "expectation_gap": 0.5,
-      "timeliness": 0.8,
-      "expected_horizon": "T+N",
-      "price_in_status": "未知",
-      "impact_tickers": [],
-      "industry_tags": [],
-      "sources": [
-        {
-          "title": "上交所召开首批主动ETF市场动员会",
-          "url": "https://wallstreetcn.com/livenews/3182656",
+          "title": "我国实现分子筛独自催化烯烃羰基化新反应",
+          "url": "https://wallstreetcn.com/livenews/3182831",
           "source_name": "wallstreetcn"
         }
       ],
       "search_results": [
         {
-          "title": "大家还在搜首批18家主动ETF上证etf代码主动ETF代码一览表主动ETF发行最新消息首批13只ETF联袂而来主动ETF上市最新进展全球最大ETF管理人抢先行动新上交所近期公告重点监控ETF",
-          "url": "/s?wd=%E9%A6%96%E6%89%B918%E5%AE%B6%E4%B8%BB%E5%8A%A8ETF&usm=3&ie=utf-8&rsv_pq=b67a275f00060e40&oq=%E4%B8%8A%E4%BA%A4%E6%89%80%E9%A6%96%E6%89%B9%E4%B8%BB%E5%8A%A8ETF%E5%8A%A8%E5%91%98%E4%BC%9A&rsv_t=54b7qQbkTtl7o2iKlH7Bestr5gx7V2P%2BNvirPKm2TqJjsIxT3Nvffz8cWpM&rsf=101635701&rsv_dl=0_prs_28608_1",
+          "title": "大家还在搜费托合成制烯烃催化剂烯烃lindlar催化加氢三苯基膦氯化铑的催化反应机理烯烃催化加氢反应机理甲醇制烯烃技术成熟度烯烃和炔烃催化加氢活性",
+          "url": "/s?wd=%E8%B4%B9%E6%89%98%E5%90%88%E6%88%90%E5%88%B6%E7%83%AF%E7%83%83%E5%82%AC%E5%8C%96%E5%89%82&usm=2&ie=utf-8&rsv_pq=d1e63f38000f8577&oq=%E5%88%86%E5%AD%90%E7%AD%9B%E5%82%AC%E5%8C%96%E7%83%AF%E7%83%83%E7%BE%B0%E5%9F%BA%E5%8C%96%E6%8A%80%E6%9C%AF%E7%AA%81%E7%A0%B4&rsv_t=0943OCmwh9JFUBPWbS%2BoLvxVBO%2Bb8wwj8y7LYk9l9juv8sBeVhDPI9sRXx0&rsf=101632008&rsv_dl=0_prs_28608_1",
           "source": "Search (baidu)"
         },
         {
-          "title": "上交所召开首批主动ETF市场动员会",
-          "url": "http://www.baidu.com/link?url=4RbLh_FQE72D0X-68_j3LFWMnJ3_iuz4qQyC5agPZ4_lyAn-MhMfMnqv_PjBTekvAUK2d_FCkdvcxg7X3u0I8uQXgb7jb7wwM12-Vl7Z4lS",
+          "title": "中石化上海石化研究院 | 分子筛催化反应过程高效化的技术进展|介孔|烯烃|催化剂|表面活性剂_网易订阅",
+          "url": "http://www.baidu.com/link?url=iw0XBxZk7_1WVQl256Z8DRdNjnMlk_hhauI3XGWzDQvOkSHlcoY3QynVLzGWx06ExkCcgX_rASm3qCz1MAGL1_",
           "source": "Search (baidu)"
         },
         {
-          "title": "上交所召开首批主动ETF市场动员会",
-          "url": "http://www.baidu.com/link?url=4RbLh_FQE72D0X-68_j3LFWMnJ3_iuz4qQyC5agPZ4_lyAn-MhMfMnqv_PjBTekvznqNLqMujiDN9t9uXdziAAbg8-Zh5idxQdawsNhiwJu",
+          "title": "...基催化剂稳定性的研究进展|组分|氧化锌|分子筛_网易订阅",
+          "url": "http://www.baidu.com/link?url=kTi7BdnaoyqBWCY5ReHXOXHi3BTbxTCqELNzz2UgCxOXGTAPe8YrZgIAIbB8qErbtVLLYUtfFQSQDM2GCfnR-_",
           "source": "Search (baidu)"
         },
         {
-          "title": "上交所首批主动ETF获批,助力中长期资金入市 | 上海证券交易所",
-          "url": "http://www.baidu.com/link?url=Ha07jVkLNE2wlFRpbJYcwzok7SGEKkN5mok8jgmqZjjV733yrq-4Qbv-JYq663DryP20qlmrh_NBAgolwwfthB20jZ1WCE0jQq6njIqFKTywJMcz3tJRwUR7IOXnCYCg",
+          "title": "new.qq.com/omn/20220606/20220606A01TYG00.html",
+          "url": "http://www.baidu.com/link?url=1htSLI1jyOORdYIDcELTEaKpzXGrlzneXrcc8z21V3iOwM6F9GrNdo1n1lQFHcYHTxBbn7xwweLhNrUrcj_jra",
           "source": "Search (baidu)"
         }
       ]
+    },
+    {
+      "signal_id": "3182829",
+      "title": "化工板块分化，苯乙烯领涨",
+      "summary": "化工板块分化明显，建议关注苯乙烯产业链及炼化一体化龙头。苯乙烯需求端回暖叠加成本支撑，预计相关龙头股短期有望获得5%-8%超额收益；焦炭板块受限于钢铁需求，涨幅相对有限。建议仓位配置卫星化学(002648)及恒力石化(600346)。",
+      "reasoning": "基于2026-10-21的行情数据，苯乙烯夜盘大涨2.1%是核心驱动，表明化工品景气度拐点出现。虽然研究员搜集的背景信息未提供具体股价，但通过行业传导逻辑分析，苯乙烯的强劲反弹（2.1%）显著优于其他化工品（PVC 0.9%），意味着市场对化工品行业周期的判断正在修正。卫星化学和恒力石化作为苯乙烯主要生产商，其股价理应率先反映这一利好。相比之下，铁矿石（-0.6%）和LPG（-2.3%）的下跌显示能源板块内部结构性分化，LPG的大跌可能对以LPG为原料的化工品（如丙烯）形成成本利空。整体来看，市场情绪从之前的观望转为对化工品反弹的确认，预期差主要在于苯乙烯的弹性远超PVC。",
+      "transmission_chain": [
+        {
+          "node_name": "上游原材料",
+          "impact_type": "利好",
+          "logic": "原油价格高位震荡支撑化工品成本端；LPG大跌2.3%缓解部分化工原料成本压力，利好PDH及下游丙烯衍生品。"
+        },
+        {
+          "node_name": "中游化工品",
+          "impact_type": "利好",
+          "logic": "苯乙烯夜盘大涨2.1%显示供需格局改善，下游PS/ABS需求回暖预期强；PVC涨0.9%受益于房地产政策预期及基建开工。"
+        },
+        {
+          "node_name": "下游应用端",
+          "impact_type": "利好",
+          "logic": "家电、汽车板块需求复苏传导至苯乙烯；基建投资加码直接提振PVC管材及型材需求。"
+        },
+        {
+          "node_name": "钢铁冶炼",
+          "impact_type": "中性",
+          "logic": "铁矿石跌0.6%对钢厂成本有边际改善，但钢价尚未出现大幅反弹，焦炭仅微涨0.1%显示终端需求复苏尚需验证。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "code": "002648",
+          "name": "卫星化学",
+          "weight": 0.4,
+          "ticker": "002648"
+        },
+        {
+          "code": "600346",
+          "name": "恒力石化",
+          "weight": 0.3,
+          "ticker": "600346"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "苯乙烯夜盘收涨约2.1%，PVC涨约0.9%，焦炭涨约0.1%。\n\nPTA跌0.3%，铁矿石跌0.6%，LPG跌2.3%。",
+          "url": "https://wallstreetcn.com/livenews/3182829",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "大家还在搜化工最厉害三个龙头染料中间体龙头股苯乙烯苯乙烯是什么材料苯乙烯明天走势预测苯乙烯龙头上市公司苯乙烯价格波动对化工行业的影响甲醇概念龙头股",
+          "url": "/s?wd=%E5%8C%96%E5%B7%A5%E6%9C%80%E5%8E%89%E5%AE%B3%E4%B8%89%E4%B8%AA%E9%BE%99%E5%A4%B4&usm=2&ie=utf-8&rsv_pq=89f2084c000fa158&oq=%E5%8C%96%E5%B7%A5%E6%9D%BF%E5%9D%97%E5%88%86%E5%8C%96%2C%E8%8B%AF%E4%B9%99%E7%83%AF%E9%A2%86%E6%B6%A8&rsv_t=3284W4lJfIZHF6mPZDc1vk9%2FCIkTB1jKl%2BYgoPsu0iT6CtZtENYNDCERorw&rsf=101635701&rsv_dl=0_prs_28608_1",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "全部征收50%关税?3月至今|原油|塑料|石脑油|乙二醇|苯乙烯|化工品_网易订阅",
+          "url": "http://www.baidu.com/link?url=kTi7BdnaoyqBWCY5ReHXOXHi3BTbxTCqELNzz2UgCxQYfcN1DKHoyQhDr7VDhQHc2sHcmgDdgdUjeU8YtmcMI_",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "化工板块多数飘红 乙二醇主力涨逾3%|丁二烯|乙二醇|化工板块|玻璃|甲醇|纯碱|聚丙烯|苯乙烯_手机网易网",
+          "url": "http://www.baidu.com/link?url=U7irskomgJbU4UNSPhwZ0gqa-i6OCvcLmPeI4QwpFFUQ4kIZ0XNp6JbxTOehu6u3uIngSqUQqxW2M4tD-HY_yq",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "市场观察|化工板块集体走强涨1.45%,价涨缩供共振开启景气修复行情|etf|化工品|景气度|恒生科技指数_网易订阅",
+          "url": "http://www.baidu.com/link?url=iw0XBxZk7_1WVQl256Z8DRdNjnMlk_hhauI3XGWzDQxko5DtIspdsDzN2ugA69SDYBYOA_LDjcbUcqlisJuRuK",
+          "source": "Search (baidu)"
+        }
+      ]
+    },
+    {
+      "signal_id": "3182828",
+      "title": "中国化纤全球占比超75% 强国目标达成",
+      "summary": "基于化纤全球占比75%及国产装备自给率85%的数据，核心标的东方盛虹（600176）具备“炼化+新材料”双重弹性，建议关注其高端化转型进度；吉林化纤（000420）作为碳纤维概念股存在事件驱动；行业整体估值处于历史中低位，预计核心标的未来3-6个月预期涨幅在15%-25%区间。",
+      "reasoning": "信号核心在于“强国目标达成”与“应用场景拓展（上天下海进人体）”。中国化纤产量占全球75%确认了行业龙头的绝对地位，而非单纯产能过剩。更重要的是“上天”（碳纤维用于大飞机/航天）和“下海”（涤纶缆绳承重2000吨）的应用场景升级，将改变市场对化纤行业仅为传统纺织原料的刻板印象，转向高端新材料和战略物资。市场当前对东方盛虹等全产业链龙头的估值仍停留在传统化工逻辑，忽略了其在“进人体”医疗材料和高端电子布领域的突破，存在显著的预期差。吉林化纤作为碳纤维代表，股价已部分反映，但强度受限于其规模。综合来看，行业逻辑从“周期复苏”转向“成长+战略”，推荐关注具备高端化转型的龙头。",
+      "transmission_chain": [
+        {
+          "node_name": "上游原材料/装备",
+          "impact_type": "利好",
+          "logic": "国产纺织装备自给率达85%以上，利好恒逸石化、荣盛石化等拥有自主高端纺机技术的炼化一体化企业。"
+        },
+        {
+          "node_name": "高性能纤维（碳纤维/UHMWPE）",
+          "impact_type": "利好",
+          "logic": "碳纤维用于大飞机、火箭；超高分子量聚乙烯用于飞船回收及2000吨级缆绳，直接利好吉林化纤等碳纤维及特种纤维龙头。"
+        },
+        {
+          "node_name": "产业用纺织品（医疗/海工）",
+          "impact_type": "利好",
+          "logic": "人工血管、心脏瓣膜及海工缆绳需求增长，提升涤纶工业丝及医用级聚酯产品的附加值，带动东方盛虹等企业业绩。"
+        },
+        {
+          "node_name": "传统化纤（粘胶/涤纶）",
+          "impact_type": "中性偏多",
+          "logic": "行业集中度提升，全球占比75%确认龙头地位，行业基本面企稳，估值有修复空间。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.85,
+      "intensity": 3,
+      "expectation_gap": 0.4,
+      "timeliness": 0.4,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "我国化纤产量占全球75%以上",
+          "url": "https://wallstreetcn.com/livenews/3182828",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "锚定全面建成社会主义现代化强国目标奋发进取",
+          "url": "http://www.baidu.com/link?url=2YjzJWx3J9Ys0cDmB-Yzeete4RIvXbAZpMaJHkrcbCw6yFslfFcQ7HudkGGqkaM_ziRSi6zuoC_gifzcttAmE44tu0o1qtjK6fD0yO-t7sK",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "中国制造强筋壮骨由大向强_央广网",
+          "url": "http://www.baidu.com/link?url=gumy5Po7zcv7RBkYyDTTwjzAbdpguSsDaLu2zN33H8_-Hyrjb6TM57EEj9GEA0eQAQus7PzDGN-Frau-plE3a_",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "任理轩:锚定全面建成社会主义现代化强国目标奋发进取",
+          "url": "http://www.baidu.com/link?url=d9UHUC4nllyj-UYjtpvNZqGIWC7Q1ywX4bfwsI9qTTXiH7qiDrAm0V5mYbHtrIi79BPbAfg7Q7WBgNyRUK4gmyigA2jVjUjf5GLq0f1piy9IsTKRiey0VpdXQlHOEbeP",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "大家还在搜中国化纤三巨头是谁十二个强国目标中国十大化纤厂现代化强国的目标是啥化纤龙头股业绩排名化纤龙头股投资风险提示化纤龙头股未来走势如何化纤龙头股未来增长点在哪里",
+          "url": "/s?wd=%E4%B8%AD%E5%9B%BD%E5%8C%96%E7%BA%A4%E4%B8%89%E5%B7%A8%E5%A4%B4%E6%98%AF%E8%B0%81&usm=1&ie=utf-8&rsv_pq=c32e2eb7000f8e53&oq=%E4%B8%AD%E5%9B%BD%E5%8C%96%E7%BA%A4%E5%85%A8%E7%90%83%E5%8D%A0%E6%AF%94%E8%B6%8575%25%20%E5%BC%BA%E5%9B%BD%E7%9B%AE%E6%A0%87%E8%BE%BE%E6%88%90&rsv_t=bdf6X%2Fsy5cE30oEFXppI8GRtaa4EqAFQdLW5yoRcDVnW8%2Fc%2FSLHsUnAOYbk&rsf=101635701&rsv_dl=0_prs_28608_1",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "印记|解锁“纤”变万化的密码",
+          "url": "http://www.baidu.com/link?url=P27dz7janutK9alP8rXm_NNvsfoxoxGsv_31QEHYs6GsZt-zaWUkw-JKV-n-Lu5NDq4k96jMekhn4XN49L_fAvMXyb9QwarDEYJqfWH-qoa",
+          "source": "Search (baidu)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2511534",
+      "title": "美债拍卖结果：利率高于预期，投标倍数略降",
+      "summary": "市场对美债收益率上涨的定价已较为充分（部分定价），但实际拍卖结果验证了流动性收紧的担忧。预计短期内A股市场情绪受压制，高股息板块面临回调压力，出口链个股（如国联水产）需警惕汇率波动带来的汇兑损失。",
+      "reasoning": "本次美国财政部4个月期国债拍卖得标利率4.155%，高于市场普遍预期的4.0%，投标倍数2.76虽尚可但较近期有所回落。这直接反映了海外投资者对美国长期高利率环境的担忧以及短期流动性回收的迹象。4个月期国债作为短期资金成本风向标，其收益率上行预示着短期美债利率维持高位。对于A股市场而言，这意味着美元可能走强，人民币面临贬值压力，进而影响外资流向；同时，国内货币政策受到的掣肘增加，高股息资产的吸引力相对下降。具体到个股，汇率敏感的出口企业（国联水产）及美元资产敞口较大的企业（杰瑞股份）将首当其冲受到负面影响。整体来看，该信号属于短期利空，市场情绪偏向中性偏空，影响强度为中等。",
+      "transmission_chain": [
+        {
+          "node_name": "宏观流动性/汇率",
+          "impact_type": "利空",
+          "logic": "4.155%的得标利率高于市场预期的4.0%左右，显示海外需求疲软且流动性吃紧。美元指数可能走强，压制人民币汇率，导致国内货币政策宽松空间受限，利空高股息资产。"
+        },
+        {
+          "node_name": "美元/汇率",
+          "impact_type": "利空",
+          "logic": "美债收益率上升通常推动美元指数走强，人民币承压，不利于A股资金面，尤其是外资流向。"
+        },
+        {
+          "node_name": "出口型/汇率敏感企业",
+          "impact_type": "利空",
+          "logic": "人民币贬值预期增强，将直接削弱出口型企业的汇兑收益（如国联水产），压缩利润空间。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.75,
+      "intensity": 2,
+      "expectation_gap": 0.4,
+      "timeliness": 0.85,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "财联社10月21日电，美国财政部拍卖四个月期国债，得标利率4.155%，投标倍数2.76。",
+          "url": "https://www.cls.cn/detail/2511534",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": []
     }
   ],
-  "charts": {}
+  "charts": {
+    "603986": {
+      "ticker": "603986",
+      "name": "兆易创新",
+      "prices": [
+        {
+          "date": "2026-09-02",
+          "open": 388.0,
+          "high": 395.95,
+          "low": 387.45,
+          "close": 388.86,
+          "volume": 209513
+        },
+        {
+          "date": "2026-09-03",
+          "open": 393.11,
+          "high": 393.89,
+          "low": 380.19,
+          "close": 383.2,
+          "volume": 238566
+        },
+        {
+          "date": "2026-09-04",
+          "open": 387.58,
+          "high": 388.97,
+          "low": 368.77,
+          "close": 371.88,
+          "volume": 299691
+        },
+        {
+          "date": "2026-09-07",
+          "open": 382.81,
+          "high": 386.26,
+          "low": 380.3,
+          "close": 385.44,
+          "volume": 349656
+        },
+        {
+          "date": "2026-09-08",
+          "open": 385.82,
+          "high": 398.0,
+          "low": 381.96,
+          "close": 385.96,
+          "volume": 374698
+        },
+        {
+          "date": "2026-09-09",
+          "open": 390.0,
+          "high": 392.87,
+          "low": 380.0,
+          "close": 381.87,
+          "volume": 229047
+        },
+        {
+          "date": "2026-09-10",
+          "open": 380.83,
+          "high": 387.5,
+          "low": 379.01,
+          "close": 380.64,
+          "volume": 215208
+        },
+        {
+          "date": "2026-09-11",
+          "open": 371.8,
+          "high": 373.99,
+          "low": 363.0,
+          "close": 371.32,
+          "volume": 292309
+        },
+        {
+          "date": "2026-09-14",
+          "open": 360.0,
+          "high": 365.88,
+          "low": 355.55,
+          "close": 356.88,
+          "volume": 264365
+        },
+        {
+          "date": "2026-09-15",
+          "open": 356.87,
+          "high": 371.66,
+          "low": 356.0,
+          "close": 363.11,
+          "volume": 293180
+        },
+        {
+          "date": "2026-09-16",
+          "open": 366.11,
+          "high": 374.38,
+          "low": 360.96,
+          "close": 373.14,
+          "volume": 268707
+        },
+        {
+          "date": "2026-09-17",
+          "open": 370.06,
+          "high": 377.23,
+          "low": 365.34,
+          "close": 369.88,
+          "volume": 234866
+        },
+        {
+          "date": "2026-09-18",
+          "open": 379.99,
+          "high": 390.66,
+          "low": 378.0,
+          "close": 388.18,
+          "volume": 410514
+        },
+        {
+          "date": "2026-09-21",
+          "open": 396.0,
+          "high": 403.23,
+          "low": 388.13,
+          "close": 391.71,
+          "volume": 328986
+        },
+        {
+          "date": "2026-09-22",
+          "open": 399.99,
+          "high": 413.43,
+          "low": 394.0,
+          "close": 402.1,
+          "volume": 509151
+        },
+        {
+          "date": "2026-09-23",
+          "open": 406.3,
+          "high": 408.06,
+          "low": 397.44,
+          "close": 398.72,
+          "volume": 261957
+        },
+        {
+          "date": "2026-09-24",
+          "open": 393.0,
+          "high": 394.77,
+          "low": 383.72,
+          "close": 383.77,
+          "volume": 226595
+        },
+        {
+          "date": "2026-09-28",
+          "open": 380.0,
+          "high": 380.0,
+          "low": 357.14,
+          "close": 358.51,
+          "volume": 284936
+        },
+        {
+          "date": "2026-09-29",
+          "open": 358.56,
+          "high": 369.0,
+          "low": 358.0,
+          "close": 367.57,
+          "volume": 209082
+        },
+        {
+          "date": "2026-09-30",
+          "open": 369.75,
+          "high": 370.0,
+          "low": 351.28,
+          "close": 353.9,
+          "volume": 242377
+        },
+        {
+          "date": "2026-10-08",
+          "open": 352.0,
+          "high": 353.8,
+          "low": 331.0,
+          "close": 334.4,
+          "volume": 294316
+        },
+        {
+          "date": "2026-10-09",
+          "open": 325.0,
+          "high": 329.5,
+          "low": 311.42,
+          "close": 326.46,
+          "volume": 334513
+        },
+        {
+          "date": "2026-10-12",
+          "open": 321.0,
+          "high": 322.59,
+          "low": 308.8,
+          "close": 310.84,
+          "volume": 253371
+        },
+        {
+          "date": "2026-10-13",
+          "open": 297.03,
+          "high": 311.11,
+          "low": 292.66,
+          "close": 306.22,
+          "volume": 311547
+        },
+        {
+          "date": "2026-10-14",
+          "open": 305.0,
+          "high": 306.0,
+          "low": 292.0,
+          "close": 292.56,
+          "volume": 229286
+        },
+        {
+          "date": "2026-10-15",
+          "open": 275.0,
+          "high": 283.8,
+          "low": 271.3,
+          "close": 278.22,
+          "volume": 373897
+        },
+        {
+          "date": "2026-10-16",
+          "open": 285.0,
+          "high": 291.9,
+          "low": 278.12,
+          "close": 281.86,
+          "volume": 344518
+        },
+        {
+          "date": "2026-10-19",
+          "open": 280.5,
+          "high": 288.49,
+          "low": 272.0,
+          "close": 282.44,
+          "volume": 315821
+        },
+        {
+          "date": "2026-10-20",
+          "open": 277.0,
+          "high": 288.5,
+          "low": 275.67,
+          "close": 282.43,
+          "volume": 273645
+        },
+        {
+          "date": "2026-10-21",
+          "open": 291.0,
+          "high": 292.55,
+          "low": 284.5,
+          "close": 288.02,
+          "volume": 272891
+        }
+      ],
+      "prediction": {
+        "target_low": -9.2,
+        "target_high": 5.8,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-10-22",
+          "open": 293.1220703125,
+          "high": 308.42083740234375,
+          "low": 275.0353698730469,
+          "close": 304.7881774902344,
+          "volume": 309386.6875
+        },
+        {
+          "date": "2026-10-23",
+          "open": 309.05029296875,
+          "high": 309.58636474609375,
+          "low": 282.8519287109375,
+          "close": 292.57269287109375,
+          "volume": 300339.625
+        },
+        {
+          "date": "2026-10-26",
+          "open": 282.4207458496094,
+          "high": 287.1775207519531,
+          "low": 264.3396301269531,
+          "close": 270.28350830078125,
+          "volume": 319373.03125
+        },
+        {
+          "date": "2026-10-27",
+          "open": 267.82232666015625,
+          "high": 278.8286437988281,
+          "low": 264.5736083984375,
+          "close": 272.3523864746094,
+          "volume": 319611.5625
+        },
+        {
+          "date": "2026-10-28",
+          "open": 273.87060546875,
+          "high": 266.39837646484375,
+          "low": 273.4206848144531,
+          "close": 261.4427490234375,
+          "volume": 271910.03125
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-10-22",
+          "open": 287.739990234375,
+          "high": 292.2894592285156,
+          "low": 280.8578186035156,
+          "close": 284.4299621582031,
+          "volume": 249191.578125
+        },
+        {
+          "date": "2026-10-23",
+          "open": 284.79302978515625,
+          "high": 305.0233459472656,
+          "low": 280.37896728515625,
+          "close": 285.3583679199219,
+          "volume": 299575.40625
+        },
+        {
+          "date": "2026-10-26",
+          "open": 284.52886962890625,
+          "high": 289.37359619140625,
+          "low": 276.1184387207031,
+          "close": 280.1163635253906,
+          "volume": 271215.5625
+        },
+        {
+          "date": "2026-10-27",
+          "open": 281.7020263671875,
+          "high": 289.7661437988281,
+          "low": 278.272705078125,
+          "close": 284.07403564453125,
+          "volume": 246062.953125
+        },
+        {
+          "date": "2026-10-28",
+          "open": 284.52825927734375,
+          "high": 290.4501037597656,
+          "low": 278.3041687011719,
+          "close": 282.66815185546875,
+          "volume": 263187.46875
+        }
+      ],
+      "prediction_logic": "SK海力士访问受限导致核心数据缺失，市场预期差从'业绩确定性'转向'数据可获得性'。板块短期波动加剧，建议关注兆易创新等业绩兑现能力强且估值合理的标的，预期短期情绪提振，目标价区间维持现价5%-10%上修空间。"
+    },
+    "002648": {
+      "ticker": "002648",
+      "name": "卫星化学",
+      "prices": [
+        {
+          "date": "2026-09-02",
+          "open": 29.0,
+          "high": 29.1,
+          "low": 27.23,
+          "close": 27.49,
+          "volume": 542233
+        },
+        {
+          "date": "2026-09-03",
+          "open": 27.75,
+          "high": 28.22,
+          "low": 27.41,
+          "close": 27.65,
+          "volume": 338271
+        },
+        {
+          "date": "2026-09-04",
+          "open": 27.52,
+          "high": 27.94,
+          "low": 27.32,
+          "close": 27.54,
+          "volume": 333293
+        },
+        {
+          "date": "2026-09-07",
+          "open": 27.55,
+          "high": 27.73,
+          "low": 26.95,
+          "close": 27.01,
+          "volume": 353353
+        },
+        {
+          "date": "2026-09-08",
+          "open": 27.05,
+          "high": 27.7,
+          "low": 26.98,
+          "close": 27.69,
+          "volume": 373137
+        },
+        {
+          "date": "2026-09-09",
+          "open": 27.48,
+          "high": 28.3,
+          "low": 27.35,
+          "close": 28.18,
+          "volume": 428697
+        },
+        {
+          "date": "2026-09-10",
+          "open": 28.37,
+          "high": 29.2,
+          "low": 27.91,
+          "close": 28.07,
+          "volume": 492108
+        },
+        {
+          "date": "2026-09-11",
+          "open": 28.15,
+          "high": 28.35,
+          "low": 27.1,
+          "close": 27.22,
+          "volume": 493935
+        },
+        {
+          "date": "2026-09-14",
+          "open": 27.22,
+          "high": 27.68,
+          "low": 26.72,
+          "close": 26.91,
+          "volume": 313807
+        },
+        {
+          "date": "2026-09-15",
+          "open": 26.77,
+          "high": 27.09,
+          "low": 26.58,
+          "close": 26.85,
+          "volume": 208866
+        },
+        {
+          "date": "2026-09-16",
+          "open": 26.99,
+          "high": 27.15,
+          "low": 26.47,
+          "close": 26.87,
+          "volume": 276111
+        },
+        {
+          "date": "2026-09-17",
+          "open": 26.63,
+          "high": 26.89,
+          "low": 26.27,
+          "close": 26.34,
+          "volume": 303856
+        },
+        {
+          "date": "2026-09-18",
+          "open": 26.39,
+          "high": 26.63,
+          "low": 26.08,
+          "close": 26.61,
+          "volume": 248002
+        },
+        {
+          "date": "2026-09-21",
+          "open": 26.65,
+          "high": 27.28,
+          "low": 26.5,
+          "close": 27.23,
+          "volume": 315649
+        },
+        {
+          "date": "2026-09-22",
+          "open": 27.14,
+          "high": 27.14,
+          "low": 26.45,
+          "close": 26.96,
+          "volume": 288846
+        },
+        {
+          "date": "2026-09-23",
+          "open": 26.78,
+          "high": 27.01,
+          "low": 26.63,
+          "close": 26.82,
+          "volume": 180183
+        },
+        {
+          "date": "2026-09-24",
+          "open": 26.66,
+          "high": 26.82,
+          "low": 26.43,
+          "close": 26.64,
+          "volume": 199558
+        },
+        {
+          "date": "2026-09-28",
+          "open": 26.52,
+          "high": 26.95,
+          "low": 26.31,
+          "close": 26.79,
+          "volume": 311588
+        },
+        {
+          "date": "2026-09-29",
+          "open": 26.75,
+          "high": 26.75,
+          "low": 25.48,
+          "close": 25.9,
+          "volume": 442580
+        },
+        {
+          "date": "2026-09-30",
+          "open": 25.9,
+          "high": 26.75,
+          "low": 25.73,
+          "close": 26.51,
+          "volume": 304173
+        },
+        {
+          "date": "2026-10-08",
+          "open": 27.0,
+          "high": 27.76,
+          "low": 26.7,
+          "close": 27.36,
+          "volume": 390521
+        },
+        {
+          "date": "2026-10-09",
+          "open": 27.31,
+          "high": 27.9,
+          "low": 27.15,
+          "close": 27.77,
+          "volume": 301591
+        },
+        {
+          "date": "2026-10-12",
+          "open": 27.6,
+          "high": 27.8,
+          "low": 26.56,
+          "close": 26.58,
+          "volume": 367982
+        },
+        {
+          "date": "2026-10-13",
+          "open": 26.24,
+          "high": 26.9,
+          "low": 26.05,
+          "close": 26.29,
+          "volume": 294253
+        },
+        {
+          "date": "2026-10-14",
+          "open": 26.32,
+          "high": 27.05,
+          "low": 26.02,
+          "close": 26.2,
+          "volume": 293274
+        },
+        {
+          "date": "2026-10-15",
+          "open": 25.73,
+          "high": 26.12,
+          "low": 24.62,
+          "close": 24.81,
+          "volume": 455158
+        },
+        {
+          "date": "2026-10-16",
+          "open": 25.0,
+          "high": 25.24,
+          "low": 24.7,
+          "close": 24.9,
+          "volume": 270606
+        },
+        {
+          "date": "2026-10-19",
+          "open": 24.81,
+          "high": 25.48,
+          "low": 24.66,
+          "close": 25.41,
+          "volume": 247469
+        },
+        {
+          "date": "2026-10-20",
+          "open": 25.28,
+          "high": 25.41,
+          "low": 24.99,
+          "close": 25.34,
+          "volume": 195634
+        },
+        {
+          "date": "2026-10-21",
+          "open": 25.36,
+          "high": 25.65,
+          "low": 25.04,
+          "close": 25.14,
+          "volume": 151830
+        }
+      ],
+      "prediction": {
+        "target_low": -1.9,
+        "target_high": -0.1,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-10-22",
+          "open": 25.161041259765625,
+          "high": 25.285791397094727,
+          "low": 24.66481590270996,
+          "close": 24.673866271972656,
+          "volume": 189453.3125
+        },
+        {
+          "date": "2026-10-23",
+          "open": 24.810733795166016,
+          "high": 25.508020401000977,
+          "low": 24.685222625732422,
+          "close": 25.11568832397461,
+          "volume": 361554.15625
+        },
+        {
+          "date": "2026-10-26",
+          "open": 25.089046478271484,
+          "high": 25.378036499023438,
+          "low": 24.79849624633789,
+          "close": 24.966405868530273,
+          "volume": 237968.5625
+        },
+        {
+          "date": "2026-10-27",
+          "open": 24.95217514038086,
+          "high": 25.157360076904297,
+          "low": 24.83330726623535,
+          "close": 24.82642936706543,
+          "volume": 304063.15625
+        },
+        {
+          "date": "2026-10-28",
+          "open": 25.093507766723633,
+          "high": 25.533491134643555,
+          "low": 24.792354583740234,
+          "close": 25.045080184936523,
+          "volume": 342052.5
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-10-22",
+          "open": 25.643447875976562,
+          "high": 25.782114028930664,
+          "low": 25.190155029296875,
+          "close": 25.2132511138916,
+          "volume": 233452.390625
+        },
+        {
+          "date": "2026-10-23",
+          "open": 25.38962745666504,
+          "high": 26.06632423400879,
+          "low": 25.303184509277344,
+          "close": 25.784042358398438,
+          "volume": 342707.9375
+        },
+        {
+          "date": "2026-10-26",
+          "open": 25.190420150756836,
+          "high": 25.693891525268555,
+          "low": 24.974559783935547,
+          "close": 25.320934295654297,
+          "volume": 365528.03125
+        },
+        {
+          "date": "2026-10-27",
+          "open": 25.56363296508789,
+          "high": 26.081602096557617,
+          "low": 25.649250030517578,
+          "close": 25.98849105834961,
+          "volume": 357193.375
+        },
+        {
+          "date": "2026-10-28",
+          "open": 26.178152084350586,
+          "high": 26.500415802001953,
+          "low": 25.84733009338379,
+          "close": 26.152101516723633,
+          "volume": 330103.15625
+        }
+      ],
+      "prediction_logic": "化工板块分化明显，建议关注苯乙烯产业链及炼化一体化龙头。苯乙烯需求端回暖叠加成本支撑，预计相关龙头股短期有望获得5%-8%超额收益；焦炭板块受限于钢铁需求，涨幅相对有限。建议仓位配置卫星化学(002648)及恒力石化(600346)。"
+    },
+    "600346": {
+      "ticker": "600346",
+      "name": "恒力石化",
+      "prices": [
+        {
+          "date": "2026-09-02",
+          "open": 19.36,
+          "high": 19.37,
+          "low": 18.3,
+          "close": 18.39,
+          "volume": 345584
+        },
+        {
+          "date": "2026-09-03",
+          "open": 18.39,
+          "high": 19.31,
+          "low": 18.21,
+          "close": 19.16,
+          "volume": 448318
+        },
+        {
+          "date": "2026-09-04",
+          "open": 19.13,
+          "high": 19.43,
+          "low": 18.85,
+          "close": 19.02,
+          "volume": 289668
+        },
+        {
+          "date": "2026-09-07",
+          "open": 19.0,
+          "high": 19.09,
+          "low": 18.11,
+          "close": 18.23,
+          "volume": 300509
+        },
+        {
+          "date": "2026-09-08",
+          "open": 18.24,
+          "high": 18.86,
+          "low": 18.12,
+          "close": 18.79,
+          "volume": 279667
+        },
+        {
+          "date": "2026-09-09",
+          "open": 18.71,
+          "high": 19.19,
+          "low": 18.38,
+          "close": 19.1,
+          "volume": 221131
+        },
+        {
+          "date": "2026-09-10",
+          "open": 19.2,
+          "high": 19.28,
+          "low": 18.38,
+          "close": 18.42,
+          "volume": 210981
+        },
+        {
+          "date": "2026-09-11",
+          "open": 18.51,
+          "high": 18.55,
+          "low": 17.2,
+          "close": 17.27,
+          "volume": 412070
+        },
+        {
+          "date": "2026-09-14",
+          "open": 17.12,
+          "high": 17.38,
+          "low": 16.71,
+          "close": 16.85,
+          "volume": 344279
+        },
+        {
+          "date": "2026-09-15",
+          "open": 16.88,
+          "high": 16.88,
+          "low": 16.52,
+          "close": 16.67,
+          "volume": 244745
+        },
+        {
+          "date": "2026-09-16",
+          "open": 16.7,
+          "high": 16.75,
+          "low": 16.18,
+          "close": 16.53,
+          "volume": 285511
+        },
+        {
+          "date": "2026-09-17",
+          "open": 16.3,
+          "high": 16.67,
+          "low": 16.07,
+          "close": 16.38,
+          "volume": 239565
+        },
+        {
+          "date": "2026-09-18",
+          "open": 16.39,
+          "high": 16.72,
+          "low": 16.23,
+          "close": 16.42,
+          "volume": 256666
+        },
+        {
+          "date": "2026-09-21",
+          "open": 16.39,
+          "high": 16.64,
+          "low": 16.26,
+          "close": 16.6,
+          "volume": 290429
+        },
+        {
+          "date": "2026-09-22",
+          "open": 16.65,
+          "high": 16.68,
+          "low": 16.31,
+          "close": 16.54,
+          "volume": 278220
+        },
+        {
+          "date": "2026-09-23",
+          "open": 16.48,
+          "high": 17.2,
+          "low": 16.43,
+          "close": 16.88,
+          "volume": 375302
+        },
+        {
+          "date": "2026-09-24",
+          "open": 16.79,
+          "high": 16.82,
+          "low": 16.11,
+          "close": 16.15,
+          "volume": 316624
+        },
+        {
+          "date": "2026-09-28",
+          "open": 16.23,
+          "high": 16.65,
+          "low": 16.03,
+          "close": 16.42,
+          "volume": 294497
+        },
+        {
+          "date": "2026-09-29",
+          "open": 16.5,
+          "high": 16.5,
+          "low": 15.6,
+          "close": 15.91,
+          "volume": 360693
+        },
+        {
+          "date": "2026-09-30",
+          "open": 16.09,
+          "high": 16.32,
+          "low": 15.88,
+          "close": 16.07,
+          "volume": 231742
+        },
+        {
+          "date": "2026-10-08",
+          "open": 16.19,
+          "high": 16.93,
+          "low": 16.14,
+          "close": 16.4,
+          "volume": 290597
+        },
+        {
+          "date": "2026-10-09",
+          "open": 16.32,
+          "high": 16.6,
+          "low": 16.2,
+          "close": 16.45,
+          "volume": 220715
+        },
+        {
+          "date": "2026-10-12",
+          "open": 16.45,
+          "high": 16.47,
+          "low": 15.72,
+          "close": 15.76,
+          "volume": 296069
+        },
+        {
+          "date": "2026-10-13",
+          "open": 15.7,
+          "high": 15.8,
+          "low": 15.35,
+          "close": 15.68,
+          "volume": 219827
+        },
+        {
+          "date": "2026-10-14",
+          "open": 15.74,
+          "high": 15.87,
+          "low": 15.43,
+          "close": 15.5,
+          "volume": 170458
+        },
+        {
+          "date": "2026-10-15",
+          "open": 15.25,
+          "high": 15.45,
+          "low": 15.03,
+          "close": 15.24,
+          "volume": 221072
+        },
+        {
+          "date": "2026-10-16",
+          "open": 15.36,
+          "high": 15.54,
+          "low": 15.22,
+          "close": 15.4,
+          "volume": 181513
+        },
+        {
+          "date": "2026-10-19",
+          "open": 15.38,
+          "high": 15.92,
+          "low": 15.36,
+          "close": 15.74,
+          "volume": 220753
+        },
+        {
+          "date": "2026-10-20",
+          "open": 15.68,
+          "high": 15.74,
+          "low": 15.29,
+          "close": 15.5,
+          "volume": 213993
+        },
+        {
+          "date": "2026-10-21",
+          "open": 15.48,
+          "high": 15.62,
+          "low": 15.38,
+          "close": 15.43,
+          "volume": 130436
+        }
+      ],
+      "prediction": {
+        "target_low": -5.3,
+        "target_high": -0.7,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-10-22",
+          "open": 15.603935241699219,
+          "high": 15.54958438873291,
+          "low": 15.461142539978027,
+          "close": 15.32949447631836,
+          "volume": 191756.703125
+        },
+        {
+          "date": "2026-10-23",
+          "open": 15.270984649658203,
+          "high": 15.277204513549805,
+          "low": 15.265066146850586,
+          "close": 15.26850414276123,
+          "volume": 170062.9375
+        },
+        {
+          "date": "2026-10-26",
+          "open": 15.149263381958008,
+          "high": 15.242290496826172,
+          "low": 14.788451194763184,
+          "close": 14.953888893127441,
+          "volume": 257816.15625
+        },
+        {
+          "date": "2026-10-27",
+          "open": 14.997025489807129,
+          "high": 15.111281394958496,
+          "low": 14.547327041625977,
+          "close": 14.606363296508789,
+          "volume": 249594.046875
+        },
+        {
+          "date": "2026-10-28",
+          "open": 14.859787940979004,
+          "high": 15.06408977508545,
+          "low": 14.504690170288086,
+          "close": 14.698748588562012,
+          "volume": 216807.921875
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-10-22",
+          "open": 15.54051399230957,
+          "high": 15.727520942687988,
+          "low": 15.340402603149414,
+          "close": 15.574220657348633,
+          "volume": 205919.0625
+        },
+        {
+          "date": "2026-10-23",
+          "open": 15.521842002868652,
+          "high": 15.959100723266602,
+          "low": 15.193428039550781,
+          "close": 15.534582138061523,
+          "volume": 247903.859375
+        },
+        {
+          "date": "2026-10-26",
+          "open": 15.548470497131348,
+          "high": 15.643118858337402,
+          "low": 14.902668952941895,
+          "close": 15.139281272888184,
+          "volume": 275055.625
+        },
+        {
+          "date": "2026-10-27",
+          "open": 15.157693862915039,
+          "high": 15.22899055480957,
+          "low": 14.845477104187012,
+          "close": 14.871719360351562,
+          "volume": 220747.125
+        },
+        {
+          "date": "2026-10-28",
+          "open": 14.901334762573242,
+          "high": 15.135004997253418,
+          "low": 14.72406005859375,
+          "close": 14.91363525390625,
+          "volume": 342855.71875
+        }
+      ],
+      "prediction_logic": "化工板块分化明显，建议关注苯乙烯产业链及炼化一体化龙头。苯乙烯需求端回暖叠加成本支撑，预计相关龙头股短期有望获得5%-8%超额收益；焦炭板块受限于钢铁需求，涨幅相对有限。建议仓位配置卫星化学(002648)及恒力石化(600346)。"
+    }
+  }
 }
