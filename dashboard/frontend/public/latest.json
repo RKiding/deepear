@@ -1,39 +1,119 @@
 {
-  "generated_at": "2026-10-29T18:31:22.719178+08:00",
-  "run_id": "lite_20261029_183122",
-  "count": 5,
+  "generated_at": "2026-10-30T01:12:05.098193+08:00",
+  "run_id": "lite_20261030_011205",
+  "count": 7,
   "signals": [
     {
-      "signal_id": "2519450",
-      "title": "花旗上调MSFT目标价680美元，AI云增长驱动",
-      "summary": "花旗将微软目标价上调至$680，对应人民币约¥5,313，较当前收盘价¥531.01有约7.0%的上涨空间。当前股价位于520-535区间震荡，技术面处于修复阶段，尚未完全定价此次上调，存在补涨预期。",
-      "reasoning": "基于研究员数据，微软当前股价¥531.01对应美元约$73.30，而花旗新目标价$680折合人民币约¥5,313。两者之间存在约¥782的价差，即约7.0%的涨幅空间，表明市场对该定价尚未完全消化。情绪面上，机构持续上调目标价且当前处于震荡上行趋势（近30日+4.33%），显示市场信心稳健。从确定性来看，花旗作为头部投行，其调价通常基于详细调研，置信度较高。传导链条清晰，微软作为AI云龙头，其业绩改善将直接惠及上游的算力芯片供应商（如NVDA、AMD）及下游的云基础设施服务商。因此，该信号强度中等偏上，主要影响微软自身股价及AI产业链相关标的。",
+      "signal_id": "3190662",
+      "title": "欧股普涨0.87% 传导A股出口链",
+      "summary": "欧洲三大指数集体收涨，其中STOXX 600涨幅0.87%，富时泛欧绩优300涨幅0.90%，呈现低开高走态势。受此影响，A股汽车及新能源板块预期活跃。上汽集团（600104）目标价参考区间35.00-37.50元（+3%-10%），宁德时代（300750）目标价参考区间215.00-225.00元（+2%-7%），比亚迪（002594）目标价参考区间280.00-295.00元（+3%-8%）。",
+      "reasoning": "信号核心为2026年10月29日欧洲股市的全面反弹，STOXX 600报649.76点，涨幅0.87%。这一数据表明欧洲市场风险偏好回升，且符合“低开高走”的强势特征。基于研究员背景调查，欧洲市场复苏将直接利好A股出口导向型龙头。特别是上汽集团和比亚迪，欧洲业务是其增长的重要引擎，股价目前处于技术面多头排列，具备补涨空间。宁德时代作为欧洲车企（宝马、大众）的核心供应商，其股价走势与欧洲车企景气度高度正相关。因此，该信号属于中等强度的正向驱动，市场虽已部分定价欧洲复苏逻辑，但具体的个股业绩兑现仍有预期差，建议关注汽车及新能源产业链的领涨机会。",
       "transmission_chain": [
         {
-          "node_name": "花旗机构观点",
+          "node_name": "欧洲市场/汽车出口",
           "impact_type": "利好",
-          "logic": "花旗上调目标价至$680（+7%），确认机构对微软AI商业化及云业务增长的乐观预期。"
+          "logic": "欧洲STOXX 600指数上涨0.87%，叠加欧元区STOXX 50上涨0.78%，反映欧洲经济复苏预期增强。上汽、比亚迪等在欧洲业务占比高，直接受益于海外需求回暖及估值修复。"
         },
         {
-          "node_name": "微软股价",
+          "node_name": "新能源产业链",
           "impact_type": "利好",
-          "logic": "当前股价¥531.01（$73.30）处于520-535震荡区间，距离$680目标价仍有约7%空间，价格尚未完全反映上调预期。"
+          "logic": "大众、宝马等欧洲车企龙头股价上涨，利好其供应链。宁德时代作为核心供应商，订单预期提升，带动股价走强。"
         },
         {
-          "node_name": "云服务与AI硬件",
+          "node_name": "工业制造/出口",
           "impact_type": "利好",
-          "logic": "Azure云增长及AI算力需求将直接拉动英伟达、AMD等芯片厂商的出货量。"
-        },
-        {
-          "node_name": "终端应用",
-          "impact_type": "中性偏多",
-          "logic": "企业客户及开发者对Azure生态及Copilot等AI工具的采用度提升，巩固Office及Windows生态粘性。"
+          "logic": "STOXX 600中工业板块占20%，且巴斯夫、西门子等巨头股价上涨。三一重工等工程机械出口企业有望跟随板块情绪回暖。"
         }
       ],
       "sentiment_score": 0.0,
-      "confidence": 0.85,
-      "intensity": 4,
-      "expectation_gap": 0.35,
+      "confidence": 0.7,
+      "intensity": 3,
+      "expectation_gap": 0.3,
+      "timeliness": 0.6,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "600104",
+          "name": "上汽集团",
+          "weight": 0.25,
+          "position": "多头排列，突破关键阻力位"
+        },
+        {
+          "ticker": "002594",
+          "name": "比亚迪",
+          "weight": 0.2,
+          "position": "短期均线多头，量能配合良好"
+        },
+        {
+          "ticker": "300750",
+          "name": "宁德时代",
+          "weight": 0.2,
+          "position": "震荡上行，企稳迹象明显"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "欧洲STOXX 600指数初步收涨0.87%，报649.76点。\n\n欧元区STOXX 50指数初步收涨0.78%，报6215.98点，整体低开高走。\n\n富时泛欧绩优300指数初步收涨0.90%，报2592.10点。",
+          "url": "https://wallstreetcn.com/livenews/3190662",
+          "source_name": "wallstreetcn"
+        }
+      ],
+      "search_results": [
+        {
+          "title": "路透时报｜中国热泵对欧出口暴涨。路透时报｜中国热泵对欧出口暴 - 抖",
+          "url": "http://www.baidu.com/link?url=sV40GVjIgaPAGDwNw2voeg1tfsX85UPVOvSWHXHOshxy4p5OedXCZ0PV_C4pj9bQTkkQ0DmhpzXuPfyrW_zjca",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "new.qq.com/omn/20220509/20220509A01W9L00.html",
+          "url": "http://www.baidu.com/link?url=iYAZdEINEfD3IJ6N30eMOlyB_2BTCiZNExSNqZOvYBLlgo6XY39Deq-5rVG18AyXorziETMVPpyfjk5nLoGdS_",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "隔夜,美股三大指数集体跳水!炼油厂遇袭、美油暴涨超8%!芯片突发,美国拟将AI芯片出口管制扩展至全球|氢能|原油|现货黄金_网易订阅",
+          "url": "http://www.baidu.com/link?url=MPPSud5snpEFxznCTAZRRcaUt9vXJJDo1AkhiwwluhgbVNvxoJY6enOmd-48bwSzCys1bbqFeuT3hdimF6DV5q",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "大家还在搜中国出口龙头股未来走势如何欧洲三大股指实时行情韩股最新行情今日实时中国海外股票未来走势预测对中国有敞口的欧洲股票上涨欧股下跌对A股影响",
+          "url": "/s?wd=%E4%B8%AD%E5%9B%BD%E5%87%BA%E5%8F%A3%E9%BE%99%E5%A4%B4%E8%82%A1%E6%9C%AA%E6%9D%A5%E8%B5%B0%E5%8A%BF%E5%A6%82%E4%BD%95&usm=1&ie=utf-8&rsv_pq=b5dfdd4c0010244a&oq=%E6%AC%A7%E8%82%A1%E6%99%AE%E6%B6%A80.87%25%20%E4%BC%A0%E5%AF%BCA%E8%82%A1%E5%87%BA%E5%8F%A3%E9%93%BE&rsv_t=16b0NiOhY%2FDyENZV7HhmXuE261mK5pN%2BUjfq9L3ual8yj8PuocW9GX07i78&rsf=101632008&rsv_dl=0_prs_28608_1",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "陆家嘴财经早餐2023年10月7日星期六|基点_网易订阅",
+          "url": "http://www.baidu.com/link?url=MPPSud5snpEFxznCTAZRRcaUt9vXJJDo1Akhiwwluhh3eV_458DbPVM1RnI-jErvgoKxFKD46gnCw1jlyLis6q",
+          "source": "Search (baidu)"
+        }
+      ]
+    },
+    {
+      "signal_id": "2519873",
+      "title": "以色列大选清点完成",
+      "summary": "以色列议会选举特殊选票清点完成，地缘政治不确定性降低，军工板块存在情绪修复机会。建议关注火炬电子（22.85元）及天和防务（13.42元），预期短期涨跌幅 5%-8%。",
+      "reasoning": "当前信号虽未提供具体选举结果，但“清点完成”标志着事件进入尾声，市场将重新定价地缘风险溢价。根据 ISQ 框架，强度为 2，主要影响军工板块。火炬电子（600891）作为军工电子核心标的，当前股价（22.85元）处于震荡区间，未完全反映地缘政治转暖预期；天和防务（300125）弹性较大，受情绪驱动更明显。中航光电（002179）权重较低因其业务受国内基建影响较大。传导逻辑为：政局稳定->强硬派概率上升->冲突风险维持高位->军费/军贸需求增加->军工板块估值修复。",
+      "transmission_chain": [
+        {
+          "node_name": "地缘政治/中东局势",
+          "impact_type": "中性偏多",
+          "logic": "选举结果定局将消除短期不确定性，以色列政局稳定可能加强其在巴以冲突中的强硬立场，增加地区军事存在感。"
+        },
+        {
+          "node_name": "军工/防务板块",
+          "impact_type": "利好",
+          "logic": "政局动荡或强硬派掌权通常意味着军费开支增加及地缘冲突风险上升，直接利好军工订单预期与估值修复。"
+        },
+        {
+          "node_name": "A股军工细分龙头",
+          "impact_type": "利好",
+          "logic": "火炬电子、天和防务等具备海外业务或地缘政治敏感度的标的，将受益于全球军贸需求及地缘避险情绪。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.4,
+      "intensity": 2,
+      "expectation_gap": 0.3,
       "timeliness": 0.6,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
@@ -41,261 +121,208 @@
       "industry_tags": [],
       "sources": [
         {
-          "title": "财联社10月29日电，花旗将微软目标价从636美元上调至680美元。",
-          "url": "https://www.cls.cn/detail/2519450",
+          "title": "以色列议会选举特殊选票清点工作基本完成",
+          "url": "https://www.cls.cn/detail/2519873",
           "source_name": "cls"
         }
       ],
       "search_results": [
         {
-          "title": "大家还在搜MSFT股票未来走势预测MSFT和GOOGL哪个更适合投资MSFT和AAPL哪个股票更好MSFT 股票基本面分析MSFT股价为何上涨MSFT和GOOGL哪个投资价值高",
-          "url": "/s?wd=MSFT%E8%82%A1%E7%A5%A8%E6%9C%AA%E6%9D%A5%E8%B5%B0%E5%8A%BF%E9%A2%84%E6%B5%8B&usm=2&ie=utf-8&rsv_pq=92dd67e100049340&oq=%E8%8A%B1%E6%97%97%E4%B8%8A%E8%B0%83MSFT%E7%9B%AE%E6%A0%87%E4%BB%B7680%E7%BE%8E%E5%85%83%2CAI%E4%BA%91%E5%A2%9E%E9%95%BF%E9%A9%B1%E5%8A%A8&rsv_t=5a00KTXxrU1tvFFkkcaQr8ebvkO%2FQ4dag5jDZ0VtzcLHkmLBs0BCBPI9f8c&rsf=101632008&rsv_dl=0_prs_28608_1",
+          "title": "大家还在搜以色列大选结束新以色列大选最新消息以色列宣布已将中国列入什么国家以色列这次玩大了?以色列大选各阵营对待冲突态度大以色列计划和巴勒斯坦问题",
+          "url": "/s?wd=%E4%BB%A5%E8%89%B2%E5%88%97%E5%A4%A7%E9%80%89%E7%BB%93%E6%9D%9F&usm=2&ie=utf-8&rsv_pq=b9c86cc5001052f7&oq=%E4%BB%A5%E8%89%B2%E5%88%97%E5%A4%A7%E9%80%89%E6%B8%85%E7%82%B9%E5%AE%8C%E6%88%90&rsv_t=081fZ8n8khQLUmTRp%2BGscim2Gh2fXi%2F24LX04kpwIAvU20WaWtVJntD%2FaZ0&rsf=101632809&rsv_dl=0_prs_28608_1",
           "source": "Search (baidu)"
         },
         {
-          "title": "路透时报｜微软千亿算力踩刹车。路透时报｜微软千亿算力踩刹车， - 抖",
-          "url": "http://www.baidu.com/link?url=iP-1qA2ffHNwUZm33qquWIrzJLIWxRaBj8oZtb9v4xUjr50EztBE6W4dtIA6J21w_X9H-RDHnEbymN_rouR39a",
+          "title": "以色列第26届议会选举投票结束|以色列|大选|委员会|巴西总统|议席|选举_手机网易网",
+          "url": "http://www.baidu.com/link?url=4eLKXiqpatelzdk49ET4tugPUYyfOlG4B2iroTm6wLcLbUcO1JILHu1xmmQtuCbrhrzeRNXbR-8rtXwezLLeQa",
           "source": "Search (baidu)"
         },
         {
-          "title": "微软悄悄放了个大招：决策AI比GPT-6快35倍，每个token只要0.042美",
-          "url": "http://www.baidu.com/link?url=13n52FjmSDUghXP2yoQUTvb8U594ovmuAk799pseLJOCH-3WoHjYvtzJTgLSOfK5ddmipfVKUcUQu1NMD3bEz_6c85PIt8CMyqj_PueE5eORTlHCN57qSlSR3wyJYaOiYLfOjZ87QujJtp-Et_8Xv1e2Xkigf18zjvFkfSV_oYyJewYXWKVPGbM61LUhYZ_n5r37vMDbukbYjXadlXKspazGduTWHae8oc9UHyb89ZU0JFle5AsecXaE9KJeejzK5te9OAsDxb5e9ZguDNLEDK",
+          "title": "以色列大选投票结束,出口民调出炉披露相关结果",
+          "url": "http://www.baidu.com/link?url=gMUgJcH2i3NCHGU40YrBaVWO4xzkeA0LV0A3EnIuMEiaBnHWkOE9xBa9AGSgQ8Z7owLx0B2aA3zVim6uszwdmK",
           "source": "Search (baidu)"
         },
         {
-          "title": "高盛研报：微软Azure云业务2027财年增速或达47% 现金流受AI投资影",
-          "url": "http://www.baidu.com/link?url=snMPijebpDyA7vE_s-o7H88lAv0vMXw0ooejZB6eIfJBQ1eXBX_BNpbFXYZevLEju2b6kNj-7GkVTVNqi-MEvK",
-          "source": "Search (baidu)"
-        }
-      ]
-    },
-    {
-      "signal_id": "2519449",
-      "title": "紫光股份：Q3净利环比降56%",
-      "summary": "Q3单季盈利环比下降56%引发短期波动，但前三季度净利润同比暴增97.53%验证了高景气度。预计股价将在波动中整固，短期支撑位关注前期低点，上方目标价对应2026年PE约25倍，对应目标区间26.5-28.0元，短期反弹空间约8-10%。",
-      "reasoning": "该信号核心矛盾在于‘全年高增’与‘单季波动’的错配。虽然Q3环比数据大幅下滑（-56%）看似利空，但97.53%的同比增长率表明公司处于高速扩张期，季节性波动或一次性因素（如大额计提、汇兑等）可能是主因，而非基本面恶化。市场通常对高增长持乐观态度，但会规避单季环比下滑带来的业绩不稳定性。当前股价可能已经部分消化了Q3环比下降的利空，但尚未完全计入全年业绩爆发带来的估值溢价。结合当前市场对AI算力和ICT基础设施的偏好，公司基本面支撑较强，短期波动不改长期上升趋势，存在超跌反弹的博弈机会。",
-      "transmission_chain": [
-        {
-          "node_name": "业绩披露 (Q3单季)",
-          "impact_type": "利空",
-          "logic": "Q3净利润6.06亿元，环比Q2的13.79亿元下降56%，显示单季盈利能力边际减弱，市场短期可能担忧季度波动性。"
-        },
-        {
-          "node_name": "全年业绩指引 (前三季度)",
-          "impact_type": "利好",
-          "logic": "前三季度净利润27.73亿元，同比增长97.53%，超市场预期。营收增长32.12%，显示业务扩张强劲，奠定全年高增基调。"
-        },
-        {
-          "node_name": "业务基本面",
-          "impact_type": "利好",
-          "logic": "增长主要由子公司新华三业务扩大驱动，服务器及ICT基础设施需求旺盛，长期逻辑支撑强劲。"
-        }
-      ],
-      "sentiment_score": 0.0,
-      "confidence": 0.85,
-      "intensity": 3,
-      "expectation_gap": 0.4,
-      "timeliness": 0.6,
-      "expected_horizon": "T+N",
-      "price_in_status": "未知",
-      "impact_tickers": [
-        {
-          "code": "000938",
-          "name": "紫光股份",
-          "weight": 0.7,
-          "ticker": "000938"
-        },
-        {
-          "code": "000938",
-          "name": "紫光股份",
-          "weight": 0.3,
-          "ticker": "000938"
-        }
-      ],
-      "industry_tags": [],
-      "sources": [
-        {
-          "title": "紫光股份：前三季度净利润同比增长97.53% Q3净利润环比下降56%",
-          "url": "https://www.cls.cn/detail/2519449",
-          "source_name": "cls"
-        }
-      ],
-      "search_results": [
-        {
-          "title": "图解紫光国微三季报:第三季度单季净利润同比下降56.63%|母净利润|紫光国微_手机网易网",
-          "url": "http://www.baidu.com/link?url=KpP3JOPY1cNOr7g65GylEcedqLvnLF-d7bqaCWMj9uqHLr2FetmQyhOP6lgf9jsgG8JYIjo7pDMja7hGV61GPK",
-          "source": "Search (baidu)"
-        },
-        {
-          "title": "V观财报丨紫光国微:第三季度净利润同比降56.63%|2026年第三季度报告|母净利润|紫光国微|经纬_手机网易网",
-          "url": "http://www.baidu.com/link?url=KpP3JOPY1cNOr7g65GylEcedqLvnLF-d7bqaCWMj9uqvRk1NfhW9fRH0pX_ZOq_9ygORi8AwQctGWZEL91cyla",
-          "source": "Search (baidu)"
-        },
-        {
-          "title": "...特科Q3净利环比大增21%;兆易创新累计回购耗资11.15亿元_腾讯新闻",
-          "url": "http://www.baidu.com/link?url=YixjhtUHoFxQU9sSXrh5xU7P9LKqKSzk6NwuIC9arpskPCsfOL3hZ9KObZDTQMF-afCUpu0K8GYHk-VLFOE1DK",
-          "source": "Search (baidu)"
-        },
-        {
-          "title": "大家还在搜紫光股票历史最高价紫光股票目标价是多少紫光股票股吧紫光最有可能涨到100元紫光2025年目标价紫光股票为什么大跌紫光国微业绩紫光国微前景如何",
-          "url": "/s?wd=%E7%B4%AB%E5%85%89%E8%82%A1%E7%A5%A8%E5%8E%86%E5%8F%B2%E6%9C%80%E9%AB%98%E4%BB%B7&usm=1&ie=utf-8&rsv_pq=bdb0e3fe00055618&oq=%E7%B4%AB%E5%85%89%E8%82%A1%E4%BB%BD%3AQ3%E5%87%80%E5%88%A9%E7%8E%AF%E6%AF%94%E9%99%8D56%25&rsv_t=5726yM%2FmD8AML4Et35flqkyLNZ3ETc9xi1MZ8rxDoH%2BJUkZBF4WtYhqUyPM&rsf=101636703&rsv_dl=0_prs_28608_1",
-          "source": "Search (baidu)"
-        },
-        {
-          "title": "new.qq.com/rain/a/20221222A0189600",
-          "url": "http://www.baidu.com/link?url=GqsUZxzRf61_Ov6ItR8qa3XcFBt933In9X5fhMLeXh10SHstJRCmdi7nPJ7BkYPfMGj-tMVud9DvcFLThMls5K",
+          "title": "最新：以色列大选已完成普通居民选票的100%计票工作，总计有 - 抖",
+          "url": "http://www.baidu.com/link?url=ix9l9Kh6aNehq433ef0HnMRXZ4-pVXMOSU_IeWDsI6swXsKmC7ZD5IGQZFmkXUtuRZjy6r07B1hrLEPoUYzgNK",
           "source": "Search (baidu)"
         }
       ]
     },
     {
-      "signal_id": "2519448",
-      "title": "麦格米特Q3净利增438% 业绩反转",
-      "summary": "麦格米特（002851.SZ）Q3归母净利润同比增长438%至2.10亿元，业绩超预期。当前股价82.59元（-7.37%），处于自120.12元回调后的低位区间。建议关注后续估值修复，目标价参考前期高点阻力位102.61元，潜在反弹空间约24%。",
-      "reasoning": "1. **基本面超预期**：公告显示Q3净利润2.1亿（+438%），环比增长52%，营收29.75亿（+40.48%），业绩强劲验证了公司业务的高景气度和盈利能力的提升，属于实质性利好。\n2. **股价定位分析**：当前股价82.59元，较30日高点120.12元下跌30.30%，跌幅巨大。虽然业绩增长，但市场此前已大幅杀跌，说明此前业绩预期已被过度悲观定价或被市场忽视。当前价格处于82.38-85.65的支撑区间，具备反弹动力。\n3. **预期差与博弈**：业绩增长幅度（438%）远超市场可能预期，且股价处于低位，存在巨大的预期差。虽然当日股价下跌7.37%，但这更多是技术性调整或情绪宣泄。业绩爆发将驱动资金回流，修复估值。\n4. **技术面信号**：近期成交量放大显示分歧，但支撑位82.38元有效。Q3业绩是强支撑，预计短期将向阻力位102.61元发起反攻。\n5. **结论**：信号质量高，确定性高，强度为中高。股价回调已充分释放风险，业绩反转将带来估值修复行情。",
+      "signal_id": "isq_20261030_us_mtg_rate_drop",
+      "title": "美房贷利率连降2周，利好地产链",
+      "summary": "基于美房贷利率7.24%连续两周下降的信号，预计A股银行板块（如浦发银行、南京银行）将受益于资产质量改善预期，建议关注；地产龙头（万科A、保利发展）及后周期消费（三棵树）存在短期反弹动力。基于当前市场定价状态，板块短期目标涨幅区间建议为3%-6%。",
+      "reasoning": "该信号的核心在于外部利率环境的边际改善。7.24%的房贷利率处于相对高位，连续两周下降通常被视为美联储货币政策转向的先行指标。虽然研究员未提供具体股价，但根据金融常识，低利率环境利好风险资产。对于银行股，虽然面临息差收窄压力，但资产质量改善的确定性更高；对于地产股，这是直接的销售刺激因素。因此，虽然市场可能已部分消化降息预期（预期差0.3），但作为短期的催化因素，依然值得对相关受益标的进行配置。",
       "transmission_chain": [
         {
-          "node_name": "公司基本面",
+          "node_name": "宏观/外部环境",
           "impact_type": "利好",
-          "logic": "Q3净利润2.10亿元，同比增长438%，环比增长52%，业绩爆发式增长，验证高景气度"
+          "logic": "美国30年期抵押贷款利率降至7.24%，连续两周下降，反映美联储加息放缓或降息预期升温，外部流动性环境边际改善。"
         },
         {
-          "node_name": "股价估值",
+          "node_name": "银行板块",
           "impact_type": "中性偏多",
-          "logic": "股价自高点120.12元回调30.3%至82.59元，当前PE估值处于历史低位，具备安全边际"
+          "logic": "长期看，利率下降降低居民房贷违约风险，银行资产质量预期改善；但短期净息差可能收窄。综合来看，估值修复逻辑占优。"
         },
         {
-          "node_name": "技术面",
+          "node_name": "房地产板块",
           "impact_type": "利好",
-          "logic": "Q3业绩超预期，将修复技术面预期，短期有望突破前期阻力位102.61元"
+          "logic": "房贷成本降低直接刺激购房需求，推高成屋销售数据，利好房企去化和销售回款，直接提振股价。"
+        },
+        {
+          "node_name": "装修建材/家电",
+          "impact_type": "利好",
+          "logic": "换房需求增加将带动后周期消费，装修建材（如东方雨虹）和家电（如美的）将间接受益于房地产销售回暖。"
         }
       ],
       "sentiment_score": 0.0,
-      "confidence": 0.9,
-      "intensity": 4,
-      "expectation_gap": 0.6,
-      "timeliness": 0.8,
-      "expected_horizon": "T+N",
-      "price_in_status": "未知",
-      "impact_tickers": [
-        {
-          "ticker": "002851",
-          "name": "麦格米特",
-          "weight": 0.8
-        }
-      ],
-      "industry_tags": [],
-      "sources": [
-        {
-          "title": "麦格米特：第三季度净利润同比增长438% 环比增长52%",
-          "url": "https://www.cls.cn/detail/2519448",
-          "source_name": "cls"
-        }
-      ],
-      "search_results": [
-        {
-          "title": "大家还在搜麦格米特2026目标价麦格米特电气股份有限公司麦格米特最新利好麦格米特官网麦格米特被忽视的电源龙头麦格米特 股票麦格米特业绩预告麦格米特股票未来走势如何",
-          "url": "/s?wd=%E9%BA%A6%E6%A0%BC%E7%B1%B3%E7%89%B92026%E7%9B%AE%E6%A0%87%E4%BB%B7&usm=2&ie=utf-8&rsv_pq=da76b8640004e189&oq=%E9%BA%A6%E6%A0%BC%E7%B1%B3%E7%89%B9Q3%E5%87%80%E5%88%A9%E5%A2%9E438%25%20%E4%B8%9A%E7%BB%A9%E5%8F%8D%E8%BD%AC&rsv_t=d2ebV1g80u%2FgaHpbniuT5e%2FXR66jXKbE3DHnFBt97zklKIIrGh7vFD2nYkY&rsf=101632008&rsv_dl=0_prs_28608_1",
-          "source": "Search (baidu)"
-        },
-        {
-          "title": "德明利三季报增29倍能触底反弹",
-          "url": "http://www.baidu.com/link?url=YybV8el6a5NtzRzjqDjoaqhOWKx2Wz3Xid6atja7C4KbUY52rIijXd2Il8AzvZ-O1BoeMcbCOAmQn-UgGX2Gl_",
-          "source": "Search (baidu)"
-        },
-        {
-          "title": "美国玩具公司Q3净利暴涨50%，关税重锤没砸倒它，反而砸出一笔意外之",
-          "url": "http://www.baidu.com/link?url=-QX5g28645YAF5rWY-ts7zXuF8dBhTUJhsiUx94fMeBZq1QgdZO3Nrafm40ZSMAb9VBQMZic2Lc43oONz_m8WCqRg3E5w1CpuZGlKxf6cfi1XasD5_b62xT_MyPiFn2agFTlC6mmsZToL4dxzB22LZzCT1YSuWNqBcOXN2yEsts9Zqi8LCi85h02NNmePQeaMS-H3N3_g-Y47QQemnvHR8fbs06GKsULJXs-WrABNv2SQD9GVobz4zQOATjJbK5HL_mtTK7m7Ogjf27Q68g1sa",
-          "source": "Search (baidu)"
-        },
-        {
-          "title": "万万没想到！14家A股三季报预告，同比暴增... 来自广东天姐 - 微",
-          "url": "http://www.baidu.com/link?url=-QX5g28645YAF5rWY-ts7-G2agSWBYR1fRNYa8-6iGyW0cUPIp1gAOCyF54Eeisa",
-          "source": "Search (baidu)"
-        }
-      ]
-    },
-    {
-      "signal_id": "2519447",
-      "title": "Stonex上调微软目标价至630美元",
-      "summary": "微软目标价上调5%至630美元，当前股价(约595美元)已接近新目标价下限，市场预期差较小。建议关注AI算力供应链机会，目标区间595-630美元。",
-      "reasoning": "Stonex将微软目标价从600美元上调至630美元，涨幅5%。当前市场已普遍对微软的AI商业化落地持乐观态度，股价（约595美元）已较为充分地消化了这一利好。目标价630美元距离当前价仅有约5%的上涨空间，表明该信号更多是确认性利好而非超预期爆发。虽然对个股情绪提振有限，但作为“七巨头”龙头，其上涨具备极强的板块示范效应，将直接利好英伟达等AI算力供应商。",
-      "transmission_chain": [
-        {
-          "node_name": "分析师评级",
-          "impact_type": "利好",
-          "logic": "Stonex上调目标价5%，反映机构对微软长期增长韧性的信心，增强市场对AI云服务的盈利预期。"
-        },
-        {
-          "node_name": "美股科技板块",
-          "impact_type": "利好",
-          "logic": "作为美股七巨头权重股，微软上涨将带动纳斯达克指数走高，提升板块整体估值溢价。"
-        },
-        {
-          "node_name": "AI算力产业链",
-          "impact_type": "利好",
-          "logic": "微软是AI算力核心需求方，其盈利预期提升将直接利好上游光模块、交换机及H100芯片供应商。"
-        }
-      ],
-      "sentiment_score": 0.0,
-      "confidence": 0.85,
+      "confidence": 0.75,
       "intensity": 3,
-      "expectation_gap": 0.4,
+      "expectation_gap": 0.3,
       "timeliness": 0.7,
       "expected_horizon": "T+N",
       "price_in_status": "未知",
-      "impact_tickers": [],
+      "impact_tickers": [
+        {
+          "ticker": "600000",
+          "name": "浦发银行",
+          "weight": 0.15
+        },
+        {
+          "ticker": "601009",
+          "name": "南京银行",
+          "weight": 0.12
+        },
+        {
+          "ticker": "600048",
+          "name": "保利发展",
+          "weight": 0.16
+        }
+      ],
       "industry_tags": [],
       "sources": [
         {
-          "title": "财联社10月29日电，Stonex将微软目标价从600美元上调至630美元。",
-          "url": "https://www.cls.cn/detail/2519447",
+          "title": "财联社10月30日电，美国抵押贷款利率连续第二周下降，报7.24%。",
+          "url": "https://www.cls.cn/detail/2519867",
           "source_name": "cls"
         }
       ],
       "search_results": [
         {
-          "title": "大家还在搜股票目标价STONEX官网大幅上调目标价股票的目标价和现价有啥关系微软股票相关讨论微软股票的投资价值如何上调目标价股票上调目标价目标价目标价上涨空间大",
-          "url": "/s?wd=%E8%82%A1%E7%A5%A8%E7%9B%AE%E6%A0%87%E4%BB%B7&usm=2&ie=utf-8&rsv_pq=97ce71560004cc50&oq=Stonex%E4%B8%8A%E8%B0%83%E5%BE%AE%E8%BD%AF%E7%9B%AE%E6%A0%87%E4%BB%B7%E8%87%B3630%E7%BE%8E%E5%85%83&rsv_t=9327UuOsAy4xVL3LQHytN43QYU55QuR5dQo2auyxyqcSpTqN7FGWMnc4mB8&rsf=101631202&rsv_dl=0_prs_28608_1",
+          "title": "【美国30年期房贷利率维持7.4%，连续八周未降】房地美周四 - 抖",
+          "url": "http://www.baidu.com/link?url=vF5JgEUz_XJVMtSekFaMTdBiyCN4mGgaTOFcEUiUQuwEF03tsLIedZ1_oIlFhuy7Ptu_XEp9BxWDokBL877zR_",
           "source": "Search (baidu)"
         },
         {
-          "title": "路透时报｜微软千亿算力踩刹车。路透时报｜微软千亿算力踩刹车， - 抖",
-          "url": "http://www.baidu.com/link?url=lD0y7tjP3qqgeGg2b5_-y46JzUiZhJAphUJQv07kngPMQPm0QLpXY3UAg3P-KM06QO62DioJuMCXCvlgnqvQ4_",
+          "title": "中信建投|研究周知:2025年下半年中国经济十大亮点_腾讯新闻",
+          "url": "http://www.baidu.com/link?url=jjWMIIDNxPLJ911qn7qM8YiZuR0vmySRCI6w6n6NujTv7Y7pO-cXnbZBZd6Od4e30VElM1mxKvTX8yP5NovOn_",
           "source": "Search (baidu)"
         },
         {
-          "title": "StoneX维持博通“买入”评级,目标价545美元|融资|花旗集团|知名企业|摩根士丹利_网易订阅",
-          "url": "http://www.baidu.com/link?url=PgYvAWW9mapGPacyhK70EzlcgrhweEFUAzjZt73DcFYcVzgEXY5aS__OpH452OzwHzGQqB_yN0h5-DmmI41n8K",
+          "title": "一周政策汇总|苏州、济南等多地政府回购商品房,武汉、济宁等地首套房商贷利率跌破4%|公积金|公积金贷款|商品住房|商品房|贷款|首付比例_手机网易网",
+          "url": "http://www.baidu.com/link?url=1sQBBNo4hHpLVse4PrmnfypvvtIH8q7Q_W2ddWKhIzFahNTGvzDVRaJ3UAgagHbr59hi1sY1HtpfjvUcM_xqFq",
           "source": "Search (baidu)"
         },
         {
-          "title": "new.qq.com/rain/a/20240805A09TCT00",
-          "url": "http://www.baidu.com/link?url=Va8cNv6WFplSKckEf6mTL8Zsp8uUSrYHzdbV_-ih4uYJ2rK0jP5czfxtEuK1i7yyh3Umwtq94P4MnxfU3yAjJq",
+          "title": "大家还在搜如果房贷不还了,银行会怎么处理2026贷款利息表房贷还不上怎么办现在贷款利率是多少公积金贷款利率美联储10月加息概率升至33.2%美国房子多少钱一套房贷基准利率",
+          "url": "/s?wd=%E5%A6%82%E6%9E%9C%E6%88%BF%E8%B4%B7%E4%B8%8D%E8%BF%98%E4%BA%86%2C%E9%93%B6%E8%A1%8C%E4%BC%9A%E6%80%8E%E4%B9%88%E5%A4%84%E7%90%86&usm=1&ie=utf-8&rsv_pq=9866baf000105474&oq=%E7%BE%8E%E6%88%BF%E8%B4%B7%E5%88%A9%E7%8E%87%E8%BF%9E%E9%99%8D2%E5%91%A8%2C%E5%88%A9%E5%A5%BD%E5%9C%B0%E4%BA%A7%E9%93%BE&rsv_t=a565IVk9AxPaDo%2B4dxtND8kyamGzVNtx5g8dCmxLdgE%2BfNmRs7nZ%2Ff1F%2Fw0&rsf=101635801&rsv_dl=0_prs_28608_1",
+          "source": "Search (baidu)"
+        },
+        {
+          "title": "重大利好!刚刚央行降息,你的房贷便宜了!|房贷利率|贷款_网易订阅",
+          "url": "http://www.baidu.com/link?url=Y9uY9UOR5GIDHgz7Y3-pPhQk8cAXbch_zKeCxB-OkVycX4BEezCNKJtCkCTiEIO4-4cixWyZcw97qAMjajU1Pq",
           "source": "Search (baidu)"
         }
       ]
     },
     {
-      "signal_id": "2519443",
-      "title": "新易盛Q3净利增61% 毛利率承压",
-      "summary": "新易盛Q3业绩亮眼但环比承压。预计公司2026年净利润有望突破18亿元，对应当前股价（假设值）有15%-25%的上涨空间。短期受毛利率波动压制，中期随行业去库存结束，业绩弹性将逐步释放。",
-      "reasoning": "新易盛Q3净利润同比+61%是明确的业绩利好，验证了800G/1.6T光模块的高景气度，给予股价正面支撑。然而，环比下降19%揭示了行业竞争加剧导致的毛利率下滑（通常光模块行业毛利率在20%-30%区间波动，环比下降需警惕），这表明业绩增长主要靠量增而非价升，对估值扩张形成压制。当前市场定价处于业绩验证阶段，股价波动反映了对“量增价跌”的博弈。随着1.6T产品放量及价格企稳，预期差将从“高增长”转向“盈利修复”，建议关注股价回调后的布局机会。",
+      "signal_id": "2519851",
+      "title": "俄柴油出口禁令延长，炼化板块迎利好",
+      "summary": "俄罗斯柴油出口禁令延长至2026年底，叠加配额制，加剧全球柴油供应紧张。基于当前股价(中国石化6.45元/中国石油8.92元)，该利多信号已部分反映在龙头股定价中，但上海石化(9.31元)等标的仍有较大预期差。建议关注中国石化、中国石油作为核心配置，上海石化作为弹性标的博弈。",
+      "reasoning": "",
       "transmission_chain": [
         {
-          "node_name": "光模块业绩",
-          "impact_type": "利好",
-          "logic": "Q3净利润同比+61%显示高景气度延续，营收端增长强劲，确立业绩基本面支撑。"
+          "node_name": "俄罗斯能源政策",
+          "impact_type": "利多",
+          "logic": "俄罗斯将柴油出口禁令延长至2026年底并实施配额制，意味着全球柴油供应将进一步收缩，地缘政治溢价上升。"
         },
         {
-          "node_name": "毛利率承压",
+          "node_name": "国际成品油价格",
+          "impact_type": "利多",
+          "logic": "供应收缩将推高国际柴油及原油价格，利好拥有完整炼化产业链的企业，提升其主营产品利润空间。"
+        },
+        {
+          "node_name": "炼化企业盈利",
+          "impact_type": "利多",
+          "logic": "价格上行叠加国内成品油市场化改革，中国石化、中国石油等大型国企作为出口商，营收和毛利率有望提升。"
+        },
+        {
+          "node_name": "A股石化板块",
+          "impact_type": "利多",
+          "logic": "地缘政治带来的供需错配预期将提振板块估值，资金将流入基本面扎实的大型炼化龙头。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.4,
+      "timeliness": 0.3,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [
+        {
+          "ticker": "600028",
+          "name": "中国石化",
+          "weight": 0.4,
+          "price": 6.45,
+          "status": "已部分定价"
+        },
+        {
+          "ticker": "601857",
+          "name": "中国石油",
+          "weight": 0.35,
+          "price": 8.92,
+          "status": "已部分定价"
+        },
+        {
+          "ticker": "600688",
+          "name": "上海石化",
+          "weight": 0.15,
+          "price": 9.31,
+          "status": "未定价"
+        }
+      ],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "财联社10月29日电，俄罗斯据称准备将柴油出口禁令延长至今年年底。消息人士称，俄罗斯对个别公司实行配额出口制度，以便这些企业履行对美国的供应义务。",
+          "url": "https://www.cls.cn/detail/2519851",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": []
+    },
+    {
+      "signal_id": "2519842",
+      "title": "伊利股份：陈发树减持200万股",
+      "summary": "信号强度3/5，预期差0.3/1.0。事件性质为“小股东小幅减持”，对基本面无实质冲击。当前股价（¥29.45）已处于高位震荡区间，技术面支撑在¥27.10，短期面临回调压力但空间有限。建议关注¥29.48阻力位突破情况及后续股东减持计划。",
+      "reasoning": "",
+      "transmission_chain": [
+        {
+          "node_name": "股东减持行为",
           "impact_type": "利空",
-          "logic": "环比下降19%暗示价格战激烈或成本上升，压制利润弹性，市场需消化盈利能力下滑的担忧。"
+          "logic": "陈发树（第八大股东）减持200万股，占比较小（0.96%），但属于被动减持信号，可能引发市场对股东信心或资金需求的联想，短期压制股价情绪。"
         },
         {
-          "node_name": "股价定价状态",
-          "impact_type": "中性偏多",
-          "logic": "营收增长验证高景气预期，但毛利率下滑对冲部分涨幅，当前定价处于业绩验证后的理性修正阶段。"
+          "node_name": "市场情绪与定价",
+          "impact_type": "中性偏空",
+          "logic": "当前股价（¥29.45）处于近期高位（30日最高¥29.48），技术面多头强势。减持事件属于“小利空”，但市场已部分定价了高位波动风险，预期差有限。"
+        },
+        {
+          "node_name": "基本面估值",
+          "impact_type": "中性",
+          "logic": "减持为股东个人行为，不直接导致公司经营恶化。结合当前股价较30日低点（¥27.10）已有8.38%的涨幅，基本面支撑力度足以抵消减持带来的心理压力。"
         }
       ],
       "sentiment_score": 0.0,
@@ -307,683 +334,2124 @@
       "price_in_status": "未知",
       "impact_tickers": [
         {
-          "code": "300502",
-          "name": "新易盛",
-          "weight": 0.6,
-          "reason": "业绩直接披露方，数据变动直接反映在股价定价中",
-          "ticker": "300502"
+          "code": "600887",
+          "name": "伊利股份",
+          "weight": 1.0,
+          "ticker": "600887"
         }
       ],
       "industry_tags": [],
       "sources": [
         {
-          "title": "新易盛：Q3净利润同比增长61% 环比下降19%",
-          "url": "https://www.cls.cn/detail/2519443",
+          "title": "伊利股份第八大股东陈发树三季度减仓200万股",
+          "url": "https://www.cls.cn/detail/2519842",
           "source_name": "cls"
         }
       ],
-      "search_results": [
+      "search_results": []
+    },
+    {
+      "signal_id": "2519841",
+      "title": "欧央行官员拟12月加息",
+      "summary": "基于欧央行官员12月加息的信号，预计欧洲银行业股（如德意志银行DBK.DE）将显著跑赢大盘。若12月如期加息，利好板块有望带来10%-15%的超额收益，但需警惕高估值科技股的回调风险。",
+      "reasoning": "当前市场对欧央行加息的定价处于‘部分定价’状态。虽然欧洲央行近期曾释放鸽派信号，但通胀数据（CPI）仍具粘性，使得12月加息预期在-0.3至-0.5区间波动，并非市场完全共识。因此，此信号属于中等强度的‘预期修正’。传导逻辑清晰：加息→净息差扩大→银行净利润提升。对德意志银行（DBK.DE）等欧洲头部银行而言，这是典型的‘利空出尽是利好’或‘超预期’逻辑，特别是考虑到其当前市净率处于历史低位，存在估值修复空间。",
+      "transmission_chain": [
         {
-          "title": "大家还在搜新易盛客户有哪些新易盛股价为何下跌新易盛未来增长潜力如何新易盛官网主页新易盛跌的厉害的原因新易盛还能涨回来吗新易盛最新消息新易盛股票股",
-          "url": "/s?wd=%E6%96%B0%E6%98%93%E7%9B%9B%E5%AE%A2%E6%88%B7%E6%9C%89%E5%93%AA%E4%BA%9B&usm=2&ie=utf-8&rsv_pq=f8dafca50004a2b4&oq=%E6%96%B0%E6%98%93%E7%9B%9BQ3%E5%87%80%E5%88%A9%E5%A2%9E61%25%20%E6%AF%9B%E5%88%A9%E7%8E%87%E6%89%BF%E5%8E%8B&rsv_t=b47e6furN%2Buws5yK33quWPVc4x6%2Bn0i33iwV5%2BTtkTqtUzNhTo4PQSCATjE&rsf=101636703&rsv_dl=0_prs_28608_1",
-          "source": "Search (baidu)"
+          "node_name": "宏观政策",
+          "impact_type": "利好",
+          "logic": "欧央行12月加息预期升温，意味着货币政策转向紧缩，抑制通胀，利好金融板块息差修复。"
         },
         {
-          "title": "AI算力需求驱动,新易盛Q3净利润为23.85亿元,营收同比增长152.53% | 财报见闻|总资产|上市公司|同比增幅|新易盛q3_网易订阅",
-          "url": "http://www.baidu.com/link?url=U7jfGwrPj8WE_P0wxTPYa9HkB0tvZWKYJ6GkBa4QiRlYp2QzvRf2M6dIpoqQAtLAIzDpPT-2DZceh8Th2mkjBK",
-          "source": "Search (baidu)"
+          "node_name": "银行业",
+          "impact_type": "利好",
+          "logic": "加息将直接扩大银行净息差（NIM），提升存贷利差，且有助于降低不良贷款率，改善资产质量。"
         },
         {
-          "title": "Q3净利润同比增长2903% 800亿存储芯片股发布三季报|盘后公告集锦|股权|上市公司|公司股东_网易订阅",
-          "url": "http://www.baidu.com/link?url=U7jfGwrPj8WE_P0wxTPYa9HkB0tvZWKYJ6GkBa4QiRkeA24d_n0A_A6o4-tCJQ6-LtgUADww14w1PqNKNXGeP_",
-          "source": "Search (baidu)"
-        },
-        {
-          "title": "新易盛近期为啥跌跌不",
-          "url": "http://www.baidu.com/link?url=RXUg-n59JnrlfQ0HxLNSFqgpfa6giBrQr77C6T-QRlsYttFkhzXVSwycEW5MV9lVhTXKLEfdiYVFII5iiMcGca",
-          "source": "Search (baidu)"
+          "node_name": "整体股市",
+          "impact_type": "分化",
+          "logic": "高估值成长股承压（折现率上升），但银行、保险等高股息板块相对受益，市场风格或从成长向价值切换。"
         }
-      ]
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "财联社10月29日电，据报道，欧洲央行官员准备在12月加息。",
+          "url": "https://www.cls.cn/detail/2519841",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": []
+    },
+    {
+      "signal_id": "2519835",
+      "title": "ECB预测：收益率升将降增",
+      "summary": "基于ECB工作人员预测（2027-2028年），全球高利率环境将延续。A股银行、券商、保险板块作为利率敏感型资产，具备中长期配置价值。建议关注估值处于低位且息差弹性大的个股。预计银行板块年内跑赢大盘5-8%，券商板块有望迎来10%以上的估值修复。建议逢低布局头部标的。",
+      "reasoning": "该信号源自财联社对欧洲央行内部预测的报道，属于中长期政策预期。虽然影响窗口期在2027-2028年，但当前（2026年10月）市场对全球央行政策的博弈已进入深水区。ECB预测收益率上升将抑制增长和通胀，这在逻辑上确认了当前的高利率环境是“维持现状”而非“迅速转向”。对于A股而言，这意味着“利空出尽”或“长期紧缩常态化”。具体到板块，银行和保险作为债市主要参与者，直接受益于收益率上升带来的资产增值；券商则受益于交易活跃度提升。当前市场对此类信号已有一定认知（定价状态为部分定价），但尚未充分反映其对2027-2028年盈利的边际改善，存在预期差。因此，短期内（1-3个月）属于温和利好，影响强度中等，建议关注具备高股息属性的银行和业绩弹性的头部券商。",
+      "transmission_chain": [
+        {
+          "node_name": "央行政策",
+          "impact_type": "中性偏多",
+          "logic": "欧洲央行预测收益率上升将在2027-2028年累计抑制经济增长100bp、通胀90bp。虽然该预测属于中长期（1-2年后），但标志着全球主要央行维持紧缩周期的预期加强，有助于稳定市场对利率环境的长期预期，消除不确定性。"
+        },
+        {
+          "node_name": "银行息差",
+          "impact_type": "利好",
+          "logic": "债券收益率上升通常伴随着基准利率上行或风险溢价上升。对于银行而言，净息差（NIM）有望受益于资产端收益率的上行，尽管负债端成本也会上升，但在紧缩周期中，银行整体盈利能力往往因资产价格重估而得到支撑。"
+        },
+        {
+          "node_name": "券商投行",
+          "impact_type": "利好",
+          "logic": "债券收益率上升扩大了债券市场的交易活跃度和价差，增加了券商在债券承销、做市及自营交易业务上的收入。高利率环境下，企业发债需求可能增加，利好券商投行业务。"
+        },
+        {
+          "node_name": "保险资管",
+          "impact_type": "利好",
+          "logic": "保险资金是债券市场的主要配置力量之一。债券收益率曲线的上移直接提升了保险资金的投资收益，从而改善保险公司的内含价值（EV）和净资产，利好股价表现。"
+        }
+      ],
+      "sentiment_score": 0.0,
+      "confidence": 0.5,
+      "intensity": 3,
+      "expectation_gap": 0.5,
+      "timeliness": 0.8,
+      "expected_horizon": "T+N",
+      "price_in_status": "未知",
+      "impact_tickers": [],
+      "industry_tags": [],
+      "sources": [
+        {
+          "title": "财联社10月29日电，欧洲央行消息人士称，欧洲央行工作人员最新预测显示，与9月基线情景相比，债券收益率上升将在2027至2028年累计使经济增长减少100个基点，使通胀降低90个基点。",
+          "url": "https://www.cls.cn/detail/2519835",
+          "source_name": "cls"
+        }
+      ],
+      "search_results": []
     }
   ],
   "charts": {
-    "000938": {
-      "ticker": "000938",
-      "name": "紫光股份",
-      "prices": [
-        {
-          "date": "2026-09-29",
-          "open": 31.47,
-          "high": 31.73,
-          "low": 31.21,
-          "close": 31.53,
-          "volume": 608746
-        },
-        {
-          "date": "2026-09-30",
-          "open": 31.75,
-          "high": 31.85,
-          "low": 30.91,
-          "close": 31.02,
-          "volume": 719566
-        },
-        {
-          "date": "2026-10-08",
-          "open": 31.2,
-          "high": 31.42,
-          "low": 29.98,
-          "close": 30.24,
-          "volume": 771322
-        },
-        {
-          "date": "2026-10-09",
-          "open": 30.36,
-          "high": 30.6,
-          "low": 29.15,
-          "close": 30.41,
-          "volume": 973222
-        },
-        {
-          "date": "2026-10-12",
-          "open": 30.1,
-          "high": 30.19,
-          "low": 28.23,
-          "close": 28.29,
-          "volume": 1360292
-        },
-        {
-          "date": "2026-10-13",
-          "open": 27.73,
-          "high": 28.33,
-          "low": 27.1,
-          "close": 27.96,
-          "volume": 1197803
-        },
-        {
-          "date": "2026-10-14",
-          "open": 27.8,
-          "high": 27.92,
-          "low": 26.81,
-          "close": 26.84,
-          "volume": 1074277
-        },
-        {
-          "date": "2026-10-15",
-          "open": 25.9,
-          "high": 26.35,
-          "low": 25.44,
-          "close": 25.77,
-          "volume": 1328114
-        },
-        {
-          "date": "2026-10-16",
-          "open": 26.06,
-          "high": 26.18,
-          "low": 25.07,
-          "close": 25.32,
-          "volume": 1053657
-        },
-        {
-          "date": "2026-10-19",
-          "open": 25.48,
-          "high": 25.85,
-          "low": 25.08,
-          "close": 25.6,
-          "volume": 950945
-        },
-        {
-          "date": "2026-10-20",
-          "open": 25.33,
-          "high": 26.13,
-          "low": 24.9,
-          "close": 25.71,
-          "volume": 966041
-        },
-        {
-          "date": "2026-10-21",
-          "open": 25.98,
-          "high": 26.39,
-          "low": 25.8,
-          "close": 25.98,
-          "volume": 989404
-        },
-        {
-          "date": "2026-10-22",
-          "open": 25.98,
-          "high": 26.1,
-          "low": 25.18,
-          "close": 25.25,
-          "volume": 862720
-        },
-        {
-          "date": "2026-10-23",
-          "open": 24.99,
-          "high": 26.09,
-          "low": 24.51,
-          "close": 25.98,
-          "volume": 1302413
-        },
-        {
-          "date": "2026-10-26",
-          "open": 25.66,
-          "high": 25.84,
-          "low": 25.27,
-          "close": 25.46,
-          "volume": 828146
-        },
-        {
-          "date": "2026-10-27",
-          "open": 25.77,
-          "high": 25.85,
-          "low": 24.6,
-          "close": 24.65,
-          "volume": 795439
-        },
-        {
-          "date": "2026-10-28",
-          "open": 25.01,
-          "high": 25.45,
-          "low": 24.75,
-          "close": 25.18,
-          "volume": 867596
-        },
-        {
-          "date": "2026-10-29",
-          "open": 24.95,
-          "high": 25.25,
-          "low": 24.0,
-          "close": 24.02,
-          "volume": 954670
-        }
-      ],
-      "prediction_logic": "Q3单季盈利环比下降56%引发短期波动，但前三季度净利润同比暴增97.53%验证了高景气度。预计股价将在波动中整固，短期支撑位关注前期低点，上方目标价对应2026年PE约25倍，对应目标区间26.5-28.0元，短期反弹空间约8-10%。"
-    },
-    "002851": {
-      "ticker": "002851",
-      "name": "麦格米特",
-      "prices": [
-        {
-          "date": "2026-09-29",
-          "open": 114.54,
-          "high": 120.0,
-          "low": 114.32,
-          "close": 118.5,
-          "volume": 268832
-        },
-        {
-          "date": "2026-09-30",
-          "open": 120.0,
-          "high": 120.12,
-          "low": 115.51,
-          "close": 115.72,
-          "volume": 161162
-        },
-        {
-          "date": "2026-10-08",
-          "open": 116.0,
-          "high": 116.2,
-          "low": 106.3,
-          "close": 107.25,
-          "volume": 260375
-        },
-        {
-          "date": "2026-10-09",
-          "open": 105.5,
-          "high": 105.92,
-          "low": 98.38,
-          "close": 102.79,
-          "volume": 270771
-        },
-        {
-          "date": "2026-10-12",
-          "open": 102.79,
-          "high": 106.21,
-          "low": 101.28,
-          "close": 102.61,
-          "volume": 206029
-        },
-        {
-          "date": "2026-10-13",
-          "open": 98.02,
-          "high": 104.6,
-          "low": 94.95,
-          "close": 102.24,
-          "volume": 209315
-        },
-        {
-          "date": "2026-10-14",
-          "open": 104.48,
-          "high": 107.8,
-          "low": 102.53,
-          "close": 102.9,
-          "volume": 237694
-        },
-        {
-          "date": "2026-10-15",
-          "open": 97.0,
-          "high": 98.93,
-          "low": 94.69,
-          "close": 95.37,
-          "volume": 246257
-        },
-        {
-          "date": "2026-10-16",
-          "open": 98.0,
-          "high": 99.18,
-          "low": 93.9,
-          "close": 94.54,
-          "volume": 167495
-        },
-        {
-          "date": "2026-10-19",
-          "open": 93.62,
-          "high": 94.99,
-          "low": 89.23,
-          "close": 93.81,
-          "volume": 196124
-        },
-        {
-          "date": "2026-10-20",
-          "open": 93.51,
-          "high": 97.8,
-          "low": 91.67,
-          "close": 95.09,
-          "volume": 160631
-        },
-        {
-          "date": "2026-10-21",
-          "open": 98.8,
-          "high": 100.5,
-          "low": 97.0,
-          "close": 97.98,
-          "volume": 192110
-        },
-        {
-          "date": "2026-10-22",
-          "open": 98.27,
-          "high": 98.5,
-          "low": 92.06,
-          "close": 92.06,
-          "volume": 164870
-        },
-        {
-          "date": "2026-10-23",
-          "open": 89.57,
-          "high": 94.1,
-          "low": 83.85,
-          "close": 93.28,
-          "volume": 266969
-        },
-        {
-          "date": "2026-10-26",
-          "open": 91.81,
-          "high": 92.3,
-          "low": 88.33,
-          "close": 89.53,
-          "volume": 158699
-        },
-        {
-          "date": "2026-10-27",
-          "open": 91.1,
-          "high": 91.6,
-          "low": 85.65,
-          "close": 85.73,
-          "volume": 147704
-        },
-        {
-          "date": "2026-10-28",
-          "open": 87.0,
-          "high": 90.41,
-          "low": 85.8,
-          "close": 89.16,
-          "volume": 173867
-        },
-        {
-          "date": "2026-10-29",
-          "open": 89.0,
-          "high": 89.0,
-          "low": 82.38,
-          "close": 82.59,
-          "volume": 198609
-        }
-      ],
-      "prediction_logic": "麦格米特（002851.SZ）Q3归母净利润同比增长438%至2.10亿元，业绩超预期。当前股价82.59元（-7.37%），处于自120.12元回调后的低位区间。建议关注后续估值修复，目标价参考前期高点阻力位102.61元，潜在反弹空间约24%。"
-    },
-    "300502": {
-      "ticker": "300502",
-      "name": "新易盛",
+    "600104": {
+      "ticker": "600104",
+      "name": "上汽集团",
       "prices": [
         {
           "date": "2026-09-10",
-          "open": 407.01,
-          "high": 419.46,
-          "low": 404.18,
-          "close": 410.9,
-          "volume": 218893
+          "open": 10.91,
+          "high": 11.19,
+          "low": 10.81,
+          "close": 11.15,
+          "volume": 949985
         },
         {
           "date": "2026-09-11",
-          "open": 408.8,
-          "high": 426.3,
-          "low": 408.1,
-          "close": 423.0,
-          "volume": 422914
+          "open": 11.09,
+          "high": 11.84,
+          "low": 11.09,
+          "close": 11.72,
+          "volume": 2229075
         },
         {
           "date": "2026-09-14",
-          "open": 410.3,
-          "high": 411.91,
-          "low": 398.0,
-          "close": 401.9,
-          "volume": 322093
+          "open": 11.73,
+          "high": 11.89,
+          "low": 11.63,
+          "close": 11.63,
+          "volume": 1158470
         },
         {
           "date": "2026-09-15",
-          "open": 402.0,
-          "high": 406.99,
-          "low": 393.51,
-          "close": 397.01,
-          "volume": 243219
+          "open": 11.6,
+          "high": 11.73,
+          "low": 11.3,
+          "close": 11.33,
+          "volume": 922111
         },
         {
           "date": "2026-09-16",
-          "open": 399.1,
-          "high": 431.3,
-          "low": 399.0,
-          "close": 423.69,
-          "volume": 381529
+          "open": 11.3,
+          "high": 11.37,
+          "low": 11.06,
+          "close": 11.3,
+          "volume": 693055
         },
         {
           "date": "2026-09-17",
-          "open": 421.0,
-          "high": 438.0,
-          "low": 420.14,
-          "close": 424.34,
-          "volume": 351803
+          "open": 11.25,
+          "high": 11.35,
+          "low": 11.15,
+          "close": 11.19,
+          "volume": 469267
         },
         {
           "date": "2026-09-18",
-          "open": 435.01,
-          "high": 453.78,
-          "low": 426.51,
-          "close": 445.0,
-          "volume": 420921
+          "open": 11.16,
+          "high": 11.22,
+          "low": 11.04,
+          "close": 11.1,
+          "volume": 469683
         },
         {
           "date": "2026-09-21",
-          "open": 455.04,
-          "high": 469.67,
-          "low": 453.33,
-          "close": 456.73,
-          "volume": 352086
+          "open": 11.1,
+          "high": 11.1,
+          "low": 11.01,
+          "close": 11.06,
+          "volume": 335208
         },
         {
           "date": "2026-09-22",
-          "open": 465.99,
-          "high": 475.0,
-          "low": 452.0,
-          "close": 455.0,
-          "volume": 346346
+          "open": 11.08,
+          "high": 11.1,
+          "low": 11.01,
+          "close": 11.07,
+          "volume": 304714
         },
         {
           "date": "2026-09-23",
-          "open": 460.13,
-          "high": 462.0,
-          "low": 449.02,
-          "close": 451.2,
-          "volume": 227235
+          "open": 11.05,
+          "high": 11.06,
+          "low": 10.87,
+          "close": 10.87,
+          "volume": 391767
         },
         {
           "date": "2026-09-24",
-          "open": 451.26,
-          "high": 452.89,
-          "low": 435.0,
-          "close": 435.0,
-          "volume": 250150
+          "open": 10.83,
+          "high": 10.93,
+          "low": 10.71,
+          "close": 10.72,
+          "volume": 324068
         },
         {
           "date": "2026-09-28",
-          "open": 432.39,
-          "high": 434.0,
-          "low": 397.5,
-          "close": 399.7,
-          "volume": 387037
+          "open": 10.7,
+          "high": 10.9,
+          "low": 10.69,
+          "close": 10.77,
+          "volume": 373730
         },
         {
           "date": "2026-09-29",
-          "open": 400.37,
-          "high": 401.98,
-          "low": 391.33,
-          "close": 392.91,
-          "volume": 254415
+          "open": 10.76,
+          "high": 10.84,
+          "low": 10.67,
+          "close": 10.71,
+          "volume": 323449
         },
         {
           "date": "2026-09-30",
-          "open": 397.98,
-          "high": 403.99,
-          "low": 387.01,
-          "close": 389.0,
-          "volume": 243948
+          "open": 10.71,
+          "high": 10.95,
+          "low": 10.67,
+          "close": 10.88,
+          "volume": 406684
         },
         {
           "date": "2026-10-08",
-          "open": 389.21,
-          "high": 407.33,
-          "low": 372.75,
-          "close": 378.5,
-          "volume": 370942
+          "open": 10.89,
+          "high": 11.16,
+          "low": 10.87,
+          "close": 10.93,
+          "volume": 526873
         },
         {
           "date": "2026-10-09",
-          "open": 373.01,
-          "high": 375.0,
-          "low": 350.1,
-          "close": 370.2,
-          "volume": 402180
+          "open": 10.9,
+          "high": 11.0,
+          "low": 10.8,
+          "close": 10.83,
+          "volume": 351244
         },
         {
           "date": "2026-10-12",
-          "open": 363.02,
-          "high": 373.98,
-          "low": 347.57,
-          "close": 347.6,
-          "volume": 349553
+          "open": 10.87,
+          "high": 10.98,
+          "low": 10.79,
+          "close": 10.88,
+          "volume": 294988
         },
         {
           "date": "2026-10-13",
-          "open": 335.0,
-          "high": 359.0,
-          "low": 329.12,
-          "close": 351.3,
-          "volume": 425767
+          "open": 10.8,
+          "high": 10.87,
+          "low": 10.69,
+          "close": 10.76,
+          "volume": 320989
         },
         {
           "date": "2026-10-14",
-          "open": 345.6,
-          "high": 348.5,
-          "low": 330.0,
-          "close": 330.8,
-          "volume": 295683
+          "open": 10.78,
+          "high": 10.81,
+          "low": 10.7,
+          "close": 10.78,
+          "volume": 265860
         },
         {
           "date": "2026-10-15",
-          "open": 314.98,
-          "high": 319.98,
-          "low": 299.23,
-          "close": 306.01,
-          "volume": 555864
+          "open": 10.71,
+          "high": 10.78,
+          "low": 10.56,
+          "close": 10.73,
+          "volume": 376395
         },
         {
           "date": "2026-10-16",
-          "open": 314.54,
-          "high": 316.0,
-          "low": 303.41,
-          "close": 306.91,
-          "volume": 338779
+          "open": 10.77,
+          "high": 10.95,
+          "low": 10.74,
+          "close": 10.87,
+          "volume": 408090
         },
         {
           "date": "2026-10-19",
-          "open": 307.14,
-          "high": 312.16,
-          "low": 297.49,
-          "close": 308.0,
-          "volume": 328679
+          "open": 10.87,
+          "high": 10.92,
+          "low": 10.78,
+          "close": 10.84,
+          "volume": 259763
         },
         {
           "date": "2026-10-20",
-          "open": 302.75,
-          "high": 311.88,
-          "low": 294.66,
-          "close": 298.17,
-          "volume": 372148
+          "open": 10.82,
+          "high": 10.89,
+          "low": 10.65,
+          "close": 10.73,
+          "volume": 298638
         },
         {
           "date": "2026-10-21",
-          "open": 308.04,
-          "high": 309.8,
-          "low": 289.44,
-          "close": 294.12,
-          "volume": 429338
+          "open": 10.76,
+          "high": 10.79,
+          "low": 10.53,
+          "close": 10.56,
+          "volume": 261810
         },
         {
           "date": "2026-10-22",
-          "open": 293.89,
-          "high": 295.0,
-          "low": 258.0,
-          "close": 258.01,
-          "volume": 734285
+          "open": 10.56,
+          "high": 10.56,
+          "low": 10.42,
+          "close": 10.45,
+          "volume": 302645
         },
         {
           "date": "2026-10-23",
-          "open": 246.13,
-          "high": 263.54,
-          "low": 236.1,
-          "close": 261.0,
-          "volume": 858978
+          "open": 10.42,
+          "high": 10.72,
+          "low": 10.36,
+          "close": 10.67,
+          "volume": 435934
         },
         {
           "date": "2026-10-26",
-          "open": 254.23,
-          "high": 256.66,
-          "low": 238.64,
-          "close": 251.69,
-          "volume": 593686
+          "open": 10.63,
+          "high": 10.88,
+          "low": 10.61,
+          "close": 10.87,
+          "volume": 408782
         },
         {
           "date": "2026-10-27",
-          "open": 257.0,
-          "high": 260.21,
-          "low": 237.22,
-          "close": 237.59,
-          "volume": 459060
+          "open": 10.84,
+          "high": 10.94,
+          "low": 10.8,
+          "close": 10.8,
+          "volume": 291324
         },
         {
           "date": "2026-10-28",
-          "open": 247.75,
-          "high": 257.5,
-          "low": 243.26,
-          "close": 256.79,
-          "volume": 603517
+          "open": 10.87,
+          "high": 10.98,
+          "low": 10.83,
+          "close": 10.9,
+          "volume": 319878
         },
         {
           "date": "2026-10-29",
-          "open": 249.0,
-          "high": 249.98,
-          "low": 228.07,
-          "close": 228.4,
-          "volume": 588043
+          "open": 10.91,
+          "high": 10.95,
+          "low": 10.81,
+          "close": 10.85,
+          "volume": 233365
         }
       ],
       "prediction": {
-        "target_low": 4.9,
-        "target_high": 19.7,
+        "target_low": -0.3,
+        "target_high": 1.6,
         "confidence": 65
       },
       "forecast": [
         {
           "date": "2026-10-30",
-          "open": 239.1328582763672,
-          "high": 248.20236206054688,
-          "low": 230.89212036132812,
-          "close": 239.63612365722656,
-          "volume": 443499.1875
+          "open": 10.807024955749512,
+          "high": 10.993741989135742,
+          "low": 10.730177879333496,
+          "close": 10.816826820373535,
+          "volume": 318753.40625
         },
         {
           "date": "2026-11-02",
-          "open": 245.34165954589844,
-          "high": 253.4225616455078,
-          "low": 221.67684936523438,
-          "close": 239.69277954101562,
-          "volume": 518096.25
+          "open": 10.840752601623535,
+          "high": 11.029865264892578,
+          "low": 10.829148292541504,
+          "close": 10.937019348144531,
+          "volume": 377984.25
         },
         {
           "date": "2026-11-03",
-          "open": 246.65512084960938,
-          "high": 252.4744873046875,
-          "low": 232.4056396484375,
-          "close": 239.79458618164062,
-          "volume": 500665.84375
+          "open": 10.937300682067871,
+          "high": 11.091577529907227,
+          "low": 10.91891860961914,
+          "close": 11.004708290100098,
+          "volume": 296089.53125
         },
         {
           "date": "2026-11-04",
-          "open": 249.66952514648438,
-          "high": 262.695068359375,
-          "low": 233.1853790283203,
-          "close": 255.75958251953125,
-          "volume": 505650.4375
+          "open": 10.998363494873047,
+          "high": 11.12055778503418,
+          "low": 10.966191291809082,
+          "close": 11.020700454711914,
+          "volume": 287421.53125
         },
         {
           "date": "2026-11-05",
-          "open": 259.095947265625,
-          "high": 279.8874206542969,
-          "low": 247.72958374023438,
-          "close": 273.29583740234375,
-          "volume": 474783.6875
+          "open": 11.023950576782227,
+          "high": 11.135863304138184,
+          "low": 10.915770530700684,
+          "close": 10.945595741271973,
+          "volume": 336484.59375
         }
       ],
       "forecast_base": [
         {
           "date": "2026-10-30",
-          "open": 234.40179443359375,
-          "high": 235.9601287841797,
-          "low": 202.77615356445312,
-          "close": 212.89743041992188,
-          "volume": 576108.9375
+          "open": 10.844876289367676,
+          "high": 10.958197593688965,
+          "low": 10.682145118713379,
+          "close": 10.885839462280273,
+          "volume": 330400.90625
         },
         {
           "date": "2026-11-02",
-          "open": 218.1634063720703,
-          "high": 226.56622314453125,
-          "low": 210.57313537597656,
-          "close": 219.891845703125,
-          "volume": 376541.1875
+          "open": 10.829750061035156,
+          "high": 10.911356925964355,
+          "low": 10.753252983093262,
+          "close": 10.801630020141602,
+          "volume": 314228.65625
         },
         {
           "date": "2026-11-03",
-          "open": 221.14410400390625,
-          "high": 222.43325805664062,
-          "low": 204.244384765625,
-          "close": 207.24411010742188,
-          "volume": 432930.65625
+          "open": 10.801454544067383,
+          "high": 10.875386238098145,
+          "low": 10.705830574035645,
+          "close": 10.745230674743652,
+          "volume": 293989.0
         },
         {
           "date": "2026-11-04",
-          "open": 208.1566162109375,
-          "high": 200.30096435546875,
-          "low": 213.31539916992188,
-          "close": 206.1527099609375,
-          "volume": 308420.40625
+          "open": 10.70730209350586,
+          "high": 10.88924503326416,
+          "low": 10.606420516967773,
+          "close": 10.73116683959961,
+          "volume": 340528.8125
         },
         {
           "date": "2026-11-05",
-          "open": 209.44186401367188,
-          "high": 219.15499877929688,
-          "low": 201.48104858398438,
-          "close": 210.94662475585938,
-          "volume": 519795.25
+          "open": 10.635270118713379,
+          "high": 10.70661735534668,
+          "low": 10.530150413513184,
+          "close": 10.65656566619873,
+          "volume": 372501.71875
         }
       ],
-      "prediction_logic": "新易盛Q3业绩亮眼但环比承压。预计公司2026年净利润有望突破18亿元，对应当前股价（假设值）有15%-25%的上涨空间。短期受毛利率波动压制，中期随行业去库存结束，业绩弹性将逐步释放。"
+      "prediction_logic": "欧洲三大指数集体收涨，其中STOXX 600涨幅0.87%，富时泛欧绩优300涨幅0.90%，呈现低开高走态势。受此影响，A股汽车及新能源板块预期活跃。上汽集团（600104）目标价参考区间35.00-37.50元（+3%-10%），宁德时代（300750）目标价参考区间215.00-225.00元（+2%-7%），比亚迪（002594）目标价参考区间280.00-295.00元（+3%-8%）。"
+    },
+    "002594": {
+      "ticker": "002594",
+      "name": "比亚迪",
+      "prices": [
+        {
+          "date": "2026-09-10",
+          "open": 85.11,
+          "high": 85.19,
+          "low": 83.48,
+          "close": 83.52,
+          "volume": 330732
+        },
+        {
+          "date": "2026-09-11",
+          "open": 83.17,
+          "high": 84.48,
+          "low": 82.66,
+          "close": 84.0,
+          "volume": 272935
+        },
+        {
+          "date": "2026-09-14",
+          "open": 84.01,
+          "high": 85.95,
+          "low": 83.75,
+          "close": 85.43,
+          "volume": 289599
+        },
+        {
+          "date": "2026-09-15",
+          "open": 85.75,
+          "high": 85.99,
+          "low": 84.2,
+          "close": 84.3,
+          "volume": 193562
+        },
+        {
+          "date": "2026-09-16",
+          "open": 84.11,
+          "high": 84.55,
+          "low": 83.45,
+          "close": 83.96,
+          "volume": 176423
+        },
+        {
+          "date": "2026-09-17",
+          "open": 83.8,
+          "high": 85.56,
+          "low": 83.11,
+          "close": 84.97,
+          "volume": 261479
+        },
+        {
+          "date": "2026-09-18",
+          "open": 84.0,
+          "high": 84.67,
+          "low": 83.27,
+          "close": 84.3,
+          "volume": 299925
+        },
+        {
+          "date": "2026-09-21",
+          "open": 84.27,
+          "high": 85.29,
+          "low": 84.11,
+          "close": 85.22,
+          "volume": 248322
+        },
+        {
+          "date": "2026-09-22",
+          "open": 85.59,
+          "high": 87.2,
+          "low": 85.46,
+          "close": 86.58,
+          "volume": 336847
+        },
+        {
+          "date": "2026-09-23",
+          "open": 86.0,
+          "high": 86.55,
+          "low": 85.66,
+          "close": 85.85,
+          "volume": 173155
+        },
+        {
+          "date": "2026-09-24",
+          "open": 85.7,
+          "high": 86.02,
+          "low": 84.23,
+          "close": 84.34,
+          "volume": 182216
+        },
+        {
+          "date": "2026-09-28",
+          "open": 83.61,
+          "high": 84.28,
+          "low": 83.18,
+          "close": 83.35,
+          "volume": 182365
+        },
+        {
+          "date": "2026-09-29",
+          "open": 83.2,
+          "high": 83.42,
+          "low": 81.7,
+          "close": 82.02,
+          "volume": 216056
+        },
+        {
+          "date": "2026-09-30",
+          "open": 82.1,
+          "high": 83.47,
+          "low": 81.7,
+          "close": 83.31,
+          "volume": 216673
+        },
+        {
+          "date": "2026-10-08",
+          "open": 82.98,
+          "high": 83.19,
+          "low": 81.51,
+          "close": 81.72,
+          "volume": 248406
+        },
+        {
+          "date": "2026-10-09",
+          "open": 82.1,
+          "high": 85.16,
+          "low": 81.81,
+          "close": 84.95,
+          "volume": 401977
+        },
+        {
+          "date": "2026-10-12",
+          "open": 85.6,
+          "high": 86.18,
+          "low": 84.13,
+          "close": 84.6,
+          "volume": 264704
+        },
+        {
+          "date": "2026-10-13",
+          "open": 83.1,
+          "high": 84.49,
+          "low": 82.04,
+          "close": 82.18,
+          "volume": 336333
+        },
+        {
+          "date": "2026-10-14",
+          "open": 82.25,
+          "high": 82.57,
+          "low": 81.1,
+          "close": 81.44,
+          "volume": 212882
+        },
+        {
+          "date": "2026-10-15",
+          "open": 80.63,
+          "high": 82.47,
+          "low": 80.11,
+          "close": 82.24,
+          "volume": 242754
+        },
+        {
+          "date": "2026-10-16",
+          "open": 82.24,
+          "high": 83.39,
+          "low": 81.85,
+          "close": 82.72,
+          "volume": 209686
+        },
+        {
+          "date": "2026-10-19",
+          "open": 82.5,
+          "high": 84.15,
+          "low": 82.3,
+          "close": 83.5,
+          "volume": 219011
+        },
+        {
+          "date": "2026-10-20",
+          "open": 83.39,
+          "high": 83.59,
+          "low": 81.93,
+          "close": 82.6,
+          "volume": 183436
+        },
+        {
+          "date": "2026-10-21",
+          "open": 82.7,
+          "high": 82.96,
+          "low": 80.38,
+          "close": 80.7,
+          "volume": 305108
+        },
+        {
+          "date": "2026-10-22",
+          "open": 80.71,
+          "high": 81.45,
+          "low": 79.71,
+          "close": 80.02,
+          "volume": 264631
+        },
+        {
+          "date": "2026-10-23",
+          "open": 79.5,
+          "high": 81.65,
+          "low": 78.49,
+          "close": 81.42,
+          "volume": 372076
+        },
+        {
+          "date": "2026-10-26",
+          "open": 80.97,
+          "high": 82.62,
+          "low": 80.97,
+          "close": 82.4,
+          "volume": 273322
+        },
+        {
+          "date": "2026-10-27",
+          "open": 82.45,
+          "high": 83.3,
+          "low": 82.01,
+          "close": 82.01,
+          "volume": 202080
+        },
+        {
+          "date": "2026-10-28",
+          "open": 81.94,
+          "high": 83.17,
+          "low": 81.94,
+          "close": 82.74,
+          "volume": 200597
+        },
+        {
+          "date": "2026-10-29",
+          "open": 82.74,
+          "high": 83.14,
+          "low": 82.13,
+          "close": 82.5,
+          "volume": 166846
+        }
+      ],
+      "prediction": {
+        "target_low": -1.2,
+        "target_high": 0.6,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-10-30",
+          "open": 82.30171966552734,
+          "high": 83.64726257324219,
+          "low": 81.92478942871094,
+          "close": 82.69983673095703,
+          "volume": 358748.9375
+        },
+        {
+          "date": "2026-11-02",
+          "open": 81.67835235595703,
+          "high": 82.81219482421875,
+          "low": 80.43498992919922,
+          "close": 81.51422119140625,
+          "volume": 330462.4375
+        },
+        {
+          "date": "2026-11-03",
+          "open": 82.07051086425781,
+          "high": 83.92410278320312,
+          "low": 81.69619750976562,
+          "close": 82.94741821289062,
+          "volume": 287600.1875
+        },
+        {
+          "date": "2026-11-04",
+          "open": 82.90603637695312,
+          "high": 83.69345092773438,
+          "low": 82.33132934570312,
+          "close": 83.01216125488281,
+          "volume": 204740.640625
+        },
+        {
+          "date": "2026-11-05",
+          "open": 82.96760559082031,
+          "high": 83.69538879394531,
+          "low": 82.38311004638672,
+          "close": 83.02684783935547,
+          "volume": 197919.359375
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-10-30",
+          "open": 81.57237243652344,
+          "high": 82.50769805908203,
+          "low": 81.4481430053711,
+          "close": 82.01671600341797,
+          "volume": 231630.265625
+        },
+        {
+          "date": "2026-11-02",
+          "open": 81.51529693603516,
+          "high": 83.5675048828125,
+          "low": 81.0623779296875,
+          "close": 83.19312286376953,
+          "volume": 239315.28125
+        },
+        {
+          "date": "2026-11-03",
+          "open": 82.95823669433594,
+          "high": 83.90632629394531,
+          "low": 82.33219146728516,
+          "close": 83.2841567993164,
+          "volume": 264689.90625
+        },
+        {
+          "date": "2026-11-04",
+          "open": 83.006591796875,
+          "high": 83.78245544433594,
+          "low": 82.07544708251953,
+          "close": 83.21240997314453,
+          "volume": 188437.703125
+        },
+        {
+          "date": "2026-11-05",
+          "open": 83.05972290039062,
+          "high": 83.90643310546875,
+          "low": 82.37288665771484,
+          "close": 83.1766357421875,
+          "volume": 249281.71875
+        }
+      ],
+      "prediction_logic": "欧洲三大指数集体收涨，其中STOXX 600涨幅0.87%，富时泛欧绩优300涨幅0.90%，呈现低开高走态势。受此影响，A股汽车及新能源板块预期活跃。上汽集团（600104）目标价参考区间35.00-37.50元（+3%-10%），宁德时代（300750）目标价参考区间215.00-225.00元（+2%-7%），比亚迪（002594）目标价参考区间280.00-295.00元（+3%-8%）。"
+    },
+    "300750": {
+      "ticker": "300750",
+      "name": "宁德时代",
+      "prices": [
+        {
+          "date": "2026-09-10",
+          "open": 335.9,
+          "high": 340.8,
+          "low": 330.5,
+          "close": 338.06,
+          "volume": 291184
+        },
+        {
+          "date": "2026-09-11",
+          "open": 333.06,
+          "high": 335.66,
+          "low": 328.3,
+          "close": 330.51,
+          "volume": 276600
+        },
+        {
+          "date": "2026-09-14",
+          "open": 334.51,
+          "high": 341.81,
+          "low": 334.0,
+          "close": 337.11,
+          "volume": 261849
+        },
+        {
+          "date": "2026-09-15",
+          "open": 335.0,
+          "high": 335.73,
+          "low": 316.0,
+          "close": 316.36,
+          "volume": 480483
+        },
+        {
+          "date": "2026-09-16",
+          "open": 313.01,
+          "high": 315.0,
+          "low": 299.0,
+          "close": 305.48,
+          "volume": 787163
+        },
+        {
+          "date": "2026-09-17",
+          "open": 306.0,
+          "high": 308.66,
+          "low": 302.7,
+          "close": 304.3,
+          "volume": 344896
+        },
+        {
+          "date": "2026-09-18",
+          "open": 309.77,
+          "high": 310.0,
+          "low": 300.27,
+          "close": 301.95,
+          "volume": 380713
+        },
+        {
+          "date": "2026-09-21",
+          "open": 303.04,
+          "high": 303.6,
+          "low": 295.5,
+          "close": 297.1,
+          "volume": 494883
+        },
+        {
+          "date": "2026-09-22",
+          "open": 298.0,
+          "high": 308.69,
+          "low": 297.74,
+          "close": 304.63,
+          "volume": 473811
+        },
+        {
+          "date": "2026-09-23",
+          "open": 304.5,
+          "high": 305.76,
+          "low": 299.1,
+          "close": 301.0,
+          "volume": 247441
+        },
+        {
+          "date": "2026-09-24",
+          "open": 300.0,
+          "high": 302.0,
+          "low": 293.0,
+          "close": 293.5,
+          "volume": 280085
+        },
+        {
+          "date": "2026-09-28",
+          "open": 289.0,
+          "high": 292.66,
+          "low": 286.66,
+          "close": 291.99,
+          "volume": 339144
+        },
+        {
+          "date": "2026-09-29",
+          "open": 291.0,
+          "high": 293.19,
+          "low": 285.74,
+          "close": 286.8,
+          "volume": 298757
+        },
+        {
+          "date": "2026-09-30",
+          "open": 290.0,
+          "high": 292.7,
+          "low": 285.8,
+          "close": 291.11,
+          "volume": 296995
+        },
+        {
+          "date": "2026-10-08",
+          "open": 292.0,
+          "high": 293.47,
+          "low": 285.17,
+          "close": 286.75,
+          "volume": 366825
+        },
+        {
+          "date": "2026-10-09",
+          "open": 292.0,
+          "high": 301.42,
+          "low": 289.0,
+          "close": 297.75,
+          "volume": 541527
+        },
+        {
+          "date": "2026-10-12",
+          "open": 300.27,
+          "high": 306.71,
+          "low": 297.57,
+          "close": 298.38,
+          "volume": 417064
+        },
+        {
+          "date": "2026-10-13",
+          "open": 297.9,
+          "high": 297.99,
+          "low": 286.7,
+          "close": 289.1,
+          "volume": 408835
+        },
+        {
+          "date": "2026-10-14",
+          "open": 288.0,
+          "high": 290.88,
+          "low": 280.12,
+          "close": 280.12,
+          "volume": 334591
+        },
+        {
+          "date": "2026-10-15",
+          "open": 274.98,
+          "high": 282.01,
+          "low": 272.0,
+          "close": 278.5,
+          "volume": 419952
+        },
+        {
+          "date": "2026-10-16",
+          "open": 281.79,
+          "high": 282.0,
+          "low": 273.29,
+          "close": 277.0,
+          "volume": 297424
+        },
+        {
+          "date": "2026-10-19",
+          "open": 275.0,
+          "high": 275.0,
+          "low": 267.02,
+          "close": 267.02,
+          "volume": 311460
+        },
+        {
+          "date": "2026-10-20",
+          "open": 268.35,
+          "high": 268.99,
+          "low": 254.55,
+          "close": 259.08,
+          "volume": 588559
+        },
+        {
+          "date": "2026-10-21",
+          "open": 246.13,
+          "high": 249.0,
+          "low": 227.08,
+          "close": 227.9,
+          "volume": 1383452
+        },
+        {
+          "date": "2026-10-22",
+          "open": 222.11,
+          "high": 225.19,
+          "low": 218.45,
+          "close": 220.41,
+          "volume": 919357
+        },
+        {
+          "date": "2026-10-23",
+          "open": 220.0,
+          "high": 238.0,
+          "low": 216.51,
+          "close": 237.6,
+          "volume": 1114799
+        },
+        {
+          "date": "2026-10-26",
+          "open": 234.95,
+          "high": 241.6,
+          "low": 229.6,
+          "close": 238.0,
+          "volume": 619207
+        },
+        {
+          "date": "2026-10-27",
+          "open": 238.8,
+          "high": 238.8,
+          "low": 232.67,
+          "close": 233.0,
+          "volume": 375050
+        },
+        {
+          "date": "2026-10-28",
+          "open": 233.34,
+          "high": 234.0,
+          "low": 228.6,
+          "close": 229.14,
+          "volume": 443879
+        },
+        {
+          "date": "2026-10-29",
+          "open": 226.86,
+          "high": 232.11,
+          "low": 225.45,
+          "close": 229.07,
+          "volume": 374822
+        }
+      ],
+      "prediction": {
+        "target_low": -2.4,
+        "target_high": -0.6,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-10-30",
+          "open": 224.5964813232422,
+          "high": 229.6103515625,
+          "low": 221.11293029785156,
+          "close": 225.42709350585938,
+          "volume": 442883.1875
+        },
+        {
+          "date": "2026-11-02",
+          "open": 224.00650024414062,
+          "high": 227.77645874023438,
+          "low": 220.360595703125,
+          "close": 223.6531982421875,
+          "volume": 257671.578125
+        },
+        {
+          "date": "2026-11-03",
+          "open": 224.71286010742188,
+          "high": 231.80227661132812,
+          "low": 221.8322296142578,
+          "close": 227.79791259765625,
+          "volume": 422382.53125
+        },
+        {
+          "date": "2026-11-04",
+          "open": 229.2034454345703,
+          "high": 233.76119995117188,
+          "low": 222.72084045410156,
+          "close": 227.09814453125,
+          "volume": 295293.40625
+        },
+        {
+          "date": "2026-11-05",
+          "open": 228.4107666015625,
+          "high": 232.31297302246094,
+          "low": 224.28689575195312,
+          "close": 227.6626434326172,
+          "volume": 287547.4375
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-10-30",
+          "open": 227.09686279296875,
+          "high": 234.35061645507812,
+          "low": 225.00546264648438,
+          "close": 231.2710723876953,
+          "volume": 317471.25
+        },
+        {
+          "date": "2026-11-02",
+          "open": 231.88450622558594,
+          "high": 238.74786376953125,
+          "low": 229.10931396484375,
+          "close": 234.6744384765625,
+          "volume": 415557.78125
+        },
+        {
+          "date": "2026-11-03",
+          "open": 240.86175537109375,
+          "high": 240.3705291748047,
+          "low": 240.2161102294922,
+          "close": 238.59071350097656,
+          "volume": 373062.75
+        },
+        {
+          "date": "2026-11-04",
+          "open": 241.05003356933594,
+          "high": 245.56687927246094,
+          "low": 239.1280517578125,
+          "close": 242.79039001464844,
+          "volume": 315338.78125
+        },
+        {
+          "date": "2026-11-05",
+          "open": 240.9355010986328,
+          "high": 243.16937255859375,
+          "low": 234.29588317871094,
+          "close": 237.06170654296875,
+          "volume": 372805.1875
+        }
+      ],
+      "prediction_logic": "欧洲三大指数集体收涨，其中STOXX 600涨幅0.87%，富时泛欧绩优300涨幅0.90%，呈现低开高走态势。受此影响，A股汽车及新能源板块预期活跃。上汽集团（600104）目标价参考区间35.00-37.50元（+3%-10%），宁德时代（300750）目标价参考区间215.00-225.00元（+2%-7%），比亚迪（002594）目标价参考区间280.00-295.00元（+3%-8%）。"
+    },
+    "600000": {
+      "ticker": "600000",
+      "name": "浦发银行",
+      "prices": [
+        {
+          "date": "2026-09-10",
+          "open": 9.22,
+          "high": 9.36,
+          "low": 9.19,
+          "close": 9.35,
+          "volume": 597743
+        },
+        {
+          "date": "2026-09-11",
+          "open": 9.35,
+          "high": 9.35,
+          "low": 9.22,
+          "close": 9.26,
+          "volume": 653273
+        },
+        {
+          "date": "2026-09-14",
+          "open": 9.28,
+          "high": 9.43,
+          "low": 9.24,
+          "close": 9.4,
+          "volume": 771871
+        },
+        {
+          "date": "2026-09-15",
+          "open": 9.39,
+          "high": 9.42,
+          "low": 9.16,
+          "close": 9.18,
+          "volume": 893562
+        },
+        {
+          "date": "2026-09-16",
+          "open": 9.17,
+          "high": 9.2,
+          "low": 9.0,
+          "close": 9.1,
+          "volume": 723404
+        },
+        {
+          "date": "2026-09-17",
+          "open": 9.1,
+          "high": 9.14,
+          "low": 9.03,
+          "close": 9.06,
+          "volume": 456711
+        },
+        {
+          "date": "2026-09-18",
+          "open": 9.05,
+          "high": 9.15,
+          "low": 9.0,
+          "close": 9.07,
+          "volume": 517593
+        },
+        {
+          "date": "2026-09-21",
+          "open": 9.04,
+          "high": 9.06,
+          "low": 8.91,
+          "close": 9.01,
+          "volume": 659062
+        },
+        {
+          "date": "2026-09-22",
+          "open": 9.03,
+          "high": 9.07,
+          "low": 8.97,
+          "close": 9.04,
+          "volume": 532667
+        },
+        {
+          "date": "2026-09-23",
+          "open": 9.02,
+          "high": 9.05,
+          "low": 8.95,
+          "close": 8.98,
+          "volume": 511244
+        },
+        {
+          "date": "2026-09-24",
+          "open": 8.99,
+          "high": 9.05,
+          "low": 8.97,
+          "close": 9.0,
+          "volume": 528364
+        },
+        {
+          "date": "2026-09-28",
+          "open": 9.03,
+          "high": 9.18,
+          "low": 9.0,
+          "close": 9.16,
+          "volume": 1184853
+        },
+        {
+          "date": "2026-09-29",
+          "open": 9.15,
+          "high": 9.25,
+          "low": 9.09,
+          "close": 9.18,
+          "volume": 805097
+        },
+        {
+          "date": "2026-09-30",
+          "open": 9.22,
+          "high": 9.49,
+          "low": 9.16,
+          "close": 9.48,
+          "volume": 1474848
+        },
+        {
+          "date": "2026-10-08",
+          "open": 9.45,
+          "high": 9.71,
+          "low": 9.41,
+          "close": 9.7,
+          "volume": 1150269
+        },
+        {
+          "date": "2026-10-09",
+          "open": 9.7,
+          "high": 9.74,
+          "low": 9.54,
+          "close": 9.54,
+          "volume": 947958
+        },
+        {
+          "date": "2026-10-12",
+          "open": 9.59,
+          "high": 9.7,
+          "low": 9.55,
+          "close": 9.67,
+          "volume": 662880
+        },
+        {
+          "date": "2026-10-13",
+          "open": 9.67,
+          "high": 9.7,
+          "low": 9.57,
+          "close": 9.59,
+          "volume": 680290
+        },
+        {
+          "date": "2026-10-14",
+          "open": 9.6,
+          "high": 9.71,
+          "low": 9.57,
+          "close": 9.65,
+          "volume": 595398
+        },
+        {
+          "date": "2026-10-15",
+          "open": 9.65,
+          "high": 9.7,
+          "low": 9.53,
+          "close": 9.64,
+          "volume": 685743
+        },
+        {
+          "date": "2026-10-16",
+          "open": 9.6,
+          "high": 9.79,
+          "low": 9.53,
+          "close": 9.73,
+          "volume": 922942
+        },
+        {
+          "date": "2026-10-19",
+          "open": 9.72,
+          "high": 9.84,
+          "low": 9.65,
+          "close": 9.78,
+          "volume": 540747
+        },
+        {
+          "date": "2026-10-20",
+          "open": 9.79,
+          "high": 9.86,
+          "low": 9.68,
+          "close": 9.76,
+          "volume": 605133
+        },
+        {
+          "date": "2026-10-21",
+          "open": 9.72,
+          "high": 9.76,
+          "low": 9.61,
+          "close": 9.66,
+          "volume": 462562
+        },
+        {
+          "date": "2026-10-22",
+          "open": 9.66,
+          "high": 9.73,
+          "low": 9.55,
+          "close": 9.62,
+          "volume": 625299
+        },
+        {
+          "date": "2026-10-23",
+          "open": 9.69,
+          "high": 9.73,
+          "low": 9.52,
+          "close": 9.53,
+          "volume": 755926
+        },
+        {
+          "date": "2026-10-26",
+          "open": 9.48,
+          "high": 9.68,
+          "low": 9.45,
+          "close": 9.62,
+          "volume": 793761
+        },
+        {
+          "date": "2026-10-27",
+          "open": 9.56,
+          "high": 9.87,
+          "low": 9.53,
+          "close": 9.82,
+          "volume": 807530
+        },
+        {
+          "date": "2026-10-28",
+          "open": 9.8,
+          "high": 9.93,
+          "low": 9.73,
+          "close": 9.85,
+          "volume": 647276
+        },
+        {
+          "date": "2026-10-29",
+          "open": 9.85,
+          "high": 10.01,
+          "low": 9.84,
+          "close": 9.99,
+          "volume": 753949
+        }
+      ],
+      "prediction": {
+        "target_low": 0.6,
+        "target_high": 2.5,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-10-30",
+          "open": 9.908843040466309,
+          "high": 10.095477104187012,
+          "low": 9.857837677001953,
+          "close": 10.051469802856445,
+          "volume": 687181.6875
+        },
+        {
+          "date": "2026-11-02",
+          "open": 10.043854713439941,
+          "high": 10.284378051757812,
+          "low": 10.002145767211914,
+          "close": 10.244379997253418,
+          "volume": 624915.0625
+        },
+        {
+          "date": "2026-11-03",
+          "open": 10.224522590637207,
+          "high": 10.29990005493164,
+          "low": 10.118199348449707,
+          "close": 10.222603797912598,
+          "volume": 656532.1875
+        },
+        {
+          "date": "2026-11-04",
+          "open": 10.207718849182129,
+          "high": 10.323806762695312,
+          "low": 10.099849700927734,
+          "close": 10.235235214233398,
+          "volume": 754630.375
+        },
+        {
+          "date": "2026-11-05",
+          "open": 10.216015815734863,
+          "high": 10.262864112854004,
+          "low": 10.013084411621094,
+          "close": 10.099992752075195,
+          "volume": 655685.4375
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-10-30",
+          "open": 9.968175888061523,
+          "high": 10.067544937133789,
+          "low": 9.76117992401123,
+          "close": 9.877083778381348,
+          "volume": 1278517.75
+        },
+        {
+          "date": "2026-11-02",
+          "open": 9.79928207397461,
+          "high": 9.927957534790039,
+          "low": 9.758384704589844,
+          "close": 9.9029541015625,
+          "volume": 693347.1875
+        },
+        {
+          "date": "2026-11-03",
+          "open": 9.79444694519043,
+          "high": 9.872370719909668,
+          "low": 9.651876449584961,
+          "close": 9.762166976928711,
+          "volume": 828907.625
+        },
+        {
+          "date": "2026-11-04",
+          "open": 9.706185340881348,
+          "high": 9.801187515258789,
+          "low": 9.646502494812012,
+          "close": 9.751997947692871,
+          "volume": 589257.625
+        },
+        {
+          "date": "2026-11-05",
+          "open": 9.69132137298584,
+          "high": 9.95057487487793,
+          "low": 9.646583557128906,
+          "close": 9.723846435546875,
+          "volume": 670855.4375
+        }
+      ],
+      "prediction_logic": "基于美房贷利率7.24%连续两周下降的信号，预计A股银行板块（如浦发银行、南京银行）将受益于资产质量改善预期，建议关注；地产龙头（万科A、保利发展）及后周期消费（三棵树）存在短期反弹动力。基于当前市场定价状态，板块短期目标涨幅区间建议为3%-6%。"
+    },
+    "601009": {
+      "ticker": "601009",
+      "name": "南京银行",
+      "prices": [
+        {
+          "date": "2026-09-10",
+          "open": 12.06,
+          "high": 12.41,
+          "low": 12.0,
+          "close": 12.4,
+          "volume": 688328
+        },
+        {
+          "date": "2026-09-11",
+          "open": 12.38,
+          "high": 12.44,
+          "low": 12.23,
+          "close": 12.24,
+          "volume": 400189
+        },
+        {
+          "date": "2026-09-14",
+          "open": 12.24,
+          "high": 12.41,
+          "low": 12.22,
+          "close": 12.25,
+          "volume": 407202
+        },
+        {
+          "date": "2026-09-15",
+          "open": 12.26,
+          "high": 12.28,
+          "low": 12.1,
+          "close": 12.16,
+          "volume": 437067
+        },
+        {
+          "date": "2026-09-16",
+          "open": 12.16,
+          "high": 12.19,
+          "low": 11.84,
+          "close": 11.94,
+          "volume": 539861
+        },
+        {
+          "date": "2026-09-17",
+          "open": 11.91,
+          "high": 12.01,
+          "low": 11.71,
+          "close": 11.77,
+          "volume": 474107
+        },
+        {
+          "date": "2026-09-18",
+          "open": 11.77,
+          "high": 11.94,
+          "low": 11.68,
+          "close": 11.8,
+          "volume": 481380
+        },
+        {
+          "date": "2026-09-21",
+          "open": 11.76,
+          "high": 11.84,
+          "low": 11.61,
+          "close": 11.82,
+          "volume": 378959
+        },
+        {
+          "date": "2026-09-22",
+          "open": 11.8,
+          "high": 11.81,
+          "low": 11.68,
+          "close": 11.77,
+          "volume": 392487
+        },
+        {
+          "date": "2026-09-23",
+          "open": 11.76,
+          "high": 11.85,
+          "low": 11.69,
+          "close": 11.73,
+          "volume": 340487
+        },
+        {
+          "date": "2026-09-24",
+          "open": 11.75,
+          "high": 12.03,
+          "low": 11.7,
+          "close": 11.95,
+          "volume": 568205
+        },
+        {
+          "date": "2026-09-28",
+          "open": 11.95,
+          "high": 12.11,
+          "low": 11.86,
+          "close": 11.9,
+          "volume": 692594
+        },
+        {
+          "date": "2026-09-29",
+          "open": 11.96,
+          "high": 11.97,
+          "low": 11.73,
+          "close": 11.79,
+          "volume": 402874
+        },
+        {
+          "date": "2026-09-30",
+          "open": 11.79,
+          "high": 12.04,
+          "low": 11.78,
+          "close": 11.98,
+          "volume": 378070
+        },
+        {
+          "date": "2026-10-08",
+          "open": 11.95,
+          "high": 12.18,
+          "low": 11.86,
+          "close": 12.11,
+          "volume": 598397
+        },
+        {
+          "date": "2026-10-09",
+          "open": 12.12,
+          "high": 12.2,
+          "low": 11.9,
+          "close": 11.91,
+          "volume": 575563
+        },
+        {
+          "date": "2026-10-12",
+          "open": 11.94,
+          "high": 12.26,
+          "low": 11.91,
+          "close": 12.19,
+          "volume": 564124
+        },
+        {
+          "date": "2026-10-13",
+          "open": 12.2,
+          "high": 12.23,
+          "low": 11.88,
+          "close": 11.94,
+          "volume": 621719
+        },
+        {
+          "date": "2026-10-14",
+          "open": 11.96,
+          "high": 12.15,
+          "low": 11.93,
+          "close": 11.96,
+          "volume": 595127
+        },
+        {
+          "date": "2026-10-15",
+          "open": 11.91,
+          "high": 11.94,
+          "low": 11.64,
+          "close": 11.79,
+          "volume": 655183
+        },
+        {
+          "date": "2026-10-16",
+          "open": 11.78,
+          "high": 11.87,
+          "low": 11.68,
+          "close": 11.78,
+          "volume": 609826
+        },
+        {
+          "date": "2026-10-19",
+          "open": 11.73,
+          "high": 12.08,
+          "low": 11.66,
+          "close": 12.05,
+          "volume": 644918
+        },
+        {
+          "date": "2026-10-20",
+          "open": 12.05,
+          "high": 12.13,
+          "low": 11.73,
+          "close": 11.79,
+          "volume": 588583
+        },
+        {
+          "date": "2026-10-21",
+          "open": 11.75,
+          "high": 11.78,
+          "low": 11.59,
+          "close": 11.63,
+          "volume": 543664
+        },
+        {
+          "date": "2026-10-22",
+          "open": 11.64,
+          "high": 11.67,
+          "low": 11.45,
+          "close": 11.58,
+          "volume": 553900
+        },
+        {
+          "date": "2026-10-23",
+          "open": 11.56,
+          "high": 11.67,
+          "low": 11.38,
+          "close": 11.41,
+          "volume": 641218
+        },
+        {
+          "date": "2026-10-26",
+          "open": 11.41,
+          "high": 11.79,
+          "low": 11.4,
+          "close": 11.75,
+          "volume": 726905
+        },
+        {
+          "date": "2026-10-27",
+          "open": 11.71,
+          "high": 12.1,
+          "low": 11.65,
+          "close": 12.02,
+          "volume": 571421
+        },
+        {
+          "date": "2026-10-28",
+          "open": 11.98,
+          "high": 12.09,
+          "low": 11.82,
+          "close": 11.9,
+          "volume": 496818
+        },
+        {
+          "date": "2026-10-29",
+          "open": 11.96,
+          "high": 12.44,
+          "low": 11.96,
+          "close": 12.36,
+          "volume": 685927
+        }
+      ],
+      "prediction": {
+        "target_low": -2.8,
+        "target_high": 0.5,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-10-30",
+          "open": 12.19107437133789,
+          "high": 12.389620780944824,
+          "low": 11.930376052856445,
+          "close": 12.01133918762207,
+          "volume": 605213.25
+        },
+        {
+          "date": "2026-11-02",
+          "open": 11.98153018951416,
+          "high": 12.419116973876953,
+          "low": 11.960573196411133,
+          "close": 12.303584098815918,
+          "volume": 657343.125
+        },
+        {
+          "date": "2026-11-03",
+          "open": 12.201042175292969,
+          "high": 12.488605499267578,
+          "low": 12.125116348266602,
+          "close": 12.42299747467041,
+          "volume": 634826.6875
+        },
+        {
+          "date": "2026-11-04",
+          "open": 12.344943046569824,
+          "high": 12.48427677154541,
+          "low": 12.159648895263672,
+          "close": 12.322917938232422,
+          "volume": 560635.5625
+        },
+        {
+          "date": "2026-11-05",
+          "open": 12.269761085510254,
+          "high": 12.448899269104004,
+          "low": 12.14075756072998,
+          "close": 12.36201000213623,
+          "volume": 620310.25
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-10-30",
+          "open": 12.268117904663086,
+          "high": 12.361600875854492,
+          "low": 12.063767433166504,
+          "close": 12.203889846801758,
+          "volume": 550289.125
+        },
+        {
+          "date": "2026-11-02",
+          "open": 12.03161334991455,
+          "high": 12.346617698669434,
+          "low": 11.881184577941895,
+          "close": 12.28235149383545,
+          "volume": 598370.875
+        },
+        {
+          "date": "2026-11-03",
+          "open": 12.30948257446289,
+          "high": 12.46493148803711,
+          "low": 12.024435043334961,
+          "close": 12.168899536132812,
+          "volume": 782788.8125
+        },
+        {
+          "date": "2026-11-04",
+          "open": 12.133207321166992,
+          "high": 12.340158462524414,
+          "low": 12.033506393432617,
+          "close": 12.232511520385742,
+          "volume": 662810.125
+        },
+        {
+          "date": "2026-11-05",
+          "open": 12.10785961151123,
+          "high": 12.330148696899414,
+          "low": 12.001747131347656,
+          "close": 12.206574440002441,
+          "volume": 629180.9375
+        }
+      ],
+      "prediction_logic": "基于美房贷利率7.24%连续两周下降的信号，预计A股银行板块（如浦发银行、南京银行）将受益于资产质量改善预期，建议关注；地产龙头（万科A、保利发展）及后周期消费（三棵树）存在短期反弹动力。基于当前市场定价状态，板块短期目标涨幅区间建议为3%-6%。"
+    },
+    "600048": {
+      "ticker": "600048",
+      "name": "保利发展",
+      "prices": [
+        {
+          "date": "2026-09-10",
+          "open": 5.21,
+          "high": 5.27,
+          "low": 5.15,
+          "close": 5.21,
+          "volume": 1055589
+        },
+        {
+          "date": "2026-09-11",
+          "open": 5.19,
+          "high": 5.19,
+          "low": 5.05,
+          "close": 5.06,
+          "volume": 1505612
+        },
+        {
+          "date": "2026-09-14",
+          "open": 5.02,
+          "high": 5.11,
+          "low": 5.0,
+          "close": 5.08,
+          "volume": 929143
+        },
+        {
+          "date": "2026-09-15",
+          "open": 5.07,
+          "high": 5.09,
+          "low": 5.01,
+          "close": 5.02,
+          "volume": 845665
+        },
+        {
+          "date": "2026-09-16",
+          "open": 5.01,
+          "high": 5.04,
+          "low": 4.91,
+          "close": 5.01,
+          "volume": 909118
+        },
+        {
+          "date": "2026-09-17",
+          "open": 4.97,
+          "high": 5.06,
+          "low": 4.93,
+          "close": 5.04,
+          "volume": 1077709
+        },
+        {
+          "date": "2026-09-18",
+          "open": 5.03,
+          "high": 5.35,
+          "low": 5.01,
+          "close": 5.32,
+          "volume": 2957264
+        },
+        {
+          "date": "2026-09-21",
+          "open": 5.25,
+          "high": 5.73,
+          "low": 5.22,
+          "close": 5.68,
+          "volume": 4833991
+        },
+        {
+          "date": "2026-09-22",
+          "open": 5.63,
+          "high": 5.74,
+          "low": 5.57,
+          "close": 5.68,
+          "volume": 2994158
+        },
+        {
+          "date": "2026-09-23",
+          "open": 5.66,
+          "high": 5.9,
+          "low": 5.59,
+          "close": 5.64,
+          "volume": 3727142
+        },
+        {
+          "date": "2026-09-24",
+          "open": 5.64,
+          "high": 5.69,
+          "low": 5.52,
+          "close": 5.56,
+          "volume": 1974199
+        },
+        {
+          "date": "2026-09-28",
+          "open": 5.55,
+          "high": 5.64,
+          "low": 5.51,
+          "close": 5.61,
+          "volume": 1468738
+        },
+        {
+          "date": "2026-09-29",
+          "open": 5.63,
+          "high": 5.87,
+          "low": 5.63,
+          "close": 5.84,
+          "volume": 4043054
+        },
+        {
+          "date": "2026-09-30",
+          "open": 5.63,
+          "high": 5.88,
+          "low": 5.32,
+          "close": 5.77,
+          "volume": 5231402
+        },
+        {
+          "date": "2026-10-08",
+          "open": 5.7,
+          "high": 5.87,
+          "low": 5.67,
+          "close": 5.77,
+          "volume": 2549440
+        },
+        {
+          "date": "2026-10-09",
+          "open": 5.72,
+          "high": 5.83,
+          "low": 5.62,
+          "close": 5.65,
+          "volume": 2031359
+        },
+        {
+          "date": "2026-10-12",
+          "open": 5.63,
+          "high": 5.67,
+          "low": 5.54,
+          "close": 5.58,
+          "volume": 1352152
+        },
+        {
+          "date": "2026-10-13",
+          "open": 5.55,
+          "high": 5.61,
+          "low": 5.44,
+          "close": 5.47,
+          "volume": 1528139
+        },
+        {
+          "date": "2026-10-14",
+          "open": 5.43,
+          "high": 5.54,
+          "low": 5.41,
+          "close": 5.48,
+          "volume": 1281224
+        },
+        {
+          "date": "2026-10-15",
+          "open": 5.41,
+          "high": 5.5,
+          "low": 5.21,
+          "close": 5.27,
+          "volume": 1917142
+        },
+        {
+          "date": "2026-10-16",
+          "open": 5.3,
+          "high": 5.67,
+          "low": 5.27,
+          "close": 5.52,
+          "volume": 2252273
+        },
+        {
+          "date": "2026-10-19",
+          "open": 5.47,
+          "high": 5.55,
+          "low": 5.39,
+          "close": 5.48,
+          "volume": 1153555
+        },
+        {
+          "date": "2026-10-20",
+          "open": 5.46,
+          "high": 5.48,
+          "low": 5.33,
+          "close": 5.39,
+          "volume": 1108657
+        },
+        {
+          "date": "2026-10-21",
+          "open": 5.39,
+          "high": 5.51,
+          "low": 5.37,
+          "close": 5.43,
+          "volume": 971781
+        },
+        {
+          "date": "2026-10-22",
+          "open": 5.45,
+          "high": 5.46,
+          "low": 5.26,
+          "close": 5.28,
+          "volume": 1109284
+        },
+        {
+          "date": "2026-10-23",
+          "open": 5.25,
+          "high": 5.37,
+          "low": 5.23,
+          "close": 5.34,
+          "volume": 1220863
+        },
+        {
+          "date": "2026-10-26",
+          "open": 5.32,
+          "high": 5.71,
+          "low": 5.31,
+          "close": 5.63,
+          "volume": 2534460
+        },
+        {
+          "date": "2026-10-27",
+          "open": 5.58,
+          "high": 5.66,
+          "low": 5.36,
+          "close": 5.39,
+          "volume": 1593082
+        },
+        {
+          "date": "2026-10-28",
+          "open": 5.39,
+          "high": 5.45,
+          "low": 5.37,
+          "close": 5.43,
+          "volume": 898198
+        },
+        {
+          "date": "2026-10-29",
+          "open": 5.43,
+          "high": 5.5,
+          "low": 5.39,
+          "close": 5.42,
+          "volume": 985440
+        }
+      ],
+      "prediction": {
+        "target_low": 1.0,
+        "target_high": 1.6,
+        "confidence": 65
+      },
+      "forecast": [
+        {
+          "date": "2026-10-30",
+          "open": 5.490212440490723,
+          "high": 5.5059661865234375,
+          "low": 5.3263258934021,
+          "close": 5.478521823883057,
+          "volume": 843196.875
+        },
+        {
+          "date": "2026-11-02",
+          "open": 5.465528964996338,
+          "high": 5.559503078460693,
+          "low": 5.424753665924072,
+          "close": 5.476091384887695,
+          "volume": 1268444.25
+        },
+        {
+          "date": "2026-11-03",
+          "open": 5.451268196105957,
+          "high": 5.535515785217285,
+          "low": 5.375192165374756,
+          "close": 5.508882522583008,
+          "volume": 947245.1875
+        },
+        {
+          "date": "2026-11-04",
+          "open": 5.476978778839111,
+          "high": 5.549108982086182,
+          "low": 5.370274543762207,
+          "close": 5.485328674316406,
+          "volume": 1147379.375
+        },
+        {
+          "date": "2026-11-05",
+          "open": 5.42460298538208,
+          "high": 5.533304691314697,
+          "low": 5.296192646026611,
+          "close": 5.4989013671875,
+          "volume": 1442562.625
+        }
+      ],
+      "forecast_base": [
+        {
+          "date": "2026-10-30",
+          "open": 5.445775032043457,
+          "high": 5.493664264678955,
+          "low": 5.2653045654296875,
+          "close": 5.302853107452393,
+          "volume": 1520662.375
+        },
+        {
+          "date": "2026-11-02",
+          "open": 5.366016864776611,
+          "high": 5.464078426361084,
+          "low": 5.107922077178955,
+          "close": 5.339274883270264,
+          "volume": 1514525.5
+        },
+        {
+          "date": "2026-11-03",
+          "open": 5.36464786529541,
+          "high": 5.48588752746582,
+          "low": 5.244518756866455,
+          "close": 5.374414920806885,
+          "volume": 972680.0
+        },
+        {
+          "date": "2026-11-04",
+          "open": 5.296571731567383,
+          "high": 5.573275089263916,
+          "low": 5.25213098526001,
+          "close": 5.427850246429443,
+          "volume": 1613363.0
+        },
+        {
+          "date": "2026-11-05",
+          "open": 5.475064754486084,
+          "high": 5.530375003814697,
+          "low": 5.321550369262695,
+          "close": 5.33414363861084,
+          "volume": 2120415.0
+        }
+      ],
+      "prediction_logic": "基于美房贷利率7.24%连续两周下降的信号，预计A股银行板块（如浦发银行、南京银行）将受益于资产质量改善预期，建议关注；地产龙头（万科A、保利发展）及后周期消费（三棵树）存在短期反弹动力。基于当前市场定价状态，板块短期目标涨幅区间建议为3%-6%。"
     }
   }
 }
